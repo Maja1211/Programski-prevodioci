@@ -1,0 +1,60 @@
+INFO  15:33:50,654 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:33:50,688 - #2 program
+INFO  15:33:50,688 - #9 P
+INFO  15:33:50,688 - #13 const
+INFO  15:33:50,689 - #9 NekiTip
+INFO  15:33:50,689 - #9 x
+INFO  15:33:50,690 - #14 =
+INFO  15:33:50,690 - #10 1
+INFO  15:33:50,690 - #6 ;
+INFO  15:33:50,690 - #3 {
+INFO  15:33:50,691 - #18 void
+INFO  15:33:50,691 - #9 main
+INFO  15:33:50,691 - #16 (
+INFO  15:33:50,691 - #17 )
+INFO  15:33:50,692 - #3 {
+INFO  15:33:50,692 - #4 }
+INFO  15:33:50,692 - #4 }
+INFO  15:33:50,693 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_con(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    ConDecList(
+      Type(
+       NekiTip
+      ) [Type]
+      ConDecl(
+       x
+        Constant_n(
+         1
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConDecList]
+  ) [ConVarEnumDecList_con]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:33:50,694 - =====================================================================
+INFO  15:33:50,705 - Program: P na liniji 1
+ERROR 15:33:50,705 - Nepoznat tip: NekiTip na liniji 2
+ERROR 15:33:50,706 - Pogresan tip konstante: x na liniji 2
+INFO  15:33:50,706 - =====================================================================
+ERROR 15:33:50,706 - Parsiranje NIJE uspesno zavrseno!

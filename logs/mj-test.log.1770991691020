@@ -1,0 +1,119 @@
+INFO  15:06:27,837 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:06:27,927 - #2 program
+INFO  15:06:27,927 - #9 P
+INFO  15:06:27,927 - #9 int
+INFO  15:06:27,929 - #9 x
+INFO  15:06:27,930 - #6 ;
+INFO  15:06:27,931 - #3 {
+INFO  15:06:27,932 - #18 void
+INFO  15:06:27,932 - #9 main
+INFO  15:06:27,933 - #16 (
+INFO  15:06:27,933 - #17 )
+INFO  15:06:27,934 - #3 {
+INFO  15:06:27,935 - #19 if
+INFO  15:06:27,935 - #16 (
+INFO  15:06:27,936 - #9 x
+INFO  15:06:27,937 - #42 >
+INFO  15:06:27,940 - #10 0
+INFO  15:06:27,942 - #17 )
+INFO  15:06:27,943 - #3 {
+INFO  15:06:27,943 - #4 }
+INFO  15:06:27,943 - #4 }
+INFO  15:06:27,946 - #4 }
+INFO  15:06:27,949 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_var(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarIdentList_one(
+        VarIdent_1(
+         x
+        ) [VarIdent_1]
+      ) [VarIdentList_one]
+    ) [VarDeclList]
+  ) [ConVarEnumDecList_var]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          StmtNoElse_if(
+            Condition_ct(
+              CondTerm_cf(
+                CondFact_main(
+                  ExprBasic_main(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_design(
+                              Designator_var(
+                               x
+                              ) [Designator_var]
+                              FactorOpt_e(
+                              ) [FactorOpt_e]
+                            ) [Factor_design]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprBasic_main]
+                  CondFactRelOpt_rel(
+                    Relop_gt(
+                    ) [Relop_gt]
+                    ExprBasic_main(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Pom_e(
+                              ) [Pom_e]
+                              Factor_num(
+                               0
+                              ) [Factor_num]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprBasic_main]
+                  ) [CondFactRelOpt_rel]
+                ) [CondFact_main]
+              ) [CondTerm_cf]
+            ) [Condition_ct]
+            Stmt_s(
+              Stmt_block(
+                StatementList_e(
+                ) [StatementList_e]
+              ) [Stmt_block]
+            ) [Stmt_s]
+            StmtElse_e(
+            ) [StmtElse_e]
+          ) [StmtNoElse_if]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  15:06:27,950 - =====================================================================
+INFO  15:06:27,981 - Program: P na liniji 1
+INFO  15:06:27,982 - Promenljiva: x na liniji 2
+INFO  15:06:27,985 - =====================================================================
+INFO  15:06:27,986 - Parsiranje uspesno zavrseno!

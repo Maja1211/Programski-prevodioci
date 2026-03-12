@@ -1,0 +1,152 @@
+INFO  15:04:27,788 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:04:27,888 - #2 program
+INFO  15:04:27,889 - #9 P
+INFO  15:04:27,889 - #9 int
+INFO  15:04:27,892 - #9 x
+INFO  15:04:27,892 - #6 ;
+INFO  15:04:27,893 - #9 char
+INFO  15:04:27,893 - #9 c
+INFO  15:04:27,894 - #6 ;
+INFO  15:04:27,894 - #9 int
+INFO  15:04:27,894 - #9 arr
+INFO  15:04:27,894 - #7 [
+INFO  15:04:27,894 - #8 ]
+INFO  15:04:27,894 - #6 ;
+INFO  15:04:27,894 - #3 {
+INFO  15:04:27,895 - #18 void
+INFO  15:04:27,895 - #9 main
+INFO  15:04:27,895 - #16 (
+INFO  15:04:27,897 - #17 )
+INFO  15:04:27,897 - #3 {
+INFO  15:04:27,898 - #9 x
+INFO  15:04:27,899 - #30 ++
+INFO  15:04:27,899 - #6 ;
+INFO  15:04:27,899 - #9 arr
+INFO  15:04:27,900 - #7 [
+INFO  15:04:27,902 - #10 0
+INFO  15:04:27,903 - #8 ]
+INFO  15:04:27,906 - #31 --
+INFO  15:04:27,907 - #6 ;
+INFO  15:04:27,907 - #9 c
+INFO  15:04:27,907 - #30 ++
+INFO  15:04:27,907 - #6 ;
+INFO  15:04:27,907 - #4 }
+INFO  15:04:27,907 - #4 }
+INFO  15:04:27,911 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_var(
+    ConVarEnumDecList_var(
+      ConVarEnumDecList_var(
+        ConVarEnumDecList_e(
+        ) [ConVarEnumDecList_e]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarIdentList_one(
+            VarIdent_1(
+             x
+            ) [VarIdent_1]
+          ) [VarIdentList_one]
+        ) [VarDeclList]
+      ) [ConVarEnumDecList_var]
+      VarDeclList(
+        Type(
+         char
+        ) [Type]
+        VarIdentList_one(
+          VarIdent_1(
+           c
+          ) [VarIdent_1]
+        ) [VarIdentList_one]
+      ) [VarDeclList]
+    ) [ConVarEnumDecList_var]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarIdentList_one(
+        VarIdent_more(
+         arr
+        ) [VarIdent_more]
+      ) [VarIdentList_one]
+    ) [VarDeclList]
+  ) [ConVarEnumDecList_var]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_stat(
+          StatementList_stat(
+            StatementList_e(
+            ) [StatementList_e]
+            Stmt_simple(
+              Stmt_designator(
+                DesStmt_inc(
+                  Designator_var(
+                   x
+                  ) [Designator_var]
+                ) [DesStmt_inc]
+              ) [Stmt_designator]
+            ) [Stmt_simple]
+          ) [StatementList_stat]
+          Stmt_simple(
+            Stmt_designator(
+              DesStmt_dec(
+                Designator_elem(
+                  DesignatorArrayName(
+                   arr
+                  ) [DesignatorArrayName]
+                  Expr_basic(
+                    ExprBasic_main(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Pom_e(
+                              ) [Pom_e]
+                              Factor_num(
+                               0
+                              ) [Factor_num]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprBasic_main]
+                  ) [Expr_basic]
+                ) [Designator_elem]
+              ) [DesStmt_dec]
+            ) [Stmt_designator]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+        Stmt_simple(
+          Stmt_designator(
+            DesStmt_inc(
+              Designator_var(
+               c
+              ) [Designator_var]
+            ) [DesStmt_inc]
+          ) [Stmt_designator]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  15:04:27,911 - =====================================================================
+INFO  15:04:27,942 - Program: P na liniji 1
+INFO  15:04:27,942 - Promenljiva: x na liniji 2
+INFO  15:04:27,942 - Promenljiva: c na liniji 2
+INFO  15:04:27,942 - Niz: arr na liniji 2
+ERROR 15:04:27,944 - Operator ++ je dozvoljen samo nad int. na liniji 7
+INFO  15:04:27,944 - =====================================================================
+ERROR 15:04:27,945 - Parsiranje NIJE uspesno zavrseno!

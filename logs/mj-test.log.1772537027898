@@ -1,0 +1,433 @@
+INFO  11:53:47,760 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  11:53:47,857 - #2 program
+INFO  11:53:47,857 - #9 bad_calls
+INFO  11:53:47,857 - #9 int
+INFO  11:53:47,859 - #9 x
+INFO  11:53:47,860 - #6 ;
+INFO  11:53:47,860 - #3 {
+INFO  11:53:47,862 - #18 void
+INFO  11:53:47,863 - #9 v
+INFO  11:53:47,863 - #16 (
+INFO  11:53:47,863 - #17 )
+INFO  11:53:47,864 - #3 {
+INFO  11:53:47,865 - #25 print
+INFO  11:53:47,867 - #16 (
+INFO  11:53:47,868 - #10 1
+INFO  11:53:47,871 - #17 )
+INFO  11:53:47,874 - #6 ;
+INFO  11:53:47,874 - #4 }
+INFO  11:53:47,875 - #9 int
+INFO  11:53:47,877 - #9 f
+INFO  11:53:47,877 - #16 (
+INFO  11:53:47,877 - #9 int
+INFO  11:53:47,877 - #9 a
+INFO  11:53:47,952 - #5 ,
+INFO  11:53:47,953 - #9 int
+INFO  11:53:47,953 - #9 b
+INFO  11:53:47,953 - #17 )
+INFO  11:53:47,954 - #3 {
+INFO  11:53:47,955 - #23 return
+INFO  11:53:47,955 - #9 a
+INFO  11:53:47,955 - #36 +
+INFO  11:53:47,956 - #9 b
+INFO  11:53:47,958 - #6 ;
+INFO  11:53:47,958 - #4 }
+INFO  11:53:47,958 - #18 void
+INFO  11:53:47,958 - #9 main
+INFO  11:53:47,959 - #16 (
+INFO  11:53:47,959 - #17 )
+INFO  11:53:47,959 - #3 {
+INFO  11:53:47,959 - #9 x
+INFO  11:53:47,959 - #14 =
+INFO  11:53:47,960 - #9 f
+INFO  11:53:47,961 - #16 (
+INFO  11:53:47,962 - #10 1
+INFO  11:53:47,962 - #17 )
+INFO  11:53:47,963 - #6 ;
+INFO  11:53:47,964 - #9 x
+INFO  11:53:47,964 - #14 =
+INFO  11:53:47,964 - #9 f
+INFO  11:53:47,964 - #16 (
+INFO  11:53:47,964 - #11 a
+INFO  11:53:47,965 - #5 ,
+INFO  11:53:47,965 - #10 2
+INFO  11:53:47,965 - #17 )
+INFO  11:53:47,965 - #6 ;
+INFO  11:53:47,965 - #9 x
+INFO  11:53:47,965 - #14 =
+INFO  11:53:47,965 - #9 v
+INFO  11:53:47,965 - #16 (
+INFO  11:53:47,967 - #17 )
+INFO  11:53:47,967 - #6 ;
+INFO  11:53:47,968 - #9 x
+INFO  11:53:47,968 - #16 (
+INFO  11:53:47,968 - #10 1
+INFO  11:53:47,969 - #17 )
+INFO  11:53:47,969 - #6 ;
+INFO  11:53:47,969 - #4 }
+INFO  11:53:47,969 - #4 }
+INFO  11:53:47,972 - Program(
+  ProgramName(
+   bad_calls
+  ) [ProgramName]
+  ConVarEnumDecList_var(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarIdentList_one(
+        VarIdent_1(
+         x
+        ) [VarIdent_1]
+      ) [VarIdentList_one]
+    ) [VarDeclList]
+  ) [ConVarEnumDecList_var]
+  MethodDeclList_list(
+    MethodDeclList_list(
+      MethodDeclList_list(
+        MethodDeclList_e(
+        ) [MethodDeclList_e]
+        MethodDecl(
+          MethRetAndName_void(
+           v
+          ) [MethRetAndName_void]
+          FormParList_e(
+          ) [FormParList_e]
+          VarDeclListPom_e(
+          ) [VarDeclListPom_e]
+          StatementList_stat(
+            StatementList_e(
+            ) [StatementList_e]
+            Stmt_simple(
+              Stmt_print(
+                Expr_basic(
+                  ExprBasic_main(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_num(
+                             1
+                            ) [Factor_num]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprBasic_main]
+                ) [Expr_basic]
+              ) [Stmt_print]
+            ) [Stmt_simple]
+          ) [StatementList_stat]
+        ) [MethodDecl]
+      ) [MethodDeclList_list]
+      MethodDecl(
+        MethRetAndName_type(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [MethRetAndName_type]
+        FormParList_form(
+          FormPar_var(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [FormPar_var]
+          FormParMore_more(
+            FormPar_var(
+              Type(
+               int
+              ) [Type]
+             b
+            ) [FormPar_var]
+            FormParMore_e(
+            ) [FormParMore_e]
+          ) [FormParMore_more]
+        ) [FormParList_form]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_stat(
+          StatementList_e(
+          ) [StatementList_e]
+          Stmt_simple(
+            Stmt_return_expr(
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_add(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_design(
+                              Designator_var(
+                               a
+                              ) [Designator_var]
+                              FactorOpt_e(
+                              ) [FactorOpt_e]
+                            ) [Factor_design]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                    Addop_plus(
+                    ) [Addop_plus]
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Pom_e(
+                          ) [Pom_e]
+                          Factor_design(
+                            Designator_var(
+                             b
+                            ) [Designator_var]
+                            FactorOpt_e(
+                            ) [FactorOpt_e]
+                          ) [Factor_design]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_add]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+            ) [Stmt_return_expr]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+      ) [MethodDecl]
+    ) [MethodDeclList_list]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_stat(
+          StatementList_stat(
+            StatementList_stat(
+              StatementList_e(
+              ) [StatementList_e]
+              Stmt_simple(
+                Stmt_designator(
+                  DesStmt_assign(
+                    Designator_var(
+                     x
+                    ) [Designator_var]
+                    Assignop_eq(
+                    ) [Assignop_eq]
+                    Expr_basic(
+                      ExprBasic_main(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factor(
+                              Factor(
+                                Pom_e(
+                                ) [Pom_e]
+                                Factor_design(
+                                  Designator_var(
+                                   f
+                                  ) [Designator_var]
+                                  FactorOpt_call_args(
+                                    ActPars_one(
+                                      Expr_basic(
+                                        ExprBasic_main(
+                                          AddopTermList_term(
+                                            Term(
+                                              MulopFactorList_factor(
+                                                Factor(
+                                                  Pom_e(
+                                                  ) [Pom_e]
+                                                  Factor_num(
+                                                   1
+                                                  ) [Factor_num]
+                                                ) [Factor]
+                                              ) [MulopFactorList_factor]
+                                            ) [Term]
+                                          ) [AddopTermList_term]
+                                        ) [ExprBasic_main]
+                                      ) [Expr_basic]
+                                      ActParsMore_e(
+                                      ) [ActParsMore_e]
+                                    ) [ActPars_one]
+                                  ) [FactorOpt_call_args]
+                                ) [Factor_design]
+                              ) [Factor]
+                            ) [MulopFactorList_factor]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [ExprBasic_main]
+                    ) [Expr_basic]
+                  ) [DesStmt_assign]
+                ) [Stmt_designator]
+              ) [Stmt_simple]
+            ) [StatementList_stat]
+            Stmt_simple(
+              Stmt_designator(
+                DesStmt_assign(
+                  Designator_var(
+                   x
+                  ) [Designator_var]
+                  Assignop_eq(
+                  ) [Assignop_eq]
+                  Expr_basic(
+                    ExprBasic_main(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Pom_e(
+                              ) [Pom_e]
+                              Factor_design(
+                                Designator_var(
+                                 f
+                                ) [Designator_var]
+                                FactorOpt_call_args(
+                                  ActPars_one(
+                                    Expr_basic(
+                                      ExprBasic_main(
+                                        AddopTermList_term(
+                                          Term(
+                                            MulopFactorList_factor(
+                                              Factor(
+                                                Pom_e(
+                                                ) [Pom_e]
+                                                Factor_char(
+                                                 a
+                                                ) [Factor_char]
+                                              ) [Factor]
+                                            ) [MulopFactorList_factor]
+                                          ) [Term]
+                                        ) [AddopTermList_term]
+                                      ) [ExprBasic_main]
+                                    ) [Expr_basic]
+                                    ActParsMore_comma(
+                                      Expr_basic(
+                                        ExprBasic_main(
+                                          AddopTermList_term(
+                                            Term(
+                                              MulopFactorList_factor(
+                                                Factor(
+                                                  Pom_e(
+                                                  ) [Pom_e]
+                                                  Factor_num(
+                                                   2
+                                                  ) [Factor_num]
+                                                ) [Factor]
+                                              ) [MulopFactorList_factor]
+                                            ) [Term]
+                                          ) [AddopTermList_term]
+                                        ) [ExprBasic_main]
+                                      ) [Expr_basic]
+                                      ActParsMore_e(
+                                      ) [ActParsMore_e]
+                                    ) [ActParsMore_comma]
+                                  ) [ActPars_one]
+                                ) [FactorOpt_call_args]
+                              ) [Factor_design]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprBasic_main]
+                  ) [Expr_basic]
+                ) [DesStmt_assign]
+              ) [Stmt_designator]
+            ) [Stmt_simple]
+          ) [StatementList_stat]
+          Stmt_simple(
+            Stmt_designator(
+              DesStmt_assign(
+                Designator_var(
+                 x
+                ) [Designator_var]
+                Assignop_eq(
+                ) [Assignop_eq]
+                Expr_basic(
+                  ExprBasic_main(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_design(
+                              Designator_var(
+                               v
+                              ) [Designator_var]
+                              FactorOpt_call_noargs(
+                              ) [FactorOpt_call_noargs]
+                            ) [Factor_design]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprBasic_main]
+                ) [Expr_basic]
+              ) [DesStmt_assign]
+            ) [Stmt_designator]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+        Stmt_simple(
+          Stmt_designator(
+            DesStmt_call_args(
+              Designator_var(
+               x
+              ) [Designator_var]
+              ActPars_one(
+                Expr_basic(
+                  ExprBasic_main(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_num(
+                             1
+                            ) [Factor_num]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprBasic_main]
+                ) [Expr_basic]
+                ActParsMore_e(
+                ) [ActParsMore_e]
+              ) [ActPars_one]
+            ) [DesStmt_call_args]
+          ) [Stmt_designator]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  11:53:47,973 - =====================================================================
+INFO  11:53:47,986 - Program: bad_calls na liniji 2
+INFO  11:53:47,986 - Promenljiva: x na liniji 4
+INFO  11:53:47,987 - KORISCENJE FORMALNOG PARAMETRA: a -> Var a : int (adr=0, level=1, fpPos=1) na liniji 13
+INFO  11:53:47,987 - KORISCENJE FORMALNOG PARAMETRA: b -> Var b : int (adr=1, level=1, fpPos=2) na liniji 13
+INFO  11:53:47,988 - KORISCENJE: x -> Var x : int (adr=0, level=0) na liniji 18
+INFO  11:53:47,988 - KORISCENJE METODE: f -> Meth f : int (adr=0, level=2) na liniji 18
+INFO  11:53:47,988 - POZIV FUNKCIJE: f -> Meth f : int (adr=0, level=2) na liniji 18
+ERROR 11:53:47,988 - Pogresan broj argumenata u pozivu metode 'f'. na liniji 18
+INFO  11:53:47,988 - KORISCENJE: x -> Var x : int (adr=0, level=0) na liniji 19
+INFO  11:53:47,988 - KORISCENJE METODE: f -> Meth f : int (adr=0, level=2) na liniji 19
+INFO  11:53:47,989 - POZIV FUNKCIJE: f -> Meth f : int (adr=0, level=2) na liniji 19
+ERROR 11:53:47,989 - Argument #1 nije dodeljiv formalnom parametru metode 'f'. na liniji 19
+INFO  11:53:47,989 - KORISCENJE: x -> Var x : int (adr=0, level=0) na liniji 20
+INFO  11:53:47,989 - KORISCENJE METODE: v -> Meth v : noType (adr=0, level=0) na liniji 20
+INFO  11:53:47,989 - POZIV FUNKCIJE: v -> Meth v : noType (adr=0, level=0) na liniji 20
+ERROR 11:53:47,989 - Void metoda 'v' ne moze da se koristi u izrazu. na liniji 20
+INFO  11:53:47,989 - KORISCENJE: x -> Var x : int (adr=0, level=0) na liniji 21
+INFO  11:53:47,990 - POZIV FUNKCIJE: x -> Var x : int (adr=0, level=0) na liniji 21
+ERROR 11:53:47,990 - Poziv je dozvoljen samo nad metodom. na liniji 21
+INFO  11:53:47,990 - =====================================================================
+ERROR 11:53:47,990 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,266 @@
+INFO  15:05:02,575 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:05:02,660 - #2 program
+INFO  15:05:02,661 - #9 P
+INFO  15:05:02,661 - #3 {
+INFO  15:05:02,663 - #9 int
+INFO  15:05:02,664 - #9 f
+INFO  15:05:02,665 - #16 (
+INFO  15:05:02,666 - #9 int
+INFO  15:05:02,666 - #9 x
+INFO  15:05:02,666 - #5 ,
+INFO  15:05:02,666 - #9 char
+INFO  15:05:02,666 - #9 y
+INFO  15:05:02,666 - #17 )
+INFO  15:05:02,668 - #3 {
+INFO  15:05:02,668 - #23 return
+INFO  15:05:02,669 - #9 x
+INFO  15:05:02,671 - #6 ;
+INFO  15:05:02,674 - #4 }
+INFO  15:05:02,675 - #18 void
+INFO  15:05:02,676 - #9 main
+INFO  15:05:02,676 - #16 (
+INFO  15:05:02,677 - #17 )
+INFO  15:05:02,677 - #3 {
+INFO  15:05:02,748 - #9 f
+INFO  15:05:02,749 - #16 (
+INFO  15:05:02,749 - #10 1
+INFO  15:05:02,749 - #5 ,
+INFO  15:05:02,749 - #11 a
+INFO  15:05:02,750 - #17 )
+INFO  15:05:02,752 - #6 ;
+INFO  15:05:02,752 - #9 f
+INFO  15:05:02,752 - #16 (
+INFO  15:05:02,752 - #11 a
+INFO  15:05:02,753 - #5 ,
+INFO  15:05:02,753 - #10 1
+INFO  15:05:02,753 - #17 )
+INFO  15:05:02,753 - #6 ;
+INFO  15:05:02,753 - #9 f
+INFO  15:05:02,754 - #16 (
+INFO  15:05:02,754 - #10 1
+INFO  15:05:02,754 - #17 )
+INFO  15:05:02,754 - #6 ;
+INFO  15:05:02,754 - #4 }
+INFO  15:05:02,754 - #4 }
+INFO  15:05:02,758 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_list(
+    MethodDeclList_list(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethRetAndName_type(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [MethRetAndName_type]
+        FormParList_form(
+          FormPar_var(
+            Type(
+             int
+            ) [Type]
+           x
+          ) [FormPar_var]
+          FormParMore_more(
+            FormPar_var(
+              Type(
+               char
+              ) [Type]
+             y
+            ) [FormPar_var]
+            FormParMore_e(
+            ) [FormParMore_e]
+          ) [FormParMore_more]
+        ) [FormParList_form]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_stat(
+          StatementList_e(
+          ) [StatementList_e]
+          Stmt_simple(
+            Stmt_return_expr(
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Pom_e(
+                          ) [Pom_e]
+                          Factor_design(
+                            Designator_var(
+                             x
+                            ) [Designator_var]
+                            FactorOpt_e(
+                            ) [FactorOpt_e]
+                          ) [Factor_design]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+            ) [Stmt_return_expr]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+      ) [MethodDecl]
+    ) [MethodDeclList_list]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_stat(
+          StatementList_stat(
+            StatementList_e(
+            ) [StatementList_e]
+            Stmt_simple(
+              Stmt_designator(
+                DesStmt_call_args(
+                  Designator_var(
+                   f
+                  ) [Designator_var]
+                  ActPars_one(
+                    Expr_basic(
+                      ExprBasic_main(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factor(
+                              Factor(
+                                Pom_e(
+                                ) [Pom_e]
+                                Factor_num(
+                                 1
+                                ) [Factor_num]
+                              ) [Factor]
+                            ) [MulopFactorList_factor]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [ExprBasic_main]
+                    ) [Expr_basic]
+                    ActParsMore_comma(
+                      Expr_basic(
+                        ExprBasic_main(
+                          AddopTermList_term(
+                            Term(
+                              MulopFactorList_factor(
+                                Factor(
+                                  Pom_e(
+                                  ) [Pom_e]
+                                  Factor_char(
+                                   a
+                                  ) [Factor_char]
+                                ) [Factor]
+                              ) [MulopFactorList_factor]
+                            ) [Term]
+                          ) [AddopTermList_term]
+                        ) [ExprBasic_main]
+                      ) [Expr_basic]
+                      ActParsMore_e(
+                      ) [ActParsMore_e]
+                    ) [ActParsMore_comma]
+                  ) [ActPars_one]
+                ) [DesStmt_call_args]
+              ) [Stmt_designator]
+            ) [Stmt_simple]
+          ) [StatementList_stat]
+          Stmt_simple(
+            Stmt_designator(
+              DesStmt_call_args(
+                Designator_var(
+                 f
+                ) [Designator_var]
+                ActPars_one(
+                  Expr_basic(
+                    ExprBasic_main(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Pom_e(
+                              ) [Pom_e]
+                              Factor_char(
+                               a
+                              ) [Factor_char]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprBasic_main]
+                  ) [Expr_basic]
+                  ActParsMore_comma(
+                    Expr_basic(
+                      ExprBasic_main(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factor(
+                              Factor(
+                                Pom_e(
+                                ) [Pom_e]
+                                Factor_num(
+                                 1
+                                ) [Factor_num]
+                              ) [Factor]
+                            ) [MulopFactorList_factor]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [ExprBasic_main]
+                    ) [Expr_basic]
+                    ActParsMore_e(
+                    ) [ActParsMore_e]
+                  ) [ActParsMore_comma]
+                ) [ActPars_one]
+              ) [DesStmt_call_args]
+            ) [Stmt_designator]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+        Stmt_simple(
+          Stmt_designator(
+            DesStmt_call_args(
+              Designator_var(
+               f
+              ) [Designator_var]
+              ActPars_one(
+                Expr_basic(
+                  ExprBasic_main(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_num(
+                             1
+                            ) [Factor_num]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprBasic_main]
+                ) [Expr_basic]
+                ActParsMore_e(
+                ) [ActParsMore_e]
+              ) [ActPars_one]
+            ) [DesStmt_call_args]
+          ) [Stmt_designator]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  15:05:02,759 - =====================================================================
+INFO  15:05:02,792 - Program: P na liniji 1
+ERROR 15:05:02,918 - Argument #1 nije dodeljiv formalnom parametru metode 'f'. na liniji 6
+ERROR 15:05:02,918 - Argument #2 nije dodeljiv formalnom parametru metode 'f'. na liniji 6
+ERROR 15:05:02,918 - Pogresan broj argumenata u pozivu metode 'f'. na liniji 7
+INFO  15:05:02,918 - =====================================================================
+ERROR 15:05:02,919 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,76 @@
+INFO  18:20:50,312 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  18:20:50,404 - #2 program
+INFO  18:20:50,404 - #9 P
+INFO  18:20:50,404 - #15 enum
+INFO  18:20:50,406 - #9 E
+INFO  18:20:50,406 - #3 {
+INFO  18:20:50,407 - #9 A
+INFO  18:20:50,407 - #14 =
+INFO  18:20:50,407 - #10 1
+INFO  18:20:50,407 - #5 ,
+INFO  18:20:50,408 - #9 B
+INFO  18:20:50,408 - #5 ,
+INFO  18:20:50,408 - #9 A
+INFO  18:20:50,408 - #14 =
+INFO  18:20:50,408 - #10 5
+INFO  18:20:50,408 - #4 }
+INFO  18:20:50,409 - #3 {
+INFO  18:20:50,410 - #18 void
+INFO  18:20:50,410 - #9 main
+INFO  18:20:50,410 - #16 (
+INFO  18:20:50,411 - #17 )
+INFO  18:20:50,413 - #3 {
+INFO  18:20:50,413 - #4 }
+INFO  18:20:50,414 - #4 }
+INFO  18:20:50,417 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_enum(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    EnumDecl(
+     E
+      EnumItemList_more(
+        EnumItemList_more(
+          EnumItemList_one(
+            EnumItem_value(
+             A
+             1
+            ) [EnumItem_value]
+          ) [EnumItemList_one]
+          EnumItem_simple(
+           B
+          ) [EnumItem_simple]
+        ) [EnumItemList_more]
+        EnumItem_value(
+         A
+         5
+        ) [EnumItem_value]
+      ) [EnumItemList_more]
+    ) [EnumDecl]
+  ) [ConVarEnumDecList_enum]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  18:20:50,418 - =====================================================================
+INFO  18:20:50,450 - Program: P na liniji 1
+INFO  18:20:50,450 - Enum stavka: A = 1 na liniji 2
+INFO  18:20:50,451 - Enum stavka: B = 2 na liniji 2
+ERROR 18:20:50,451 - Enum stavka je vec definisana: A na liniji 2
+INFO  18:20:50,451 - Definisan enum: E na liniji 2
+INFO  18:20:50,452 - =====================================================================
+ERROR 18:20:50,452 - Parsiranje NIJE uspesno zavrseno!

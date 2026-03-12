@@ -1,0 +1,75 @@
+INFO  17:52:01,149 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:52:01,184 - #2 program
+INFO  17:52:01,184 - #9 P
+INFO  17:52:01,184 - #3 {
+INFO  17:52:01,184 - #18 void
+INFO  17:52:01,185 - #9 f1_
+INFO  17:52:01,185 - #16 (
+INFO  17:52:01,186 - #17 )
+INFO  17:52:01,186 - #3 {
+INFO  17:52:01,186 - #4 }
+INFO  17:52:01,186 - #18 void
+INFO  17:52:01,187 - #9 a1b2c3
+INFO  17:52:01,187 - #16 (
+INFO  17:52:01,187 - #17 )
+INFO  17:52:01,187 - #3 {
+INFO  17:52:01,187 - #4 }
+INFO  17:52:01,187 - #18 void
+INFO  17:52:01,187 - #9 main
+INFO  17:52:01,187 - #16 (
+INFO  17:52:01,187 - #17 )
+INFO  17:52:01,187 - #3 {
+INFO  17:52:01,187 - #4 }
+INFO  17:52:01,187 - #4 }
+INFO  17:52:01,188 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_rec(
+      MethodDeclList_rec(
+        MethodDeclList_e(
+        ) [MethodDeclList_e]
+        MethodDecl(
+          MethRetAndName_void(
+           f1_
+          ) [MethRetAndName_void]
+          FormParList_e(
+          ) [FormParList_e]
+          VarDeclListPom_e(
+          ) [VarDeclListPom_e]
+          StatementList_e(
+          ) [StatementList_e]
+        ) [MethodDecl]
+      ) [MethodDeclList_rec]
+      MethodDecl(
+        MethRetAndName_void(
+         a1b2c3
+        ) [MethRetAndName_void]
+        FormParList_e(
+        ) [FormParList_e]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_rec]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  17:52:01,188 - =====================================================================
+INFO  17:52:01,199 - Obradjujem program: P na liniji 1
+INFO  17:52:01,200 - =====================================================================
+INFO  17:52:01,200 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,78 @@
+INFO  18:05:57,993 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  18:05:58,029 - #2 program
+INFO  18:05:58,029 - #9 P
+INFO  18:05:58,029 - #3 {
+INFO  18:05:58,030 - #18 void
+INFO  18:05:58,030 - #9 f
+INFO  18:05:58,030 - #16 (
+INFO  18:05:58,030 - #9 int
+INFO  18:05:58,030 - #9 x
+INFO  18:05:58,031 - #5 ,
+INFO  18:05:58,031 - #9 int
+INFO  18:05:58,031 - #9 x
+INFO  18:05:58,031 - #17 )
+INFO  18:05:58,031 - #3 {
+INFO  18:05:58,031 - #4 }
+INFO  18:05:58,031 - #18 void
+INFO  18:05:58,032 - #9 main
+INFO  18:05:58,032 - #16 (
+INFO  18:05:58,032 - #17 )
+INFO  18:05:58,033 - #3 {
+INFO  18:05:58,033 - #4 }
+INFO  18:05:58,033 - #4 }
+INFO  18:05:58,033 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_rec(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethRetAndName_void(
+         f
+        ) [MethRetAndName_void]
+        FormParList_rec(
+          FormPar_var(
+            Type(
+             int
+            ) [Type]
+           x
+          ) [FormPar_var]
+          FormParMore_comma(
+            FormPar_var(
+              Type(
+               int
+              ) [Type]
+             x
+            ) [FormPar_var]
+            FormParMore_e(
+            ) [FormParMore_e]
+          ) [FormParMore_comma]
+        ) [FormParList_rec]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_rec]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  18:05:58,035 - =====================================================================
+INFO  18:05:58,046 - Obradjujem program: P na liniji 1
+ERROR 18:05:58,046 - Dvostruka definicija formalnog parametra: x na liniji 1
+INFO  18:05:58,046 - =====================================================================
+ERROR 18:05:58,046 - Parsiranje NIJE uspesno zavrseno!

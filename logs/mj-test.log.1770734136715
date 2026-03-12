@@ -1,0 +1,69 @@
+INFO  15:35:15,704 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:35:15,737 - #2 program
+INFO  15:35:15,737 - #9 P
+INFO  15:35:15,737 - #3 {
+INFO  15:35:15,738 - #18 void
+INFO  15:35:15,738 - #9 main
+INFO  15:35:15,738 - #16 (
+INFO  15:35:15,738 - #17 )
+INFO  15:35:15,739 - #9 int
+INFO  15:35:15,739 - #9 x
+INFO  15:35:15,739 - #6 ;
+INFO  15:35:15,740 - #9 int
+INFO  15:35:15,740 - #9 x
+INFO  15:35:15,740 - #6 ;
+INFO  15:35:15,740 - #3 {
+INFO  15:35:15,740 - #4 }
+INFO  15:35:15,740 - #4 }
+INFO  15:35:15,742 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_pom(
+        VarDeclListPom_pom(
+          VarDeclListPom_e(
+          ) [VarDeclListPom_e]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarIdentList_one(
+              VarIdent_simple(
+               x
+              ) [VarIdent_simple]
+            ) [VarIdentList_one]
+          ) [VarDeclList]
+        ) [VarDeclListPom_pom]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarIdentList_one(
+            VarIdent_simple(
+             x
+            ) [VarIdent_simple]
+          ) [VarIdentList_one]
+        ) [VarDeclList]
+      ) [VarDeclListPom_pom]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:35:15,742 - =====================================================================
+INFO  15:35:15,753 - Program: P na liniji 1
+INFO  15:35:15,755 - Promenljiva: x na liniji 3
+ERROR 15:35:15,755 - Promenljiva je vec definisana: x na liniji 3
+INFO  15:35:15,755 - =====================================================================
+ERROR 15:35:15,755 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,9 @@
+INFO  16:27:15,825 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  16:27:15,913 - #2 program
+INFO  16:27:15,913 - #9 Test
+INFO  16:27:15,913 - #9 record
+INFO  16:27:15,917 - #9 r1
+INFO  16:27:15,917 - #3 {
+ERROR 16:27:15,918 - 
+Sintaksna greska na liniji 2
+ERROR 16:27:15,918 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 2

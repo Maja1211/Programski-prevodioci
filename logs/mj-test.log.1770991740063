@@ -1,0 +1,75 @@
+INFO  15:08:11,026 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:08:11,116 - #2 program
+INFO  15:08:11,117 - #9 P
+INFO  15:08:11,117 - #13 const
+INFO  15:08:11,119 - #9 int
+INFO  15:08:11,119 - #9 K
+INFO  15:08:11,120 - #14 =
+INFO  15:08:11,120 - #10 3
+INFO  15:08:11,120 - #6 ;
+INFO  15:08:11,122 - #9 int
+INFO  15:08:11,123 - #9 x
+INFO  15:08:11,123 - #6 ;
+INFO  15:08:11,124 - #3 {
+INFO  15:08:11,125 - #18 void
+INFO  15:08:11,126 - #9 main
+INFO  15:08:11,126 - #16 (
+INFO  15:08:11,126 - #17 )
+INFO  15:08:11,127 - #3 {
+INFO  15:08:11,129 - #4 }
+INFO  15:08:11,130 - #4 }
+INFO  15:08:11,134 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_var(
+    ConVarEnumDecList_con(
+      ConVarEnumDecList_e(
+      ) [ConVarEnumDecList_e]
+      ConDecList(
+        Type(
+         int
+        ) [Type]
+        ConDecl(
+         K
+          Constant_n(
+           3
+          ) [Constant_n]
+        ) [ConDecl]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConDecList]
+    ) [ConVarEnumDecList_con]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarIdentList_one(
+        VarIdent_1(
+         x
+        ) [VarIdent_1]
+      ) [VarIdentList_one]
+    ) [VarDeclList]
+  ) [ConVarEnumDecList_var]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  15:08:11,205 - =====================================================================
+INFO  15:08:11,237 - Program: P na liniji 1
+INFO  15:08:11,238 - Definisana konstanta: K na liniji 2
+INFO  15:08:11,238 - Promenljiva: x na liniji 3
+INFO  15:08:11,239 - =====================================================================
+INFO  15:08:11,240 - Parsiranje uspesno zavrseno!

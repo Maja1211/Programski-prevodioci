@@ -1,0 +1,108 @@
+INFO  15:12:42,571 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:12:42,660 - #2 program
+INFO  15:12:42,660 - #9 P
+INFO  15:12:42,660 - #9 int
+INFO  15:12:42,662 - #9 x
+INFO  15:12:42,663 - #6 ;
+INFO  15:12:42,663 - #9 char
+INFO  15:12:42,665 - #9 c
+INFO  15:12:42,665 - #6 ;
+INFO  15:12:42,665 - #3 {
+INFO  15:12:42,665 - #18 void
+INFO  15:12:42,666 - #9 main
+INFO  15:12:42,666 - #16 (
+INFO  15:12:42,666 - #17 )
+INFO  15:12:42,667 - #3 {
+INFO  15:12:42,668 - #9 x
+INFO  15:12:42,669 - #14 =
+INFO  15:12:42,669 - #9 c
+INFO  15:12:42,672 - #6 ;
+INFO  15:12:42,676 - #4 }
+INFO  15:12:42,677 - #4 }
+INFO  15:12:42,680 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_var(
+    ConVarEnumDecList_var(
+      ConVarEnumDecList_e(
+      ) [ConVarEnumDecList_e]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarIdentList_one(
+          VarIdent_1(
+           x
+          ) [VarIdent_1]
+        ) [VarIdentList_one]
+      ) [VarDeclList]
+    ) [ConVarEnumDecList_var]
+    VarDeclList(
+      Type(
+       char
+      ) [Type]
+      VarIdentList_one(
+        VarIdent_1(
+         c
+        ) [VarIdent_1]
+      ) [VarIdentList_one]
+    ) [VarDeclList]
+  ) [ConVarEnumDecList_var]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          Stmt_designator(
+            DesStmt_assign(
+              Designator_var(
+               x
+              ) [Designator_var]
+              Assignop_eq(
+              ) [Assignop_eq]
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Pom_e(
+                          ) [Pom_e]
+                          Factor_design(
+                            Designator_var(
+                             c
+                            ) [Designator_var]
+                            FactorOpt_e(
+                            ) [FactorOpt_e]
+                          ) [Factor_design]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+            ) [DesStmt_assign]
+          ) [Stmt_designator]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  15:12:42,743 - =====================================================================
+INFO  15:12:42,776 - Program: P na liniji 1
+INFO  15:12:42,777 - Promenljiva: x na liniji 2
+INFO  15:12:42,777 - Promenljiva: c na liniji 3
+ERROR 15:12:42,778 - Nekompatibilni tipovi u dodeli. na liniji 5
+INFO  15:12:42,778 - =====================================================================
+ERROR 15:12:42,779 - Parsiranje NIJE uspesno zavrseno!

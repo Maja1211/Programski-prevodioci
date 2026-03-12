@@ -1,0 +1,38 @@
+INFO  14:47:24,867 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  14:47:24,900 - #2 program
+INFO  14:47:24,901 - #9 P
+INFO  14:47:24,901 - #3 {
+INFO  14:47:24,901 - #18 void
+INFO  14:47:24,901 - #9 main
+INFO  14:47:24,902 - #16 (
+INFO  14:47:24,902 - #17 )
+INFO  14:47:24,902 - #3 {
+INFO  14:47:24,902 - #4 }
+INFO  14:47:24,904 - #4 }
+INFO  14:47:24,904 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  14:47:24,905 - =====================================================================
+INFO  14:47:24,917 - Program: P na liniji 1
+ERROR 14:47:24,917 - Nedostaje void main() bez argumenata. na liniji 1
+INFO  14:47:24,917 - =====================================================================
+ERROR 14:47:24,917 - Parsiranje NIJE uspesno zavrseno!

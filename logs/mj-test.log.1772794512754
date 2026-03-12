@@ -1,0 +1,93 @@
+INFO  11:53:57,714 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  11:53:57,818 - #2 program
+INFO  11:53:57,818 - #9 NullRef
+INFO  11:53:57,818 - #9 int
+INFO  11:53:57,820 - #9 a
+INFO  11:53:57,822 - #7 [
+INFO  11:53:57,822 - #8 ]
+INFO  11:53:57,822 - #6 ;
+INFO  11:53:57,822 - #3 {
+INFO  11:53:57,824 - #18 void
+INFO  11:53:57,825 - #9 main
+INFO  11:53:57,825 - #16 (
+INFO  11:53:57,826 - #17 )
+INFO  11:53:57,827 - #3 {
+INFO  11:53:57,830 - #25 print
+INFO  11:53:57,832 - #16 (
+INFO  11:53:57,832 - #9 a
+INFO  11:53:57,834 - #46 .
+INFO  11:53:57,835 - #48 length
+INFO  11:53:57,835 - #17 )
+INFO  11:53:57,839 - #6 ;
+INFO  11:53:57,840 - #4 }
+INFO  11:53:57,841 - #4 }
+INFO  11:53:57,914 - Program(
+  ProgramName(
+   NullRef
+  ) [ProgramName]
+  ConVarEnumDecList_var(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarIdentList_one(
+        VarIdent_more(
+         a
+        ) [VarIdent_more]
+      ) [VarIdentList_one]
+    ) [VarDeclList]
+  ) [ConVarEnumDecList_var]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          Stmt_print(
+            Expr_basic(
+              ExprBasic_main(
+                AddopTermList_term(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Pom_e(
+                        ) [Pom_e]
+                        Factor_design(
+                          Designator_pom(
+                            DesignatorName(
+                             a
+                            ) [DesignatorName]
+                            DesignatorMore_length(
+                            ) [DesignatorMore_length]
+                          ) [Designator_pom]
+                          FactorOpt_e(
+                          ) [FactorOpt_e]
+                        ) [Factor_design]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprBasic_main]
+            ) [Expr_basic]
+          ) [Stmt_print]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  11:53:57,915 - =====================================================================
+INFO  11:53:57,933 - Program: NullRef na liniji 1
+INFO  11:53:57,934 - Niz: a na liniji 3
+INFO  11:53:57,936 - =====================================================================
+INFO  11:53:57,942 - Generisanje uspesno zavrseno!

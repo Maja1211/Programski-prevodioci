@@ -1,0 +1,16 @@
+INFO  12:00:53,066 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  12:00:53,160 - #2 program
+INFO  12:00:53,160 - #9 T
+INFO  12:00:53,161 - #3 {
+INFO  12:00:53,163 - #18 void
+INFO  12:00:53,163 - #9 main
+INFO  12:00:53,163 - #16 (
+INFO  12:00:53,163 - #17 )
+INFO  12:00:53,166 - #3 {
+INFO  12:00:53,167 - #24 read
+INFO  12:00:53,168 - #16 (
+INFO  12:00:53,169 - #10 5
+ERROR 12:00:53,169 - 
+Sintaksna greska na liniji 5
+ERROR 12:00:53,169 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 5
+ERROR 12:00:53,169 - Parsiranje neuspesno - AST nije formiran, prekidam dalju obradu.

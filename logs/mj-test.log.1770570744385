@@ -1,0 +1,68 @@
+INFO  18:10:29,567 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  18:10:29,600 - #2 program
+INFO  18:10:29,602 - #9 P
+INFO  18:10:29,602 - #3 {
+INFO  18:10:29,602 - #18 void
+INFO  18:10:29,603 - #9 f
+INFO  18:10:29,603 - #16 (
+INFO  18:10:29,603 - #9 int
+INFO  18:10:29,603 - #9 a
+INFO  18:10:29,603 - #7 [
+INFO  18:10:29,603 - #8 ]
+INFO  18:10:29,603 - #17 )
+INFO  18:10:29,604 - #3 {
+INFO  18:10:29,604 - #4 }
+INFO  18:10:29,604 - #18 void
+INFO  18:10:29,605 - #9 main
+INFO  18:10:29,605 - #16 (
+INFO  18:10:29,605 - #17 )
+INFO  18:10:29,605 - #3 {
+INFO  18:10:29,606 - #4 }
+INFO  18:10:29,606 - #4 }
+INFO  18:10:29,606 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_rec(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethRetAndName_void(
+         f
+        ) [MethRetAndName_void]
+        FormParList_rec(
+          FormPar_array(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [FormPar_array]
+          FormParMore_e(
+          ) [FormParMore_e]
+        ) [FormParList_rec]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_rec]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  18:10:29,607 - =====================================================================
+INFO  18:10:29,618 - Obradjujem program: P na liniji 1
+INFO  18:10:29,618 - =====================================================================
+INFO  18:10:29,619 - Parsiranje uspesno zavrseno!

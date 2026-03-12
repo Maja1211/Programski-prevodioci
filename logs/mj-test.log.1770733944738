@@ -1,0 +1,72 @@
+INFO  15:32:03,232 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:32:03,265 - #2 program
+INFO  15:32:03,265 - #9 P
+INFO  15:32:03,265 - #13 const
+INFO  15:32:03,266 - #9 int
+INFO  15:32:03,266 - #9 a
+INFO  15:32:03,266 - #14 =
+INFO  15:32:03,266 - #10 1
+INFO  15:32:03,267 - #5 ,
+INFO  15:32:03,267 - #9 a
+INFO  15:32:03,267 - #14 =
+INFO  15:32:03,267 - #10 2
+INFO  15:32:03,267 - #6 ;
+INFO  15:32:03,267 - #3 {
+INFO  15:32:03,268 - #18 void
+INFO  15:32:03,268 - #9 main
+INFO  15:32:03,268 - #16 (
+INFO  15:32:03,268 - #17 )
+INFO  15:32:03,269 - #3 {
+INFO  15:32:03,269 - #4 }
+INFO  15:32:03,269 - #4 }
+INFO  15:32:03,271 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_con(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    ConDecList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       a
+        Constant_n(
+         1
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_comma(
+        ConDecl(
+         a
+          Constant_n(
+           2
+          ) [Constant_n]
+        ) [ConDecl]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConDeclMore_comma]
+    ) [ConDecList]
+  ) [ConVarEnumDecList_con]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:32:03,271 - =====================================================================
+INFO  15:32:03,282 - Program: P na liniji 1
+INFO  15:32:03,283 - Definisana konstanta: a na liniji 2
+ERROR 15:32:03,283 - Konstanta je vec definisana: a na liniji 2
+INFO  15:32:03,283 - =====================================================================
+ERROR 15:32:03,283 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,46 @@
+INFO  11:58:39,431 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  11:58:39,530 - #2 program
+INFO  11:58:39,531 - #9 T
+INFO  11:58:39,531 - #3 {
+INFO  11:58:39,533 - #18 void
+INFO  11:58:39,534 - #9 main
+INFO  11:58:39,535 - #16 (
+INFO  11:58:39,535 - #17 )
+INFO  11:58:39,536 - #3 {
+INFO  11:58:39,537 - #22 continue
+INFO  11:58:39,540 - #6 ;
+INFO  11:58:39,540 - #4 }
+INFO  11:58:39,541 - #4 }
+INFO  11:58:39,544 - Program(
+  ProgramName(
+   T
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          Stmt_continue(
+          ) [Stmt_continue]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  11:58:39,615 - =====================================================================
+INFO  11:58:39,628 - Program: T na liniji 1
+ERROR 11:58:39,628 - continue je dozvoljen samo unutar for.
+INFO  11:58:39,629 - =====================================================================
+ERROR 11:58:39,629 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,54 @@
+INFO  15:09:17,986 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:09:18,074 - #2 program
+INFO  15:09:18,075 - #9 P
+INFO  15:09:18,075 - #9 Foo
+INFO  15:09:18,076 - #9 x
+INFO  15:09:18,077 - #6 ;
+INFO  15:09:18,077 - #3 {
+INFO  15:09:18,079 - #18 void
+INFO  15:09:18,079 - #9 main
+INFO  15:09:18,080 - #16 (
+INFO  15:09:18,080 - #17 )
+INFO  15:09:18,081 - #3 {
+INFO  15:09:18,081 - #4 }
+INFO  15:09:18,082 - #4 }
+INFO  15:09:18,085 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_var(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    VarDeclList(
+      Type(
+       Foo
+      ) [Type]
+      VarIdentList_one(
+        VarIdent_1(
+         x
+        ) [VarIdent_1]
+      ) [VarIdentList_one]
+    ) [VarDeclList]
+  ) [ConVarEnumDecList_var]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  15:09:18,156 - =====================================================================
+INFO  15:09:18,187 - Program: P na liniji 1
+ERROR 15:09:18,187 - Nepoznat tip: Foo na liniji 2
+ERROR 15:09:18,187 - Nepoznat tip promenljive: x na liniji 2
+INFO  15:09:18,187 - =====================================================================
+ERROR 15:09:18,189 - Parsiranje NIJE uspesno zavrseno!

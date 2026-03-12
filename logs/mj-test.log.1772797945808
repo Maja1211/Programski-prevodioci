@@ -1,0 +1,119 @@
+INFO  12:51:58,456 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  12:51:58,554 - #2 program
+INFO  12:51:58,555 - #9 T
+INFO  12:51:58,555 - #3 {
+INFO  12:51:58,557 - #18 void
+INFO  12:51:58,558 - #9 main
+INFO  12:51:58,558 - #16 (
+INFO  12:51:58,560 - #17 )
+INFO  12:51:58,560 - #3 {
+INFO  12:51:58,561 - #25 print
+INFO  12:51:58,563 - #16 (
+INFO  12:51:58,563 - #12 1
+INFO  12:51:58,565 - #34 ?
+INFO  12:51:58,570 - #10 1
+INFO  12:51:58,572 - #29 :
+INFO  12:51:58,573 - #11 a
+INFO  12:51:58,574 - #17 )
+INFO  12:51:58,575 - #6 ;
+INFO  12:51:58,575 - #4 }
+INFO  12:51:58,576 - #4 }
+INFO  12:51:58,579 - Program(
+  ProgramName(
+   T
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          Stmt_print(
+            Expr_ternary(
+              Condition_ct(
+                CondTerm_cf(
+                  CondFact_main(
+                    ExprBasic_main(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Pom_e(
+                              ) [Pom_e]
+                              Factor_bool(
+                               1
+                              ) [Factor_bool]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprBasic_main]
+                    CondFactRelOpt_e(
+                    ) [CondFactRelOpt_e]
+                  ) [CondFact_main]
+                ) [CondTerm_cf]
+              ) [Condition_ct]
+              TernaryQ(
+              ) [TernaryQ]
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Pom_e(
+                          ) [Pom_e]
+                          Factor_num(
+                           1
+                          ) [Factor_num]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+              TernaryColon(
+              ) [TernaryColon]
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Pom_e(
+                          ) [Pom_e]
+                          Factor_char(
+                           a
+                          ) [Factor_char]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+              TernaryEnd(
+              ) [TernaryEnd]
+            ) [Expr_ternary]
+          ) [Stmt_print]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  12:51:58,603 - =====================================================================
+INFO  12:51:58,616 - Program: T na liniji 1
+ERROR 12:51:58,617 - Ternarni operator: nekompatibilni tipovi grana. na liniji 13
+ERROR 12:51:58,617 - print dozvoljen samo za int/char/bool. na liniji 13
+INFO  12:51:58,618 - =====================================================================
+ERROR 12:51:58,618 - Parsiranje NIJE uspesno zavrseno!

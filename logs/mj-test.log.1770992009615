@@ -1,0 +1,74 @@
+INFO  15:13:12,172 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:13:12,268 - #2 program
+INFO  15:13:12,268 - #9 P
+INFO  15:13:12,269 - #13 const
+INFO  15:13:12,270 - #9 int
+INFO  15:13:12,271 - #9 K
+INFO  15:13:12,271 - #14 =
+INFO  15:13:12,272 - #10 3
+INFO  15:13:12,272 - #6 ;
+INFO  15:13:12,274 - #3 {
+INFO  15:13:12,275 - #18 void
+INFO  15:13:12,276 - #9 main
+INFO  15:13:12,276 - #16 (
+INFO  15:13:12,276 - #17 )
+INFO  15:13:12,278 - #3 {
+INFO  15:13:12,279 - #9 K
+INFO  15:13:12,280 - #30 ++
+INFO  15:13:12,280 - #6 ;
+INFO  15:13:12,280 - #4 }
+INFO  15:13:12,281 - #4 }
+INFO  15:13:12,284 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_con(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    ConDecList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       K
+        Constant_n(
+         3
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConDecList]
+  ) [ConVarEnumDecList_con]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          Stmt_designator(
+            DesStmt_inc(
+              Designator_var(
+               K
+              ) [Designator_var]
+            ) [DesStmt_inc]
+          ) [Stmt_designator]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  15:13:12,354 - =====================================================================
+INFO  15:13:12,391 - Program: P na liniji 1
+INFO  15:13:12,391 - Definisana konstanta: K na liniji 2
+ERROR 15:13:12,391 - Operator ++ je dozvoljen samo nad promenljivom/elementom niza. na liniji 4
+INFO  15:13:12,392 - =====================================================================
+ERROR 15:13:12,393 - Parsiranje NIJE uspesno zavrseno!

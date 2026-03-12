@@ -1,0 +1,76 @@
+INFO  17:53:50,297 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:53:50,331 - #2 program
+INFO  17:53:50,331 - #9 P
+INFO  17:53:50,332 - #3 {
+INFO  17:53:50,332 - #18 void
+INFO  17:53:50,332 - #9 f
+INFO  17:53:50,332 - #16 (
+INFO  17:53:50,332 - #17 )
+INFO  17:53:50,334 - #3 {
+INFO  17:53:50,334 - #4 }
+INFO  17:53:50,334 - #18 void
+INFO  17:53:50,334 - #9 f
+INFO  17:53:50,334 - #16 (
+INFO  17:53:50,334 - #17 )
+INFO  17:53:50,334 - #3 {
+INFO  17:53:50,334 - #4 }
+INFO  17:53:50,335 - #18 void
+INFO  17:53:50,335 - #9 main
+INFO  17:53:50,335 - #16 (
+INFO  17:53:50,335 - #17 )
+INFO  17:53:50,335 - #3 {
+INFO  17:53:50,335 - #4 }
+INFO  17:53:50,335 - #4 }
+INFO  17:53:50,336 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_rec(
+      MethodDeclList_rec(
+        MethodDeclList_e(
+        ) [MethodDeclList_e]
+        MethodDecl(
+          MethRetAndName_void(
+           f
+          ) [MethRetAndName_void]
+          FormParList_e(
+          ) [FormParList_e]
+          VarDeclListPom_e(
+          ) [VarDeclListPom_e]
+          StatementList_e(
+          ) [StatementList_e]
+        ) [MethodDecl]
+      ) [MethodDeclList_rec]
+      MethodDecl(
+        MethRetAndName_void(
+         f
+        ) [MethRetAndName_void]
+        FormParList_e(
+        ) [FormParList_e]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_rec]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  17:53:50,336 - =====================================================================
+INFO  17:53:50,348 - Obradjujem program: P na liniji 1
+ERROR 17:53:50,348 - Dvostruka definicija metode: f na liniji 3
+INFO  17:53:50,348 - =====================================================================
+ERROR 17:53:50,349 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,81 @@
+INFO  15:32:24,740 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:32:24,773 - #2 program
+INFO  15:32:24,773 - #9 P
+INFO  15:32:24,773 - #13 const
+INFO  15:32:24,774 - #9 int
+INFO  15:32:24,774 - #9 a
+INFO  15:32:24,775 - #14 =
+INFO  15:32:24,775 - #10 1
+INFO  15:32:24,775 - #6 ;
+INFO  15:32:24,775 - #13 const
+INFO  15:32:24,776 - #9 int
+INFO  15:32:24,776 - #9 a
+INFO  15:32:24,776 - #14 =
+INFO  15:32:24,776 - #10 2
+INFO  15:32:24,776 - #6 ;
+INFO  15:32:24,776 - #3 {
+INFO  15:32:24,776 - #18 void
+INFO  15:32:24,776 - #9 main
+INFO  15:32:24,777 - #16 (
+INFO  15:32:24,777 - #17 )
+INFO  15:32:24,777 - #3 {
+INFO  15:32:24,777 - #4 }
+INFO  15:32:24,778 - #4 }
+INFO  15:32:24,779 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_con(
+    ConVarEnumDecList_con(
+      ConVarEnumDecList_e(
+      ) [ConVarEnumDecList_e]
+      ConDecList(
+        Type(
+         int
+        ) [Type]
+        ConDecl(
+         a
+          Constant_n(
+           1
+          ) [Constant_n]
+        ) [ConDecl]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConDecList]
+    ) [ConVarEnumDecList_con]
+    ConDecList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       a
+        Constant_n(
+         2
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConDecList]
+  ) [ConVarEnumDecList_con]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:32:24,779 - =====================================================================
+INFO  15:32:24,791 - Program: P na liniji 1
+INFO  15:32:24,791 - Definisana konstanta: a na liniji 2
+ERROR 15:32:24,791 - Konstanta je vec definisana: a na liniji 3
+INFO  15:32:24,791 - =====================================================================
+ERROR 15:32:24,791 - Parsiranje NIJE uspesno zavrseno!

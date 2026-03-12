@@ -1,0 +1,3489 @@
+INFO  01:41:27,336 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  01:41:27,439 - #2 program
+INFO  01:41:27,440 - #9 LargeB
+INFO  01:41:27,440 - #13 const
+INFO  01:41:27,442 - #9 int
+INFO  01:41:27,442 - #9 LIMIT
+INFO  01:41:27,444 - #14 =
+INFO  01:41:27,444 - #10 6
+INFO  01:41:27,444 - #6 ;
+INFO  01:41:27,448 - #13 const
+INFO  01:41:27,449 - #9 bool
+INFO  01:41:27,449 - #9 T
+INFO  01:41:27,449 - #14 =
+INFO  01:41:27,449 - #12 1
+INFO  01:41:27,450 - #6 ;
+INFO  01:41:27,450 - #13 const
+INFO  01:41:27,450 - #9 bool
+INFO  01:41:27,450 - #9 F
+INFO  01:41:27,451 - #14 =
+INFO  01:41:27,451 - #12 0
+INFO  01:41:27,451 - #6 ;
+INFO  01:41:27,451 - #9 int
+INFO  01:41:27,451 - #9 nums
+INFO  01:41:27,521 - #7 [
+INFO  01:41:27,521 - #8 ]
+INFO  01:41:27,521 - #6 ;
+INFO  01:41:27,521 - #9 int
+INFO  01:41:27,523 - #9 i
+INFO  01:41:27,523 - #6 ;
+INFO  01:41:27,523 - #9 bool
+INFO  01:41:27,524 - #9 flag
+INFO  01:41:27,524 - #6 ;
+INFO  01:41:27,524 - #3 {
+INFO  01:41:27,524 - #9 int
+INFO  01:41:27,525 - #9 sumPrefix
+INFO  01:41:27,525 - #16 (
+INFO  01:41:27,525 - #9 int
+INFO  01:41:27,525 - #9 a
+INFO  01:41:27,525 - #7 [
+INFO  01:41:27,527 - #8 ]
+INFO  01:41:27,527 - #5 ,
+INFO  01:41:27,527 - #9 int
+INFO  01:41:27,527 - #9 n
+INFO  01:41:27,527 - #17 )
+INFO  01:41:27,528 - #9 int
+INFO  01:41:27,531 - #9 i
+INFO  01:41:27,531 - #5 ,
+INFO  01:41:27,531 - #9 s
+INFO  01:41:27,531 - #6 ;
+INFO  01:41:27,531 - #3 {
+INFO  01:41:27,532 - #9 s
+INFO  01:41:27,533 - #14 =
+INFO  01:41:27,533 - #10 0
+INFO  01:41:27,537 - #6 ;
+INFO  01:41:27,540 - #26 for
+INFO  01:41:27,541 - #16 (
+INFO  01:41:27,541 - #9 i
+INFO  01:41:27,541 - #14 =
+INFO  01:41:27,541 - #10 0
+INFO  01:41:27,541 - #6 ;
+INFO  01:41:27,541 - #9 i
+INFO  01:41:27,543 - #44 <
+INFO  01:41:27,545 - #9 n
+INFO  01:41:27,546 - #6 ;
+INFO  01:41:27,548 - #9 i
+INFO  01:41:27,548 - #30 ++
+INFO  01:41:27,548 - #17 )
+INFO  01:41:27,548 - #9 s
+INFO  01:41:27,549 - #14 =
+INFO  01:41:27,549 - #9 s
+INFO  01:41:27,549 - #36 +
+INFO  01:41:27,549 - #9 a
+INFO  01:41:27,551 - #7 [
+INFO  01:41:27,551 - #9 i
+INFO  01:41:27,551 - #8 ]
+INFO  01:41:27,551 - #6 ;
+INFO  01:41:27,551 - #23 return
+INFO  01:41:27,553 - #9 s
+INFO  01:41:27,554 - #6 ;
+INFO  01:41:27,554 - #4 }
+INFO  01:41:27,554 - #9 bool
+INFO  01:41:27,555 - #9 probe
+INFO  01:41:27,555 - #16 (
+INFO  01:41:27,555 - #17 )
+INFO  01:41:27,556 - #3 {
+INFO  01:41:27,556 - #25 print
+INFO  01:41:27,556 - #16 (
+INFO  01:41:27,557 - #11 p
+INFO  01:41:27,557 - #17 )
+INFO  01:41:27,557 - #6 ;
+INFO  01:41:27,557 - #23 return
+INFO  01:41:27,557 - #12 0
+INFO  01:41:27,557 - #6 ;
+INFO  01:41:27,557 - #4 }
+INFO  01:41:27,557 - #9 int
+INFO  01:41:27,557 - #9 classify
+INFO  01:41:27,557 - #16 (
+INFO  01:41:27,557 - #9 int
+INFO  01:41:27,557 - #9 x
+INFO  01:41:27,559 - #17 )
+INFO  01:41:27,559 - #3 {
+INFO  01:41:27,559 - #19 if
+INFO  01:41:27,559 - #16 (
+INFO  01:41:27,559 - #9 x
+INFO  01:41:27,561 - #44 <
+INFO  01:41:27,561 - #10 0
+INFO  01:41:27,561 - #17 )
+INFO  01:41:27,561 - #23 return
+INFO  01:41:27,562 - #35 -
+INFO  01:41:27,563 - #10 1
+INFO  01:41:27,563 - #6 ;
+INFO  01:41:27,563 - #20 else
+INFO  01:41:27,564 - #19 if
+INFO  01:41:27,564 - #16 (
+INFO  01:41:27,564 - #9 x
+INFO  01:41:27,564 - #40 ==
+INFO  01:41:27,564 - #10 0
+INFO  01:41:27,565 - #17 )
+INFO  01:41:27,565 - #23 return
+INFO  01:41:27,566 - #10 0
+INFO  01:41:27,566 - #6 ;
+INFO  01:41:27,566 - #20 else
+INFO  01:41:27,566 - #23 return
+INFO  01:41:27,566 - #10 1
+INFO  01:41:27,566 - #6 ;
+INFO  01:41:27,566 - #4 }
+INFO  01:41:27,567 - #18 void
+INFO  01:41:27,567 - #9 main
+INFO  01:41:27,567 - #16 (
+INFO  01:41:27,567 - #17 )
+INFO  01:41:27,567 - #9 int
+INFO  01:41:27,568 - #9 x
+INFO  01:41:27,568 - #5 ,
+INFO  01:41:27,568 - #9 y
+INFO  01:41:27,568 - #5 ,
+INFO  01:41:27,568 - #9 z
+INFO  01:41:27,568 - #6 ;
+INFO  01:41:27,568 - #3 {
+INFO  01:41:27,568 - #9 nums
+INFO  01:41:27,568 - #14 =
+INFO  01:41:27,568 - #47 new
+INFO  01:41:27,568 - #9 int
+INFO  01:41:27,568 - #7 [
+INFO  01:41:27,568 - #9 LIMIT
+INFO  01:41:27,569 - #8 ]
+INFO  01:41:27,569 - #6 ;
+INFO  01:41:27,569 - #26 for
+INFO  01:41:27,570 - #16 (
+INFO  01:41:27,570 - #9 i
+INFO  01:41:27,570 - #14 =
+INFO  01:41:27,570 - #10 0
+INFO  01:41:27,570 - #6 ;
+INFO  01:41:27,570 - #9 i
+INFO  01:41:27,570 - #44 <
+INFO  01:41:27,570 - #9 nums
+INFO  01:41:27,570 - #46 .
+INFO  01:41:27,571 - #48 length
+INFO  01:41:27,571 - #6 ;
+INFO  01:41:27,572 - #9 i
+INFO  01:41:27,572 - #30 ++
+INFO  01:41:27,572 - #17 )
+INFO  01:41:27,573 - #9 nums
+INFO  01:41:27,573 - #7 [
+INFO  01:41:27,573 - #9 i
+INFO  01:41:27,573 - #8 ]
+INFO  01:41:27,573 - #14 =
+INFO  01:41:27,573 - #9 i
+INFO  01:41:27,573 - #36 +
+INFO  01:41:27,573 - #10 1
+INFO  01:41:27,573 - #6 ;
+INFO  01:41:27,573 - #25 print
+INFO  01:41:27,574 - #16 (
+INFO  01:41:27,574 - #9 sumPrefix
+INFO  01:41:27,574 - #16 (
+INFO  01:41:27,574 - #9 nums
+INFO  01:41:27,574 - #5 ,
+INFO  01:41:27,574 - #9 nums
+INFO  01:41:27,574 - #46 .
+INFO  01:41:27,575 - #48 length
+INFO  01:41:27,575 - #17 )
+INFO  01:41:27,576 - #17 )
+INFO  01:41:27,576 - #6 ;
+INFO  01:41:27,576 - #25 print
+INFO  01:41:27,578 - #16 (
+INFO  01:41:27,578 - #9 eol
+INFO  01:41:27,578 - #17 )
+INFO  01:41:27,578 - #6 ;
+INFO  01:41:27,578 - #9 flag
+INFO  01:41:27,578 - #14 =
+INFO  01:41:27,578 - #12 0
+INFO  01:41:27,578 - #6 ;
+INFO  01:41:27,578 - #26 for
+INFO  01:41:27,578 - #16 (
+INFO  01:41:27,578 - #9 i
+INFO  01:41:27,578 - #14 =
+INFO  01:41:27,578 - #10 0
+INFO  01:41:27,579 - #6 ;
+INFO  01:41:27,579 - #9 i
+INFO  01:41:27,579 - #44 <
+INFO  01:41:27,579 - #10 10
+INFO  01:41:27,579 - #6 ;
+INFO  01:41:27,579 - #9 i
+INFO  01:41:27,579 - #30 ++
+INFO  01:41:27,579 - #17 )
+INFO  01:41:27,579 - #3 {
+INFO  01:41:27,579 - #19 if
+INFO  01:41:27,579 - #16 (
+INFO  01:41:27,579 - #9 i
+INFO  01:41:27,579 - #40 ==
+INFO  01:41:27,579 - #10 2
+INFO  01:41:27,580 - #17 )
+INFO  01:41:27,580 - #22 continue
+INFO  01:41:27,580 - #6 ;
+INFO  01:41:27,580 - #19 if
+INFO  01:41:27,581 - #16 (
+INFO  01:41:27,581 - #9 i
+INFO  01:41:27,582 - #40 ==
+INFO  01:41:27,582 - #10 5
+INFO  01:41:27,582 - #17 )
+INFO  01:41:27,582 - #21 break
+INFO  01:41:27,582 - #6 ;
+INFO  01:41:27,582 - #19 if
+INFO  01:41:27,583 - #16 (
+INFO  01:41:27,583 - #9 i
+INFO  01:41:27,583 - #40 ==
+INFO  01:41:27,584 - #10 3
+INFO  01:41:27,584 - #17 )
+INFO  01:41:27,584 - #9 flag
+INFO  01:41:27,584 - #14 =
+INFO  01:41:27,584 - #12 1
+INFO  01:41:27,584 - #6 ;
+INFO  01:41:27,584 - #25 print
+INFO  01:41:27,584 - #16 (
+INFO  01:41:27,584 - #9 i
+INFO  01:41:27,584 - #17 )
+INFO  01:41:27,584 - #6 ;
+INFO  01:41:27,584 - #4 }
+INFO  01:41:27,584 - #25 print
+INFO  01:41:27,585 - #16 (
+INFO  01:41:27,585 - #9 eol
+INFO  01:41:27,585 - #17 )
+INFO  01:41:27,585 - #6 ;
+INFO  01:41:27,585 - #19 if
+INFO  01:41:27,585 - #16 (
+INFO  01:41:27,585 - #9 flag
+INFO  01:41:27,585 - #17 )
+INFO  01:41:27,586 - #25 print
+INFO  01:41:27,586 - #16 (
+INFO  01:41:27,586 - #10 1
+INFO  01:41:27,586 - #17 )
+INFO  01:41:27,586 - #6 ;
+INFO  01:41:27,586 - #20 else
+INFO  01:41:27,587 - #25 print
+INFO  01:41:27,587 - #16 (
+INFO  01:41:27,587 - #10 0
+INFO  01:41:27,587 - #17 )
+INFO  01:41:27,587 - #6 ;
+INFO  01:41:27,587 - #25 print
+INFO  01:41:27,587 - #16 (
+INFO  01:41:27,587 - #9 eol
+INFO  01:41:27,587 - #17 )
+INFO  01:41:27,587 - #6 ;
+INFO  01:41:27,587 - #24 read
+INFO  01:41:27,587 - #16 (
+INFO  01:41:27,587 - #9 x
+INFO  01:41:27,587 - #17 )
+INFO  01:41:27,588 - #6 ;
+INFO  01:41:27,588 - #24 read
+INFO  01:41:27,588 - #16 (
+INFO  01:41:27,588 - #9 y
+INFO  01:41:27,588 - #17 )
+INFO  01:41:27,588 - #6 ;
+INFO  01:41:27,588 - #24 read
+INFO  01:41:27,588 - #16 (
+INFO  01:41:27,588 - #9 z
+INFO  01:41:27,588 - #17 )
+INFO  01:41:27,588 - #6 ;
+INFO  01:41:27,588 - #19 if
+INFO  01:41:27,588 - #16 (
+INFO  01:41:27,588 - #9 x
+INFO  01:41:27,589 - #42 >
+INFO  01:41:27,589 - #9 y
+INFO  01:41:27,590 - #33 &&
+INFO  01:41:27,590 - #9 y
+INFO  01:41:27,591 - #42 >
+INFO  01:41:27,591 - #9 z
+INFO  01:41:27,591 - #17 )
+INFO  01:41:27,591 - #25 print
+INFO  01:41:27,591 - #16 (
+INFO  01:41:27,591 - #10 111
+INFO  01:41:27,591 - #17 )
+INFO  01:41:27,592 - #6 ;
+INFO  01:41:27,592 - #20 else
+INFO  01:41:27,592 - #25 print
+INFO  01:41:27,592 - #16 (
+INFO  01:41:27,592 - #10 222
+INFO  01:41:27,592 - #17 )
+INFO  01:41:27,592 - #6 ;
+INFO  01:41:27,592 - #25 print
+INFO  01:41:27,592 - #16 (
+INFO  01:41:27,592 - #9 eol
+INFO  01:41:27,592 - #17 )
+INFO  01:41:27,592 - #6 ;
+INFO  01:41:27,592 - #19 if
+INFO  01:41:27,592 - #16 (
+INFO  01:41:27,592 - #9 x
+INFO  01:41:27,592 - #40 ==
+INFO  01:41:27,592 - #10 1
+INFO  01:41:27,592 - #32 ||
+INFO  01:41:27,592 - #9 probe
+INFO  01:41:27,592 - #16 (
+INFO  01:41:27,592 - #17 )
+INFO  01:41:27,592 - #17 )
+INFO  01:41:27,594 - #25 print
+INFO  01:41:27,594 - #16 (
+INFO  01:41:27,594 - #10 10
+INFO  01:41:27,594 - #17 )
+INFO  01:41:27,594 - #6 ;
+INFO  01:41:27,594 - #20 else
+INFO  01:41:27,594 - #25 print
+INFO  01:41:27,594 - #16 (
+INFO  01:41:27,594 - #10 20
+INFO  01:41:27,594 - #17 )
+INFO  01:41:27,594 - #6 ;
+INFO  01:41:27,595 - #25 print
+INFO  01:41:27,595 - #16 (
+INFO  01:41:27,595 - #9 eol
+INFO  01:41:27,595 - #17 )
+INFO  01:41:27,595 - #6 ;
+INFO  01:41:27,595 - #19 if
+INFO  01:41:27,595 - #16 (
+INFO  01:41:27,595 - #9 x
+INFO  01:41:27,595 - #40 ==
+INFO  01:41:27,595 - #10 2
+INFO  01:41:27,595 - #33 &&
+INFO  01:41:27,595 - #9 probe
+INFO  01:41:27,595 - #16 (
+INFO  01:41:27,595 - #17 )
+INFO  01:41:27,595 - #17 )
+INFO  01:41:27,595 - #25 print
+INFO  01:41:27,596 - #16 (
+INFO  01:41:27,596 - #10 30
+INFO  01:41:27,596 - #17 )
+INFO  01:41:27,596 - #6 ;
+INFO  01:41:27,596 - #20 else
+INFO  01:41:27,596 - #25 print
+INFO  01:41:27,596 - #16 (
+INFO  01:41:27,596 - #10 40
+INFO  01:41:27,596 - #17 )
+INFO  01:41:27,596 - #6 ;
+INFO  01:41:27,596 - #25 print
+INFO  01:41:27,596 - #16 (
+INFO  01:41:27,596 - #9 eol
+INFO  01:41:27,596 - #17 )
+INFO  01:41:27,596 - #6 ;
+INFO  01:41:27,596 - #25 print
+INFO  01:41:27,596 - #16 (
+INFO  01:41:27,596 - #9 classify
+INFO  01:41:27,597 - #16 (
+INFO  01:41:27,597 - #9 z
+INFO  01:41:27,597 - #17 )
+INFO  01:41:27,597 - #17 )
+INFO  01:41:27,597 - #6 ;
+INFO  01:41:27,597 - #25 print
+INFO  01:41:27,597 - #16 (
+INFO  01:41:27,597 - #9 eol
+INFO  01:41:27,597 - #17 )
+INFO  01:41:27,597 - #6 ;
+INFO  01:41:27,597 - #27 switch
+INFO  01:41:27,597 - #16 (
+INFO  01:41:27,597 - #9 x
+INFO  01:41:27,597 - #17 )
+INFO  01:41:27,597 - #3 {
+INFO  01:41:27,597 - #28 case
+INFO  01:41:27,599 - #10 0
+INFO  01:41:27,599 - #29 :
+INFO  01:41:27,599 - #25 print
+INFO  01:41:27,600 - #16 (
+INFO  01:41:27,600 - #10 0
+INFO  01:41:27,600 - #17 )
+INFO  01:41:27,600 - #6 ;
+INFO  01:41:27,600 - #21 break
+INFO  01:41:27,600 - #6 ;
+INFO  01:41:27,600 - #28 case
+INFO  01:41:27,602 - #10 1
+INFO  01:41:27,602 - #29 :
+INFO  01:41:27,602 - #25 print
+INFO  01:41:27,602 - #16 (
+INFO  01:41:27,603 - #10 1
+INFO  01:41:27,603 - #17 )
+INFO  01:41:27,603 - #6 ;
+INFO  01:41:27,603 - #21 break
+INFO  01:41:27,603 - #6 ;
+INFO  01:41:27,603 - #28 case
+INFO  01:41:27,603 - #10 2
+INFO  01:41:27,603 - #29 :
+INFO  01:41:27,603 - #25 print
+INFO  01:41:27,603 - #16 (
+INFO  01:41:27,603 - #10 2
+INFO  01:41:27,603 - #17 )
+INFO  01:41:27,603 - #6 ;
+INFO  01:41:27,603 - #28 case
+INFO  01:41:27,603 - #10 3
+INFO  01:41:27,603 - #29 :
+INFO  01:41:27,603 - #25 print
+INFO  01:41:27,603 - #16 (
+INFO  01:41:27,603 - #10 3
+INFO  01:41:27,605 - #17 )
+INFO  01:41:27,605 - #6 ;
+INFO  01:41:27,605 - #21 break
+INFO  01:41:27,605 - #6 ;
+INFO  01:41:27,605 - #28 case
+INFO  01:41:27,605 - #10 4
+INFO  01:41:27,605 - #29 :
+INFO  01:41:27,605 - #25 print
+INFO  01:41:27,605 - #16 (
+INFO  01:41:27,605 - #10 4
+INFO  01:41:27,605 - #17 )
+INFO  01:41:27,605 - #6 ;
+INFO  01:41:27,605 - #21 break
+INFO  01:41:27,605 - #6 ;
+INFO  01:41:27,605 - #28 case
+INFO  01:41:27,605 - #10 5
+INFO  01:41:27,605 - #29 :
+INFO  01:41:27,605 - #25 print
+INFO  01:41:27,605 - #16 (
+INFO  01:41:27,605 - #10 5
+INFO  01:41:27,606 - #17 )
+INFO  01:41:27,606 - #6 ;
+INFO  01:41:27,606 - #21 break
+INFO  01:41:27,606 - #6 ;
+INFO  01:41:27,606 - #4 }
+INFO  01:41:27,607 - #25 print
+INFO  01:41:27,607 - #16 (
+INFO  01:41:27,607 - #9 eol
+INFO  01:41:27,607 - #17 )
+INFO  01:41:27,607 - #6 ;
+INFO  01:41:27,607 - #26 for
+INFO  01:41:27,607 - #16 (
+INFO  01:41:27,608 - #9 i
+INFO  01:41:27,608 - #14 =
+INFO  01:41:27,608 - #10 0
+INFO  01:41:27,608 - #6 ;
+INFO  01:41:27,608 - #9 i
+INFO  01:41:27,608 - #44 <
+INFO  01:41:27,608 - #10 6
+INFO  01:41:27,608 - #6 ;
+INFO  01:41:27,608 - #9 i
+INFO  01:41:27,608 - #30 ++
+INFO  01:41:27,608 - #17 )
+INFO  01:41:27,608 - #3 {
+INFO  01:41:27,608 - #27 switch
+INFO  01:41:27,608 - #16 (
+INFO  01:41:27,608 - #9 i
+INFO  01:41:27,608 - #17 )
+INFO  01:41:27,608 - #3 {
+INFO  01:41:27,608 - #28 case
+INFO  01:41:27,608 - #10 0
+INFO  01:41:27,608 - #29 :
+INFO  01:41:27,608 - #25 print
+INFO  01:41:27,609 - #16 (
+INFO  01:41:27,609 - #10 0
+INFO  01:41:27,609 - #17 )
+INFO  01:41:27,609 - #6 ;
+INFO  01:41:27,609 - #21 break
+INFO  01:41:27,609 - #6 ;
+INFO  01:41:27,609 - #28 case
+INFO  01:41:27,609 - #10 1
+INFO  01:41:27,609 - #29 :
+INFO  01:41:27,609 - #25 print
+INFO  01:41:27,609 - #16 (
+INFO  01:41:27,609 - #10 1
+INFO  01:41:27,609 - #17 )
+INFO  01:41:27,609 - #6 ;
+INFO  01:41:27,609 - #22 continue
+INFO  01:41:27,609 - #6 ;
+INFO  01:41:27,609 - #28 case
+INFO  01:41:27,609 - #10 2
+INFO  01:41:27,609 - #29 :
+INFO  01:41:27,609 - #25 print
+INFO  01:41:27,609 - #16 (
+INFO  01:41:27,610 - #10 2
+INFO  01:41:27,610 - #17 )
+INFO  01:41:27,610 - #6 ;
+INFO  01:41:27,610 - #28 case
+INFO  01:41:27,610 - #10 3
+INFO  01:41:27,610 - #29 :
+INFO  01:41:27,610 - #25 print
+INFO  01:41:27,610 - #16 (
+INFO  01:41:27,610 - #10 3
+INFO  01:41:27,610 - #17 )
+INFO  01:41:27,610 - #6 ;
+INFO  01:41:27,611 - #21 break
+INFO  01:41:27,611 - #6 ;
+INFO  01:41:27,611 - #28 case
+INFO  01:41:27,611 - #10 4
+INFO  01:41:27,611 - #29 :
+INFO  01:41:27,611 - #25 print
+INFO  01:41:27,611 - #16 (
+INFO  01:41:27,611 - #10 4
+INFO  01:41:27,611 - #17 )
+INFO  01:41:27,611 - #6 ;
+INFO  01:41:27,611 - #21 break
+INFO  01:41:27,611 - #6 ;
+INFO  01:41:27,611 - #28 case
+INFO  01:41:27,611 - #10 5
+INFO  01:41:27,611 - #29 :
+INFO  01:41:27,611 - #25 print
+INFO  01:41:27,611 - #16 (
+INFO  01:41:27,611 - #10 5
+INFO  01:41:27,611 - #17 )
+INFO  01:41:27,611 - #6 ;
+INFO  01:41:27,611 - #4 }
+INFO  01:41:27,611 - #25 print
+INFO  01:41:27,611 - #16 (
+INFO  01:41:27,611 - #9 eol
+INFO  01:41:27,611 - #17 )
+INFO  01:41:27,611 - #6 ;
+INFO  01:41:27,611 - #4 }
+INFO  01:41:27,611 - #25 print
+INFO  01:41:27,611 - #16 (
+INFO  01:41:27,611 - #9 x
+INFO  01:41:27,611 - #44 <
+INFO  01:41:27,611 - #9 y
+INFO  01:41:27,611 - #34 ?
+INFO  01:41:27,611 - #9 x
+INFO  01:41:27,613 - #29 :
+INFO  01:41:27,613 - #9 y
+INFO  01:41:27,615 - #17 )
+INFO  01:41:27,617 - #6 ;
+INFO  01:41:27,617 - #25 print
+INFO  01:41:27,617 - #16 (
+INFO  01:41:27,617 - #9 eol
+INFO  01:41:27,617 - #17 )
+INFO  01:41:27,617 - #6 ;
+INFO  01:41:27,617 - #4 }
+INFO  01:41:27,617 - #4 }
+INFO  01:41:27,634 - Program(
+  ProgramName(
+   LargeB
+  ) [ProgramName]
+  ConVarEnumDecList_var(
+    ConVarEnumDecList_var(
+      ConVarEnumDecList_var(
+        ConVarEnumDecList_con(
+          ConVarEnumDecList_con(
+            ConVarEnumDecList_con(
+              ConVarEnumDecList_e(
+              ) [ConVarEnumDecList_e]
+              ConDecList(
+                Type(
+                 int
+                ) [Type]
+                ConDecl(
+                 LIMIT
+                  Constant_n(
+                   6
+                  ) [Constant_n]
+                ) [ConDecl]
+                ConDeclMore_e(
+                ) [ConDeclMore_e]
+              ) [ConDecList]
+            ) [ConVarEnumDecList_con]
+            ConDecList(
+              Type(
+               bool
+              ) [Type]
+              ConDecl(
+               T
+                Constant_b(
+                 1
+                ) [Constant_b]
+              ) [ConDecl]
+              ConDeclMore_e(
+              ) [ConDeclMore_e]
+            ) [ConDecList]
+          ) [ConVarEnumDecList_con]
+          ConDecList(
+            Type(
+             bool
+            ) [Type]
+            ConDecl(
+             F
+              Constant_b(
+               0
+              ) [Constant_b]
+            ) [ConDecl]
+            ConDeclMore_e(
+            ) [ConDeclMore_e]
+          ) [ConDecList]
+        ) [ConVarEnumDecList_con]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarIdentList_one(
+            VarIdent_more(
+             nums
+            ) [VarIdent_more]
+          ) [VarIdentList_one]
+        ) [VarDeclList]
+      ) [ConVarEnumDecList_var]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarIdentList_one(
+          VarIdent_1(
+           i
+          ) [VarIdent_1]
+        ) [VarIdentList_one]
+      ) [VarDeclList]
+    ) [ConVarEnumDecList_var]
+    VarDeclList(
+      Type(
+       bool
+      ) [Type]
+      VarIdentList_one(
+        VarIdent_1(
+         flag
+        ) [VarIdent_1]
+      ) [VarIdentList_one]
+    ) [VarDeclList]
+  ) [ConVarEnumDecList_var]
+  MethodDeclList_list(
+    MethodDeclList_list(
+      MethodDeclList_list(
+        MethodDeclList_list(
+          MethodDeclList_e(
+          ) [MethodDeclList_e]
+          MethodDecl(
+            MethRetAndName_type(
+              Type(
+               int
+              ) [Type]
+             sumPrefix
+            ) [MethRetAndName_type]
+            FormParList_form(
+              FormPar_array(
+                Type(
+                 int
+                ) [Type]
+               a
+              ) [FormPar_array]
+              FormParMore_more(
+                FormPar_var(
+                  Type(
+                   int
+                  ) [Type]
+                 n
+                ) [FormPar_var]
+                FormParMore_e(
+                ) [FormParMore_e]
+              ) [FormParMore_more]
+            ) [FormParList_form]
+            VarDeclListPom_pom(
+              VarDeclListPom_e(
+              ) [VarDeclListPom_e]
+              VarDeclList(
+                Type(
+                 int
+                ) [Type]
+                VarIdentList_more(
+                  VarIdentList_one(
+                    VarIdent_1(
+                     i
+                    ) [VarIdent_1]
+                  ) [VarIdentList_one]
+                  VarIdent_1(
+                   s
+                  ) [VarIdent_1]
+                ) [VarIdentList_more]
+              ) [VarDeclList]
+            ) [VarDeclListPom_pom]
+            StatementList_stat(
+              StatementList_stat(
+                StatementList_stat(
+                  StatementList_e(
+                  ) [StatementList_e]
+                  Stmt_simple(
+                    Stmt_designator(
+                      DesStmt_assign(
+                        Designator_var(
+                         s
+                        ) [Designator_var]
+                        Assignop_eq(
+                        ) [Assignop_eq]
+                        Expr_basic(
+                          ExprBasic_main(
+                            AddopTermList_term(
+                              Term(
+                                MulopFactorList_factor(
+                                  Factor(
+                                    Pom_e(
+                                    ) [Pom_e]
+                                    Factor_num(
+                                     0
+                                    ) [Factor_num]
+                                  ) [Factor]
+                                ) [MulopFactorList_factor]
+                              ) [Term]
+                            ) [AddopTermList_term]
+                          ) [ExprBasic_main]
+                        ) [Expr_basic]
+                      ) [DesStmt_assign]
+                    ) [Stmt_designator]
+                  ) [Stmt_simple]
+                ) [StatementList_stat]
+                Stmt_simple(
+                  Stmt_for(
+                    ForInit_stmt(
+                      DesStmt_assign(
+                        Designator_var(
+                         i
+                        ) [Designator_var]
+                        Assignop_eq(
+                        ) [Assignop_eq]
+                        Expr_basic(
+                          ExprBasic_main(
+                            AddopTermList_term(
+                              Term(
+                                MulopFactorList_factor(
+                                  Factor(
+                                    Pom_e(
+                                    ) [Pom_e]
+                                    Factor_num(
+                                     0
+                                    ) [Factor_num]
+                                  ) [Factor]
+                                ) [MulopFactorList_factor]
+                              ) [Term]
+                            ) [AddopTermList_term]
+                          ) [ExprBasic_main]
+                        ) [Expr_basic]
+                      ) [DesStmt_assign]
+                    ) [ForInit_stmt]
+                    ForCondBegin(
+                    ) [ForCondBegin]
+                    ForCond_cond(
+                      Condition_ct(
+                        CondTerm_cf(
+                          CondFact_main(
+                            ExprBasic_main(
+                              AddopTermList_term(
+                                Term(
+                                  MulopFactorList_factor(
+                                    Factor(
+                                      Pom_e(
+                                      ) [Pom_e]
+                                      Factor_design(
+                                        Designator_var(
+                                         i
+                                        ) [Designator_var]
+                                        FactorOpt_e(
+                                        ) [FactorOpt_e]
+                                      ) [Factor_design]
+                                    ) [Factor]
+                                  ) [MulopFactorList_factor]
+                                ) [Term]
+                              ) [AddopTermList_term]
+                            ) [ExprBasic_main]
+                            CondFactRelOpt_rel(
+                              Relop_lt(
+                              ) [Relop_lt]
+                              ExprBasic_main(
+                                AddopTermList_term(
+                                  Term(
+                                    MulopFactorList_factor(
+                                      Factor(
+                                        Pom_e(
+                                        ) [Pom_e]
+                                        Factor_design(
+                                          Designator_var(
+                                           n
+                                          ) [Designator_var]
+                                          FactorOpt_e(
+                                          ) [FactorOpt_e]
+                                        ) [Factor_design]
+                                      ) [Factor]
+                                    ) [MulopFactorList_factor]
+                                  ) [Term]
+                                ) [AddopTermList_term]
+                              ) [ExprBasic_main]
+                            ) [CondFactRelOpt_rel]
+                          ) [CondFact_main]
+                        ) [CondTerm_cf]
+                      ) [Condition_ct]
+                    ) [ForCond_cond]
+                    ForStep_stmt(
+                      DesStmt_inc(
+                        Designator_var(
+                         i
+                        ) [Designator_var]
+                      ) [DesStmt_inc]
+                    ) [ForStep_stmt]
+                    ForBegin(
+                    ) [ForBegin]
+                    Stmt_simple(
+                      Stmt_designator(
+                        DesStmt_assign(
+                          Designator_var(
+                           s
+                          ) [Designator_var]
+                          Assignop_eq(
+                          ) [Assignop_eq]
+                          Expr_basic(
+                            ExprBasic_main(
+                              AddopTermList_add(
+                                AddopTermList_term(
+                                  Term(
+                                    MulopFactorList_factor(
+                                      Factor(
+                                        Pom_e(
+                                        ) [Pom_e]
+                                        Factor_design(
+                                          Designator_var(
+                                           s
+                                          ) [Designator_var]
+                                          FactorOpt_e(
+                                          ) [FactorOpt_e]
+                                        ) [Factor_design]
+                                      ) [Factor]
+                                    ) [MulopFactorList_factor]
+                                  ) [Term]
+                                ) [AddopTermList_term]
+                                Addop_plus(
+                                ) [Addop_plus]
+                                Term(
+                                  MulopFactorList_factor(
+                                    Factor(
+                                      Pom_e(
+                                      ) [Pom_e]
+                                      Factor_design(
+                                        Designator_elem(
+                                          DesignatorArrayName(
+                                           a
+                                          ) [DesignatorArrayName]
+                                          Expr_basic(
+                                            ExprBasic_main(
+                                              AddopTermList_term(
+                                                Term(
+                                                  MulopFactorList_factor(
+                                                    Factor(
+                                                      Pom_e(
+                                                      ) [Pom_e]
+                                                      Factor_design(
+                                                        Designator_var(
+                                                         i
+                                                        ) [Designator_var]
+                                                        FactorOpt_e(
+                                                        ) [FactorOpt_e]
+                                                      ) [Factor_design]
+                                                    ) [Factor]
+                                                  ) [MulopFactorList_factor]
+                                                ) [Term]
+                                              ) [AddopTermList_term]
+                                            ) [ExprBasic_main]
+                                          ) [Expr_basic]
+                                        ) [Designator_elem]
+                                        FactorOpt_e(
+                                        ) [FactorOpt_e]
+                                      ) [Factor_design]
+                                    ) [Factor]
+                                  ) [MulopFactorList_factor]
+                                ) [Term]
+                              ) [AddopTermList_add]
+                            ) [ExprBasic_main]
+                          ) [Expr_basic]
+                        ) [DesStmt_assign]
+                      ) [Stmt_designator]
+                    ) [Stmt_simple]
+                    ForEnd(
+                    ) [ForEnd]
+                  ) [Stmt_for]
+                ) [Stmt_simple]
+              ) [StatementList_stat]
+              Stmt_simple(
+                Stmt_return_expr(
+                  Expr_basic(
+                    ExprBasic_main(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Pom_e(
+                              ) [Pom_e]
+                              Factor_design(
+                                Designator_var(
+                                 s
+                                ) [Designator_var]
+                                FactorOpt_e(
+                                ) [FactorOpt_e]
+                              ) [Factor_design]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprBasic_main]
+                  ) [Expr_basic]
+                ) [Stmt_return_expr]
+              ) [Stmt_simple]
+            ) [StatementList_stat]
+          ) [MethodDecl]
+        ) [MethodDeclList_list]
+        MethodDecl(
+          MethRetAndName_type(
+            Type(
+             bool
+            ) [Type]
+           probe
+          ) [MethRetAndName_type]
+          FormParList_e(
+          ) [FormParList_e]
+          VarDeclListPom_e(
+          ) [VarDeclListPom_e]
+          StatementList_stat(
+            StatementList_stat(
+              StatementList_e(
+              ) [StatementList_e]
+              Stmt_simple(
+                Stmt_print(
+                  Expr_basic(
+                    ExprBasic_main(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Pom_e(
+                              ) [Pom_e]
+                              Factor_char(
+                               p
+                              ) [Factor_char]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprBasic_main]
+                  ) [Expr_basic]
+                ) [Stmt_print]
+              ) [Stmt_simple]
+            ) [StatementList_stat]
+            Stmt_simple(
+              Stmt_return_expr(
+                Expr_basic(
+                  ExprBasic_main(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_bool(
+                             0
+                            ) [Factor_bool]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprBasic_main]
+                ) [Expr_basic]
+              ) [Stmt_return_expr]
+            ) [Stmt_simple]
+          ) [StatementList_stat]
+        ) [MethodDecl]
+      ) [MethodDeclList_list]
+      MethodDecl(
+        MethRetAndName_type(
+          Type(
+           int
+          ) [Type]
+         classify
+        ) [MethRetAndName_type]
+        FormParList_form(
+          FormPar_var(
+            Type(
+             int
+            ) [Type]
+           x
+          ) [FormPar_var]
+          FormParMore_e(
+          ) [FormParMore_e]
+        ) [FormParList_form]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_stat(
+          StatementList_e(
+          ) [StatementList_e]
+          Stmt_simple(
+            StmtNoElse_if(
+              IfBegin(
+              ) [IfBegin]
+              Condition_ct(
+                CondTerm_cf(
+                  CondFact_main(
+                    ExprBasic_main(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Pom_e(
+                              ) [Pom_e]
+                              Factor_design(
+                                Designator_var(
+                                 x
+                                ) [Designator_var]
+                                FactorOpt_e(
+                                ) [FactorOpt_e]
+                              ) [Factor_design]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprBasic_main]
+                    CondFactRelOpt_rel(
+                      Relop_lt(
+                      ) [Relop_lt]
+                      ExprBasic_main(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factor(
+                              Factor(
+                                Pom_e(
+                                ) [Pom_e]
+                                Factor_num(
+                                 0
+                                ) [Factor_num]
+                              ) [Factor]
+                            ) [MulopFactorList_factor]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [ExprBasic_main]
+                    ) [CondFactRelOpt_rel]
+                  ) [CondFact_main]
+                ) [CondTerm_cf]
+              ) [Condition_ct]
+              IfAfterCond(
+              ) [IfAfterCond]
+              Stmt_simple(
+                Stmt_return_expr(
+                  Expr_basic(
+                    ExprBasic_main(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Pom_m(
+                              ) [Pom_m]
+                              Factor_num(
+                               1
+                              ) [Factor_num]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprBasic_main]
+                  ) [Expr_basic]
+                ) [Stmt_return_expr]
+              ) [Stmt_simple]
+              IfEnd(
+              ) [IfEnd]
+              StmtElse_simple(
+                Stmt_simple(
+                  StmtNoElse_if(
+                    IfBegin(
+                    ) [IfBegin]
+                    Condition_ct(
+                      CondTerm_cf(
+                        CondFact_main(
+                          ExprBasic_main(
+                            AddopTermList_term(
+                              Term(
+                                MulopFactorList_factor(
+                                  Factor(
+                                    Pom_e(
+                                    ) [Pom_e]
+                                    Factor_design(
+                                      Designator_var(
+                                       x
+                                      ) [Designator_var]
+                                      FactorOpt_e(
+                                      ) [FactorOpt_e]
+                                    ) [Factor_design]
+                                  ) [Factor]
+                                ) [MulopFactorList_factor]
+                              ) [Term]
+                            ) [AddopTermList_term]
+                          ) [ExprBasic_main]
+                          CondFactRelOpt_rel(
+                            Relop_eq(
+                            ) [Relop_eq]
+                            ExprBasic_main(
+                              AddopTermList_term(
+                                Term(
+                                  MulopFactorList_factor(
+                                    Factor(
+                                      Pom_e(
+                                      ) [Pom_e]
+                                      Factor_num(
+                                       0
+                                      ) [Factor_num]
+                                    ) [Factor]
+                                  ) [MulopFactorList_factor]
+                                ) [Term]
+                              ) [AddopTermList_term]
+                            ) [ExprBasic_main]
+                          ) [CondFactRelOpt_rel]
+                        ) [CondFact_main]
+                      ) [CondTerm_cf]
+                    ) [Condition_ct]
+                    IfAfterCond(
+                    ) [IfAfterCond]
+                    Stmt_simple(
+                      Stmt_return_expr(
+                        Expr_basic(
+                          ExprBasic_main(
+                            AddopTermList_term(
+                              Term(
+                                MulopFactorList_factor(
+                                  Factor(
+                                    Pom_e(
+                                    ) [Pom_e]
+                                    Factor_num(
+                                     0
+                                    ) [Factor_num]
+                                  ) [Factor]
+                                ) [MulopFactorList_factor]
+                              ) [Term]
+                            ) [AddopTermList_term]
+                          ) [ExprBasic_main]
+                        ) [Expr_basic]
+                      ) [Stmt_return_expr]
+                    ) [Stmt_simple]
+                    IfEnd(
+                    ) [IfEnd]
+                    StmtElse_simple(
+                      Stmt_simple(
+                        Stmt_return_expr(
+                          Expr_basic(
+                            ExprBasic_main(
+                              AddopTermList_term(
+                                Term(
+                                  MulopFactorList_factor(
+                                    Factor(
+                                      Pom_e(
+                                      ) [Pom_e]
+                                      Factor_num(
+                                       1
+                                      ) [Factor_num]
+                                    ) [Factor]
+                                  ) [MulopFactorList_factor]
+                                ) [Term]
+                              ) [AddopTermList_term]
+                            ) [ExprBasic_main]
+                          ) [Expr_basic]
+                        ) [Stmt_return_expr]
+                      ) [Stmt_simple]
+                    ) [StmtElse_simple]
+                  ) [StmtNoElse_if]
+                ) [Stmt_simple]
+              ) [StmtElse_simple]
+            ) [StmtNoElse_if]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+      ) [MethodDecl]
+    ) [MethodDeclList_list]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_pom(
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarIdentList_more(
+            VarIdentList_more(
+              VarIdentList_one(
+                VarIdent_1(
+                 x
+                ) [VarIdent_1]
+              ) [VarIdentList_one]
+              VarIdent_1(
+               y
+              ) [VarIdent_1]
+            ) [VarIdentList_more]
+            VarIdent_1(
+             z
+            ) [VarIdent_1]
+          ) [VarIdentList_more]
+        ) [VarDeclList]
+      ) [VarDeclListPom_pom]
+      StatementList_stat(
+        StatementList_stat(
+          StatementList_stat(
+            StatementList_stat(
+              StatementList_stat(
+                StatementList_stat(
+                  StatementList_stat(
+                    StatementList_stat(
+                      StatementList_stat(
+                        StatementList_stat(
+                          StatementList_stat(
+                            StatementList_stat(
+                              StatementList_stat(
+                                StatementList_stat(
+                                  StatementList_stat(
+                                    StatementList_stat(
+                                      StatementList_stat(
+                                        StatementList_stat(
+                                          StatementList_stat(
+                                            StatementList_stat(
+                                              StatementList_stat(
+                                                StatementList_stat(
+                                                  StatementList_stat(
+                                                    StatementList_stat(
+                                                      StatementList_stat(
+                                                        StatementList_e(
+                                                        ) [StatementList_e]
+                                                        Stmt_simple(
+                                                          Stmt_designator(
+                                                            DesStmt_assign(
+                                                              Designator_var(
+                                                               nums
+                                                              ) [Designator_var]
+                                                              Assignop_eq(
+                                                              ) [Assignop_eq]
+                                                              Expr_basic(
+                                                                ExprBasic_main(
+                                                                  AddopTermList_term(
+                                                                    Term(
+                                                                      MulopFactorList_factor(
+                                                                        Factor(
+                                                                          Pom_e(
+                                                                          ) [Pom_e]
+                                                                          Factor_new_arr(
+                                                                            Type(
+                                                                             int
+                                                                            ) [Type]
+                                                                            Expr_basic(
+                                                                              ExprBasic_main(
+                                                                                AddopTermList_term(
+                                                                                  Term(
+                                                                                    MulopFactorList_factor(
+                                                                                      Factor(
+                                                                                        Pom_e(
+                                                                                        ) [Pom_e]
+                                                                                        Factor_design(
+                                                                                          Designator_var(
+                                                                                           LIMIT
+                                                                                          ) [Designator_var]
+                                                                                          FactorOpt_e(
+                                                                                          ) [FactorOpt_e]
+                                                                                        ) [Factor_design]
+                                                                                      ) [Factor]
+                                                                                    ) [MulopFactorList_factor]
+                                                                                  ) [Term]
+                                                                                ) [AddopTermList_term]
+                                                                              ) [ExprBasic_main]
+                                                                            ) [Expr_basic]
+                                                                          ) [Factor_new_arr]
+                                                                        ) [Factor]
+                                                                      ) [MulopFactorList_factor]
+                                                                    ) [Term]
+                                                                  ) [AddopTermList_term]
+                                                                ) [ExprBasic_main]
+                                                              ) [Expr_basic]
+                                                            ) [DesStmt_assign]
+                                                          ) [Stmt_designator]
+                                                        ) [Stmt_simple]
+                                                      ) [StatementList_stat]
+                                                      Stmt_simple(
+                                                        Stmt_for(
+                                                          ForInit_stmt(
+                                                            DesStmt_assign(
+                                                              Designator_var(
+                                                               i
+                                                              ) [Designator_var]
+                                                              Assignop_eq(
+                                                              ) [Assignop_eq]
+                                                              Expr_basic(
+                                                                ExprBasic_main(
+                                                                  AddopTermList_term(
+                                                                    Term(
+                                                                      MulopFactorList_factor(
+                                                                        Factor(
+                                                                          Pom_e(
+                                                                          ) [Pom_e]
+                                                                          Factor_num(
+                                                                           0
+                                                                          ) [Factor_num]
+                                                                        ) [Factor]
+                                                                      ) [MulopFactorList_factor]
+                                                                    ) [Term]
+                                                                  ) [AddopTermList_term]
+                                                                ) [ExprBasic_main]
+                                                              ) [Expr_basic]
+                                                            ) [DesStmt_assign]
+                                                          ) [ForInit_stmt]
+                                                          ForCondBegin(
+                                                          ) [ForCondBegin]
+                                                          ForCond_cond(
+                                                            Condition_ct(
+                                                              CondTerm_cf(
+                                                                CondFact_main(
+                                                                  ExprBasic_main(
+                                                                    AddopTermList_term(
+                                                                      Term(
+                                                                        MulopFactorList_factor(
+                                                                          Factor(
+                                                                            Pom_e(
+                                                                            ) [Pom_e]
+                                                                            Factor_design(
+                                                                              Designator_var(
+                                                                               i
+                                                                              ) [Designator_var]
+                                                                              FactorOpt_e(
+                                                                              ) [FactorOpt_e]
+                                                                            ) [Factor_design]
+                                                                          ) [Factor]
+                                                                        ) [MulopFactorList_factor]
+                                                                      ) [Term]
+                                                                    ) [AddopTermList_term]
+                                                                  ) [ExprBasic_main]
+                                                                  CondFactRelOpt_rel(
+                                                                    Relop_lt(
+                                                                    ) [Relop_lt]
+                                                                    ExprBasic_main(
+                                                                      AddopTermList_term(
+                                                                        Term(
+                                                                          MulopFactorList_factor(
+                                                                            Factor(
+                                                                              Pom_e(
+                                                                              ) [Pom_e]
+                                                                              Factor_design(
+                                                                                Designator_pom(
+                                                                                  DesignatorName(
+                                                                                   nums
+                                                                                  ) [DesignatorName]
+                                                                                  DesignatorMore_length(
+                                                                                  ) [DesignatorMore_length]
+                                                                                ) [Designator_pom]
+                                                                                FactorOpt_e(
+                                                                                ) [FactorOpt_e]
+                                                                              ) [Factor_design]
+                                                                            ) [Factor]
+                                                                          ) [MulopFactorList_factor]
+                                                                        ) [Term]
+                                                                      ) [AddopTermList_term]
+                                                                    ) [ExprBasic_main]
+                                                                  ) [CondFactRelOpt_rel]
+                                                                ) [CondFact_main]
+                                                              ) [CondTerm_cf]
+                                                            ) [Condition_ct]
+                                                          ) [ForCond_cond]
+                                                          ForStep_stmt(
+                                                            DesStmt_inc(
+                                                              Designator_var(
+                                                               i
+                                                              ) [Designator_var]
+                                                            ) [DesStmt_inc]
+                                                          ) [ForStep_stmt]
+                                                          ForBegin(
+                                                          ) [ForBegin]
+                                                          Stmt_simple(
+                                                            Stmt_designator(
+                                                              DesStmt_assign(
+                                                                Designator_elem(
+                                                                  DesignatorArrayName(
+                                                                   nums
+                                                                  ) [DesignatorArrayName]
+                                                                  Expr_basic(
+                                                                    ExprBasic_main(
+                                                                      AddopTermList_term(
+                                                                        Term(
+                                                                          MulopFactorList_factor(
+                                                                            Factor(
+                                                                              Pom_e(
+                                                                              ) [Pom_e]
+                                                                              Factor_design(
+                                                                                Designator_var(
+                                                                                 i
+                                                                                ) [Designator_var]
+                                                                                FactorOpt_e(
+                                                                                ) [FactorOpt_e]
+                                                                              ) [Factor_design]
+                                                                            ) [Factor]
+                                                                          ) [MulopFactorList_factor]
+                                                                        ) [Term]
+                                                                      ) [AddopTermList_term]
+                                                                    ) [ExprBasic_main]
+                                                                  ) [Expr_basic]
+                                                                ) [Designator_elem]
+                                                                Assignop_eq(
+                                                                ) [Assignop_eq]
+                                                                Expr_basic(
+                                                                  ExprBasic_main(
+                                                                    AddopTermList_add(
+                                                                      AddopTermList_term(
+                                                                        Term(
+                                                                          MulopFactorList_factor(
+                                                                            Factor(
+                                                                              Pom_e(
+                                                                              ) [Pom_e]
+                                                                              Factor_design(
+                                                                                Designator_var(
+                                                                                 i
+                                                                                ) [Designator_var]
+                                                                                FactorOpt_e(
+                                                                                ) [FactorOpt_e]
+                                                                              ) [Factor_design]
+                                                                            ) [Factor]
+                                                                          ) [MulopFactorList_factor]
+                                                                        ) [Term]
+                                                                      ) [AddopTermList_term]
+                                                                      Addop_plus(
+                                                                      ) [Addop_plus]
+                                                                      Term(
+                                                                        MulopFactorList_factor(
+                                                                          Factor(
+                                                                            Pom_e(
+                                                                            ) [Pom_e]
+                                                                            Factor_num(
+                                                                             1
+                                                                            ) [Factor_num]
+                                                                          ) [Factor]
+                                                                        ) [MulopFactorList_factor]
+                                                                      ) [Term]
+                                                                    ) [AddopTermList_add]
+                                                                  ) [ExprBasic_main]
+                                                                ) [Expr_basic]
+                                                              ) [DesStmt_assign]
+                                                            ) [Stmt_designator]
+                                                          ) [Stmt_simple]
+                                                          ForEnd(
+                                                          ) [ForEnd]
+                                                        ) [Stmt_for]
+                                                      ) [Stmt_simple]
+                                                    ) [StatementList_stat]
+                                                    Stmt_simple(
+                                                      Stmt_print(
+                                                        Expr_basic(
+                                                          ExprBasic_main(
+                                                            AddopTermList_term(
+                                                              Term(
+                                                                MulopFactorList_factor(
+                                                                  Factor(
+                                                                    Pom_e(
+                                                                    ) [Pom_e]
+                                                                    Factor_design(
+                                                                      Designator_var(
+                                                                       sumPrefix
+                                                                      ) [Designator_var]
+                                                                      FactorOpt_call_args(
+                                                                        ActPars_one(
+                                                                          Expr_basic(
+                                                                            ExprBasic_main(
+                                                                              AddopTermList_term(
+                                                                                Term(
+                                                                                  MulopFactorList_factor(
+                                                                                    Factor(
+                                                                                      Pom_e(
+                                                                                      ) [Pom_e]
+                                                                                      Factor_design(
+                                                                                        Designator_var(
+                                                                                         nums
+                                                                                        ) [Designator_var]
+                                                                                        FactorOpt_e(
+                                                                                        ) [FactorOpt_e]
+                                                                                      ) [Factor_design]
+                                                                                    ) [Factor]
+                                                                                  ) [MulopFactorList_factor]
+                                                                                ) [Term]
+                                                                              ) [AddopTermList_term]
+                                                                            ) [ExprBasic_main]
+                                                                          ) [Expr_basic]
+                                                                          ActParsMore_comma(
+                                                                            Expr_basic(
+                                                                              ExprBasic_main(
+                                                                                AddopTermList_term(
+                                                                                  Term(
+                                                                                    MulopFactorList_factor(
+                                                                                      Factor(
+                                                                                        Pom_e(
+                                                                                        ) [Pom_e]
+                                                                                        Factor_design(
+                                                                                          Designator_pom(
+                                                                                            DesignatorName(
+                                                                                             nums
+                                                                                            ) [DesignatorName]
+                                                                                            DesignatorMore_length(
+                                                                                            ) [DesignatorMore_length]
+                                                                                          ) [Designator_pom]
+                                                                                          FactorOpt_e(
+                                                                                          ) [FactorOpt_e]
+                                                                                        ) [Factor_design]
+                                                                                      ) [Factor]
+                                                                                    ) [MulopFactorList_factor]
+                                                                                  ) [Term]
+                                                                                ) [AddopTermList_term]
+                                                                              ) [ExprBasic_main]
+                                                                            ) [Expr_basic]
+                                                                            ActParsMore_e(
+                                                                            ) [ActParsMore_e]
+                                                                          ) [ActParsMore_comma]
+                                                                        ) [ActPars_one]
+                                                                      ) [FactorOpt_call_args]
+                                                                    ) [Factor_design]
+                                                                  ) [Factor]
+                                                                ) [MulopFactorList_factor]
+                                                              ) [Term]
+                                                            ) [AddopTermList_term]
+                                                          ) [ExprBasic_main]
+                                                        ) [Expr_basic]
+                                                      ) [Stmt_print]
+                                                    ) [Stmt_simple]
+                                                  ) [StatementList_stat]
+                                                  Stmt_simple(
+                                                    Stmt_print(
+                                                      Expr_basic(
+                                                        ExprBasic_main(
+                                                          AddopTermList_term(
+                                                            Term(
+                                                              MulopFactorList_factor(
+                                                                Factor(
+                                                                  Pom_e(
+                                                                  ) [Pom_e]
+                                                                  Factor_design(
+                                                                    Designator_var(
+                                                                     eol
+                                                                    ) [Designator_var]
+                                                                    FactorOpt_e(
+                                                                    ) [FactorOpt_e]
+                                                                  ) [Factor_design]
+                                                                ) [Factor]
+                                                              ) [MulopFactorList_factor]
+                                                            ) [Term]
+                                                          ) [AddopTermList_term]
+                                                        ) [ExprBasic_main]
+                                                      ) [Expr_basic]
+                                                    ) [Stmt_print]
+                                                  ) [Stmt_simple]
+                                                ) [StatementList_stat]
+                                                Stmt_simple(
+                                                  Stmt_designator(
+                                                    DesStmt_assign(
+                                                      Designator_var(
+                                                       flag
+                                                      ) [Designator_var]
+                                                      Assignop_eq(
+                                                      ) [Assignop_eq]
+                                                      Expr_basic(
+                                                        ExprBasic_main(
+                                                          AddopTermList_term(
+                                                            Term(
+                                                              MulopFactorList_factor(
+                                                                Factor(
+                                                                  Pom_e(
+                                                                  ) [Pom_e]
+                                                                  Factor_bool(
+                                                                   0
+                                                                  ) [Factor_bool]
+                                                                ) [Factor]
+                                                              ) [MulopFactorList_factor]
+                                                            ) [Term]
+                                                          ) [AddopTermList_term]
+                                                        ) [ExprBasic_main]
+                                                      ) [Expr_basic]
+                                                    ) [DesStmt_assign]
+                                                  ) [Stmt_designator]
+                                                ) [Stmt_simple]
+                                              ) [StatementList_stat]
+                                              Stmt_simple(
+                                                Stmt_for(
+                                                  ForInit_stmt(
+                                                    DesStmt_assign(
+                                                      Designator_var(
+                                                       i
+                                                      ) [Designator_var]
+                                                      Assignop_eq(
+                                                      ) [Assignop_eq]
+                                                      Expr_basic(
+                                                        ExprBasic_main(
+                                                          AddopTermList_term(
+                                                            Term(
+                                                              MulopFactorList_factor(
+                                                                Factor(
+                                                                  Pom_e(
+                                                                  ) [Pom_e]
+                                                                  Factor_num(
+                                                                   0
+                                                                  ) [Factor_num]
+                                                                ) [Factor]
+                                                              ) [MulopFactorList_factor]
+                                                            ) [Term]
+                                                          ) [AddopTermList_term]
+                                                        ) [ExprBasic_main]
+                                                      ) [Expr_basic]
+                                                    ) [DesStmt_assign]
+                                                  ) [ForInit_stmt]
+                                                  ForCondBegin(
+                                                  ) [ForCondBegin]
+                                                  ForCond_cond(
+                                                    Condition_ct(
+                                                      CondTerm_cf(
+                                                        CondFact_main(
+                                                          ExprBasic_main(
+                                                            AddopTermList_term(
+                                                              Term(
+                                                                MulopFactorList_factor(
+                                                                  Factor(
+                                                                    Pom_e(
+                                                                    ) [Pom_e]
+                                                                    Factor_design(
+                                                                      Designator_var(
+                                                                       i
+                                                                      ) [Designator_var]
+                                                                      FactorOpt_e(
+                                                                      ) [FactorOpt_e]
+                                                                    ) [Factor_design]
+                                                                  ) [Factor]
+                                                                ) [MulopFactorList_factor]
+                                                              ) [Term]
+                                                            ) [AddopTermList_term]
+                                                          ) [ExprBasic_main]
+                                                          CondFactRelOpt_rel(
+                                                            Relop_lt(
+                                                            ) [Relop_lt]
+                                                            ExprBasic_main(
+                                                              AddopTermList_term(
+                                                                Term(
+                                                                  MulopFactorList_factor(
+                                                                    Factor(
+                                                                      Pom_e(
+                                                                      ) [Pom_e]
+                                                                      Factor_num(
+                                                                       10
+                                                                      ) [Factor_num]
+                                                                    ) [Factor]
+                                                                  ) [MulopFactorList_factor]
+                                                                ) [Term]
+                                                              ) [AddopTermList_term]
+                                                            ) [ExprBasic_main]
+                                                          ) [CondFactRelOpt_rel]
+                                                        ) [CondFact_main]
+                                                      ) [CondTerm_cf]
+                                                    ) [Condition_ct]
+                                                  ) [ForCond_cond]
+                                                  ForStep_stmt(
+                                                    DesStmt_inc(
+                                                      Designator_var(
+                                                       i
+                                                      ) [Designator_var]
+                                                    ) [DesStmt_inc]
+                                                  ) [ForStep_stmt]
+                                                  ForBegin(
+                                                  ) [ForBegin]
+                                                  Stmt_s(
+                                                    Stmt_block(
+                                                      StatementList_stat(
+                                                        StatementList_stat(
+                                                          StatementList_stat(
+                                                            StatementList_stat(
+                                                              StatementList_e(
+                                                              ) [StatementList_e]
+                                                              Stmt_simple(
+                                                                StmtNoElse_if(
+                                                                  IfBegin(
+                                                                  ) [IfBegin]
+                                                                  Condition_ct(
+                                                                    CondTerm_cf(
+                                                                      CondFact_main(
+                                                                        ExprBasic_main(
+                                                                          AddopTermList_term(
+                                                                            Term(
+                                                                              MulopFactorList_factor(
+                                                                                Factor(
+                                                                                  Pom_e(
+                                                                                  ) [Pom_e]
+                                                                                  Factor_design(
+                                                                                    Designator_var(
+                                                                                     i
+                                                                                    ) [Designator_var]
+                                                                                    FactorOpt_e(
+                                                                                    ) [FactorOpt_e]
+                                                                                  ) [Factor_design]
+                                                                                ) [Factor]
+                                                                              ) [MulopFactorList_factor]
+                                                                            ) [Term]
+                                                                          ) [AddopTermList_term]
+                                                                        ) [ExprBasic_main]
+                                                                        CondFactRelOpt_rel(
+                                                                          Relop_eq(
+                                                                          ) [Relop_eq]
+                                                                          ExprBasic_main(
+                                                                            AddopTermList_term(
+                                                                              Term(
+                                                                                MulopFactorList_factor(
+                                                                                  Factor(
+                                                                                    Pom_e(
+                                                                                    ) [Pom_e]
+                                                                                    Factor_num(
+                                                                                     2
+                                                                                    ) [Factor_num]
+                                                                                  ) [Factor]
+                                                                                ) [MulopFactorList_factor]
+                                                                              ) [Term]
+                                                                            ) [AddopTermList_term]
+                                                                          ) [ExprBasic_main]
+                                                                        ) [CondFactRelOpt_rel]
+                                                                      ) [CondFact_main]
+                                                                    ) [CondTerm_cf]
+                                                                  ) [Condition_ct]
+                                                                  IfAfterCond(
+                                                                  ) [IfAfterCond]
+                                                                  Stmt_simple(
+                                                                    Stmt_continue(
+                                                                    ) [Stmt_continue]
+                                                                  ) [Stmt_simple]
+                                                                  IfEnd(
+                                                                  ) [IfEnd]
+                                                                  StmtElse_e(
+                                                                  ) [StmtElse_e]
+                                                                ) [StmtNoElse_if]
+                                                              ) [Stmt_simple]
+                                                            ) [StatementList_stat]
+                                                            Stmt_simple(
+                                                              StmtNoElse_if(
+                                                                IfBegin(
+                                                                ) [IfBegin]
+                                                                Condition_ct(
+                                                                  CondTerm_cf(
+                                                                    CondFact_main(
+                                                                      ExprBasic_main(
+                                                                        AddopTermList_term(
+                                                                          Term(
+                                                                            MulopFactorList_factor(
+                                                                              Factor(
+                                                                                Pom_e(
+                                                                                ) [Pom_e]
+                                                                                Factor_design(
+                                                                                  Designator_var(
+                                                                                   i
+                                                                                  ) [Designator_var]
+                                                                                  FactorOpt_e(
+                                                                                  ) [FactorOpt_e]
+                                                                                ) [Factor_design]
+                                                                              ) [Factor]
+                                                                            ) [MulopFactorList_factor]
+                                                                          ) [Term]
+                                                                        ) [AddopTermList_term]
+                                                                      ) [ExprBasic_main]
+                                                                      CondFactRelOpt_rel(
+                                                                        Relop_eq(
+                                                                        ) [Relop_eq]
+                                                                        ExprBasic_main(
+                                                                          AddopTermList_term(
+                                                                            Term(
+                                                                              MulopFactorList_factor(
+                                                                                Factor(
+                                                                                  Pom_e(
+                                                                                  ) [Pom_e]
+                                                                                  Factor_num(
+                                                                                   5
+                                                                                  ) [Factor_num]
+                                                                                ) [Factor]
+                                                                              ) [MulopFactorList_factor]
+                                                                            ) [Term]
+                                                                          ) [AddopTermList_term]
+                                                                        ) [ExprBasic_main]
+                                                                      ) [CondFactRelOpt_rel]
+                                                                    ) [CondFact_main]
+                                                                  ) [CondTerm_cf]
+                                                                ) [Condition_ct]
+                                                                IfAfterCond(
+                                                                ) [IfAfterCond]
+                                                                Stmt_simple(
+                                                                  Stmt_break(
+                                                                  ) [Stmt_break]
+                                                                ) [Stmt_simple]
+                                                                IfEnd(
+                                                                ) [IfEnd]
+                                                                StmtElse_e(
+                                                                ) [StmtElse_e]
+                                                              ) [StmtNoElse_if]
+                                                            ) [Stmt_simple]
+                                                          ) [StatementList_stat]
+                                                          Stmt_simple(
+                                                            StmtNoElse_if(
+                                                              IfBegin(
+                                                              ) [IfBegin]
+                                                              Condition_ct(
+                                                                CondTerm_cf(
+                                                                  CondFact_main(
+                                                                    ExprBasic_main(
+                                                                      AddopTermList_term(
+                                                                        Term(
+                                                                          MulopFactorList_factor(
+                                                                            Factor(
+                                                                              Pom_e(
+                                                                              ) [Pom_e]
+                                                                              Factor_design(
+                                                                                Designator_var(
+                                                                                 i
+                                                                                ) [Designator_var]
+                                                                                FactorOpt_e(
+                                                                                ) [FactorOpt_e]
+                                                                              ) [Factor_design]
+                                                                            ) [Factor]
+                                                                          ) [MulopFactorList_factor]
+                                                                        ) [Term]
+                                                                      ) [AddopTermList_term]
+                                                                    ) [ExprBasic_main]
+                                                                    CondFactRelOpt_rel(
+                                                                      Relop_eq(
+                                                                      ) [Relop_eq]
+                                                                      ExprBasic_main(
+                                                                        AddopTermList_term(
+                                                                          Term(
+                                                                            MulopFactorList_factor(
+                                                                              Factor(
+                                                                                Pom_e(
+                                                                                ) [Pom_e]
+                                                                                Factor_num(
+                                                                                 3
+                                                                                ) [Factor_num]
+                                                                              ) [Factor]
+                                                                            ) [MulopFactorList_factor]
+                                                                          ) [Term]
+                                                                        ) [AddopTermList_term]
+                                                                      ) [ExprBasic_main]
+                                                                    ) [CondFactRelOpt_rel]
+                                                                  ) [CondFact_main]
+                                                                ) [CondTerm_cf]
+                                                              ) [Condition_ct]
+                                                              IfAfterCond(
+                                                              ) [IfAfterCond]
+                                                              Stmt_simple(
+                                                                Stmt_designator(
+                                                                  DesStmt_assign(
+                                                                    Designator_var(
+                                                                     flag
+                                                                    ) [Designator_var]
+                                                                    Assignop_eq(
+                                                                    ) [Assignop_eq]
+                                                                    Expr_basic(
+                                                                      ExprBasic_main(
+                                                                        AddopTermList_term(
+                                                                          Term(
+                                                                            MulopFactorList_factor(
+                                                                              Factor(
+                                                                                Pom_e(
+                                                                                ) [Pom_e]
+                                                                                Factor_bool(
+                                                                                 1
+                                                                                ) [Factor_bool]
+                                                                              ) [Factor]
+                                                                            ) [MulopFactorList_factor]
+                                                                          ) [Term]
+                                                                        ) [AddopTermList_term]
+                                                                      ) [ExprBasic_main]
+                                                                    ) [Expr_basic]
+                                                                  ) [DesStmt_assign]
+                                                                ) [Stmt_designator]
+                                                              ) [Stmt_simple]
+                                                              IfEnd(
+                                                              ) [IfEnd]
+                                                              StmtElse_e(
+                                                              ) [StmtElse_e]
+                                                            ) [StmtNoElse_if]
+                                                          ) [Stmt_simple]
+                                                        ) [StatementList_stat]
+                                                        Stmt_simple(
+                                                          Stmt_print(
+                                                            Expr_basic(
+                                                              ExprBasic_main(
+                                                                AddopTermList_term(
+                                                                  Term(
+                                                                    MulopFactorList_factor(
+                                                                      Factor(
+                                                                        Pom_e(
+                                                                        ) [Pom_e]
+                                                                        Factor_design(
+                                                                          Designator_var(
+                                                                           i
+                                                                          ) [Designator_var]
+                                                                          FactorOpt_e(
+                                                                          ) [FactorOpt_e]
+                                                                        ) [Factor_design]
+                                                                      ) [Factor]
+                                                                    ) [MulopFactorList_factor]
+                                                                  ) [Term]
+                                                                ) [AddopTermList_term]
+                                                              ) [ExprBasic_main]
+                                                            ) [Expr_basic]
+                                                          ) [Stmt_print]
+                                                        ) [Stmt_simple]
+                                                      ) [StatementList_stat]
+                                                    ) [Stmt_block]
+                                                  ) [Stmt_s]
+                                                  ForEnd(
+                                                  ) [ForEnd]
+                                                ) [Stmt_for]
+                                              ) [Stmt_simple]
+                                            ) [StatementList_stat]
+                                            Stmt_simple(
+                                              Stmt_print(
+                                                Expr_basic(
+                                                  ExprBasic_main(
+                                                    AddopTermList_term(
+                                                      Term(
+                                                        MulopFactorList_factor(
+                                                          Factor(
+                                                            Pom_e(
+                                                            ) [Pom_e]
+                                                            Factor_design(
+                                                              Designator_var(
+                                                               eol
+                                                              ) [Designator_var]
+                                                              FactorOpt_e(
+                                                              ) [FactorOpt_e]
+                                                            ) [Factor_design]
+                                                          ) [Factor]
+                                                        ) [MulopFactorList_factor]
+                                                      ) [Term]
+                                                    ) [AddopTermList_term]
+                                                  ) [ExprBasic_main]
+                                                ) [Expr_basic]
+                                              ) [Stmt_print]
+                                            ) [Stmt_simple]
+                                          ) [StatementList_stat]
+                                          Stmt_simple(
+                                            StmtNoElse_if(
+                                              IfBegin(
+                                              ) [IfBegin]
+                                              Condition_ct(
+                                                CondTerm_cf(
+                                                  CondFact_main(
+                                                    ExprBasic_main(
+                                                      AddopTermList_term(
+                                                        Term(
+                                                          MulopFactorList_factor(
+                                                            Factor(
+                                                              Pom_e(
+                                                              ) [Pom_e]
+                                                              Factor_design(
+                                                                Designator_var(
+                                                                 flag
+                                                                ) [Designator_var]
+                                                                FactorOpt_e(
+                                                                ) [FactorOpt_e]
+                                                              ) [Factor_design]
+                                                            ) [Factor]
+                                                          ) [MulopFactorList_factor]
+                                                        ) [Term]
+                                                      ) [AddopTermList_term]
+                                                    ) [ExprBasic_main]
+                                                    CondFactRelOpt_e(
+                                                    ) [CondFactRelOpt_e]
+                                                  ) [CondFact_main]
+                                                ) [CondTerm_cf]
+                                              ) [Condition_ct]
+                                              IfAfterCond(
+                                              ) [IfAfterCond]
+                                              Stmt_simple(
+                                                Stmt_print(
+                                                  Expr_basic(
+                                                    ExprBasic_main(
+                                                      AddopTermList_term(
+                                                        Term(
+                                                          MulopFactorList_factor(
+                                                            Factor(
+                                                              Pom_e(
+                                                              ) [Pom_e]
+                                                              Factor_num(
+                                                               1
+                                                              ) [Factor_num]
+                                                            ) [Factor]
+                                                          ) [MulopFactorList_factor]
+                                                        ) [Term]
+                                                      ) [AddopTermList_term]
+                                                    ) [ExprBasic_main]
+                                                  ) [Expr_basic]
+                                                ) [Stmt_print]
+                                              ) [Stmt_simple]
+                                              IfEnd(
+                                              ) [IfEnd]
+                                              StmtElse_simple(
+                                                Stmt_simple(
+                                                  Stmt_print(
+                                                    Expr_basic(
+                                                      ExprBasic_main(
+                                                        AddopTermList_term(
+                                                          Term(
+                                                            MulopFactorList_factor(
+                                                              Factor(
+                                                                Pom_e(
+                                                                ) [Pom_e]
+                                                                Factor_num(
+                                                                 0
+                                                                ) [Factor_num]
+                                                              ) [Factor]
+                                                            ) [MulopFactorList_factor]
+                                                          ) [Term]
+                                                        ) [AddopTermList_term]
+                                                      ) [ExprBasic_main]
+                                                    ) [Expr_basic]
+                                                  ) [Stmt_print]
+                                                ) [Stmt_simple]
+                                              ) [StmtElse_simple]
+                                            ) [StmtNoElse_if]
+                                          ) [Stmt_simple]
+                                        ) [StatementList_stat]
+                                        Stmt_simple(
+                                          Stmt_print(
+                                            Expr_basic(
+                                              ExprBasic_main(
+                                                AddopTermList_term(
+                                                  Term(
+                                                    MulopFactorList_factor(
+                                                      Factor(
+                                                        Pom_e(
+                                                        ) [Pom_e]
+                                                        Factor_design(
+                                                          Designator_var(
+                                                           eol
+                                                          ) [Designator_var]
+                                                          FactorOpt_e(
+                                                          ) [FactorOpt_e]
+                                                        ) [Factor_design]
+                                                      ) [Factor]
+                                                    ) [MulopFactorList_factor]
+                                                  ) [Term]
+                                                ) [AddopTermList_term]
+                                              ) [ExprBasic_main]
+                                            ) [Expr_basic]
+                                          ) [Stmt_print]
+                                        ) [Stmt_simple]
+                                      ) [StatementList_stat]
+                                      Stmt_simple(
+                                        Stmt_read(
+                                          Designator_var(
+                                           x
+                                          ) [Designator_var]
+                                        ) [Stmt_read]
+                                      ) [Stmt_simple]
+                                    ) [StatementList_stat]
+                                    Stmt_simple(
+                                      Stmt_read(
+                                        Designator_var(
+                                         y
+                                        ) [Designator_var]
+                                      ) [Stmt_read]
+                                    ) [Stmt_simple]
+                                  ) [StatementList_stat]
+                                  Stmt_simple(
+                                    Stmt_read(
+                                      Designator_var(
+                                       z
+                                      ) [Designator_var]
+                                    ) [Stmt_read]
+                                  ) [Stmt_simple]
+                                ) [StatementList_stat]
+                                Stmt_simple(
+                                  StmtNoElse_if(
+                                    IfBegin(
+                                    ) [IfBegin]
+                                    Condition_ct(
+                                      CondTerm_and(
+                                        CondTerm_cf(
+                                          CondFact_main(
+                                            ExprBasic_main(
+                                              AddopTermList_term(
+                                                Term(
+                                                  MulopFactorList_factor(
+                                                    Factor(
+                                                      Pom_e(
+                                                      ) [Pom_e]
+                                                      Factor_design(
+                                                        Designator_var(
+                                                         x
+                                                        ) [Designator_var]
+                                                        FactorOpt_e(
+                                                        ) [FactorOpt_e]
+                                                      ) [Factor_design]
+                                                    ) [Factor]
+                                                  ) [MulopFactorList_factor]
+                                                ) [Term]
+                                              ) [AddopTermList_term]
+                                            ) [ExprBasic_main]
+                                            CondFactRelOpt_rel(
+                                              Relop_gt(
+                                              ) [Relop_gt]
+                                              ExprBasic_main(
+                                                AddopTermList_term(
+                                                  Term(
+                                                    MulopFactorList_factor(
+                                                      Factor(
+                                                        Pom_e(
+                                                        ) [Pom_e]
+                                                        Factor_design(
+                                                          Designator_var(
+                                                           y
+                                                          ) [Designator_var]
+                                                          FactorOpt_e(
+                                                          ) [FactorOpt_e]
+                                                        ) [Factor_design]
+                                                      ) [Factor]
+                                                    ) [MulopFactorList_factor]
+                                                  ) [Term]
+                                                ) [AddopTermList_term]
+                                              ) [ExprBasic_main]
+                                            ) [CondFactRelOpt_rel]
+                                          ) [CondFact_main]
+                                        ) [CondTerm_cf]
+                                        CondFact_main(
+                                          ExprBasic_main(
+                                            AddopTermList_term(
+                                              Term(
+                                                MulopFactorList_factor(
+                                                  Factor(
+                                                    Pom_e(
+                                                    ) [Pom_e]
+                                                    Factor_design(
+                                                      Designator_var(
+                                                       y
+                                                      ) [Designator_var]
+                                                      FactorOpt_e(
+                                                      ) [FactorOpt_e]
+                                                    ) [Factor_design]
+                                                  ) [Factor]
+                                                ) [MulopFactorList_factor]
+                                              ) [Term]
+                                            ) [AddopTermList_term]
+                                          ) [ExprBasic_main]
+                                          CondFactRelOpt_rel(
+                                            Relop_gt(
+                                            ) [Relop_gt]
+                                            ExprBasic_main(
+                                              AddopTermList_term(
+                                                Term(
+                                                  MulopFactorList_factor(
+                                                    Factor(
+                                                      Pom_e(
+                                                      ) [Pom_e]
+                                                      Factor_design(
+                                                        Designator_var(
+                                                         z
+                                                        ) [Designator_var]
+                                                        FactorOpt_e(
+                                                        ) [FactorOpt_e]
+                                                      ) [Factor_design]
+                                                    ) [Factor]
+                                                  ) [MulopFactorList_factor]
+                                                ) [Term]
+                                              ) [AddopTermList_term]
+                                            ) [ExprBasic_main]
+                                          ) [CondFactRelOpt_rel]
+                                        ) [CondFact_main]
+                                      ) [CondTerm_and]
+                                    ) [Condition_ct]
+                                    IfAfterCond(
+                                    ) [IfAfterCond]
+                                    Stmt_simple(
+                                      Stmt_print(
+                                        Expr_basic(
+                                          ExprBasic_main(
+                                            AddopTermList_term(
+                                              Term(
+                                                MulopFactorList_factor(
+                                                  Factor(
+                                                    Pom_e(
+                                                    ) [Pom_e]
+                                                    Factor_num(
+                                                     111
+                                                    ) [Factor_num]
+                                                  ) [Factor]
+                                                ) [MulopFactorList_factor]
+                                              ) [Term]
+                                            ) [AddopTermList_term]
+                                          ) [ExprBasic_main]
+                                        ) [Expr_basic]
+                                      ) [Stmt_print]
+                                    ) [Stmt_simple]
+                                    IfEnd(
+                                    ) [IfEnd]
+                                    StmtElse_simple(
+                                      Stmt_simple(
+                                        Stmt_print(
+                                          Expr_basic(
+                                            ExprBasic_main(
+                                              AddopTermList_term(
+                                                Term(
+                                                  MulopFactorList_factor(
+                                                    Factor(
+                                                      Pom_e(
+                                                      ) [Pom_e]
+                                                      Factor_num(
+                                                       222
+                                                      ) [Factor_num]
+                                                    ) [Factor]
+                                                  ) [MulopFactorList_factor]
+                                                ) [Term]
+                                              ) [AddopTermList_term]
+                                            ) [ExprBasic_main]
+                                          ) [Expr_basic]
+                                        ) [Stmt_print]
+                                      ) [Stmt_simple]
+                                    ) [StmtElse_simple]
+                                  ) [StmtNoElse_if]
+                                ) [Stmt_simple]
+                              ) [StatementList_stat]
+                              Stmt_simple(
+                                Stmt_print(
+                                  Expr_basic(
+                                    ExprBasic_main(
+                                      AddopTermList_term(
+                                        Term(
+                                          MulopFactorList_factor(
+                                            Factor(
+                                              Pom_e(
+                                              ) [Pom_e]
+                                              Factor_design(
+                                                Designator_var(
+                                                 eol
+                                                ) [Designator_var]
+                                                FactorOpt_e(
+                                                ) [FactorOpt_e]
+                                              ) [Factor_design]
+                                            ) [Factor]
+                                          ) [MulopFactorList_factor]
+                                        ) [Term]
+                                      ) [AddopTermList_term]
+                                    ) [ExprBasic_main]
+                                  ) [Expr_basic]
+                                ) [Stmt_print]
+                              ) [Stmt_simple]
+                            ) [StatementList_stat]
+                            Stmt_simple(
+                              StmtNoElse_if(
+                                IfBegin(
+                                ) [IfBegin]
+                                Condition_or(
+                                  Condition_ct(
+                                    CondTerm_cf(
+                                      CondFact_main(
+                                        ExprBasic_main(
+                                          AddopTermList_term(
+                                            Term(
+                                              MulopFactorList_factor(
+                                                Factor(
+                                                  Pom_e(
+                                                  ) [Pom_e]
+                                                  Factor_design(
+                                                    Designator_var(
+                                                     x
+                                                    ) [Designator_var]
+                                                    FactorOpt_e(
+                                                    ) [FactorOpt_e]
+                                                  ) [Factor_design]
+                                                ) [Factor]
+                                              ) [MulopFactorList_factor]
+                                            ) [Term]
+                                          ) [AddopTermList_term]
+                                        ) [ExprBasic_main]
+                                        CondFactRelOpt_rel(
+                                          Relop_eq(
+                                          ) [Relop_eq]
+                                          ExprBasic_main(
+                                            AddopTermList_term(
+                                              Term(
+                                                MulopFactorList_factor(
+                                                  Factor(
+                                                    Pom_e(
+                                                    ) [Pom_e]
+                                                    Factor_num(
+                                                     1
+                                                    ) [Factor_num]
+                                                  ) [Factor]
+                                                ) [MulopFactorList_factor]
+                                              ) [Term]
+                                            ) [AddopTermList_term]
+                                          ) [ExprBasic_main]
+                                        ) [CondFactRelOpt_rel]
+                                      ) [CondFact_main]
+                                    ) [CondTerm_cf]
+                                  ) [Condition_ct]
+                                  CondTerm_cf(
+                                    CondFact_main(
+                                      ExprBasic_main(
+                                        AddopTermList_term(
+                                          Term(
+                                            MulopFactorList_factor(
+                                              Factor(
+                                                Pom_e(
+                                                ) [Pom_e]
+                                                Factor_design(
+                                                  Designator_var(
+                                                   probe
+                                                  ) [Designator_var]
+                                                  FactorOpt_call_noargs(
+                                                  ) [FactorOpt_call_noargs]
+                                                ) [Factor_design]
+                                              ) [Factor]
+                                            ) [MulopFactorList_factor]
+                                          ) [Term]
+                                        ) [AddopTermList_term]
+                                      ) [ExprBasic_main]
+                                      CondFactRelOpt_e(
+                                      ) [CondFactRelOpt_e]
+                                    ) [CondFact_main]
+                                  ) [CondTerm_cf]
+                                ) [Condition_or]
+                                IfAfterCond(
+                                ) [IfAfterCond]
+                                Stmt_simple(
+                                  Stmt_print(
+                                    Expr_basic(
+                                      ExprBasic_main(
+                                        AddopTermList_term(
+                                          Term(
+                                            MulopFactorList_factor(
+                                              Factor(
+                                                Pom_e(
+                                                ) [Pom_e]
+                                                Factor_num(
+                                                 10
+                                                ) [Factor_num]
+                                              ) [Factor]
+                                            ) [MulopFactorList_factor]
+                                          ) [Term]
+                                        ) [AddopTermList_term]
+                                      ) [ExprBasic_main]
+                                    ) [Expr_basic]
+                                  ) [Stmt_print]
+                                ) [Stmt_simple]
+                                IfEnd(
+                                ) [IfEnd]
+                                StmtElse_simple(
+                                  Stmt_simple(
+                                    Stmt_print(
+                                      Expr_basic(
+                                        ExprBasic_main(
+                                          AddopTermList_term(
+                                            Term(
+                                              MulopFactorList_factor(
+                                                Factor(
+                                                  Pom_e(
+                                                  ) [Pom_e]
+                                                  Factor_num(
+                                                   20
+                                                  ) [Factor_num]
+                                                ) [Factor]
+                                              ) [MulopFactorList_factor]
+                                            ) [Term]
+                                          ) [AddopTermList_term]
+                                        ) [ExprBasic_main]
+                                      ) [Expr_basic]
+                                    ) [Stmt_print]
+                                  ) [Stmt_simple]
+                                ) [StmtElse_simple]
+                              ) [StmtNoElse_if]
+                            ) [Stmt_simple]
+                          ) [StatementList_stat]
+                          Stmt_simple(
+                            Stmt_print(
+                              Expr_basic(
+                                ExprBasic_main(
+                                  AddopTermList_term(
+                                    Term(
+                                      MulopFactorList_factor(
+                                        Factor(
+                                          Pom_e(
+                                          ) [Pom_e]
+                                          Factor_design(
+                                            Designator_var(
+                                             eol
+                                            ) [Designator_var]
+                                            FactorOpt_e(
+                                            ) [FactorOpt_e]
+                                          ) [Factor_design]
+                                        ) [Factor]
+                                      ) [MulopFactorList_factor]
+                                    ) [Term]
+                                  ) [AddopTermList_term]
+                                ) [ExprBasic_main]
+                              ) [Expr_basic]
+                            ) [Stmt_print]
+                          ) [Stmt_simple]
+                        ) [StatementList_stat]
+                        Stmt_simple(
+                          StmtNoElse_if(
+                            IfBegin(
+                            ) [IfBegin]
+                            Condition_ct(
+                              CondTerm_and(
+                                CondTerm_cf(
+                                  CondFact_main(
+                                    ExprBasic_main(
+                                      AddopTermList_term(
+                                        Term(
+                                          MulopFactorList_factor(
+                                            Factor(
+                                              Pom_e(
+                                              ) [Pom_e]
+                                              Factor_design(
+                                                Designator_var(
+                                                 x
+                                                ) [Designator_var]
+                                                FactorOpt_e(
+                                                ) [FactorOpt_e]
+                                              ) [Factor_design]
+                                            ) [Factor]
+                                          ) [MulopFactorList_factor]
+                                        ) [Term]
+                                      ) [AddopTermList_term]
+                                    ) [ExprBasic_main]
+                                    CondFactRelOpt_rel(
+                                      Relop_eq(
+                                      ) [Relop_eq]
+                                      ExprBasic_main(
+                                        AddopTermList_term(
+                                          Term(
+                                            MulopFactorList_factor(
+                                              Factor(
+                                                Pom_e(
+                                                ) [Pom_e]
+                                                Factor_num(
+                                                 2
+                                                ) [Factor_num]
+                                              ) [Factor]
+                                            ) [MulopFactorList_factor]
+                                          ) [Term]
+                                        ) [AddopTermList_term]
+                                      ) [ExprBasic_main]
+                                    ) [CondFactRelOpt_rel]
+                                  ) [CondFact_main]
+                                ) [CondTerm_cf]
+                                CondFact_main(
+                                  ExprBasic_main(
+                                    AddopTermList_term(
+                                      Term(
+                                        MulopFactorList_factor(
+                                          Factor(
+                                            Pom_e(
+                                            ) [Pom_e]
+                                            Factor_design(
+                                              Designator_var(
+                                               probe
+                                              ) [Designator_var]
+                                              FactorOpt_call_noargs(
+                                              ) [FactorOpt_call_noargs]
+                                            ) [Factor_design]
+                                          ) [Factor]
+                                        ) [MulopFactorList_factor]
+                                      ) [Term]
+                                    ) [AddopTermList_term]
+                                  ) [ExprBasic_main]
+                                  CondFactRelOpt_e(
+                                  ) [CondFactRelOpt_e]
+                                ) [CondFact_main]
+                              ) [CondTerm_and]
+                            ) [Condition_ct]
+                            IfAfterCond(
+                            ) [IfAfterCond]
+                            Stmt_simple(
+                              Stmt_print(
+                                Expr_basic(
+                                  ExprBasic_main(
+                                    AddopTermList_term(
+                                      Term(
+                                        MulopFactorList_factor(
+                                          Factor(
+                                            Pom_e(
+                                            ) [Pom_e]
+                                            Factor_num(
+                                             30
+                                            ) [Factor_num]
+                                          ) [Factor]
+                                        ) [MulopFactorList_factor]
+                                      ) [Term]
+                                    ) [AddopTermList_term]
+                                  ) [ExprBasic_main]
+                                ) [Expr_basic]
+                              ) [Stmt_print]
+                            ) [Stmt_simple]
+                            IfEnd(
+                            ) [IfEnd]
+                            StmtElse_simple(
+                              Stmt_simple(
+                                Stmt_print(
+                                  Expr_basic(
+                                    ExprBasic_main(
+                                      AddopTermList_term(
+                                        Term(
+                                          MulopFactorList_factor(
+                                            Factor(
+                                              Pom_e(
+                                              ) [Pom_e]
+                                              Factor_num(
+                                               40
+                                              ) [Factor_num]
+                                            ) [Factor]
+                                          ) [MulopFactorList_factor]
+                                        ) [Term]
+                                      ) [AddopTermList_term]
+                                    ) [ExprBasic_main]
+                                  ) [Expr_basic]
+                                ) [Stmt_print]
+                              ) [Stmt_simple]
+                            ) [StmtElse_simple]
+                          ) [StmtNoElse_if]
+                        ) [Stmt_simple]
+                      ) [StatementList_stat]
+                      Stmt_simple(
+                        Stmt_print(
+                          Expr_basic(
+                            ExprBasic_main(
+                              AddopTermList_term(
+                                Term(
+                                  MulopFactorList_factor(
+                                    Factor(
+                                      Pom_e(
+                                      ) [Pom_e]
+                                      Factor_design(
+                                        Designator_var(
+                                         eol
+                                        ) [Designator_var]
+                                        FactorOpt_e(
+                                        ) [FactorOpt_e]
+                                      ) [Factor_design]
+                                    ) [Factor]
+                                  ) [MulopFactorList_factor]
+                                ) [Term]
+                              ) [AddopTermList_term]
+                            ) [ExprBasic_main]
+                          ) [Expr_basic]
+                        ) [Stmt_print]
+                      ) [Stmt_simple]
+                    ) [StatementList_stat]
+                    Stmt_simple(
+                      Stmt_print(
+                        Expr_basic(
+                          ExprBasic_main(
+                            AddopTermList_term(
+                              Term(
+                                MulopFactorList_factor(
+                                  Factor(
+                                    Pom_e(
+                                    ) [Pom_e]
+                                    Factor_design(
+                                      Designator_var(
+                                       classify
+                                      ) [Designator_var]
+                                      FactorOpt_call_args(
+                                        ActPars_one(
+                                          Expr_basic(
+                                            ExprBasic_main(
+                                              AddopTermList_term(
+                                                Term(
+                                                  MulopFactorList_factor(
+                                                    Factor(
+                                                      Pom_e(
+                                                      ) [Pom_e]
+                                                      Factor_design(
+                                                        Designator_var(
+                                                         z
+                                                        ) [Designator_var]
+                                                        FactorOpt_e(
+                                                        ) [FactorOpt_e]
+                                                      ) [Factor_design]
+                                                    ) [Factor]
+                                                  ) [MulopFactorList_factor]
+                                                ) [Term]
+                                              ) [AddopTermList_term]
+                                            ) [ExprBasic_main]
+                                          ) [Expr_basic]
+                                          ActParsMore_e(
+                                          ) [ActParsMore_e]
+                                        ) [ActPars_one]
+                                      ) [FactorOpt_call_args]
+                                    ) [Factor_design]
+                                  ) [Factor]
+                                ) [MulopFactorList_factor]
+                              ) [Term]
+                            ) [AddopTermList_term]
+                          ) [ExprBasic_main]
+                        ) [Expr_basic]
+                      ) [Stmt_print]
+                    ) [Stmt_simple]
+                  ) [StatementList_stat]
+                  Stmt_simple(
+                    Stmt_print(
+                      Expr_basic(
+                        ExprBasic_main(
+                          AddopTermList_term(
+                            Term(
+                              MulopFactorList_factor(
+                                Factor(
+                                  Pom_e(
+                                  ) [Pom_e]
+                                  Factor_design(
+                                    Designator_var(
+                                     eol
+                                    ) [Designator_var]
+                                    FactorOpt_e(
+                                    ) [FactorOpt_e]
+                                  ) [Factor_design]
+                                ) [Factor]
+                              ) [MulopFactorList_factor]
+                            ) [Term]
+                          ) [AddopTermList_term]
+                        ) [ExprBasic_main]
+                      ) [Expr_basic]
+                    ) [Stmt_print]
+                  ) [Stmt_simple]
+                ) [StatementList_stat]
+                Stmt_simple(
+                  Stmt_switch(
+                    Expr_basic(
+                      ExprBasic_main(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factor(
+                              Factor(
+                                Pom_e(
+                                ) [Pom_e]
+                                Factor_design(
+                                  Designator_var(
+                                   x
+                                  ) [Designator_var]
+                                  FactorOpt_e(
+                                  ) [FactorOpt_e]
+                                ) [Factor_design]
+                              ) [Factor]
+                            ) [MulopFactorList_factor]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [ExprBasic_main]
+                    ) [Expr_basic]
+                    SwitchBegin(
+                    ) [SwitchBegin]
+                    CaseList_pom(
+                      CaseList_pom(
+                        CaseList_pom(
+                          CaseList_pom(
+                            CaseList_pom(
+                              CaseList_pom(
+                                CaseList_e(
+                                ) [CaseList_e]
+                                CaseBlock(
+                                  CaseHdr(
+                                   0
+                                  ) [CaseHdr]
+                                  StatementList_stat(
+                                    StatementList_stat(
+                                      StatementList_e(
+                                      ) [StatementList_e]
+                                      Stmt_simple(
+                                        Stmt_print(
+                                          Expr_basic(
+                                            ExprBasic_main(
+                                              AddopTermList_term(
+                                                Term(
+                                                  MulopFactorList_factor(
+                                                    Factor(
+                                                      Pom_e(
+                                                      ) [Pom_e]
+                                                      Factor_num(
+                                                       0
+                                                      ) [Factor_num]
+                                                    ) [Factor]
+                                                  ) [MulopFactorList_factor]
+                                                ) [Term]
+                                              ) [AddopTermList_term]
+                                            ) [ExprBasic_main]
+                                          ) [Expr_basic]
+                                        ) [Stmt_print]
+                                      ) [Stmt_simple]
+                                    ) [StatementList_stat]
+                                    Stmt_simple(
+                                      Stmt_break(
+                                      ) [Stmt_break]
+                                    ) [Stmt_simple]
+                                  ) [StatementList_stat]
+                                ) [CaseBlock]
+                              ) [CaseList_pom]
+                              CaseBlock(
+                                CaseHdr(
+                                 1
+                                ) [CaseHdr]
+                                StatementList_stat(
+                                  StatementList_stat(
+                                    StatementList_e(
+                                    ) [StatementList_e]
+                                    Stmt_simple(
+                                      Stmt_print(
+                                        Expr_basic(
+                                          ExprBasic_main(
+                                            AddopTermList_term(
+                                              Term(
+                                                MulopFactorList_factor(
+                                                  Factor(
+                                                    Pom_e(
+                                                    ) [Pom_e]
+                                                    Factor_num(
+                                                     1
+                                                    ) [Factor_num]
+                                                  ) [Factor]
+                                                ) [MulopFactorList_factor]
+                                              ) [Term]
+                                            ) [AddopTermList_term]
+                                          ) [ExprBasic_main]
+                                        ) [Expr_basic]
+                                      ) [Stmt_print]
+                                    ) [Stmt_simple]
+                                  ) [StatementList_stat]
+                                  Stmt_simple(
+                                    Stmt_break(
+                                    ) [Stmt_break]
+                                  ) [Stmt_simple]
+                                ) [StatementList_stat]
+                              ) [CaseBlock]
+                            ) [CaseList_pom]
+                            CaseBlock(
+                              CaseHdr(
+                               2
+                              ) [CaseHdr]
+                              StatementList_stat(
+                                StatementList_e(
+                                ) [StatementList_e]
+                                Stmt_simple(
+                                  Stmt_print(
+                                    Expr_basic(
+                                      ExprBasic_main(
+                                        AddopTermList_term(
+                                          Term(
+                                            MulopFactorList_factor(
+                                              Factor(
+                                                Pom_e(
+                                                ) [Pom_e]
+                                                Factor_num(
+                                                 2
+                                                ) [Factor_num]
+                                              ) [Factor]
+                                            ) [MulopFactorList_factor]
+                                          ) [Term]
+                                        ) [AddopTermList_term]
+                                      ) [ExprBasic_main]
+                                    ) [Expr_basic]
+                                  ) [Stmt_print]
+                                ) [Stmt_simple]
+                              ) [StatementList_stat]
+                            ) [CaseBlock]
+                          ) [CaseList_pom]
+                          CaseBlock(
+                            CaseHdr(
+                             3
+                            ) [CaseHdr]
+                            StatementList_stat(
+                              StatementList_stat(
+                                StatementList_e(
+                                ) [StatementList_e]
+                                Stmt_simple(
+                                  Stmt_print(
+                                    Expr_basic(
+                                      ExprBasic_main(
+                                        AddopTermList_term(
+                                          Term(
+                                            MulopFactorList_factor(
+                                              Factor(
+                                                Pom_e(
+                                                ) [Pom_e]
+                                                Factor_num(
+                                                 3
+                                                ) [Factor_num]
+                                              ) [Factor]
+                                            ) [MulopFactorList_factor]
+                                          ) [Term]
+                                        ) [AddopTermList_term]
+                                      ) [ExprBasic_main]
+                                    ) [Expr_basic]
+                                  ) [Stmt_print]
+                                ) [Stmt_simple]
+                              ) [StatementList_stat]
+                              Stmt_simple(
+                                Stmt_break(
+                                ) [Stmt_break]
+                              ) [Stmt_simple]
+                            ) [StatementList_stat]
+                          ) [CaseBlock]
+                        ) [CaseList_pom]
+                        CaseBlock(
+                          CaseHdr(
+                           4
+                          ) [CaseHdr]
+                          StatementList_stat(
+                            StatementList_stat(
+                              StatementList_e(
+                              ) [StatementList_e]
+                              Stmt_simple(
+                                Stmt_print(
+                                  Expr_basic(
+                                    ExprBasic_main(
+                                      AddopTermList_term(
+                                        Term(
+                                          MulopFactorList_factor(
+                                            Factor(
+                                              Pom_e(
+                                              ) [Pom_e]
+                                              Factor_num(
+                                               4
+                                              ) [Factor_num]
+                                            ) [Factor]
+                                          ) [MulopFactorList_factor]
+                                        ) [Term]
+                                      ) [AddopTermList_term]
+                                    ) [ExprBasic_main]
+                                  ) [Expr_basic]
+                                ) [Stmt_print]
+                              ) [Stmt_simple]
+                            ) [StatementList_stat]
+                            Stmt_simple(
+                              Stmt_break(
+                              ) [Stmt_break]
+                            ) [Stmt_simple]
+                          ) [StatementList_stat]
+                        ) [CaseBlock]
+                      ) [CaseList_pom]
+                      CaseBlock(
+                        CaseHdr(
+                         5
+                        ) [CaseHdr]
+                        StatementList_stat(
+                          StatementList_stat(
+                            StatementList_e(
+                            ) [StatementList_e]
+                            Stmt_simple(
+                              Stmt_print(
+                                Expr_basic(
+                                  ExprBasic_main(
+                                    AddopTermList_term(
+                                      Term(
+                                        MulopFactorList_factor(
+                                          Factor(
+                                            Pom_e(
+                                            ) [Pom_e]
+                                            Factor_num(
+                                             5
+                                            ) [Factor_num]
+                                          ) [Factor]
+                                        ) [MulopFactorList_factor]
+                                      ) [Term]
+                                    ) [AddopTermList_term]
+                                  ) [ExprBasic_main]
+                                ) [Expr_basic]
+                              ) [Stmt_print]
+                            ) [Stmt_simple]
+                          ) [StatementList_stat]
+                          Stmt_simple(
+                            Stmt_break(
+                            ) [Stmt_break]
+                          ) [Stmt_simple]
+                        ) [StatementList_stat]
+                      ) [CaseBlock]
+                    ) [CaseList_pom]
+                    SwitchEnd(
+                    ) [SwitchEnd]
+                  ) [Stmt_switch]
+                ) [Stmt_simple]
+              ) [StatementList_stat]
+              Stmt_simple(
+                Stmt_print(
+                  Expr_basic(
+                    ExprBasic_main(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Pom_e(
+                              ) [Pom_e]
+                              Factor_design(
+                                Designator_var(
+                                 eol
+                                ) [Designator_var]
+                                FactorOpt_e(
+                                ) [FactorOpt_e]
+                              ) [Factor_design]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprBasic_main]
+                  ) [Expr_basic]
+                ) [Stmt_print]
+              ) [Stmt_simple]
+            ) [StatementList_stat]
+            Stmt_simple(
+              Stmt_for(
+                ForInit_stmt(
+                  DesStmt_assign(
+                    Designator_var(
+                     i
+                    ) [Designator_var]
+                    Assignop_eq(
+                    ) [Assignop_eq]
+                    Expr_basic(
+                      ExprBasic_main(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factor(
+                              Factor(
+                                Pom_e(
+                                ) [Pom_e]
+                                Factor_num(
+                                 0
+                                ) [Factor_num]
+                              ) [Factor]
+                            ) [MulopFactorList_factor]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [ExprBasic_main]
+                    ) [Expr_basic]
+                  ) [DesStmt_assign]
+                ) [ForInit_stmt]
+                ForCondBegin(
+                ) [ForCondBegin]
+                ForCond_cond(
+                  Condition_ct(
+                    CondTerm_cf(
+                      CondFact_main(
+                        ExprBasic_main(
+                          AddopTermList_term(
+                            Term(
+                              MulopFactorList_factor(
+                                Factor(
+                                  Pom_e(
+                                  ) [Pom_e]
+                                  Factor_design(
+                                    Designator_var(
+                                     i
+                                    ) [Designator_var]
+                                    FactorOpt_e(
+                                    ) [FactorOpt_e]
+                                  ) [Factor_design]
+                                ) [Factor]
+                              ) [MulopFactorList_factor]
+                            ) [Term]
+                          ) [AddopTermList_term]
+                        ) [ExprBasic_main]
+                        CondFactRelOpt_rel(
+                          Relop_lt(
+                          ) [Relop_lt]
+                          ExprBasic_main(
+                            AddopTermList_term(
+                              Term(
+                                MulopFactorList_factor(
+                                  Factor(
+                                    Pom_e(
+                                    ) [Pom_e]
+                                    Factor_num(
+                                     6
+                                    ) [Factor_num]
+                                  ) [Factor]
+                                ) [MulopFactorList_factor]
+                              ) [Term]
+                            ) [AddopTermList_term]
+                          ) [ExprBasic_main]
+                        ) [CondFactRelOpt_rel]
+                      ) [CondFact_main]
+                    ) [CondTerm_cf]
+                  ) [Condition_ct]
+                ) [ForCond_cond]
+                ForStep_stmt(
+                  DesStmt_inc(
+                    Designator_var(
+                     i
+                    ) [Designator_var]
+                  ) [DesStmt_inc]
+                ) [ForStep_stmt]
+                ForBegin(
+                ) [ForBegin]
+                Stmt_s(
+                  Stmt_block(
+                    StatementList_stat(
+                      StatementList_stat(
+                        StatementList_e(
+                        ) [StatementList_e]
+                        Stmt_simple(
+                          Stmt_switch(
+                            Expr_basic(
+                              ExprBasic_main(
+                                AddopTermList_term(
+                                  Term(
+                                    MulopFactorList_factor(
+                                      Factor(
+                                        Pom_e(
+                                        ) [Pom_e]
+                                        Factor_design(
+                                          Designator_var(
+                                           i
+                                          ) [Designator_var]
+                                          FactorOpt_e(
+                                          ) [FactorOpt_e]
+                                        ) [Factor_design]
+                                      ) [Factor]
+                                    ) [MulopFactorList_factor]
+                                  ) [Term]
+                                ) [AddopTermList_term]
+                              ) [ExprBasic_main]
+                            ) [Expr_basic]
+                            SwitchBegin(
+                            ) [SwitchBegin]
+                            CaseList_pom(
+                              CaseList_pom(
+                                CaseList_pom(
+                                  CaseList_pom(
+                                    CaseList_pom(
+                                      CaseList_pom(
+                                        CaseList_e(
+                                        ) [CaseList_e]
+                                        CaseBlock(
+                                          CaseHdr(
+                                           0
+                                          ) [CaseHdr]
+                                          StatementList_stat(
+                                            StatementList_stat(
+                                              StatementList_e(
+                                              ) [StatementList_e]
+                                              Stmt_simple(
+                                                Stmt_print(
+                                                  Expr_basic(
+                                                    ExprBasic_main(
+                                                      AddopTermList_term(
+                                                        Term(
+                                                          MulopFactorList_factor(
+                                                            Factor(
+                                                              Pom_e(
+                                                              ) [Pom_e]
+                                                              Factor_num(
+                                                               0
+                                                              ) [Factor_num]
+                                                            ) [Factor]
+                                                          ) [MulopFactorList_factor]
+                                                        ) [Term]
+                                                      ) [AddopTermList_term]
+                                                    ) [ExprBasic_main]
+                                                  ) [Expr_basic]
+                                                ) [Stmt_print]
+                                              ) [Stmt_simple]
+                                            ) [StatementList_stat]
+                                            Stmt_simple(
+                                              Stmt_break(
+                                              ) [Stmt_break]
+                                            ) [Stmt_simple]
+                                          ) [StatementList_stat]
+                                        ) [CaseBlock]
+                                      ) [CaseList_pom]
+                                      CaseBlock(
+                                        CaseHdr(
+                                         1
+                                        ) [CaseHdr]
+                                        StatementList_stat(
+                                          StatementList_stat(
+                                            StatementList_e(
+                                            ) [StatementList_e]
+                                            Stmt_simple(
+                                              Stmt_print(
+                                                Expr_basic(
+                                                  ExprBasic_main(
+                                                    AddopTermList_term(
+                                                      Term(
+                                                        MulopFactorList_factor(
+                                                          Factor(
+                                                            Pom_e(
+                                                            ) [Pom_e]
+                                                            Factor_num(
+                                                             1
+                                                            ) [Factor_num]
+                                                          ) [Factor]
+                                                        ) [MulopFactorList_factor]
+                                                      ) [Term]
+                                                    ) [AddopTermList_term]
+                                                  ) [ExprBasic_main]
+                                                ) [Expr_basic]
+                                              ) [Stmt_print]
+                                            ) [Stmt_simple]
+                                          ) [StatementList_stat]
+                                          Stmt_simple(
+                                            Stmt_continue(
+                                            ) [Stmt_continue]
+                                          ) [Stmt_simple]
+                                        ) [StatementList_stat]
+                                      ) [CaseBlock]
+                                    ) [CaseList_pom]
+                                    CaseBlock(
+                                      CaseHdr(
+                                       2
+                                      ) [CaseHdr]
+                                      StatementList_stat(
+                                        StatementList_e(
+                                        ) [StatementList_e]
+                                        Stmt_simple(
+                                          Stmt_print(
+                                            Expr_basic(
+                                              ExprBasic_main(
+                                                AddopTermList_term(
+                                                  Term(
+                                                    MulopFactorList_factor(
+                                                      Factor(
+                                                        Pom_e(
+                                                        ) [Pom_e]
+                                                        Factor_num(
+                                                         2
+                                                        ) [Factor_num]
+                                                      ) [Factor]
+                                                    ) [MulopFactorList_factor]
+                                                  ) [Term]
+                                                ) [AddopTermList_term]
+                                              ) [ExprBasic_main]
+                                            ) [Expr_basic]
+                                          ) [Stmt_print]
+                                        ) [Stmt_simple]
+                                      ) [StatementList_stat]
+                                    ) [CaseBlock]
+                                  ) [CaseList_pom]
+                                  CaseBlock(
+                                    CaseHdr(
+                                     3
+                                    ) [CaseHdr]
+                                    StatementList_stat(
+                                      StatementList_stat(
+                                        StatementList_e(
+                                        ) [StatementList_e]
+                                        Stmt_simple(
+                                          Stmt_print(
+                                            Expr_basic(
+                                              ExprBasic_main(
+                                                AddopTermList_term(
+                                                  Term(
+                                                    MulopFactorList_factor(
+                                                      Factor(
+                                                        Pom_e(
+                                                        ) [Pom_e]
+                                                        Factor_num(
+                                                         3
+                                                        ) [Factor_num]
+                                                      ) [Factor]
+                                                    ) [MulopFactorList_factor]
+                                                  ) [Term]
+                                                ) [AddopTermList_term]
+                                              ) [ExprBasic_main]
+                                            ) [Expr_basic]
+                                          ) [Stmt_print]
+                                        ) [Stmt_simple]
+                                      ) [StatementList_stat]
+                                      Stmt_simple(
+                                        Stmt_break(
+                                        ) [Stmt_break]
+                                      ) [Stmt_simple]
+                                    ) [StatementList_stat]
+                                  ) [CaseBlock]
+                                ) [CaseList_pom]
+                                CaseBlock(
+                                  CaseHdr(
+                                   4
+                                  ) [CaseHdr]
+                                  StatementList_stat(
+                                    StatementList_stat(
+                                      StatementList_e(
+                                      ) [StatementList_e]
+                                      Stmt_simple(
+                                        Stmt_print(
+                                          Expr_basic(
+                                            ExprBasic_main(
+                                              AddopTermList_term(
+                                                Term(
+                                                  MulopFactorList_factor(
+                                                    Factor(
+                                                      Pom_e(
+                                                      ) [Pom_e]
+                                                      Factor_num(
+                                                       4
+                                                      ) [Factor_num]
+                                                    ) [Factor]
+                                                  ) [MulopFactorList_factor]
+                                                ) [Term]
+                                              ) [AddopTermList_term]
+                                            ) [ExprBasic_main]
+                                          ) [Expr_basic]
+                                        ) [Stmt_print]
+                                      ) [Stmt_simple]
+                                    ) [StatementList_stat]
+                                    Stmt_simple(
+                                      Stmt_break(
+                                      ) [Stmt_break]
+                                    ) [Stmt_simple]
+                                  ) [StatementList_stat]
+                                ) [CaseBlock]
+                              ) [CaseList_pom]
+                              CaseBlock(
+                                CaseHdr(
+                                 5
+                                ) [CaseHdr]
+                                StatementList_stat(
+                                  StatementList_e(
+                                  ) [StatementList_e]
+                                  Stmt_simple(
+                                    Stmt_print(
+                                      Expr_basic(
+                                        ExprBasic_main(
+                                          AddopTermList_term(
+                                            Term(
+                                              MulopFactorList_factor(
+                                                Factor(
+                                                  Pom_e(
+                                                  ) [Pom_e]
+                                                  Factor_num(
+                                                   5
+                                                  ) [Factor_num]
+                                                ) [Factor]
+                                              ) [MulopFactorList_factor]
+                                            ) [Term]
+                                          ) [AddopTermList_term]
+                                        ) [ExprBasic_main]
+                                      ) [Expr_basic]
+                                    ) [Stmt_print]
+                                  ) [Stmt_simple]
+                                ) [StatementList_stat]
+                              ) [CaseBlock]
+                            ) [CaseList_pom]
+                            SwitchEnd(
+                            ) [SwitchEnd]
+                          ) [Stmt_switch]
+                        ) [Stmt_simple]
+                      ) [StatementList_stat]
+                      Stmt_simple(
+                        Stmt_print(
+                          Expr_basic(
+                            ExprBasic_main(
+                              AddopTermList_term(
+                                Term(
+                                  MulopFactorList_factor(
+                                    Factor(
+                                      Pom_e(
+                                      ) [Pom_e]
+                                      Factor_design(
+                                        Designator_var(
+                                         eol
+                                        ) [Designator_var]
+                                        FactorOpt_e(
+                                        ) [FactorOpt_e]
+                                      ) [Factor_design]
+                                    ) [Factor]
+                                  ) [MulopFactorList_factor]
+                                ) [Term]
+                              ) [AddopTermList_term]
+                            ) [ExprBasic_main]
+                          ) [Expr_basic]
+                        ) [Stmt_print]
+                      ) [Stmt_simple]
+                    ) [StatementList_stat]
+                  ) [Stmt_block]
+                ) [Stmt_s]
+                ForEnd(
+                ) [ForEnd]
+              ) [Stmt_for]
+            ) [Stmt_simple]
+          ) [StatementList_stat]
+          Stmt_simple(
+            Stmt_print(
+              Expr_ternary(
+                Condition_ct(
+                  CondTerm_cf(
+                    CondFact_main(
+                      ExprBasic_main(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factor(
+                              Factor(
+                                Pom_e(
+                                ) [Pom_e]
+                                Factor_design(
+                                  Designator_var(
+                                   x
+                                  ) [Designator_var]
+                                  FactorOpt_e(
+                                  ) [FactorOpt_e]
+                                ) [Factor_design]
+                              ) [Factor]
+                            ) [MulopFactorList_factor]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [ExprBasic_main]
+                      CondFactRelOpt_rel(
+                        Relop_lt(
+                        ) [Relop_lt]
+                        ExprBasic_main(
+                          AddopTermList_term(
+                            Term(
+                              MulopFactorList_factor(
+                                Factor(
+                                  Pom_e(
+                                  ) [Pom_e]
+                                  Factor_design(
+                                    Designator_var(
+                                     y
+                                    ) [Designator_var]
+                                    FactorOpt_e(
+                                    ) [FactorOpt_e]
+                                  ) [Factor_design]
+                                ) [Factor]
+                              ) [MulopFactorList_factor]
+                            ) [Term]
+                          ) [AddopTermList_term]
+                        ) [ExprBasic_main]
+                      ) [CondFactRelOpt_rel]
+                    ) [CondFact_main]
+                  ) [CondTerm_cf]
+                ) [Condition_ct]
+                TernaryQ(
+                ) [TernaryQ]
+                Expr_basic(
+                  ExprBasic_main(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_design(
+                              Designator_var(
+                               x
+                              ) [Designator_var]
+                              FactorOpt_e(
+                              ) [FactorOpt_e]
+                            ) [Factor_design]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprBasic_main]
+                ) [Expr_basic]
+                TernaryColon(
+                ) [TernaryColon]
+                Expr_basic(
+                  ExprBasic_main(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_design(
+                              Designator_var(
+                               y
+                              ) [Designator_var]
+                              FactorOpt_e(
+                              ) [FactorOpt_e]
+                            ) [Factor_design]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprBasic_main]
+                ) [Expr_basic]
+                TernaryEnd(
+                ) [TernaryEnd]
+              ) [Expr_ternary]
+            ) [Stmt_print]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+        Stmt_simple(
+          Stmt_print(
+            Expr_basic(
+              ExprBasic_main(
+                AddopTermList_term(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Pom_e(
+                        ) [Pom_e]
+                        Factor_design(
+                          Designator_var(
+                           eol
+                          ) [Designator_var]
+                          FactorOpt_e(
+                          ) [FactorOpt_e]
+                        ) [Factor_design]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprBasic_main]
+            ) [Expr_basic]
+          ) [Stmt_print]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  01:41:27,640 - =====================================================================
+INFO  01:41:27,657 - Program: LargeB na liniji 1
+INFO  01:41:27,657 - Definisana konstanta: LIMIT na liniji 3
+INFO  01:41:27,657 - Definisana konstanta: T na liniji 4
+INFO  01:41:27,657 - Definisana konstanta: F na liniji 5
+INFO  01:41:27,657 - Niz: nums na liniji 7
+INFO  01:41:27,657 - Promenljiva: i na liniji 8
+INFO  01:41:27,657 - Promenljiva: flag na liniji 9
+INFO  01:41:27,657 - Promenljiva: i na liniji 13
+INFO  01:41:27,657 - Promenljiva: s na liniji 13
+INFO  01:41:27,657 - KORISCENJE: s -> Var s : int (adr=3, level=1) na liniji 15
+INFO  01:41:27,658 - KORISCENJE: i -> Var i : int (adr=2, level=1) na liniji 16
+INFO  01:41:27,658 - KORISCENJE: i -> Var i : int (adr=2, level=1) na liniji 16
+INFO  01:41:27,658 - KORISCENJE FORMALNOG PARAMETRA: n -> Var n : int (adr=1, level=1, fpPos=2) na liniji 16
+INFO  01:41:27,659 - KORISCENJE: i -> Var i : int (adr=2, level=1) na liniji 16
+INFO  01:41:27,659 - KORISCENJE: s -> Var s : int (adr=3, level=1) na liniji 17
+INFO  01:41:27,659 - KORISCENJE: s -> Var s : int (adr=3, level=1) na liniji 17
+INFO  01:41:27,659 - KORISCENJE: i -> Var i : int (adr=2, level=1) na liniji 17
+INFO  01:41:27,659 - KORISCENJE NIZA: a -> Var a : int[] (adr=0, level=1, fpPos=1) na liniji 17
+INFO  01:41:27,660 - PRISTUP ELEMENTU NIZA: a[...] -> Elem $elem : int (adr=-1, level=-1) na liniji 17
+INFO  01:41:27,660 - KORISCENJE: s -> Var s : int (adr=3, level=1) na liniji 18
+INFO  01:41:27,660 - KORISCENJE FORMALNOG PARAMETRA: x -> Var x : int (adr=0, level=1, fpPos=1) na liniji 29
+INFO  01:41:27,660 - KORISCENJE FORMALNOG PARAMETRA: x -> Var x : int (adr=0, level=1, fpPos=1) na liniji 30
+INFO  01:41:27,660 - Promenljiva: x na liniji 35
+INFO  01:41:27,661 - Promenljiva: y na liniji 35
+INFO  01:41:27,661 - Promenljiva: z na liniji 35
+INFO  01:41:27,661 - KORISCENJE: nums -> Var nums : int[] (adr=0, level=0) na liniji 37
+INFO  01:41:27,661 - KORISCENJE KONSTANTE: LIMIT -> Con LIMIT : int (adr=6, level=0) na liniji 37
+INFO  01:41:27,661 - KORISCENJE: i -> Var i : int (adr=1, level=0) na liniji 38
+INFO  01:41:27,661 - KORISCENJE: i -> Var i : int (adr=1, level=0) na liniji 38
+INFO  01:41:27,661 - KORISCENJE: i -> Var i : int (adr=1, level=0) na liniji 38
+INFO  01:41:27,661 - KORISCENJE: i -> Var i : int (adr=1, level=0) na liniji 39
+INFO  01:41:27,661 - KORISCENJE NIZA: nums -> Var nums : int[] (adr=0, level=0) na liniji 39
+INFO  01:41:27,662 - PRISTUP ELEMENTU NIZA: nums[...] -> Elem $elem : int (adr=-1, level=-1) na liniji 39
+INFO  01:41:27,662 - KORISCENJE: i -> Var i : int (adr=1, level=0) na liniji 39
+INFO  01:41:27,662 - KORISCENJE METODE: sumPrefix -> Meth sumPrefix : int (adr=0, level=2) na liniji 41
+INFO  01:41:27,662 - KORISCENJE: nums -> Var nums : int[] (adr=0, level=0) na liniji 41
+INFO  01:41:27,662 - POZIV FUNKCIJE: sumPrefix -> Meth sumPrefix : int (adr=0, level=2) na liniji 41
+INFO  01:41:27,662 - KORISCENJE KONSTANTE: eol -> Con eol : char (adr=10, level=0) na liniji 42
+INFO  01:41:27,662 - KORISCENJE: flag -> Var flag : bool (adr=2, level=0) na liniji 44
+INFO  01:41:27,662 - KORISCENJE: i -> Var i : int (adr=1, level=0) na liniji 45
+INFO  01:41:27,662 - KORISCENJE: i -> Var i : int (adr=1, level=0) na liniji 45
+INFO  01:41:27,663 - KORISCENJE: i -> Var i : int (adr=1, level=0) na liniji 45
+INFO  01:41:27,663 - KORISCENJE: i -> Var i : int (adr=1, level=0) na liniji 47
+INFO  01:41:27,663 - KORISCENJE: i -> Var i : int (adr=1, level=0) na liniji 48
+INFO  01:41:27,663 - KORISCENJE: i -> Var i : int (adr=1, level=0) na liniji 49
+INFO  01:41:27,663 - KORISCENJE: flag -> Var flag : bool (adr=2, level=0) na liniji 49
+INFO  01:41:27,663 - KORISCENJE: i -> Var i : int (adr=1, level=0) na liniji 50
+INFO  01:41:27,663 - KORISCENJE KONSTANTE: eol -> Con eol : char (adr=10, level=0) na liniji 52
+INFO  01:41:27,663 - KORISCENJE: flag -> Var flag : bool (adr=2, level=0) na liniji 54
+INFO  01:41:27,664 - KORISCENJE KONSTANTE: eol -> Con eol : char (adr=10, level=0) na liniji 58
+INFO  01:41:27,664 - KORISCENJE: x -> Var x : int (adr=0, level=1) na liniji 60
+INFO  01:41:27,664 - KORISCENJE: y -> Var y : int (adr=1, level=1) na liniji 61
+INFO  01:41:27,664 - KORISCENJE: z -> Var z : int (adr=2, level=1) na liniji 62
+INFO  01:41:27,664 - KORISCENJE: x -> Var x : int (adr=0, level=1) na liniji 64
+INFO  01:41:27,664 - KORISCENJE: y -> Var y : int (adr=1, level=1) na liniji 64
+INFO  01:41:27,664 - KORISCENJE: y -> Var y : int (adr=1, level=1) na liniji 64
+INFO  01:41:27,664 - KORISCENJE: z -> Var z : int (adr=2, level=1) na liniji 64
+INFO  01:41:27,664 - KORISCENJE KONSTANTE: eol -> Con eol : char (adr=10, level=0) na liniji 68
+INFO  01:41:27,664 - KORISCENJE: x -> Var x : int (adr=0, level=1) na liniji 70
+INFO  01:41:27,664 - KORISCENJE METODE: probe -> Meth probe : bool (adr=0, level=0) na liniji 70
+INFO  01:41:27,664 - POZIV FUNKCIJE: probe -> Meth probe : bool (adr=0, level=0) na liniji 70
+INFO  01:41:27,664 - KORISCENJE KONSTANTE: eol -> Con eol : char (adr=10, level=0) na liniji 74
+INFO  01:41:27,665 - KORISCENJE: x -> Var x : int (adr=0, level=1) na liniji 76
+INFO  01:41:27,665 - KORISCENJE METODE: probe -> Meth probe : bool (adr=0, level=0) na liniji 76
+INFO  01:41:27,665 - POZIV FUNKCIJE: probe -> Meth probe : bool (adr=0, level=0) na liniji 76
+INFO  01:41:27,665 - KORISCENJE KONSTANTE: eol -> Con eol : char (adr=10, level=0) na liniji 80
+INFO  01:41:27,665 - KORISCENJE METODE: classify -> Meth classify : int (adr=0, level=1) na liniji 82
+INFO  01:41:27,665 - KORISCENJE: z -> Var z : int (adr=2, level=1) na liniji 82
+INFO  01:41:27,665 - POZIV FUNKCIJE: classify -> Meth classify : int (adr=0, level=1) na liniji 82
+INFO  01:41:27,665 - KORISCENJE KONSTANTE: eol -> Con eol : char (adr=10, level=0) na liniji 83
+INFO  01:41:27,665 - KORISCENJE: x -> Var x : int (adr=0, level=1) na liniji 85
+INFO  01:41:27,666 - KORISCENJE KONSTANTE: eol -> Con eol : char (adr=10, level=0) na liniji 104
+INFO  01:41:27,666 - KORISCENJE: i -> Var i : int (adr=1, level=0) na liniji 106
+INFO  01:41:27,666 - KORISCENJE: i -> Var i : int (adr=1, level=0) na liniji 106
+INFO  01:41:27,666 - KORISCENJE: i -> Var i : int (adr=1, level=0) na liniji 106
+INFO  01:41:27,666 - KORISCENJE: i -> Var i : int (adr=1, level=0) na liniji 108
+INFO  01:41:27,666 - KORISCENJE KONSTANTE: eol -> Con eol : char (adr=10, level=0) na liniji 126
+INFO  01:41:27,666 - KORISCENJE: x -> Var x : int (adr=0, level=1) na liniji 129
+INFO  01:41:27,666 - KORISCENJE: y -> Var y : int (adr=1, level=1) na liniji 129
+INFO  01:41:27,667 - KORISCENJE: x -> Var x : int (adr=0, level=1) na liniji 129
+INFO  01:41:27,667 - KORISCENJE: y -> Var y : int (adr=1, level=1) na liniji 129
+INFO  01:41:27,667 - KORISCENJE KONSTANTE: eol -> Con eol : char (adr=10, level=0) na liniji 130
+INFO  01:41:27,667 - =====================================================================
+INFO  01:41:27,748 - Generisanje uspesno zavrseno!

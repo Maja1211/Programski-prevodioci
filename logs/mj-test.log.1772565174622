@@ -1,0 +1,180 @@
+INFO  16:51:21,494 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  16:51:21,534 - #2 program
+INFO  16:51:21,534 - #9 EnumTest
+INFO  16:51:21,534 - #15 enum
+INFO  16:51:21,535 - #9 Status
+INFO  16:51:21,535 - #3 {
+INFO  16:51:21,535 - #9 AKTIVAN
+INFO  16:51:21,535 - #5 ,
+INFO  16:51:21,535 - #9 PASIVAN
+INFO  16:51:21,535 - #5 ,
+INFO  16:51:21,535 - #9 ZABRANJEN
+INFO  16:51:21,536 - #14 =
+INFO  16:51:21,536 - #10 10
+INFO  16:51:21,536 - #5 ,
+INFO  16:51:21,536 - #9 CEKANJE
+INFO  16:51:21,536 - #4 }
+INFO  16:51:21,536 - #9 int
+INFO  16:51:21,537 - #9 x
+INFO  16:51:21,537 - #6 ;
+INFO  16:51:21,537 - #9 int
+INFO  16:51:21,538 - #9 y
+INFO  16:51:21,538 - #6 ;
+INFO  16:51:21,538 - #3 {
+INFO  16:51:21,538 - #18 void
+INFO  16:51:21,539 - #9 main
+INFO  16:51:21,539 - #16 (
+INFO  16:51:21,539 - #17 )
+INFO  16:51:21,540 - #3 {
+INFO  16:51:21,540 - #25 print
+INFO  16:51:21,541 - #16 (
+INFO  16:51:21,541 - #9 Status
+INFO  16:51:21,541 - #46 .
+INFO  16:51:21,542 - #9 AKTIVAN
+INFO  16:51:21,542 - #17 )
+INFO  16:51:21,543 - #6 ;
+INFO  16:51:21,544 - #25 print
+INFO  16:51:21,544 - #16 (
+INFO  16:51:21,544 - #10 1
+INFO  16:51:21,544 - #17 )
+INFO  16:51:21,544 - #6 ;
+INFO  16:51:21,544 - #4 }
+INFO  16:51:21,544 - #4 }
+INFO  16:51:21,545 - Program(
+  ProgramName(
+   EnumTest
+  ) [ProgramName]
+  ConVarEnumDecList_var(
+    ConVarEnumDecList_var(
+      ConVarEnumDecList_enum(
+        ConVarEnumDecList_e(
+        ) [ConVarEnumDecList_e]
+        EnumDecl(
+         Status
+          EnumItemList_more(
+            EnumItemList_more(
+              EnumItemList_more(
+                EnumItemList_one(
+                  EnumItem_simple(
+                   AKTIVAN
+                  ) [EnumItem_simple]
+                ) [EnumItemList_one]
+                EnumItem_simple(
+                 PASIVAN
+                ) [EnumItem_simple]
+              ) [EnumItemList_more]
+              EnumItem_value(
+               ZABRANJEN
+               10
+              ) [EnumItem_value]
+            ) [EnumItemList_more]
+            EnumItem_simple(
+             CEKANJE
+            ) [EnumItem_simple]
+          ) [EnumItemList_more]
+        ) [EnumDecl]
+      ) [ConVarEnumDecList_enum]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarIdentList_one(
+          VarIdent_1(
+           x
+          ) [VarIdent_1]
+        ) [VarIdentList_one]
+      ) [VarDeclList]
+    ) [ConVarEnumDecList_var]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarIdentList_one(
+        VarIdent_1(
+         y
+        ) [VarIdent_1]
+      ) [VarIdentList_one]
+    ) [VarDeclList]
+  ) [ConVarEnumDecList_var]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_stat(
+          StatementList_e(
+          ) [StatementList_e]
+          Stmt_simple(
+            Stmt_print(
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Pom_e(
+                          ) [Pom_e]
+                          Factor_design(
+                            Designator_pom(
+                              DesignatorName(
+                               Status
+                              ) [DesignatorName]
+                              DesignatorMore_var(
+                               AKTIVAN
+                              ) [DesignatorMore_var]
+                            ) [Designator_pom]
+                            FactorOpt_e(
+                            ) [FactorOpt_e]
+                          ) [Factor_design]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+            ) [Stmt_print]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+        Stmt_simple(
+          Stmt_print(
+            Expr_basic(
+              ExprBasic_main(
+                AddopTermList_term(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Pom_e(
+                        ) [Pom_e]
+                        Factor_num(
+                         1
+                        ) [Factor_num]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprBasic_main]
+            ) [Expr_basic]
+          ) [Stmt_print]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  16:51:21,546 - =====================================================================
+INFO  16:51:21,553 - Program: EnumTest na liniji 1
+INFO  16:51:21,553 - Enum stavka: AKTIVAN = 0 na liniji 3
+INFO  16:51:21,554 - Enum stavka: PASIVAN = 1 na liniji 3
+INFO  16:51:21,554 - Enum stavka: ZABRANJEN = 10 na liniji 3
+INFO  16:51:21,554 - Enum stavka: CEKANJE = 11 na liniji 3
+INFO  16:51:21,554 - Definisan enum: Status na liniji 3
+INFO  16:51:21,554 - Promenljiva: x na liniji 5
+INFO  16:51:21,554 - Promenljiva: y na liniji 6
+INFO  16:51:21,555 - =====================================================================
+INFO  16:51:21,555 - Generisanje uspesno zavrseno!

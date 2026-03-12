@@ -1,0 +1,57 @@
+INFO  15:29:22,924 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:29:22,958 - #2 program
+INFO  15:29:22,958 - #9 P
+INFO  15:29:22,958 - #3 {
+INFO  15:29:22,958 - #18 void
+INFO  15:29:22,959 - #9 main
+INFO  15:29:22,959 - #16 (
+INFO  15:29:22,959 - #17 )
+INFO  15:29:22,959 - #3 {
+INFO  15:29:22,959 - #4 }
+INFO  15:29:22,959 - #18 void
+INFO  15:29:22,961 - #9 main
+INFO  15:29:22,961 - #16 (
+INFO  15:29:22,961 - #17 )
+INFO  15:29:22,961 - #3 {
+INFO  15:29:22,961 - #4 }
+INFO  15:29:22,961 - #4 }
+INFO  15:29:22,962 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_rec(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethRetAndName_void(
+         main
+        ) [MethRetAndName_void]
+        FormParList_e(
+        ) [FormParList_e]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_rec]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:29:22,962 - =====================================================================
+INFO  15:29:22,973 - Program: P na liniji 1
+ERROR 15:29:22,973 - Metoda je vec definisana: main na liniji 4
+INFO  15:29:22,974 - =====================================================================
+ERROR 15:29:22,974 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,94 @@
+INFO  17:51:41,446 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:51:41,479 - #2 program
+INFO  17:51:41,481 - #9 P
+INFO  17:51:41,481 - #3 {
+INFO  17:51:41,481 - #18 void
+INFO  17:51:41,482 - #9 f
+INFO  17:51:41,482 - #16 (
+INFO  17:51:41,482 - #17 )
+INFO  17:51:41,482 - #3 {
+INFO  17:51:41,482 - #4 }
+INFO  17:51:41,483 - #18 void
+INFO  17:51:41,483 - #9 ff
+INFO  17:51:41,483 - #16 (
+INFO  17:51:41,483 - #17 )
+INFO  17:51:41,483 - #3 {
+INFO  17:51:41,484 - #4 }
+INFO  17:51:41,484 - #18 void
+INFO  17:51:41,484 - #9 fff
+INFO  17:51:41,484 - #16 (
+INFO  17:51:41,484 - #17 )
+INFO  17:51:41,484 - #3 {
+INFO  17:51:41,484 - #4 }
+INFO  17:51:41,484 - #18 void
+INFO  17:51:41,484 - #9 main
+INFO  17:51:41,484 - #16 (
+INFO  17:51:41,484 - #17 )
+INFO  17:51:41,484 - #3 {
+INFO  17:51:41,484 - #4 }
+INFO  17:51:41,485 - #4 }
+INFO  17:51:41,485 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_rec(
+      MethodDeclList_rec(
+        MethodDeclList_rec(
+          MethodDeclList_e(
+          ) [MethodDeclList_e]
+          MethodDecl(
+            MethRetAndName_void(
+             f
+            ) [MethRetAndName_void]
+            FormParList_e(
+            ) [FormParList_e]
+            VarDeclListPom_e(
+            ) [VarDeclListPom_e]
+            StatementList_e(
+            ) [StatementList_e]
+          ) [MethodDecl]
+        ) [MethodDeclList_rec]
+        MethodDecl(
+          MethRetAndName_void(
+           ff
+          ) [MethRetAndName_void]
+          FormParList_e(
+          ) [FormParList_e]
+          VarDeclListPom_e(
+          ) [VarDeclListPom_e]
+          StatementList_e(
+          ) [StatementList_e]
+        ) [MethodDecl]
+      ) [MethodDeclList_rec]
+      MethodDecl(
+        MethRetAndName_void(
+         fff
+        ) [MethRetAndName_void]
+        FormParList_e(
+        ) [FormParList_e]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_rec]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  17:51:41,485 - =====================================================================
+INFO  17:51:41,497 - Obradjujem program: P na liniji 1
+INFO  17:51:41,497 - =====================================================================
+INFO  17:51:41,497 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,87 @@
+INFO  15:37:40,838 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:37:40,871 - #2 program
+INFO  15:37:40,871 - #9 P
+INFO  15:37:40,871 - #3 {
+INFO  15:37:40,872 - #9 NekiTip
+INFO  15:37:40,872 - #9 f
+INFO  15:37:40,873 - #16 (
+INFO  15:37:40,873 - #17 )
+INFO  15:37:40,873 - #3 {
+INFO  15:37:40,873 - #4 }
+INFO  15:37:40,874 - #18 void
+INFO  15:37:40,874 - #9 main
+INFO  15:37:40,874 - #16 (
+INFO  15:37:40,874 - #17 )
+INFO  15:37:40,874 - #3 {
+INFO  15:37:40,874 - #23 return
+INFO  15:37:40,874 - #10 1
+INFO  15:37:40,875 - #6 ;
+INFO  15:37:40,876 - #4 }
+INFO  15:37:40,876 - #4 }
+INFO  15:37:40,877 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_rec(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethRetAndName_type(
+          Type(
+           NekiTip
+          ) [Type]
+         f
+        ) [MethRetAndName_type]
+        FormParList_e(
+        ) [FormParList_e]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_rec]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_rec(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          Stmt_return_expr(
+            Expr_basic(
+              ExprBasic_main(
+                AddopTermList_term(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Unary_e(
+                        ) [Unary_e]
+                        Factor_num(
+                         1
+                        ) [Factor_num]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprBasic_main]
+            ) [Expr_basic]
+          ) [Stmt_return_expr]
+        ) [Stmt_simple]
+      ) [StatementList_rec]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:37:40,878 - =====================================================================
+INFO  15:37:40,890 - Program: P na liniji 1
+ERROR 15:37:40,890 - Nepoznat tip: NekiTip na liniji 3
+ERROR 15:37:40,890 - Nepoznat povratni tip metode: f na liniji 3
+INFO  15:37:40,890 - =====================================================================
+ERROR 15:37:40,891 - Parsiranje NIJE uspesno zavrseno!

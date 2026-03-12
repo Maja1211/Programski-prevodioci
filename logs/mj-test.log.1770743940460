@@ -1,0 +1,90 @@
+INFO  18:18:33,465 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  18:18:33,558 - #2 program
+INFO  18:18:33,559 - #9 P
+INFO  18:18:33,559 - #15 enum
+INFO  18:18:33,561 - #9 E
+INFO  18:18:33,562 - #3 {
+INFO  18:18:33,562 - #9 A
+INFO  18:18:33,562 - #14 =
+INFO  18:18:33,562 - #10 1
+INFO  18:18:33,562 - #4 }
+INFO  18:18:33,563 - #15 enum
+INFO  18:18:33,564 - #9 E
+INFO  18:18:33,564 - #3 {
+INFO  18:18:33,565 - #9 X
+INFO  18:18:33,565 - #5 ,
+INFO  18:18:33,565 - #9 Y
+INFO  18:18:33,565 - #14 =
+INFO  18:18:33,565 - #10 5
+INFO  18:18:33,565 - #5 ,
+INFO  18:18:33,566 - #9 Z
+INFO  18:18:33,566 - #4 }
+INFO  18:18:33,566 - #3 {
+INFO  18:18:33,566 - #18 void
+INFO  18:18:33,567 - #9 main
+INFO  18:18:33,568 - #16 (
+INFO  18:18:33,568 - #17 )
+INFO  18:18:33,570 - #3 {
+INFO  18:18:33,571 - #4 }
+INFO  18:18:33,572 - #4 }
+INFO  18:18:33,575 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_enum(
+    ConVarEnumDecList_enum(
+      ConVarEnumDecList_e(
+      ) [ConVarEnumDecList_e]
+      EnumDecl(
+       E
+        EnumItemList_one(
+          EnumItem_value(
+           A
+           1
+          ) [EnumItem_value]
+        ) [EnumItemList_one]
+      ) [EnumDecl]
+    ) [ConVarEnumDecList_enum]
+    EnumDecl(
+     E
+      EnumItemList_more(
+        EnumItemList_more(
+          EnumItemList_one(
+            EnumItem_simple(
+             X
+            ) [EnumItem_simple]
+          ) [EnumItemList_one]
+          EnumItem_value(
+           Y
+           5
+          ) [EnumItem_value]
+        ) [EnumItemList_more]
+        EnumItem_simple(
+         Z
+        ) [EnumItem_simple]
+      ) [EnumItemList_more]
+    ) [EnumDecl]
+  ) [ConVarEnumDecList_enum]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  18:18:33,576 - =====================================================================
+INFO  18:18:33,607 - Program: P na liniji 1
+INFO  18:18:33,609 - Enum stavka: A = 1 na liniji 2
+INFO  18:18:33,609 - Definisan enum: E na liniji 2
+ERROR 18:18:33,609 - Enum je vec definisan: E na liniji 3
+INFO  18:18:33,610 - =====================================================================
+ERROR 18:18:33,611 - Parsiranje NIJE uspesno zavrseno!

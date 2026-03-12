@@ -1,0 +1,69 @@
+INFO  15:35:00,132 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:35:00,166 - #2 program
+INFO  15:35:00,166 - #9 P
+INFO  15:35:00,166 - #9 int
+INFO  15:35:00,167 - #9 a
+INFO  15:35:00,167 - #6 ;
+INFO  15:35:00,167 - #9 int
+INFO  15:35:00,168 - #9 a
+INFO  15:35:00,168 - #6 ;
+INFO  15:35:00,168 - #3 {
+INFO  15:35:00,168 - #18 void
+INFO  15:35:00,168 - #9 main
+INFO  15:35:00,168 - #16 (
+INFO  15:35:00,168 - #17 )
+INFO  15:35:00,169 - #3 {
+INFO  15:35:00,169 - #4 }
+INFO  15:35:00,169 - #4 }
+INFO  15:35:00,171 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_var(
+    ConVarEnumDecList_var(
+      ConVarEnumDecList_e(
+      ) [ConVarEnumDecList_e]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarIdentList_one(
+          VarIdent_simple(
+           a
+          ) [VarIdent_simple]
+        ) [VarIdentList_one]
+      ) [VarDeclList]
+    ) [ConVarEnumDecList_var]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarIdentList_one(
+        VarIdent_simple(
+         a
+        ) [VarIdent_simple]
+      ) [VarIdentList_one]
+    ) [VarDeclList]
+  ) [ConVarEnumDecList_var]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:35:00,171 - =====================================================================
+INFO  15:35:00,183 - Program: P na liniji 1
+INFO  15:35:00,183 - Promenljiva: a na liniji 2
+ERROR 15:35:00,183 - Promenljiva je vec definisana: a na liniji 3
+INFO  15:35:00,183 - =====================================================================
+ERROR 15:35:00,183 - Parsiranje NIJE uspesno zavrseno!

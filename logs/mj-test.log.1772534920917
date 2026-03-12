@@ -1,0 +1,264 @@
+INFO  11:46:33,555 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  11:46:33,652 - #2 program
+INFO  11:46:33,652 - #9 bad_types
+INFO  11:46:33,652 - #9 int
+INFO  11:46:33,654 - #9 x
+INFO  11:46:33,656 - #6 ;
+INFO  11:46:33,656 - #9 char
+INFO  11:46:33,657 - #9 c
+INFO  11:46:33,659 - #6 ;
+INFO  11:46:33,659 - #9 bool
+INFO  11:46:33,659 - #9 b
+INFO  11:46:33,659 - #6 ;
+INFO  11:46:33,659 - #9 int
+INFO  11:46:33,659 - #9 arr
+INFO  11:46:33,659 - #7 [
+INFO  11:46:33,660 - #8 ]
+INFO  11:46:33,660 - #6 ;
+INFO  11:46:33,660 - #3 {
+INFO  11:46:33,660 - #18 void
+INFO  11:46:33,662 - #9 main
+INFO  11:46:33,662 - #16 (
+INFO  11:46:33,662 - #17 )
+INFO  11:46:33,663 - #3 {
+INFO  11:46:33,730 - #9 arr
+INFO  11:46:33,731 - #14 =
+INFO  11:46:33,731 - #47 new
+INFO  11:46:33,734 - #9 int
+INFO  11:46:33,736 - #7 [
+INFO  11:46:33,736 - #11 a
+INFO  11:46:33,736 - #8 ]
+INFO  11:46:33,738 - #6 ;
+INFO  11:46:33,738 - #9 c
+INFO  11:46:33,739 - #30 ++
+INFO  11:46:33,739 - #6 ;
+INFO  11:46:33,739 - #24 read
+INFO  11:46:33,739 - #16 (
+INFO  11:46:33,739 - #9 arr
+INFO  11:46:33,740 - #17 )
+INFO  11:46:33,740 - #6 ;
+INFO  11:46:33,740 - #25 print
+INFO  11:46:33,740 - #16 (
+INFO  11:46:33,740 - #9 arr
+INFO  11:46:33,740 - #17 )
+INFO  11:46:33,742 - #6 ;
+INFO  11:46:33,742 - #9 b
+INFO  11:46:33,742 - #14 =
+INFO  11:46:33,744 - #10 3
+INFO  11:46:33,744 - #6 ;
+INFO  11:46:33,744 - #4 }
+INFO  11:46:33,744 - #4 }
+INFO  11:46:33,748 - Program(
+  ProgramName(
+   bad_types
+  ) [ProgramName]
+  ConVarEnumDecList_var(
+    ConVarEnumDecList_var(
+      ConVarEnumDecList_var(
+        ConVarEnumDecList_var(
+          ConVarEnumDecList_e(
+          ) [ConVarEnumDecList_e]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarIdentList_one(
+              VarIdent_1(
+               x
+              ) [VarIdent_1]
+            ) [VarIdentList_one]
+          ) [VarDeclList]
+        ) [ConVarEnumDecList_var]
+        VarDeclList(
+          Type(
+           char
+          ) [Type]
+          VarIdentList_one(
+            VarIdent_1(
+             c
+            ) [VarIdent_1]
+          ) [VarIdentList_one]
+        ) [VarDeclList]
+      ) [ConVarEnumDecList_var]
+      VarDeclList(
+        Type(
+         bool
+        ) [Type]
+        VarIdentList_one(
+          VarIdent_1(
+           b
+          ) [VarIdent_1]
+        ) [VarIdentList_one]
+      ) [VarDeclList]
+    ) [ConVarEnumDecList_var]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarIdentList_one(
+        VarIdent_more(
+         arr
+        ) [VarIdent_more]
+      ) [VarIdentList_one]
+    ) [VarDeclList]
+  ) [ConVarEnumDecList_var]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_stat(
+          StatementList_stat(
+            StatementList_stat(
+              StatementList_stat(
+                StatementList_e(
+                ) [StatementList_e]
+                Stmt_simple(
+                  Stmt_designator(
+                    DesStmt_assign(
+                      Designator_var(
+                       arr
+                      ) [Designator_var]
+                      Assignop_eq(
+                      ) [Assignop_eq]
+                      Expr_basic(
+                        ExprBasic_main(
+                          AddopTermList_term(
+                            Term(
+                              MulopFactorList_factor(
+                                Factor(
+                                  Pom_e(
+                                  ) [Pom_e]
+                                  Factor_new_arr(
+                                    Type(
+                                     int
+                                    ) [Type]
+                                    Expr_basic(
+                                      ExprBasic_main(
+                                        AddopTermList_term(
+                                          Term(
+                                            MulopFactorList_factor(
+                                              Factor(
+                                                Pom_e(
+                                                ) [Pom_e]
+                                                Factor_char(
+                                                 a
+                                                ) [Factor_char]
+                                              ) [Factor]
+                                            ) [MulopFactorList_factor]
+                                          ) [Term]
+                                        ) [AddopTermList_term]
+                                      ) [ExprBasic_main]
+                                    ) [Expr_basic]
+                                  ) [Factor_new_arr]
+                                ) [Factor]
+                              ) [MulopFactorList_factor]
+                            ) [Term]
+                          ) [AddopTermList_term]
+                        ) [ExprBasic_main]
+                      ) [Expr_basic]
+                    ) [DesStmt_assign]
+                  ) [Stmt_designator]
+                ) [Stmt_simple]
+              ) [StatementList_stat]
+              Stmt_simple(
+                Stmt_designator(
+                  DesStmt_inc(
+                    Designator_var(
+                     c
+                    ) [Designator_var]
+                  ) [DesStmt_inc]
+                ) [Stmt_designator]
+              ) [Stmt_simple]
+            ) [StatementList_stat]
+            Stmt_simple(
+              Stmt_read(
+                Designator_var(
+                 arr
+                ) [Designator_var]
+              ) [Stmt_read]
+            ) [Stmt_simple]
+          ) [StatementList_stat]
+          Stmt_simple(
+            Stmt_print(
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Pom_e(
+                          ) [Pom_e]
+                          Factor_design(
+                            Designator_var(
+                             arr
+                            ) [Designator_var]
+                            FactorOpt_e(
+                            ) [FactorOpt_e]
+                          ) [Factor_design]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+            ) [Stmt_print]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+        Stmt_simple(
+          Stmt_designator(
+            DesStmt_assign(
+              Designator_var(
+               b
+              ) [Designator_var]
+              Assignop_eq(
+              ) [Assignop_eq]
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Pom_e(
+                          ) [Pom_e]
+                          Factor_num(
+                           3
+                          ) [Factor_num]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+            ) [DesStmt_assign]
+          ) [Stmt_designator]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  11:46:33,749 - =====================================================================
+INFO  11:46:33,766 - Program: bad_types na liniji 1
+INFO  11:46:33,766 - Promenljiva: x na liniji 2
+INFO  11:46:33,766 - Promenljiva: c na liniji 3
+INFO  11:46:33,766 - Promenljiva: b na liniji 4
+INFO  11:46:33,766 - Niz: arr na liniji 5
+INFO  11:46:33,767 - KORISCENJE: arr -> Var arr : int[] (adr=3, level=0) na liniji 9
+ERROR 11:46:33,769 - Indeks u new T[expr] mora biti int. na liniji 9
+INFO  11:46:33,769 - KORISCENJE: c -> Var c : char (adr=1, level=0) na liniji 10
+ERROR 11:46:33,769 - Operator ++ je dozvoljen samo nad int. na liniji 10
+INFO  11:46:33,769 - KORISCENJE: arr -> Var arr : int[] (adr=3, level=0) na liniji 11
+ERROR 11:46:33,769 - read dozvoljen samo za int/char/bool. na liniji 11
+INFO  11:46:33,770 - KORISCENJE: arr -> Var arr : int[] (adr=3, level=0) na liniji 12
+ERROR 11:46:33,770 - print dozvoljen samo za int/char/bool. na liniji 8
+INFO  11:46:33,770 - KORISCENJE: b -> Var b : bool (adr=2, level=0) na liniji 13
+ERROR 11:46:33,770 - Nekompatibilni tipovi u dodeli. na liniji 13
+INFO  11:46:33,770 - =====================================================================
+ERROR 11:46:33,772 - Parsiranje NIJE uspesno zavrseno!

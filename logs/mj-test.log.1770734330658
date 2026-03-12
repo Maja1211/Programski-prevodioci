@@ -1,0 +1,81 @@
+INFO  15:38:18,799 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:38:18,832 - #2 program
+INFO  15:38:18,832 - #9 P
+INFO  15:38:18,832 - #3 {
+INFO  15:38:18,833 - #18 void
+INFO  15:38:18,833 - #9 f
+INFO  15:38:18,833 - #16 (
+INFO  15:38:18,833 - #9 int
+INFO  15:38:18,834 - #9 a
+INFO  15:38:18,834 - #7 [
+INFO  15:38:18,834 - #8 ]
+INFO  15:38:18,834 - #5 ,
+INFO  15:38:18,834 - #9 char
+INFO  15:38:18,834 - #9 c
+INFO  15:38:18,834 - #7 [
+INFO  15:38:18,834 - #8 ]
+INFO  15:38:18,834 - #17 )
+INFO  15:38:18,835 - #3 {
+INFO  15:38:18,835 - #4 }
+INFO  15:38:18,835 - #18 void
+INFO  15:38:18,836 - #9 main
+INFO  15:38:18,836 - #16 (
+INFO  15:38:18,836 - #17 )
+INFO  15:38:18,836 - #3 {
+INFO  15:38:18,837 - #4 }
+INFO  15:38:18,837 - #4 }
+INFO  15:38:18,837 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_rec(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethRetAndName_void(
+         f
+        ) [MethRetAndName_void]
+        FormParList_rec(
+          FormPar_array(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [FormPar_array]
+          FormParMore_comma(
+            FormPar_array(
+              Type(
+               char
+              ) [Type]
+             c
+            ) [FormPar_array]
+            FormParMore_e(
+            ) [FormParMore_e]
+          ) [FormParMore_comma]
+        ) [FormParList_rec]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_rec]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:38:18,837 - =====================================================================
+INFO  15:38:18,848 - Program: P na liniji 1
+INFO  15:38:18,849 - =====================================================================
+INFO  15:38:18,849 - Parsiranje uspesno zavrseno!

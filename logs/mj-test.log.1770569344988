@@ -1,0 +1,57 @@
+INFO  17:48:15,430 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:48:15,464 - #2 program
+INFO  17:48:15,464 - #9 P
+INFO  17:48:15,464 - #3 {
+INFO  17:48:15,465 - #18 void
+INFO  17:48:15,465 - #9 main
+INFO  17:48:15,465 - #16 (
+INFO  17:48:15,465 - #17 )
+INFO  17:48:15,466 - #3 {
+INFO  17:48:15,466 - #4 }
+INFO  17:48:15,466 - #18 void
+INFO  17:48:15,466 - #9 main
+INFO  17:48:15,466 - #16 (
+INFO  17:48:15,466 - #17 )
+INFO  17:48:15,466 - #3 {
+INFO  17:48:15,467 - #4 }
+INFO  17:48:15,467 - #4 }
+INFO  17:48:15,467 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_rec(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethRetAndName_void(
+         main
+        ) [MethRetAndName_void]
+        FormParList_e(
+        ) [FormParList_e]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_rec]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  17:48:15,467 - =====================================================================
+INFO  17:48:15,479 - Obradjujem program: P na liniji 1
+ERROR 17:48:15,479 - Dvostruka definicija metode: main na liniji 3
+INFO  17:48:15,479 - =====================================================================
+ERROR 17:48:15,480 - Parsiranje NIJE uspesno zavrseno!

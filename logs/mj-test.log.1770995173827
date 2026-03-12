@@ -1,0 +1,125 @@
+INFO  16:05:55,322 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  16:05:55,423 - #2 program
+INFO  16:05:55,423 - #9 P
+INFO  16:05:55,423 - #3 {
+INFO  16:05:55,425 - #9 int
+INFO  16:05:55,426 - #9 f
+INFO  16:05:55,428 - #16 (
+INFO  16:05:55,428 - #9 int
+INFO  16:05:55,428 - #9 a
+INFO  16:05:55,429 - #17 )
+INFO  16:05:55,430 - #3 {
+INFO  16:05:55,431 - #9 a
+INFO  16:05:55,432 - #14 =
+INFO  16:05:55,432 - #9 a
+INFO  16:05:55,435 - #36 +
+INFO  16:05:55,440 - #10 1
+INFO  16:05:55,442 - #6 ;
+INFO  16:05:55,443 - #4 }
+INFO  16:05:55,444 - #18 void
+INFO  16:05:55,445 - #9 main
+INFO  16:05:55,445 - #16 (
+INFO  16:05:55,446 - #17 )
+INFO  16:05:55,447 - #3 {
+INFO  16:05:55,447 - #4 }
+INFO  16:05:55,448 - #4 }
+INFO  16:05:55,452 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_list(
+    MethodDeclList_list(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethRetAndName_type(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [MethRetAndName_type]
+        FormParList_form(
+          FormPar_var(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [FormPar_var]
+          FormParMore_e(
+          ) [FormParMore_e]
+        ) [FormParList_form]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_stat(
+          StatementList_e(
+          ) [StatementList_e]
+          Stmt_simple(
+            Stmt_designator(
+              DesStmt_assign(
+                Designator_var(
+                 a
+                ) [Designator_var]
+                Assignop_eq(
+                ) [Assignop_eq]
+                Expr_basic(
+                  ExprBasic_main(
+                    AddopTermList_add(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Pom_e(
+                              ) [Pom_e]
+                              Factor_design(
+                                Designator_var(
+                                 a
+                                ) [Designator_var]
+                                FactorOpt_e(
+                                ) [FactorOpt_e]
+                              ) [Factor_design]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                      Addop_plus(
+                      ) [Addop_plus]
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_num(
+                             1
+                            ) [Factor_num]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_add]
+                  ) [ExprBasic_main]
+                ) [Expr_basic]
+              ) [DesStmt_assign]
+            ) [Stmt_designator]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+      ) [MethodDecl]
+    ) [MethodDeclList_list]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  16:05:55,454 - =====================================================================
+INFO  16:05:55,489 - Program: P na liniji 1
+ERROR 16:05:55,490 - Metoda sa povratnim tipom mora imati bar jedan return sa izrazom. na liniji 2
+INFO  16:05:55,491 - =====================================================================
+ERROR 16:05:55,492 - Parsiranje NIJE uspesno zavrseno!

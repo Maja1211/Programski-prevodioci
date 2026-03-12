@@ -1,0 +1,92 @@
+INFO  20:12:54,628 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  20:12:54,727 - #2 program
+INFO  20:12:54,727 - #9 T1
+INFO  20:12:54,727 - #13 const
+INFO  20:12:54,730 - #9 int
+INFO  20:12:54,730 - #9 A
+INFO  20:12:54,731 - #14 =
+INFO  20:12:54,731 - #10 7
+INFO  20:12:54,731 - #6 ;
+INFO  20:12:54,734 - #3 {
+INFO  20:12:54,736 - #18 void
+INFO  20:12:54,737 - #9 main
+INFO  20:12:54,737 - #16 (
+INFO  20:12:54,737 - #17 )
+INFO  20:12:54,739 - #3 {
+INFO  20:12:54,741 - #25 print
+INFO  20:12:54,742 - #16 (
+INFO  20:12:54,742 - #9 A
+INFO  20:12:54,745 - #17 )
+INFO  20:12:54,750 - #6 ;
+INFO  20:12:54,750 - #4 }
+INFO  20:12:54,750 - #4 }
+INFO  20:12:54,753 - Program(
+  ProgramName(
+   T1
+  ) [ProgramName]
+  ConVarEnumDecList_con(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    ConDecList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       A
+        Constant_n(
+         7
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConDecList]
+  ) [ConVarEnumDecList_con]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          Stmt_print(
+            Expr_basic(
+              ExprBasic_main(
+                AddopTermList_term(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Pom_e(
+                        ) [Pom_e]
+                        Factor_design(
+                          Designator_var(
+                           A
+                          ) [Designator_var]
+                          FactorOpt_e(
+                          ) [FactorOpt_e]
+                        ) [Factor_design]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprBasic_main]
+            ) [Expr_basic]
+          ) [Stmt_print]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  20:12:54,799 - =====================================================================
+INFO  20:12:54,817 - Program: T1 na liniji 1
+INFO  20:12:54,817 - Definisana konstanta: A na liniji 2
+INFO  20:12:54,818 - KORISCENJE KONSTANTE: A -> Con A : int (adr=7, level=0) na liniji 4
+INFO  20:12:54,820 - =====================================================================
+INFO  20:12:54,825 - Generisanje uspesno zavrseno!

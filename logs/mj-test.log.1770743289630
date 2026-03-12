@@ -1,0 +1,70 @@
+INFO  16:46:47,528 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  16:46:47,613 - #2 program
+INFO  16:46:47,613 - #9 P
+INFO  16:46:47,613 - #15 enum
+INFO  16:46:47,615 - #9 E
+INFO  16:46:47,615 - #3 {
+INFO  16:46:47,615 - #9 A
+INFO  16:46:47,615 - #14 =
+INFO  16:46:47,615 - #10 5
+INFO  16:46:47,616 - #5 ,
+INFO  16:46:47,616 - #9 B
+INFO  16:46:47,616 - #5 ,
+INFO  16:46:47,616 - #9 C
+INFO  16:46:47,617 - #4 }
+INFO  16:46:47,617 - #3 {
+INFO  16:46:47,618 - #18 void
+INFO  16:46:47,618 - #9 main
+INFO  16:46:47,618 - #16 (
+INFO  16:46:47,619 - #17 )
+INFO  16:46:47,619 - #3 {
+INFO  16:46:47,621 - #4 }
+INFO  16:46:47,622 - #4 }
+INFO  16:46:47,624 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_enum(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    EnumDecl(
+     E
+      EnumItemList_more(
+        EnumItemList_more(
+          EnumItemList_one(
+            EnumItem_value(
+             A
+             5
+            ) [EnumItem_value]
+          ) [EnumItemList_one]
+          EnumItem_simple(
+           B
+          ) [EnumItem_simple]
+        ) [EnumItemList_more]
+        EnumItem_simple(
+         C
+        ) [EnumItem_simple]
+      ) [EnumItemList_more]
+    ) [EnumDecl]
+  ) [ConVarEnumDecList_enum]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  16:46:47,694 - =====================================================================
+INFO  16:46:47,724 - Program: P na liniji 1
+INFO  16:46:47,724 - Definisan enum: E na liniji 2
+INFO  16:46:47,724 - =====================================================================
+INFO  16:46:47,726 - Parsiranje uspesno zavrseno!

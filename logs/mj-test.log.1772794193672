@@ -1,0 +1,221 @@
+INFO  11:46:25,513 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  11:46:25,616 - #2 program
+INFO  11:46:25,616 - #9 MissingReturn
+INFO  11:46:25,617 - #3 {
+INFO  11:46:25,619 - #9 int
+INFO  11:46:25,620 - #9 bad
+INFO  11:46:25,621 - #16 (
+INFO  11:46:25,622 - #9 int
+INFO  11:46:25,622 - #9 x
+INFO  11:46:25,622 - #17 )
+INFO  11:46:25,625 - #3 {
+INFO  11:46:25,626 - #19 if
+INFO  11:46:25,627 - #16 (
+INFO  11:46:25,627 - #9 x
+INFO  11:46:25,630 - #42 >
+INFO  11:46:25,634 - #10 0
+INFO  11:46:25,637 - #17 )
+INFO  11:46:25,637 - #23 return
+INFO  11:46:25,639 - #9 x
+INFO  11:46:25,640 - #6 ;
+INFO  11:46:25,640 - #4 }
+INFO  11:46:25,642 - #18 void
+INFO  11:46:25,644 - #9 main
+INFO  11:46:25,715 - #16 (
+INFO  11:46:25,715 - #17 )
+INFO  11:46:25,716 - #3 {
+INFO  11:46:25,716 - #25 print
+INFO  11:46:25,717 - #16 (
+INFO  11:46:25,717 - #9 bad
+INFO  11:46:25,717 - #16 (
+INFO  11:46:25,717 - #10 0
+INFO  11:46:25,717 - #17 )
+INFO  11:46:25,718 - #17 )
+INFO  11:46:25,719 - #6 ;
+INFO  11:46:25,719 - #4 }
+INFO  11:46:25,719 - #4 }
+INFO  11:46:25,721 - Program(
+  ProgramName(
+   MissingReturn
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_list(
+    MethodDeclList_list(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethRetAndName_type(
+          Type(
+           int
+          ) [Type]
+         bad
+        ) [MethRetAndName_type]
+        FormParList_form(
+          FormPar_var(
+            Type(
+             int
+            ) [Type]
+           x
+          ) [FormPar_var]
+          FormParMore_e(
+          ) [FormParMore_e]
+        ) [FormParList_form]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_stat(
+          StatementList_e(
+          ) [StatementList_e]
+          Stmt_simple(
+            StmtNoElse_if(
+              IfBegin(
+              ) [IfBegin]
+              Condition_ct(
+                CondTerm_cf(
+                  CondFact_main(
+                    ExprBasic_main(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Pom_e(
+                              ) [Pom_e]
+                              Factor_design(
+                                Designator_var(
+                                 x
+                                ) [Designator_var]
+                                FactorOpt_e(
+                                ) [FactorOpt_e]
+                              ) [Factor_design]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprBasic_main]
+                    CondFactRelOpt_rel(
+                      Relop_gt(
+                      ) [Relop_gt]
+                      ExprBasic_main(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factor(
+                              Factor(
+                                Pom_e(
+                                ) [Pom_e]
+                                Factor_num(
+                                 0
+                                ) [Factor_num]
+                              ) [Factor]
+                            ) [MulopFactorList_factor]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [ExprBasic_main]
+                    ) [CondFactRelOpt_rel]
+                  ) [CondFact_main]
+                ) [CondTerm_cf]
+              ) [Condition_ct]
+              IfAfterCond(
+              ) [IfAfterCond]
+              Stmt_simple(
+                Stmt_return_expr(
+                  Expr_basic(
+                    ExprBasic_main(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Pom_e(
+                              ) [Pom_e]
+                              Factor_design(
+                                Designator_var(
+                                 x
+                                ) [Designator_var]
+                                FactorOpt_e(
+                                ) [FactorOpt_e]
+                              ) [Factor_design]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprBasic_main]
+                  ) [Expr_basic]
+                ) [Stmt_return_expr]
+              ) [Stmt_simple]
+              IfEnd(
+              ) [IfEnd]
+              StmtElse_e(
+              ) [StmtElse_e]
+            ) [StmtNoElse_if]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+      ) [MethodDecl]
+    ) [MethodDeclList_list]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          Stmt_print(
+            Expr_basic(
+              ExprBasic_main(
+                AddopTermList_term(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Pom_e(
+                        ) [Pom_e]
+                        Factor_design(
+                          Designator_var(
+                           bad
+                          ) [Designator_var]
+                          FactorOpt_call_args(
+                            ActPars_one(
+                              Expr_basic(
+                                ExprBasic_main(
+                                  AddopTermList_term(
+                                    Term(
+                                      MulopFactorList_factor(
+                                        Factor(
+                                          Pom_e(
+                                          ) [Pom_e]
+                                          Factor_num(
+                                           0
+                                          ) [Factor_num]
+                                        ) [Factor]
+                                      ) [MulopFactorList_factor]
+                                    ) [Term]
+                                  ) [AddopTermList_term]
+                                ) [ExprBasic_main]
+                              ) [Expr_basic]
+                              ActParsMore_e(
+                              ) [ActParsMore_e]
+                            ) [ActPars_one]
+                          ) [FactorOpt_call_args]
+                        ) [Factor_design]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprBasic_main]
+            ) [Expr_basic]
+          ) [Stmt_print]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  11:46:25,722 - =====================================================================
+INFO  11:46:25,735 - Program: MissingReturn na liniji 1
+INFO  11:46:25,736 - KORISCENJE FORMALNOG PARAMETRA: x -> Var x : int (adr=0, level=1, fpPos=1) na liniji 6
+INFO  11:46:25,741 - KORISCENJE FORMALNOG PARAMETRA: x -> Var x : int (adr=0, level=1, fpPos=1) na liniji 6
+INFO  11:46:25,741 - KORISCENJE METODE: bad -> Meth bad : int (adr=0, level=1) na liniji 11
+INFO  11:46:25,741 - POZIV FUNKCIJE: bad -> Meth bad : int (adr=0, level=1) na liniji 11
+INFO  11:46:25,741 - =====================================================================
+INFO  11:46:25,748 - Generisanje uspesno zavrseno!

@@ -1,0 +1,79 @@
+INFO  16:21:58,268 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  16:21:58,366 - #2 program
+INFO  16:21:58,366 - #9 P
+INFO  16:21:58,366 - #15 enum
+INFO  16:21:58,369 - #9 E
+INFO  16:21:58,369 - #3 {
+INFO  16:21:58,369 - #9 A
+INFO  16:21:58,369 - #14 =
+INFO  16:21:58,369 - #10 1
+INFO  16:21:58,369 - #4 }
+INFO  16:21:58,369 - #3 {
+INFO  16:21:58,371 - #18 void
+INFO  16:21:58,373 - #9 main
+INFO  16:21:58,373 - #16 (
+INFO  16:21:58,373 - #17 )
+INFO  16:21:58,374 - #3 {
+INFO  16:21:58,375 - #24 read
+INFO  16:21:58,376 - #16 (
+INFO  16:21:58,376 - #9 E
+INFO  16:21:58,376 - #46 .
+INFO  16:21:58,377 - #9 A
+INFO  16:21:58,377 - #17 )
+INFO  16:21:58,379 - #6 ;
+INFO  16:21:58,380 - #4 }
+INFO  16:21:58,450 - #4 }
+INFO  16:21:58,453 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_enum(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    EnumDecl(
+     E
+      EnumItemList_one(
+        EnumItem_value(
+         A
+         1
+        ) [EnumItem_value]
+      ) [EnumItemList_one]
+    ) [EnumDecl]
+  ) [ConVarEnumDecList_enum]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          Stmt_read(
+            Designator_pom(
+              DesignatorName(
+               E
+              ) [DesignatorName]
+              DesignatorMore_var(
+               A
+              ) [DesignatorMore_var]
+            ) [Designator_pom]
+          ) [Stmt_read]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  16:21:58,453 - =====================================================================
+INFO  16:21:58,490 - Program: P na liniji 1
+INFO  16:21:58,492 - Enum stavka: A = 1 na liniji 2
+INFO  16:21:58,492 - Definisan enum: E na liniji 2
+ERROR 16:21:58,493 - read argument mora biti promenljiva ili element niza. na liniji 7
+INFO  16:21:58,493 - =====================================================================
+ERROR 16:21:58,494 - Parsiranje NIJE uspesno zavrseno!

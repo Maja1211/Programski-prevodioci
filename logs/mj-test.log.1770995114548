@@ -1,0 +1,156 @@
+INFO  16:04:47,191 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  16:04:47,277 - #2 program
+INFO  16:04:47,278 - #9 P
+INFO  16:04:47,278 - #3 {
+INFO  16:04:47,280 - #9 int
+INFO  16:04:47,280 - #9 f
+INFO  16:04:47,282 - #16 (
+INFO  16:04:47,282 - #9 int
+INFO  16:04:47,282 - #9 a
+INFO  16:04:47,283 - #17 )
+INFO  16:04:47,284 - #3 {
+INFO  16:04:47,285 - #23 return
+INFO  16:04:47,285 - #9 a
+INFO  16:04:47,287 - #6 ;
+INFO  16:04:47,290 - #4 }
+INFO  16:04:47,291 - #18 void
+INFO  16:04:47,292 - #9 main
+INFO  16:04:47,292 - #16 (
+INFO  16:04:47,292 - #17 )
+INFO  16:04:47,293 - #9 int
+INFO  16:04:47,294 - #9 x
+INFO  16:04:47,294 - #6 ;
+INFO  16:04:47,294 - #3 {
+INFO  16:04:47,367 - #9 x
+INFO  16:04:47,367 - #14 =
+INFO  16:04:47,367 - #9 f
+INFO  16:04:47,369 - #16 (
+INFO  16:04:47,369 - #17 )
+INFO  16:04:47,369 - #6 ;
+INFO  16:04:47,371 - #4 }
+INFO  16:04:47,371 - #4 }
+INFO  16:04:47,373 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_list(
+    MethodDeclList_list(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethRetAndName_type(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [MethRetAndName_type]
+        FormParList_form(
+          FormPar_var(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [FormPar_var]
+          FormParMore_e(
+          ) [FormParMore_e]
+        ) [FormParList_form]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_stat(
+          StatementList_e(
+          ) [StatementList_e]
+          Stmt_simple(
+            Stmt_return_expr(
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Pom_e(
+                          ) [Pom_e]
+                          Factor_design(
+                            Designator_var(
+                             a
+                            ) [Designator_var]
+                            FactorOpt_e(
+                            ) [FactorOpt_e]
+                          ) [Factor_design]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+            ) [Stmt_return_expr]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+      ) [MethodDecl]
+    ) [MethodDeclList_list]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_pom(
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarIdentList_one(
+            VarIdent_1(
+             x
+            ) [VarIdent_1]
+          ) [VarIdentList_one]
+        ) [VarDeclList]
+      ) [VarDeclListPom_pom]
+      StatementList_stat(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          Stmt_designator(
+            DesStmt_assign(
+              Designator_var(
+               x
+              ) [Designator_var]
+              Assignop_eq(
+              ) [Assignop_eq]
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Pom_e(
+                          ) [Pom_e]
+                          Factor_design(
+                            Designator_var(
+                             f
+                            ) [Designator_var]
+                            FactorOpt_call_noargs(
+                            ) [FactorOpt_call_noargs]
+                          ) [Factor_design]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+            ) [DesStmt_assign]
+          ) [Stmt_designator]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  16:04:47,374 - =====================================================================
+INFO  16:04:47,404 - Program: P na liniji 1
+INFO  16:04:47,406 - Promenljiva: x na liniji 3
+ERROR 16:04:47,406 - Pogresan broj argumenata u pozivu metode 'f'. na liniji 3
+INFO  16:04:47,406 - =====================================================================
+ERROR 16:04:47,407 - Parsiranje NIJE uspesno zavrseno!

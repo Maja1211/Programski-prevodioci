@@ -1,0 +1,54 @@
+INFO  15:30:16,440 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:30:16,473 - #2 program
+INFO  15:30:16,473 - #9 P
+INFO  15:30:16,473 - #9 nekiTip
+INFO  15:30:16,474 - #9 x
+INFO  15:30:16,474 - #6 ;
+INFO  15:30:16,475 - #3 {
+INFO  15:30:16,475 - #18 void
+INFO  15:30:16,475 - #9 main
+INFO  15:30:16,475 - #16 (
+INFO  15:30:16,476 - #17 )
+INFO  15:30:16,476 - #3 {
+INFO  15:30:16,476 - #4 }
+INFO  15:30:16,477 - #4 }
+INFO  15:30:16,478 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_var(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    VarDeclList(
+      Type(
+       nekiTip
+      ) [Type]
+      VarIdentList_one(
+        VarIdent_simple(
+         x
+        ) [VarIdent_simple]
+      ) [VarIdentList_one]
+    ) [VarDeclList]
+  ) [ConVarEnumDecList_var]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:30:16,478 - =====================================================================
+INFO  15:30:16,489 - Program: P na liniji 1
+ERROR 15:30:16,489 - Nepoznat tip: nekiTip na liniji 2
+ERROR 15:30:16,489 - Nepoznat tip promenljive: x na liniji 2
+INFO  15:30:16,489 - =====================================================================
+ERROR 15:30:16,490 - Parsiranje NIJE uspesno zavrseno!

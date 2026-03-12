@@ -1,0 +1,188 @@
+INFO  00:40:05,707 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  00:40:05,747 - #2 program
+INFO  00:40:05,747 - #9 T8
+INFO  00:40:05,747 - #3 {
+INFO  00:40:05,748 - #18 void
+INFO  00:40:05,748 - #9 main
+INFO  00:40:05,749 - #16 (
+INFO  00:40:05,749 - #17 )
+INFO  00:40:05,749 - #9 int
+INFO  00:40:05,750 - #9 x
+INFO  00:40:05,750 - #6 ;
+INFO  00:40:05,751 - #3 {
+INFO  00:40:05,751 - #9 x
+INFO  00:40:05,752 - #14 =
+INFO  00:40:05,752 - #10 1
+INFO  00:40:05,753 - #6 ;
+INFO  00:40:05,754 - #27 switch
+INFO  00:40:05,754 - #16 (
+INFO  00:40:05,755 - #9 x
+INFO  00:40:05,755 - #17 )
+INFO  00:40:05,755 - #3 {
+INFO  00:40:05,755 - #28 case
+INFO  00:40:05,756 - #10 1
+INFO  00:40:05,756 - #29 :
+INFO  00:40:05,756 - #28 case
+INFO  00:40:05,757 - #10 2
+INFO  00:40:05,757 - #29 :
+INFO  00:40:05,757 - #25 print
+INFO  00:40:05,757 - #16 (
+INFO  00:40:05,757 - #10 2
+INFO  00:40:05,757 - #17 )
+INFO  00:40:05,757 - #6 ;
+INFO  00:40:05,757 - #21 break
+INFO  00:40:05,757 - #6 ;
+INFO  00:40:05,757 - #4 }
+INFO  00:40:05,758 - #4 }
+INFO  00:40:05,758 - #4 }
+INFO  00:40:05,759 - Program(
+  ProgramName(
+   T8
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_pom(
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarIdentList_one(
+            VarIdent_1(
+             x
+            ) [VarIdent_1]
+          ) [VarIdentList_one]
+        ) [VarDeclList]
+      ) [VarDeclListPom_pom]
+      StatementList_stat(
+        StatementList_stat(
+          StatementList_e(
+          ) [StatementList_e]
+          Stmt_simple(
+            Stmt_designator(
+              DesStmt_assign(
+                Designator_var(
+                 x
+                ) [Designator_var]
+                Assignop_eq(
+                ) [Assignop_eq]
+                Expr_basic(
+                  ExprBasic_main(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_num(
+                             1
+                            ) [Factor_num]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprBasic_main]
+                ) [Expr_basic]
+              ) [DesStmt_assign]
+            ) [Stmt_designator]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+        Stmt_simple(
+          Stmt_switch(
+            Expr_basic(
+              ExprBasic_main(
+                AddopTermList_term(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Pom_e(
+                        ) [Pom_e]
+                        Factor_design(
+                          Designator_var(
+                           x
+                          ) [Designator_var]
+                          FactorOpt_e(
+                          ) [FactorOpt_e]
+                        ) [Factor_design]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprBasic_main]
+            ) [Expr_basic]
+            SwitchBegin(
+            ) [SwitchBegin]
+            CaseList_pom(
+              CaseList_pom(
+                CaseList_e(
+                ) [CaseList_e]
+                CaseBlock(
+                  CaseHdr(
+                   1
+                  ) [CaseHdr]
+                  StatementList_e(
+                  ) [StatementList_e]
+                ) [CaseBlock]
+              ) [CaseList_pom]
+              CaseBlock(
+                CaseHdr(
+                 2
+                ) [CaseHdr]
+                StatementList_stat(
+                  StatementList_stat(
+                    StatementList_e(
+                    ) [StatementList_e]
+                    Stmt_simple(
+                      Stmt_print(
+                        Expr_basic(
+                          ExprBasic_main(
+                            AddopTermList_term(
+                              Term(
+                                MulopFactorList_factor(
+                                  Factor(
+                                    Pom_e(
+                                    ) [Pom_e]
+                                    Factor_num(
+                                     2
+                                    ) [Factor_num]
+                                  ) [Factor]
+                                ) [MulopFactorList_factor]
+                              ) [Term]
+                            ) [AddopTermList_term]
+                          ) [ExprBasic_main]
+                        ) [Expr_basic]
+                      ) [Stmt_print]
+                    ) [Stmt_simple]
+                  ) [StatementList_stat]
+                  Stmt_simple(
+                    Stmt_break(
+                    ) [Stmt_break]
+                  ) [Stmt_simple]
+                ) [StatementList_stat]
+              ) [CaseBlock]
+            ) [CaseList_pom]
+            SwitchEnd(
+            ) [SwitchEnd]
+          ) [Stmt_switch]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  00:40:05,760 - =====================================================================
+INFO  00:40:05,767 - Program: T8 na liniji 1
+INFO  00:40:05,767 - Promenljiva: x na liniji 3
+INFO  00:40:05,767 - KORISCENJE: x -> Var x : int (adr=0, level=1) na liniji 4
+INFO  00:40:05,767 - KORISCENJE: x -> Var x : int (adr=0, level=1) na liniji 6
+INFO  00:40:05,768 - =====================================================================
+INFO  00:40:05,770 - Generisanje uspesno zavrseno!

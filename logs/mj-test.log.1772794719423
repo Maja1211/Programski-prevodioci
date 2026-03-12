@@ -1,0 +1,46 @@
+INFO  11:58:09,507 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  11:58:09,626 - #2 program
+INFO  11:58:09,626 - #9 T
+INFO  11:58:09,626 - #3 {
+INFO  11:58:09,688 - #18 void
+INFO  11:58:09,689 - #9 main
+INFO  11:58:09,689 - #16 (
+INFO  11:58:09,690 - #17 )
+INFO  11:58:09,691 - #3 {
+INFO  11:58:09,691 - #21 break
+INFO  11:58:09,692 - #6 ;
+INFO  11:58:09,693 - #4 }
+INFO  11:58:09,695 - #4 }
+INFO  11:58:09,698 - Program(
+  ProgramName(
+   T
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          Stmt_break(
+          ) [Stmt_break]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  11:58:09,699 - =====================================================================
+INFO  11:58:09,715 - Program: T na liniji 1
+ERROR 11:58:09,715 - break je dozvoljen samo unutar for ili switch.
+INFO  11:58:09,715 - =====================================================================
+ERROR 11:58:09,716 - Parsiranje NIJE uspesno zavrseno!

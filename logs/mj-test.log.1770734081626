@@ -1,0 +1,63 @@
+INFO  15:34:25,965 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:34:25,999 - #2 program
+INFO  15:34:25,999 - #9 P
+INFO  15:34:25,999 - #3 {
+INFO  15:34:26,000 - #18 void
+INFO  15:34:26,000 - #9 main
+INFO  15:34:26,000 - #16 (
+INFO  15:34:26,001 - #17 )
+INFO  15:34:26,001 - #9 int
+INFO  15:34:26,001 - #9 x
+INFO  15:34:26,002 - #5 ,
+INFO  15:34:26,002 - #9 y
+INFO  15:34:26,002 - #7 [
+INFO  15:34:26,002 - #8 ]
+INFO  15:34:26,002 - #6 ;
+INFO  15:34:26,002 - #3 {
+INFO  15:34:26,002 - #4 }
+INFO  15:34:26,003 - #4 }
+INFO  15:34:26,004 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_pom(
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarIdentList_more(
+            VarIdentList_one(
+              VarIdent_simple(
+               x
+              ) [VarIdent_simple]
+            ) [VarIdentList_one]
+            VarIdent_array(
+             y
+            ) [VarIdent_array]
+          ) [VarIdentList_more]
+        ) [VarDeclList]
+      ) [VarDeclListPom_pom]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:34:26,004 - =====================================================================
+INFO  15:34:26,017 - Program: P na liniji 1
+INFO  15:34:26,017 - Promenljiva: x na liniji 3
+INFO  15:34:26,017 - Niz: y na liniji 3
+INFO  15:34:26,017 - =====================================================================
+INFO  15:34:26,017 - Parsiranje uspesno zavrseno!

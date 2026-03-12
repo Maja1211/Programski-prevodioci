@@ -1,0 +1,91 @@
+INFO  15:40:57,584 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:40:57,617 - #2 program
+INFO  15:40:57,617 - #9 P
+INFO  15:40:57,617 - #3 {
+INFO  15:40:57,618 - #18 void
+INFO  15:40:57,618 - #9 f
+INFO  15:40:57,618 - #16 (
+INFO  15:40:57,619 - #17 )
+INFO  15:40:57,619 - #9 int
+INFO  15:40:57,619 - #9 x
+INFO  15:40:57,620 - #6 ;
+INFO  15:40:57,620 - #3 {
+INFO  15:40:57,620 - #4 }
+INFO  15:40:57,621 - #18 void
+INFO  15:40:57,621 - #9 g
+INFO  15:40:57,621 - #16 (
+INFO  15:40:57,621 - #17 )
+INFO  15:40:57,621 - #3 {
+INFO  15:40:57,621 - #4 }
+INFO  15:40:57,621 - #18 void
+INFO  15:40:57,621 - #9 main
+INFO  15:40:57,621 - #16 (
+INFO  15:40:57,621 - #17 )
+INFO  15:40:57,622 - #3 {
+INFO  15:40:57,622 - #4 }
+INFO  15:40:57,622 - #4 }
+INFO  15:40:57,623 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_rec(
+      MethodDeclList_rec(
+        MethodDeclList_e(
+        ) [MethodDeclList_e]
+        MethodDecl(
+          MethRetAndName_void(
+           f
+          ) [MethRetAndName_void]
+          FormParList_e(
+          ) [FormParList_e]
+          VarDeclListPom_pom(
+            VarDeclListPom_e(
+            ) [VarDeclListPom_e]
+            VarDeclList(
+              Type(
+               int
+              ) [Type]
+              VarIdentList_one(
+                VarIdent_simple(
+                 x
+                ) [VarIdent_simple]
+              ) [VarIdentList_one]
+            ) [VarDeclList]
+          ) [VarDeclListPom_pom]
+          StatementList_e(
+          ) [StatementList_e]
+        ) [MethodDecl]
+      ) [MethodDeclList_rec]
+      MethodDecl(
+        MethRetAndName_void(
+         g
+        ) [MethRetAndName_void]
+        FormParList_e(
+        ) [FormParList_e]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_rec]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:40:57,623 - =====================================================================
+INFO  15:40:57,634 - Program: P na liniji 1
+INFO  15:40:57,634 - Promenljiva: x na liniji 3
+INFO  15:40:57,634 - =====================================================================
+INFO  15:40:57,635 - Parsiranje uspesno zavrseno!

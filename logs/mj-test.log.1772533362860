@@ -1,0 +1,48 @@
+INFO  11:20:35,282 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  11:20:35,388 - #2 program
+INFO  11:20:35,388 - #9 mega_ok
+INFO  11:20:35,388 - #13 const
+INFO  11:20:35,391 - #9 int
+INFO  11:20:35,391 - #9 JEDAN
+INFO  11:20:35,391 - #14 =
+INFO  11:20:35,392 - #10 1
+INFO  11:20:35,392 - #5 ,
+INFO  11:20:35,394 - #9 DVA
+INFO  11:20:35,395 - #14 =
+INFO  11:20:35,395 - #10 2
+INFO  11:20:35,395 - #6 ;
+INFO  11:20:35,396 - #13 const
+INFO  11:20:35,399 - #9 char
+INFO  11:20:35,399 - #9 CH
+INFO  11:20:35,399 - #14 =
+INFO  11:20:35,399 - #11 A
+INFO  11:20:35,400 - #6 ;
+INFO  11:20:35,400 - #13 const
+INFO  11:20:35,400 - #9 bool
+INFO  11:20:35,400 - #9 TB
+INFO  11:20:35,400 - #14 =
+INFO  11:20:35,401 - #12 1
+INFO  11:20:35,401 - #6 ;
+INFO  11:20:35,401 - #9 int
+INFO  11:20:35,402 - #9 i
+INFO  11:20:35,402 - #6 ;
+INFO  11:20:35,402 - #9 int
+INFO  11:20:35,404 - #9 j
+INFO  11:20:35,404 - #6 ;
+INFO  11:20:35,404 - #9 bool
+INFO  11:20:35,405 - #9 b
+INFO  11:20:35,405 - #6 ;
+INFO  11:20:35,405 - #9 char
+INFO  11:20:35,405 - #9 c
+INFO  11:20:35,405 - #6 ;
+INFO  11:20:35,405 - #9 int
+INFO  11:20:35,406 - #9 a
+INFO  11:20:35,406 - #7 [
+INFO  11:20:35,406 - #8 ]
+INFO  11:20:35,406 - #6 ;
+INFO  11:20:35,406 - #3 {
+INFO  11:20:35,406 - #15 enum
+ERROR 11:20:35,407 - 
+Sintaksna greska na liniji 14
+ERROR 11:20:35,407 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 14
+ERROR 11:20:35,407 - Parsiranje neuspesno - AST nije formiran, prekidam dalju obradu.

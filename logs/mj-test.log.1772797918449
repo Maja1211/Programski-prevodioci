@@ -1,0 +1,154 @@
+INFO  12:51:18,852 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  12:51:18,957 - #2 program
+INFO  12:51:18,958 - #9 T
+INFO  12:51:18,958 - #9 int
+INFO  12:51:18,960 - #9 a
+INFO  12:51:18,961 - #7 [
+INFO  12:51:18,961 - #8 ]
+INFO  12:51:18,962 - #6 ;
+INFO  12:51:18,962 - #3 {
+INFO  12:51:18,965 - #18 void
+INFO  12:51:18,967 - #9 main
+INFO  12:51:18,967 - #16 (
+INFO  12:51:18,967 - #17 )
+INFO  12:51:18,968 - #3 {
+INFO  12:51:18,969 - #9 a
+INFO  12:51:18,970 - #14 =
+INFO  12:51:18,971 - #47 new
+INFO  12:51:18,974 - #9 int
+INFO  12:51:18,974 - #7 [
+INFO  12:51:18,975 - #10 3
+INFO  12:51:18,975 - #8 ]
+INFO  12:51:18,977 - #6 ;
+INFO  12:51:18,978 - #9 a
+INFO  12:51:18,979 - #46 .
+INFO  12:51:19,050 - #48 length
+INFO  12:51:19,051 - #14 =
+INFO  12:51:19,052 - #10 5
+INFO  12:51:19,052 - #6 ;
+INFO  12:51:19,053 - #4 }
+INFO  12:51:19,053 - #4 }
+INFO  12:51:19,056 - Program(
+  ProgramName(
+   T
+  ) [ProgramName]
+  ConVarEnumDecList_var(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarIdentList_one(
+        VarIdent_more(
+         a
+        ) [VarIdent_more]
+      ) [VarIdentList_one]
+    ) [VarDeclList]
+  ) [ConVarEnumDecList_var]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_stat(
+          StatementList_e(
+          ) [StatementList_e]
+          Stmt_simple(
+            Stmt_designator(
+              DesStmt_assign(
+                Designator_var(
+                 a
+                ) [Designator_var]
+                Assignop_eq(
+                ) [Assignop_eq]
+                Expr_basic(
+                  ExprBasic_main(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_new_arr(
+                              Type(
+                               int
+                              ) [Type]
+                              Expr_basic(
+                                ExprBasic_main(
+                                  AddopTermList_term(
+                                    Term(
+                                      MulopFactorList_factor(
+                                        Factor(
+                                          Pom_e(
+                                          ) [Pom_e]
+                                          Factor_num(
+                                           3
+                                          ) [Factor_num]
+                                        ) [Factor]
+                                      ) [MulopFactorList_factor]
+                                    ) [Term]
+                                  ) [AddopTermList_term]
+                                ) [ExprBasic_main]
+                              ) [Expr_basic]
+                            ) [Factor_new_arr]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprBasic_main]
+                ) [Expr_basic]
+              ) [DesStmt_assign]
+            ) [Stmt_designator]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+        Stmt_simple(
+          Stmt_designator(
+            DesStmt_assign(
+              Designator_pom(
+                DesignatorName(
+                 a
+                ) [DesignatorName]
+                DesignatorMore_length(
+                ) [DesignatorMore_length]
+              ) [Designator_pom]
+              Assignop_eq(
+              ) [Assignop_eq]
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Pom_e(
+                          ) [Pom_e]
+                          Factor_num(
+                           5
+                          ) [Factor_num]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+            ) [DesStmt_assign]
+          ) [Stmt_designator]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  12:51:19,057 - =====================================================================
+INFO  12:51:19,076 - Program: T na liniji 1
+INFO  12:51:19,076 - Niz: a na liniji 2
+INFO  12:51:19,076 - KORISCENJE: a -> Var a : int[] (adr=0, level=0) na liniji 5
+ERROR 12:51:19,077 - Leva strana dodele mora biti promenljiva ili element niza. na liniji 6
+INFO  12:51:19,078 - =====================================================================
+ERROR 12:51:19,078 - Parsiranje NIJE uspesno zavrseno!

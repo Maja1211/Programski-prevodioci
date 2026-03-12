@@ -1,0 +1,65 @@
+INFO  11:16:25,167 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  11:16:25,265 - #2 program
+INFO  11:16:25,266 - #9 Kika
+INFO  11:16:25,266 - #15 enum
+INFO  11:16:25,269 - #9 bla
+INFO  11:16:25,269 - #3 {
+INFO  11:16:25,269 - #9 zika
+INFO  11:16:25,269 - #14 =
+INFO  11:16:25,269 - #10 2
+INFO  11:16:25,270 - #5 ,
+INFO  11:16:25,270 - #9 mika
+INFO  11:16:25,270 - #4 }
+INFO  11:16:25,270 - #3 {
+INFO  11:16:25,273 - #18 void
+INFO  11:16:25,274 - #9 main
+INFO  11:16:25,274 - #16 (
+INFO  11:16:25,274 - #17 )
+INFO  11:16:25,275 - #3 {
+INFO  11:16:25,276 - #4 }
+INFO  11:16:25,278 - #4 }
+INFO  11:16:25,286 - Program(
+  ProgramName(
+   Kika
+  ) [ProgramName]
+  ConVarEnumDecList_enum(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    EnumDecl(
+     bla
+      EnumItemList_more(
+        EnumItemList_one(
+          EnumItem_value(
+           zika
+           2
+          ) [EnumItem_value]
+        ) [EnumItemList_one]
+        EnumItem_simple(
+         mika
+        ) [EnumItem_simple]
+      ) [EnumItemList_more]
+    ) [EnumDecl]
+  ) [ConVarEnumDecList_enum]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  11:16:25,286 - =====================================================================
+INFO  11:16:25,322 - Program: Kika na liniji 1
+INFO  11:16:25,325 - Enum stavka: zika = 2 na liniji 3
+INFO  11:16:25,325 - Enum stavka: mika = 3 na liniji 3
+INFO  11:16:25,325 - Definisan enum: bla na liniji 3
+INFO  11:16:25,325 - =====================================================================
+INFO  11:16:25,327 - Parsiranje uspesno zavrseno!

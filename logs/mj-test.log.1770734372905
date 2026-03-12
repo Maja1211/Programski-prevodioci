@@ -1,0 +1,68 @@
+INFO  15:39:09,965 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:39:09,998 - #2 program
+INFO  15:39:09,998 - #9 P
+INFO  15:39:09,998 - #3 {
+INFO  15:39:09,999 - #18 void
+INFO  15:39:09,999 - #9 f
+INFO  15:39:09,999 - #16 (
+INFO  15:39:09,999 - #9 NekiTip
+INFO  15:39:09,999 - #9 x
+INFO  15:39:10,000 - #17 )
+INFO  15:39:10,000 - #3 {
+INFO  15:39:10,000 - #4 }
+INFO  15:39:10,001 - #18 void
+INFO  15:39:10,001 - #9 main
+INFO  15:39:10,001 - #16 (
+INFO  15:39:10,001 - #17 )
+INFO  15:39:10,002 - #3 {
+INFO  15:39:10,002 - #4 }
+INFO  15:39:10,002 - #4 }
+INFO  15:39:10,002 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_rec(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethRetAndName_void(
+         f
+        ) [MethRetAndName_void]
+        FormParList_rec(
+          FormPar_var(
+            Type(
+             NekiTip
+            ) [Type]
+           x
+          ) [FormPar_var]
+          FormParMore_e(
+          ) [FormParMore_e]
+        ) [FormParList_rec]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_rec]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:39:10,003 - =====================================================================
+INFO  15:39:10,014 - Program: P na liniji 1
+ERROR 15:39:10,014 - Nepoznat tip: NekiTip na liniji 3
+ERROR 15:39:10,015 - Nepoznat tip formalnog parametra: x na liniji 3
+INFO  15:39:10,015 - =====================================================================
+ERROR 15:39:10,015 - Parsiranje NIJE uspesno zavrseno!

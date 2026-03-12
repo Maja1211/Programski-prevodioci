@@ -1,0 +1,126 @@
+INFO  15:13:29,622 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:13:29,727 - #2 program
+INFO  15:13:29,728 - #9 P
+INFO  15:13:29,728 - #9 int
+INFO  15:13:29,730 - #9 x
+INFO  15:13:29,731 - #6 ;
+INFO  15:13:29,732 - #3 {
+INFO  15:13:29,733 - #18 void
+INFO  15:13:29,734 - #9 main
+INFO  15:13:29,734 - #16 (
+INFO  15:13:29,734 - #17 )
+INFO  15:13:29,735 - #3 {
+INFO  15:13:29,736 - #19 if
+INFO  15:13:29,737 - #16 (
+INFO  15:13:29,738 - #9 x
+INFO  15:13:29,739 - #17 )
+INFO  15:13:29,744 - #9 x
+INFO  15:13:29,744 - #14 =
+INFO  15:13:29,744 - #10 1
+INFO  15:13:29,746 - #6 ;
+INFO  15:13:29,746 - #4 }
+INFO  15:13:29,748 - #4 }
+INFO  15:13:29,752 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_var(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarIdentList_one(
+        VarIdent_1(
+         x
+        ) [VarIdent_1]
+      ) [VarIdentList_one]
+    ) [VarDeclList]
+  ) [ConVarEnumDecList_var]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          StmtNoElse_if(
+            Condition_ct(
+              CondTerm_cf(
+                CondFact_main(
+                  ExprBasic_main(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_design(
+                              Designator_var(
+                               x
+                              ) [Designator_var]
+                              FactorOpt_e(
+                              ) [FactorOpt_e]
+                            ) [Factor_design]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprBasic_main]
+                  CondFactRelOpt_e(
+                  ) [CondFactRelOpt_e]
+                ) [CondFact_main]
+              ) [CondTerm_cf]
+            ) [Condition_ct]
+            Stmt_simple(
+              Stmt_designator(
+                DesStmt_assign(
+                  Designator_var(
+                   x
+                  ) [Designator_var]
+                  Assignop_eq(
+                  ) [Assignop_eq]
+                  Expr_basic(
+                    ExprBasic_main(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Pom_e(
+                              ) [Pom_e]
+                              Factor_num(
+                               1
+                              ) [Factor_num]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprBasic_main]
+                  ) [Expr_basic]
+                ) [DesStmt_assign]
+              ) [Stmt_designator]
+            ) [Stmt_simple]
+            StmtElse_e(
+            ) [StmtElse_e]
+          ) [StmtNoElse_if]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  15:13:29,822 - =====================================================================
+INFO  15:13:29,855 - Program: P na liniji 1
+INFO  15:13:29,855 - Promenljiva: x na liniji 2
+ERROR 15:13:29,857 - Uslov bez relacije mora biti bool. na liniji 18
+ERROR 15:13:29,857 - Uslov u if mora biti bool. na liniji 18
+INFO  15:13:29,857 - =====================================================================
+ERROR 15:13:29,859 - Parsiranje NIJE uspesno zavrseno!

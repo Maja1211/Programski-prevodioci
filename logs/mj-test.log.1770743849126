@@ -1,0 +1,73 @@
+INFO  18:17:11,832 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  18:17:11,921 - #2 program
+INFO  18:17:11,921 - #9 P
+INFO  18:17:11,922 - #15 enum
+INFO  18:17:11,924 - #9 E
+INFO  18:17:11,925 - #3 {
+INFO  18:17:11,925 - #9 A
+INFO  18:17:11,925 - #14 =
+INFO  18:17:11,925 - #10 5
+INFO  18:17:11,926 - #5 ,
+INFO  18:17:11,926 - #9 B
+INFO  18:17:11,926 - #5 ,
+INFO  18:17:11,927 - #9 C
+INFO  18:17:11,927 - #4 }
+INFO  18:17:11,927 - #3 {
+INFO  18:17:11,928 - #18 void
+INFO  18:17:11,929 - #9 main
+INFO  18:17:11,929 - #16 (
+INFO  18:17:11,929 - #17 )
+INFO  18:17:11,930 - #3 {
+INFO  18:17:11,931 - #4 }
+INFO  18:17:11,932 - #4 }
+INFO  18:17:11,935 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_enum(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    EnumDecl(
+     E
+      EnumItemList_more(
+        EnumItemList_more(
+          EnumItemList_one(
+            EnumItem_value(
+             A
+             5
+            ) [EnumItem_value]
+          ) [EnumItemList_one]
+          EnumItem_simple(
+           B
+          ) [EnumItem_simple]
+        ) [EnumItemList_more]
+        EnumItem_simple(
+         C
+        ) [EnumItem_simple]
+      ) [EnumItemList_more]
+    ) [EnumDecl]
+  ) [ConVarEnumDecList_enum]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  18:17:11,936 - =====================================================================
+INFO  18:17:11,965 - Program: P na liniji 1
+INFO  18:17:11,966 - Enum stavka: A = 5 na liniji 2
+INFO  18:17:11,966 - Enum stavka: B = 6 na liniji 2
+INFO  18:17:11,966 - Enum stavka: C = 7 na liniji 2
+INFO  18:17:11,967 - Definisan enum: E na liniji 2
+INFO  18:17:11,967 - =====================================================================
+INFO  18:17:11,968 - Parsiranje uspesno zavrseno!

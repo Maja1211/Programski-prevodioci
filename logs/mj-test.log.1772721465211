@@ -1,0 +1,165 @@
+INFO  15:37:01,467 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:37:01,563 - #2 program
+INFO  15:37:01,564 - #9 T07
+INFO  15:37:01,564 - #3 {
+INFO  15:37:01,566 - #18 void
+INFO  15:37:01,568 - #9 main
+INFO  15:37:01,568 - #16 (
+INFO  15:37:01,568 - #17 )
+INFO  15:37:01,569 - #9 int
+INFO  15:37:01,571 - #9 x
+INFO  15:37:01,571 - #6 ;
+INFO  15:37:01,572 - #9 char
+INFO  15:37:01,574 - #9 ch
+INFO  15:37:01,574 - #6 ;
+INFO  15:37:01,574 - #3 {
+INFO  15:37:01,574 - #24 read
+INFO  15:37:01,576 - #16 (
+INFO  15:37:01,576 - #9 x
+INFO  15:37:01,576 - #17 )
+INFO  15:37:01,577 - #6 ;
+INFO  15:37:01,577 - #24 read
+INFO  15:37:01,577 - #16 (
+INFO  15:37:01,577 - #9 ch
+INFO  15:37:01,620 - #17 )
+INFO  15:37:01,620 - #6 ;
+INFO  15:37:01,620 - #25 print
+INFO  15:37:01,621 - #16 (
+INFO  15:37:01,621 - #9 x
+INFO  15:37:01,623 - #17 )
+INFO  15:37:01,627 - #6 ;
+INFO  15:37:01,627 - #25 print
+INFO  15:37:01,628 - #16 (
+INFO  15:37:01,628 - #9 ch
+INFO  15:37:01,628 - #17 )
+INFO  15:37:01,628 - #6 ;
+INFO  15:37:01,628 - #4 }
+INFO  15:37:01,629 - #4 }
+INFO  15:37:01,631 - Program(
+  ProgramName(
+   T07
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_pom(
+        VarDeclListPom_pom(
+          VarDeclListPom_e(
+          ) [VarDeclListPom_e]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarIdentList_one(
+              VarIdent_1(
+               x
+              ) [VarIdent_1]
+            ) [VarIdentList_one]
+          ) [VarDeclList]
+        ) [VarDeclListPom_pom]
+        VarDeclList(
+          Type(
+           char
+          ) [Type]
+          VarIdentList_one(
+            VarIdent_1(
+             ch
+            ) [VarIdent_1]
+          ) [VarIdentList_one]
+        ) [VarDeclList]
+      ) [VarDeclListPom_pom]
+      StatementList_stat(
+        StatementList_stat(
+          StatementList_stat(
+            StatementList_stat(
+              StatementList_e(
+              ) [StatementList_e]
+              Stmt_simple(
+                Stmt_read(
+                  Designator_var(
+                   x
+                  ) [Designator_var]
+                ) [Stmt_read]
+              ) [Stmt_simple]
+            ) [StatementList_stat]
+            Stmt_simple(
+              Stmt_read(
+                Designator_var(
+                 ch
+                ) [Designator_var]
+              ) [Stmt_read]
+            ) [Stmt_simple]
+          ) [StatementList_stat]
+          Stmt_simple(
+            Stmt_print(
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Pom_e(
+                          ) [Pom_e]
+                          Factor_design(
+                            Designator_var(
+                             x
+                            ) [Designator_var]
+                            FactorOpt_e(
+                            ) [FactorOpt_e]
+                          ) [Factor_design]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+            ) [Stmt_print]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+        Stmt_simple(
+          Stmt_print(
+            Expr_basic(
+              ExprBasic_main(
+                AddopTermList_term(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Pom_e(
+                        ) [Pom_e]
+                        Factor_design(
+                          Designator_var(
+                           ch
+                          ) [Designator_var]
+                          FactorOpt_e(
+                          ) [FactorOpt_e]
+                        ) [Factor_design]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprBasic_main]
+            ) [Expr_basic]
+          ) [Stmt_print]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  15:37:01,634 - =====================================================================
+INFO  15:37:01,651 - Program: T07 na liniji 1
+INFO  15:37:01,651 - Promenljiva: x na liniji 4
+INFO  15:37:01,651 - Promenljiva: ch na liniji 5
+INFO  15:37:01,651 - KORISCENJE: x -> Var x : int (adr=0, level=1) na liniji 7
+INFO  15:37:01,652 - KORISCENJE: ch -> Var ch : char (adr=1, level=1) na liniji 8
+INFO  15:37:01,652 - KORISCENJE: x -> Var x : int (adr=0, level=1) na liniji 9
+INFO  15:37:01,653 - KORISCENJE: ch -> Var ch : char (adr=1, level=1) na liniji 10
+INFO  15:37:01,653 - =====================================================================
+INFO  15:37:01,662 - Generisanje uspesno zavrseno!

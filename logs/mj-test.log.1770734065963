@@ -1,0 +1,81 @@
+INFO  15:34:13,456 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:34:13,491 - #2 program
+INFO  15:34:13,491 - #9 P
+INFO  15:34:13,491 - #9 int
+INFO  15:34:13,491 - #9 a
+INFO  15:34:13,492 - #5 ,
+INFO  15:34:13,492 - #9 b
+INFO  15:34:13,492 - #7 [
+INFO  15:34:13,492 - #8 ]
+INFO  15:34:13,492 - #6 ;
+INFO  15:34:13,492 - #9 char
+INFO  15:34:13,492 - #9 c
+INFO  15:34:13,492 - #7 [
+INFO  15:34:13,492 - #8 ]
+INFO  15:34:13,492 - #6 ;
+INFO  15:34:13,492 - #3 {
+INFO  15:34:13,493 - #18 void
+INFO  15:34:13,493 - #9 main
+INFO  15:34:13,493 - #16 (
+INFO  15:34:13,493 - #17 )
+INFO  15:34:13,493 - #3 {
+INFO  15:34:13,494 - #4 }
+INFO  15:34:13,494 - #4 }
+INFO  15:34:13,495 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_var(
+    ConVarEnumDecList_var(
+      ConVarEnumDecList_e(
+      ) [ConVarEnumDecList_e]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarIdentList_more(
+          VarIdentList_one(
+            VarIdent_simple(
+             a
+            ) [VarIdent_simple]
+          ) [VarIdentList_one]
+          VarIdent_array(
+           b
+          ) [VarIdent_array]
+        ) [VarIdentList_more]
+      ) [VarDeclList]
+    ) [ConVarEnumDecList_var]
+    VarDeclList(
+      Type(
+       char
+      ) [Type]
+      VarIdentList_one(
+        VarIdent_array(
+         c
+        ) [VarIdent_array]
+      ) [VarIdentList_one]
+    ) [VarDeclList]
+  ) [ConVarEnumDecList_var]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:34:13,496 - =====================================================================
+INFO  15:34:13,508 - Program: P na liniji 1
+INFO  15:34:13,508 - Promenljiva: a na liniji 2
+INFO  15:34:13,508 - Niz: b na liniji 2
+INFO  15:34:13,508 - Niz: c na liniji 3
+INFO  15:34:13,508 - =====================================================================
+INFO  15:34:13,509 - Parsiranje uspesno zavrseno!

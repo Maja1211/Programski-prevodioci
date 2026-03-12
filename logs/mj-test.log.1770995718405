@@ -1,0 +1,9 @@
+INFO  16:09:06,831 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  16:09:06,924 - #2 program
+INFO  16:09:06,924 - #9 P
+INFO  16:09:06,924 - #3 {
+INFO  16:09:06,926 - #15 enum
+ERROR 16:09:06,927 - 
+Sintaksna greska na liniji 2
+ERROR 16:09:06,927 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 2
+ERROR 16:09:06,927 - Parsiranje neuspesno - AST nije formiran, prekidam dalju obradu.

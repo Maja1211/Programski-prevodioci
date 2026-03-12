@@ -1,0 +1,148 @@
+INFO  16:23:34,958 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  16:23:35,053 - #2 program
+INFO  16:23:35,053 - #9 P
+INFO  16:23:35,053 - #3 {
+INFO  16:23:35,056 - #18 void
+INFO  16:23:35,056 - #9 main
+INFO  16:23:35,056 - #16 (
+INFO  16:23:35,057 - #17 )
+INFO  16:23:35,057 - #9 int
+INFO  16:23:35,058 - #9 a
+INFO  16:23:35,060 - #7 [
+INFO  16:23:35,060 - #8 ]
+INFO  16:23:35,060 - #6 ;
+INFO  16:23:35,061 - #3 {
+INFO  16:23:35,062 - #9 a
+INFO  16:23:35,064 - #14 =
+INFO  16:23:35,064 - #47 new
+INFO  16:23:35,068 - #9 int
+INFO  16:23:35,069 - #7 [
+INFO  16:23:35,069 - #10 10
+INFO  16:23:35,069 - #8 ]
+INFO  16:23:35,072 - #6 ;
+INFO  16:23:35,073 - #24 read
+INFO  16:23:35,073 - #16 (
+INFO  16:23:35,073 - #9 a
+INFO  16:23:35,073 - #7 [
+INFO  16:23:35,074 - #10 3
+INFO  16:23:35,074 - #8 ]
+INFO  16:23:35,075 - #17 )
+INFO  16:23:35,075 - #6 ;
+INFO  16:23:35,075 - #4 }
+INFO  16:23:35,075 - #4 }
+INFO  16:23:35,079 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_pom(
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarIdentList_one(
+            VarIdent_more(
+             a
+            ) [VarIdent_more]
+          ) [VarIdentList_one]
+        ) [VarDeclList]
+      ) [VarDeclListPom_pom]
+      StatementList_stat(
+        StatementList_stat(
+          StatementList_e(
+          ) [StatementList_e]
+          Stmt_simple(
+            Stmt_designator(
+              DesStmt_assign(
+                Designator_var(
+                 a
+                ) [Designator_var]
+                Assignop_eq(
+                ) [Assignop_eq]
+                Expr_basic(
+                  ExprBasic_main(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_new_arr(
+                              Type(
+                               int
+                              ) [Type]
+                              Expr_basic(
+                                ExprBasic_main(
+                                  AddopTermList_term(
+                                    Term(
+                                      MulopFactorList_factor(
+                                        Factor(
+                                          Pom_e(
+                                          ) [Pom_e]
+                                          Factor_num(
+                                           10
+                                          ) [Factor_num]
+                                        ) [Factor]
+                                      ) [MulopFactorList_factor]
+                                    ) [Term]
+                                  ) [AddopTermList_term]
+                                ) [ExprBasic_main]
+                              ) [Expr_basic]
+                            ) [Factor_new_arr]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprBasic_main]
+                ) [Expr_basic]
+              ) [DesStmt_assign]
+            ) [Stmt_designator]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+        Stmt_simple(
+          Stmt_read(
+            Designator_elem(
+              DesignatorArrayName(
+               a
+              ) [DesignatorArrayName]
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Pom_e(
+                          ) [Pom_e]
+                          Factor_num(
+                           3
+                          ) [Factor_num]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+            ) [Designator_elem]
+          ) [Stmt_read]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  16:23:35,080 - =====================================================================
+INFO  16:23:35,114 - Program: P na liniji 1
+INFO  16:23:35,114 - Niz: a na liniji 3
+INFO  16:23:35,115 - =====================================================================
+INFO  16:23:35,117 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,134 @@
+INFO  12:50:25,359 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  12:50:25,468 - #2 program
+INFO  12:50:25,469 - #9 T
+INFO  12:50:25,469 - #9 int
+INFO  12:50:25,472 - #9 a
+INFO  12:50:25,473 - #7 [
+INFO  12:50:25,473 - #8 ]
+INFO  12:50:25,473 - #6 ;
+INFO  12:50:25,474 - #3 {
+INFO  12:50:25,475 - #18 void
+INFO  12:50:25,477 - #9 main
+INFO  12:50:25,477 - #16 (
+INFO  12:50:25,478 - #17 )
+INFO  12:50:25,479 - #3 {
+INFO  12:50:25,482 - #9 a
+INFO  12:50:25,483 - #14 =
+INFO  12:50:25,484 - #47 new
+INFO  12:50:25,488 - #9 int
+INFO  12:50:25,488 - #7 [
+INFO  12:50:25,488 - #10 3
+INFO  12:50:25,488 - #8 ]
+INFO  12:50:25,491 - #6 ;
+INFO  12:50:25,491 - #24 read
+INFO  12:50:25,492 - #16 (
+INFO  12:50:25,564 - #9 a
+INFO  12:50:25,565 - #46 .
+INFO  12:50:25,566 - #48 length
+INFO  12:50:25,566 - #17 )
+INFO  12:50:25,568 - #6 ;
+INFO  12:50:25,568 - #4 }
+INFO  12:50:25,568 - #4 }
+INFO  12:50:25,571 - Program(
+  ProgramName(
+   T
+  ) [ProgramName]
+  ConVarEnumDecList_var(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarIdentList_one(
+        VarIdent_more(
+         a
+        ) [VarIdent_more]
+      ) [VarIdentList_one]
+    ) [VarDeclList]
+  ) [ConVarEnumDecList_var]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_stat(
+          StatementList_e(
+          ) [StatementList_e]
+          Stmt_simple(
+            Stmt_designator(
+              DesStmt_assign(
+                Designator_var(
+                 a
+                ) [Designator_var]
+                Assignop_eq(
+                ) [Assignop_eq]
+                Expr_basic(
+                  ExprBasic_main(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_new_arr(
+                              Type(
+                               int
+                              ) [Type]
+                              Expr_basic(
+                                ExprBasic_main(
+                                  AddopTermList_term(
+                                    Term(
+                                      MulopFactorList_factor(
+                                        Factor(
+                                          Pom_e(
+                                          ) [Pom_e]
+                                          Factor_num(
+                                           3
+                                          ) [Factor_num]
+                                        ) [Factor]
+                                      ) [MulopFactorList_factor]
+                                    ) [Term]
+                                  ) [AddopTermList_term]
+                                ) [ExprBasic_main]
+                              ) [Expr_basic]
+                            ) [Factor_new_arr]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprBasic_main]
+                ) [Expr_basic]
+              ) [DesStmt_assign]
+            ) [Stmt_designator]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+        Stmt_simple(
+          Stmt_read(
+            Designator_pom(
+              DesignatorName(
+               a
+              ) [DesignatorName]
+              DesignatorMore_length(
+              ) [DesignatorMore_length]
+            ) [Designator_pom]
+          ) [Stmt_read]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  12:50:25,572 - =====================================================================
+INFO  12:50:25,589 - Program: T na liniji 1
+INFO  12:50:25,590 - Niz: a na liniji 2
+INFO  12:50:25,590 - KORISCENJE: a -> Var a : int[] (adr=0, level=0) na liniji 5
+ERROR 12:50:25,591 - read argument mora biti promenljiva ili element niza. na liniji 6
+INFO  12:50:25,592 - =====================================================================
+ERROR 12:50:25,592 - Parsiranje NIJE uspesno zavrseno!

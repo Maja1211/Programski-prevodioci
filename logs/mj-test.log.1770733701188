@@ -1,0 +1,37 @@
+INFO  15:27:58,148 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:27:58,184 - #2 program
+INFO  15:27:58,184 - #9 P
+INFO  15:27:58,184 - #3 {
+INFO  15:27:58,185 - #18 void
+INFO  15:27:58,185 - #9 main
+INFO  15:27:58,185 - #16 (
+INFO  15:27:58,185 - #17 )
+INFO  15:27:58,186 - #3 {
+INFO  15:27:58,186 - #4 }
+INFO  15:27:58,186 - #4 }
+INFO  15:27:58,187 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:27:58,188 - =====================================================================
+INFO  15:27:58,201 - Program: P na liniji 1
+INFO  15:27:58,201 - =====================================================================
+INFO  15:27:58,201 - Parsiranje uspesno zavrseno!

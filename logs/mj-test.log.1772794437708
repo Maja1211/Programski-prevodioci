@@ -1,0 +1,285 @@
+INFO  11:53:25,625 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  11:53:25,731 - #2 program
+INFO  11:53:25,731 - #9 Bounds
+INFO  11:53:25,731 - #9 int
+INFO  11:53:25,734 - #9 a
+INFO  11:53:25,735 - #7 [
+INFO  11:53:25,735 - #8 ]
+INFO  11:53:25,735 - #6 ;
+INFO  11:53:25,736 - #3 {
+INFO  11:53:25,737 - #18 void
+INFO  11:53:25,738 - #9 main
+INFO  11:53:25,739 - #16 (
+INFO  11:53:25,739 - #17 )
+INFO  11:53:25,741 - #3 {
+INFO  11:53:25,742 - #9 a
+INFO  11:53:25,743 - #14 =
+INFO  11:53:25,744 - #47 new
+INFO  11:53:25,747 - #9 int
+INFO  11:53:25,748 - #7 [
+INFO  11:53:25,748 - #10 2
+INFO  11:53:25,748 - #8 ]
+INFO  11:53:25,751 - #6 ;
+INFO  11:53:25,751 - #9 a
+INFO  11:53:25,822 - #7 [
+INFO  11:53:25,824 - #10 0
+INFO  11:53:25,824 - #8 ]
+INFO  11:53:25,824 - #14 =
+INFO  11:53:25,825 - #10 11
+INFO  11:53:25,825 - #6 ;
+INFO  11:53:25,825 - #9 a
+INFO  11:53:25,825 - #7 [
+INFO  11:53:25,826 - #10 1
+INFO  11:53:25,826 - #8 ]
+INFO  11:53:25,826 - #14 =
+INFO  11:53:25,826 - #10 22
+INFO  11:53:25,826 - #6 ;
+INFO  11:53:25,826 - #25 print
+INFO  11:53:25,827 - #16 (
+INFO  11:53:25,827 - #9 a
+INFO  11:53:25,827 - #7 [
+INFO  11:53:25,827 - #10 1
+INFO  11:53:25,827 - #8 ]
+INFO  11:53:25,828 - #17 )
+INFO  11:53:25,829 - #6 ;
+INFO  11:53:25,829 - #4 }
+INFO  11:53:25,829 - #4 }
+INFO  11:53:25,835 - Program(
+  ProgramName(
+   Bounds
+  ) [ProgramName]
+  ConVarEnumDecList_var(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarIdentList_one(
+        VarIdent_more(
+         a
+        ) [VarIdent_more]
+      ) [VarIdentList_one]
+    ) [VarDeclList]
+  ) [ConVarEnumDecList_var]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_stat(
+          StatementList_stat(
+            StatementList_stat(
+              StatementList_e(
+              ) [StatementList_e]
+              Stmt_simple(
+                Stmt_designator(
+                  DesStmt_assign(
+                    Designator_var(
+                     a
+                    ) [Designator_var]
+                    Assignop_eq(
+                    ) [Assignop_eq]
+                    Expr_basic(
+                      ExprBasic_main(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factor(
+                              Factor(
+                                Pom_e(
+                                ) [Pom_e]
+                                Factor_new_arr(
+                                  Type(
+                                   int
+                                  ) [Type]
+                                  Expr_basic(
+                                    ExprBasic_main(
+                                      AddopTermList_term(
+                                        Term(
+                                          MulopFactorList_factor(
+                                            Factor(
+                                              Pom_e(
+                                              ) [Pom_e]
+                                              Factor_num(
+                                               2
+                                              ) [Factor_num]
+                                            ) [Factor]
+                                          ) [MulopFactorList_factor]
+                                        ) [Term]
+                                      ) [AddopTermList_term]
+                                    ) [ExprBasic_main]
+                                  ) [Expr_basic]
+                                ) [Factor_new_arr]
+                              ) [Factor]
+                            ) [MulopFactorList_factor]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [ExprBasic_main]
+                    ) [Expr_basic]
+                  ) [DesStmt_assign]
+                ) [Stmt_designator]
+              ) [Stmt_simple]
+            ) [StatementList_stat]
+            Stmt_simple(
+              Stmt_designator(
+                DesStmt_assign(
+                  Designator_elem(
+                    DesignatorArrayName(
+                     a
+                    ) [DesignatorArrayName]
+                    Expr_basic(
+                      ExprBasic_main(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factor(
+                              Factor(
+                                Pom_e(
+                                ) [Pom_e]
+                                Factor_num(
+                                 0
+                                ) [Factor_num]
+                              ) [Factor]
+                            ) [MulopFactorList_factor]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [ExprBasic_main]
+                    ) [Expr_basic]
+                  ) [Designator_elem]
+                  Assignop_eq(
+                  ) [Assignop_eq]
+                  Expr_basic(
+                    ExprBasic_main(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Pom_e(
+                              ) [Pom_e]
+                              Factor_num(
+                               11
+                              ) [Factor_num]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprBasic_main]
+                  ) [Expr_basic]
+                ) [DesStmt_assign]
+              ) [Stmt_designator]
+            ) [Stmt_simple]
+          ) [StatementList_stat]
+          Stmt_simple(
+            Stmt_designator(
+              DesStmt_assign(
+                Designator_elem(
+                  DesignatorArrayName(
+                   a
+                  ) [DesignatorArrayName]
+                  Expr_basic(
+                    ExprBasic_main(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Pom_e(
+                              ) [Pom_e]
+                              Factor_num(
+                               1
+                              ) [Factor_num]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprBasic_main]
+                  ) [Expr_basic]
+                ) [Designator_elem]
+                Assignop_eq(
+                ) [Assignop_eq]
+                Expr_basic(
+                  ExprBasic_main(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_num(
+                             22
+                            ) [Factor_num]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprBasic_main]
+                ) [Expr_basic]
+              ) [DesStmt_assign]
+            ) [Stmt_designator]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+        Stmt_simple(
+          Stmt_print(
+            Expr_basic(
+              ExprBasic_main(
+                AddopTermList_term(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Pom_e(
+                        ) [Pom_e]
+                        Factor_design(
+                          Designator_elem(
+                            DesignatorArrayName(
+                             a
+                            ) [DesignatorArrayName]
+                            Expr_basic(
+                              ExprBasic_main(
+                                AddopTermList_term(
+                                  Term(
+                                    MulopFactorList_factor(
+                                      Factor(
+                                        Pom_e(
+                                        ) [Pom_e]
+                                        Factor_num(
+                                         1
+                                        ) [Factor_num]
+                                      ) [Factor]
+                                    ) [MulopFactorList_factor]
+                                  ) [Term]
+                                ) [AddopTermList_term]
+                              ) [ExprBasic_main]
+                            ) [Expr_basic]
+                          ) [Designator_elem]
+                          FactorOpt_e(
+                          ) [FactorOpt_e]
+                        ) [Factor_design]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprBasic_main]
+            ) [Expr_basic]
+          ) [Stmt_print]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  11:53:25,837 - =====================================================================
+INFO  11:53:25,856 - Program: Bounds na liniji 1
+INFO  11:53:25,856 - Niz: a na liniji 3
+INFO  11:53:25,857 - KORISCENJE: a -> Var a : int[] (adr=0, level=0) na liniji 8
+INFO  11:53:25,858 - KORISCENJE NIZA: a -> Var a : int[] (adr=0, level=0) na liniji 9
+INFO  11:53:25,858 - PRISTUP ELEMENTU NIZA: a[...] -> Elem $elem : int (adr=-1, level=-1) na liniji 9
+INFO  11:53:25,859 - KORISCENJE NIZA: a -> Var a : int[] (adr=0, level=0) na liniji 10
+INFO  11:53:25,859 - PRISTUP ELEMENTU NIZA: a[...] -> Elem $elem : int (adr=-1, level=-1) na liniji 10
+INFO  11:53:25,860 - KORISCENJE NIZA: a -> Var a : int[] (adr=0, level=0) na liniji 11
+INFO  11:53:25,860 - PRISTUP ELEMENTU NIZA: a[...] -> Elem $elem : int (adr=-1, level=-1) na liniji 11
+INFO  11:53:25,860 - =====================================================================
+INFO  11:53:25,868 - Generisanje uspesno zavrseno!

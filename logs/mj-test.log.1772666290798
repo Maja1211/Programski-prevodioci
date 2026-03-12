@@ -1,0 +1,3072 @@
+INFO  23:59:28,175 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  23:59:28,287 - #2 program
+INFO  23:59:28,287 - #9 SemanticErrors
+INFO  23:59:28,287 - #13 const
+INFO  23:59:28,291 - #9 int
+INFO  23:59:28,291 - #9 badInt
+INFO  23:59:28,292 - #14 =
+INFO  23:59:28,293 - #11 a
+INFO  23:59:28,293 - #6 ;
+INFO  23:59:28,295 - #13 const
+INFO  23:59:28,298 - #9 char
+INFO  23:59:28,298 - #9 badChar
+INFO  23:59:28,298 - #14 =
+INFO  23:59:28,298 - #10 5
+INFO  23:59:28,299 - #6 ;
+INFO  23:59:28,299 - #13 const
+INFO  23:59:28,299 - #9 bool
+INFO  23:59:28,299 - #9 badBool
+INFO  23:59:28,299 - #14 =
+INFO  23:59:28,300 - #10 5
+INFO  23:59:28,300 - #6 ;
+INFO  23:59:28,300 - #13 const
+INFO  23:59:28,384 - #9 int
+INFO  23:59:28,384 - #9 x
+INFO  23:59:28,384 - #14 =
+INFO  23:59:28,384 - #10 1
+INFO  23:59:28,384 - #6 ;
+INFO  23:59:28,384 - #13 const
+INFO  23:59:28,385 - #9 int
+INFO  23:59:28,385 - #9 x
+INFO  23:59:28,385 - #14 =
+INFO  23:59:28,385 - #10 2
+INFO  23:59:28,385 - #6 ;
+INFO  23:59:28,385 - #9 int
+INFO  23:59:28,385 - #9 a
+INFO  23:59:28,385 - #5 ,
+INFO  23:59:28,386 - #9 b
+INFO  23:59:28,386 - #6 ;
+INFO  23:59:28,386 - #9 int
+INFO  23:59:28,388 - #9 a
+INFO  23:59:28,388 - #6 ;
+INFO  23:59:28,388 - #9 UnknownType
+INFO  23:59:28,388 - #9 u
+INFO  23:59:28,388 - #6 ;
+INFO  23:59:28,388 - #15 enum
+INFO  23:59:28,388 - #9 E1
+INFO  23:59:28,389 - #3 {
+INFO  23:59:28,389 - #9 X
+INFO  23:59:28,389 - #14 =
+INFO  23:59:28,389 - #10 0
+INFO  23:59:28,389 - #5 ,
+INFO  23:59:28,389 - #9 Y
+INFO  23:59:28,389 - #14 =
+INFO  23:59:28,389 - #10 0
+INFO  23:59:28,389 - #4 }
+INFO  23:59:28,390 - #15 enum
+INFO  23:59:28,391 - #9 E2
+INFO  23:59:28,392 - #3 {
+INFO  23:59:28,392 - #9 A
+INFO  23:59:28,392 - #5 ,
+INFO  23:59:28,392 - #9 B
+INFO  23:59:28,392 - #4 }
+INFO  23:59:28,392 - #15 enum
+INFO  23:59:28,392 - #9 E2
+INFO  23:59:28,392 - #3 {
+INFO  23:59:28,393 - #9 C
+INFO  23:59:28,393 - #4 }
+INFO  23:59:28,393 - #15 enum
+INFO  23:59:28,393 - #9 E3
+INFO  23:59:28,393 - #3 {
+INFO  23:59:28,393 - #9 M
+INFO  23:59:28,393 - #5 ,
+INFO  23:59:28,393 - #9 M
+INFO  23:59:28,394 - #4 }
+INFO  23:59:28,394 - #9 int
+INFO  23:59:28,394 - #9 g
+INFO  23:59:28,394 - #6 ;
+INFO  23:59:28,394 - #9 char
+INFO  23:59:28,394 - #9 gc
+INFO  23:59:28,394 - #6 ;
+INFO  23:59:28,394 - #9 bool
+INFO  23:59:28,394 - #9 gb
+INFO  23:59:28,394 - #6 ;
+INFO  23:59:28,395 - #9 int
+INFO  23:59:28,395 - #9 arr
+INFO  23:59:28,395 - #7 [
+INFO  23:59:28,395 - #8 ]
+INFO  23:59:28,395 - #6 ;
+INFO  23:59:28,395 - #13 const
+INFO  23:59:28,395 - #9 int
+INFO  23:59:28,395 - #9 K
+INFO  23:59:28,395 - #14 =
+INFO  23:59:28,397 - #10 0
+INFO  23:59:28,397 - #6 ;
+INFO  23:59:28,397 - #3 {
+INFO  23:59:28,397 - #18 void
+INFO  23:59:28,399 - #9 main
+INFO  23:59:28,399 - #16 (
+INFO  23:59:28,399 - #17 )
+INFO  23:59:28,400 - #3 {
+INFO  23:59:28,402 - #9 g
+INFO  23:59:28,403 - #14 =
+INFO  23:59:28,404 - #10 1
+INFO  23:59:28,406 - #6 ;
+INFO  23:59:28,409 - #4 }
+INFO  23:59:28,410 - #9 int
+INFO  23:59:28,411 - #9 noReturn
+INFO  23:59:28,412 - #16 (
+INFO  23:59:28,412 - #17 )
+INFO  23:59:28,412 - #3 {
+INFO  23:59:28,412 - #9 g
+INFO  23:59:28,412 - #14 =
+INFO  23:59:28,412 - #10 2
+INFO  23:59:28,412 - #6 ;
+INFO  23:59:28,412 - #4 }
+INFO  23:59:28,412 - #18 void
+INFO  23:59:28,414 - #9 dupParam
+INFO  23:59:28,414 - #16 (
+INFO  23:59:28,414 - #9 int
+INFO  23:59:28,414 - #9 p
+INFO  23:59:28,414 - #5 ,
+INFO  23:59:28,414 - #9 int
+INFO  23:59:28,414 - #9 p
+INFO  23:59:28,414 - #17 )
+INFO  23:59:28,415 - #3 {
+INFO  23:59:28,416 - #4 }
+INFO  23:59:28,416 - #18 void
+INFO  23:59:28,416 - #9 useUndeclared
+INFO  23:59:28,416 - #16 (
+INFO  23:59:28,416 - #17 )
+INFO  23:59:28,416 - #3 {
+INFO  23:59:28,417 - #9 xyz
+INFO  23:59:28,417 - #14 =
+INFO  23:59:28,417 - #10 1
+INFO  23:59:28,417 - #6 ;
+INFO  23:59:28,417 - #4 }
+INFO  23:59:28,417 - #18 void
+INFO  23:59:28,417 - #9 assignToConst
+INFO  23:59:28,417 - #16 (
+INFO  23:59:28,417 - #17 )
+INFO  23:59:28,417 - #3 {
+INFO  23:59:28,418 - #9 K
+INFO  23:59:28,418 - #14 =
+INFO  23:59:28,418 - #10 10
+INFO  23:59:28,418 - #6 ;
+INFO  23:59:28,418 - #4 }
+INFO  23:59:28,419 - #18 void
+INFO  23:59:28,419 - #9 badAssign
+INFO  23:59:28,419 - #16 (
+INFO  23:59:28,419 - #17 )
+INFO  23:59:28,419 - #3 {
+INFO  23:59:28,419 - #9 g
+INFO  23:59:28,419 - #14 =
+INFO  23:59:28,419 - #9 gb
+INFO  23:59:28,420 - #6 ;
+INFO  23:59:28,421 - #4 }
+INFO  23:59:28,421 - #18 void
+INFO  23:59:28,422 - #9 notArray
+INFO  23:59:28,422 - #16 (
+INFO  23:59:28,422 - #17 )
+INFO  23:59:28,422 - #3 {
+INFO  23:59:28,422 - #9 g
+INFO  23:59:28,422 - #7 [
+INFO  23:59:28,424 - #10 0
+INFO  23:59:28,424 - #8 ]
+INFO  23:59:28,424 - #14 =
+INFO  23:59:28,424 - #10 1
+INFO  23:59:28,424 - #6 ;
+INFO  23:59:28,425 - #4 }
+INFO  23:59:28,425 - #18 void
+INFO  23:59:28,425 - #9 indexNotInt
+INFO  23:59:28,425 - #16 (
+INFO  23:59:28,425 - #17 )
+INFO  23:59:28,425 - #3 {
+INFO  23:59:28,425 - #9 arr
+INFO  23:59:28,425 - #7 [
+INFO  23:59:28,425 - #9 gb
+INFO  23:59:28,426 - #8 ]
+INFO  23:59:28,426 - #14 =
+INFO  23:59:28,426 - #10 1
+INFO  23:59:28,426 - #6 ;
+INFO  23:59:28,426 - #4 }
+INFO  23:59:28,426 - #18 void
+INFO  23:59:28,426 - #9 callNonMethod
+INFO  23:59:28,426 - #16 (
+INFO  23:59:28,427 - #17 )
+INFO  23:59:28,427 - #3 {
+INFO  23:59:28,427 - #9 g
+INFO  23:59:28,427 - #16 (
+INFO  23:59:28,427 - #17 )
+INFO  23:59:28,427 - #6 ;
+INFO  23:59:28,427 - #4 }
+INFO  23:59:28,427 - #9 int
+INFO  23:59:28,428 - #9 takeInt
+INFO  23:59:28,428 - #16 (
+INFO  23:59:28,428 - #9 int
+INFO  23:59:28,428 - #9 x
+INFO  23:59:28,428 - #17 )
+INFO  23:59:28,428 - #3 {
+INFO  23:59:28,428 - #23 return
+INFO  23:59:28,428 - #9 x
+INFO  23:59:28,428 - #6 ;
+INFO  23:59:28,428 - #4 }
+INFO  23:59:28,428 - #18 void
+INFO  23:59:28,428 - #9 takeTwo
+INFO  23:59:28,430 - #16 (
+INFO  23:59:28,430 - #9 int
+INFO  23:59:28,430 - #9 a
+INFO  23:59:28,430 - #5 ,
+INFO  23:59:28,430 - #9 int
+INFO  23:59:28,430 - #9 b
+INFO  23:59:28,430 - #17 )
+INFO  23:59:28,430 - #3 {
+INFO  23:59:28,431 - #4 }
+INFO  23:59:28,431 - #18 void
+INFO  23:59:28,431 - #9 wrongArgCount
+INFO  23:59:28,431 - #16 (
+INFO  23:59:28,431 - #17 )
+INFO  23:59:28,431 - #9 int
+INFO  23:59:28,431 - #9 r
+INFO  23:59:28,431 - #6 ;
+INFO  23:59:28,431 - #3 {
+INFO  23:59:28,432 - #9 r
+INFO  23:59:28,432 - #14 =
+INFO  23:59:28,432 - #9 takeTwo
+INFO  23:59:28,432 - #16 (
+INFO  23:59:28,432 - #10 1
+INFO  23:59:28,432 - #17 )
+INFO  23:59:28,433 - #6 ;
+INFO  23:59:28,434 - #4 }
+INFO  23:59:28,434 - #18 void
+INFO  23:59:28,434 - #9 wrongArgType
+INFO  23:59:28,434 - #16 (
+INFO  23:59:28,434 - #17 )
+INFO  23:59:28,434 - #3 {
+INFO  23:59:28,434 - #9 takeInt
+INFO  23:59:28,435 - #16 (
+INFO  23:59:28,435 - #9 gb
+INFO  23:59:28,435 - #17 )
+INFO  23:59:28,435 - #6 ;
+INFO  23:59:28,435 - #4 }
+INFO  23:59:28,435 - #18 void
+INFO  23:59:28,436 - #9 newArrayBadSize
+INFO  23:59:28,436 - #16 (
+INFO  23:59:28,436 - #17 )
+INFO  23:59:28,436 - #3 {
+INFO  23:59:28,436 - #9 arr
+INFO  23:59:28,436 - #14 =
+INFO  23:59:28,436 - #47 new
+INFO  23:59:28,438 - #9 int
+INFO  23:59:28,438 - #7 [
+INFO  23:59:28,438 - #9 gb
+INFO  23:59:28,438 - #8 ]
+INFO  23:59:28,438 - #6 ;
+INFO  23:59:28,439 - #4 }
+INFO  23:59:28,439 - #18 void
+INFO  23:59:28,439 - #9 mulNotInt
+INFO  23:59:28,439 - #16 (
+INFO  23:59:28,440 - #17 )
+INFO  23:59:28,440 - #3 {
+INFO  23:59:28,440 - #9 g
+INFO  23:59:28,440 - #14 =
+INFO  23:59:28,440 - #9 g
+INFO  23:59:28,440 - #37 *
+INFO  23:59:28,440 - #9 gb
+INFO  23:59:28,443 - #6 ;
+INFO  23:59:28,443 - #4 }
+INFO  23:59:28,444 - #18 void
+INFO  23:59:28,444 - #9 unaryMinusNotInt
+INFO  23:59:28,444 - #16 (
+INFO  23:59:28,444 - #17 )
+INFO  23:59:28,444 - #3 {
+INFO  23:59:28,444 - #9 g
+INFO  23:59:28,444 - #14 =
+INFO  23:59:28,444 - #35 -
+INFO  23:59:28,444 - #9 gb
+INFO  23:59:28,445 - #6 ;
+INFO  23:59:28,445 - #4 }
+INFO  23:59:28,445 - #18 void
+INFO  23:59:28,445 - #9 addNotInt
+INFO  23:59:28,445 - #16 (
+INFO  23:59:28,445 - #17 )
+INFO  23:59:28,445 - #3 {
+INFO  23:59:28,446 - #9 g
+INFO  23:59:28,446 - #14 =
+INFO  23:59:28,446 - #9 g
+INFO  23:59:28,446 - #36 +
+INFO  23:59:28,446 - #9 gb
+INFO  23:59:28,448 - #6 ;
+INFO  23:59:28,448 - #4 }
+INFO  23:59:28,448 - #18 void
+INFO  23:59:28,449 - #9 ternaryCondNotBool
+INFO  23:59:28,449 - #16 (
+INFO  23:59:28,449 - #17 )
+INFO  23:59:28,449 - #3 {
+INFO  23:59:28,449 - #9 g
+INFO  23:59:28,449 - #14 =
+INFO  23:59:28,449 - #9 g
+INFO  23:59:28,449 - #34 ?
+INFO  23:59:28,451 - #10 1
+INFO  23:59:28,453 - #29 :
+INFO  23:59:28,453 - #10 0
+INFO  23:59:28,454 - #6 ;
+INFO  23:59:28,455 - #4 }
+INFO  23:59:28,455 - #18 void
+INFO  23:59:28,456 - #9 ternaryBranchesDiff
+INFO  23:59:28,456 - #16 (
+INFO  23:59:28,456 - #17 )
+INFO  23:59:28,456 - #3 {
+INFO  23:59:28,456 - #9 g
+INFO  23:59:28,456 - #14 =
+INFO  23:59:28,456 - #9 gb
+INFO  23:59:28,456 - #34 ?
+INFO  23:59:28,456 - #10 1
+INFO  23:59:28,456 - #29 :
+INFO  23:59:28,456 - #11 x
+INFO  23:59:28,457 - #6 ;
+INFO  23:59:28,457 - #4 }
+INFO  23:59:28,457 - #18 void
+INFO  23:59:28,457 - #9 condNotBool
+INFO  23:59:28,458 - #16 (
+INFO  23:59:28,458 - #17 )
+INFO  23:59:28,458 - #3 {
+INFO  23:59:28,458 - #19 if
+INFO  23:59:28,458 - #16 (
+INFO  23:59:28,458 - #9 g
+INFO  23:59:28,458 - #17 )
+INFO  23:59:28,458 - #9 g
+INFO  23:59:28,459 - #14 =
+INFO  23:59:28,460 - #10 1
+INFO  23:59:28,460 - #6 ;
+INFO  23:59:28,460 - #4 }
+INFO  23:59:28,462 - #18 void
+INFO  23:59:28,462 - #9 relopDiffType
+INFO  23:59:28,462 - #16 (
+INFO  23:59:28,462 - #17 )
+INFO  23:59:28,462 - #3 {
+INFO  23:59:28,462 - #19 if
+INFO  23:59:28,462 - #16 (
+INFO  23:59:28,462 - #9 g
+INFO  23:59:28,462 - #40 ==
+INFO  23:59:28,462 - #9 gb
+INFO  23:59:28,464 - #17 )
+INFO  23:59:28,465 - #9 g
+INFO  23:59:28,465 - #14 =
+INFO  23:59:28,465 - #10 1
+INFO  23:59:28,465 - #6 ;
+INFO  23:59:28,465 - #4 }
+INFO  23:59:28,465 - #18 void
+INFO  23:59:28,465 - #9 andNotBool
+INFO  23:59:28,465 - #16 (
+INFO  23:59:28,466 - #17 )
+INFO  23:59:28,466 - #3 {
+INFO  23:59:28,466 - #19 if
+INFO  23:59:28,466 - #16 (
+INFO  23:59:28,466 - #9 g
+INFO  23:59:28,466 - #33 &&
+INFO  23:59:28,466 - #9 gb
+INFO  23:59:28,466 - #17 )
+INFO  23:59:28,466 - #9 g
+INFO  23:59:28,466 - #14 =
+INFO  23:59:28,467 - #10 1
+INFO  23:59:28,467 - #6 ;
+INFO  23:59:28,467 - #4 }
+INFO  23:59:28,467 - #18 void
+INFO  23:59:28,467 - #9 orNotBool
+INFO  23:59:28,467 - #16 (
+INFO  23:59:28,467 - #17 )
+INFO  23:59:28,467 - #3 {
+INFO  23:59:28,467 - #19 if
+INFO  23:59:28,467 - #16 (
+INFO  23:59:28,467 - #9 g
+INFO  23:59:28,468 - #32 ||
+INFO  23:59:28,468 - #9 gb
+INFO  23:59:28,468 - #17 )
+INFO  23:59:28,468 - #9 g
+INFO  23:59:28,468 - #14 =
+INFO  23:59:28,468 - #10 1
+INFO  23:59:28,468 - #6 ;
+INFO  23:59:28,469 - #4 }
+INFO  23:59:28,469 - #18 void
+INFO  23:59:28,469 - #9 assignToMethod
+INFO  23:59:28,469 - #16 (
+INFO  23:59:28,469 - #17 )
+INFO  23:59:28,469 - #3 {
+INFO  23:59:28,469 - #9 takeInt
+INFO  23:59:28,469 - #14 =
+INFO  23:59:28,470 - #10 5
+INFO  23:59:28,470 - #6 ;
+INFO  23:59:28,470 - #4 }
+INFO  23:59:28,470 - #18 void
+INFO  23:59:28,470 - #9 callVar
+INFO  23:59:28,470 - #16 (
+INFO  23:59:28,470 - #17 )
+INFO  23:59:28,470 - #3 {
+INFO  23:59:28,470 - #9 g
+INFO  23:59:28,470 - #16 (
+INFO  23:59:28,470 - #10 1
+INFO  23:59:28,470 - #17 )
+INFO  23:59:28,471 - #6 ;
+INFO  23:59:28,471 - #4 }
+INFO  23:59:28,471 - #18 void
+INFO  23:59:28,471 - #9 incConst
+INFO  23:59:28,471 - #16 (
+INFO  23:59:28,471 - #17 )
+INFO  23:59:28,471 - #3 {
+INFO  23:59:28,471 - #9 K
+INFO  23:59:28,471 - #30 ++
+INFO  23:59:28,471 - #6 ;
+INFO  23:59:28,471 - #4 }
+INFO  23:59:28,471 - #18 void
+INFO  23:59:28,473 - #9 incNonInt
+INFO  23:59:28,473 - #16 (
+INFO  23:59:28,473 - #17 )
+INFO  23:59:28,473 - #3 {
+INFO  23:59:28,473 - #9 gb
+INFO  23:59:28,473 - #30 ++
+INFO  23:59:28,473 - #6 ;
+INFO  23:59:28,473 - #4 }
+INFO  23:59:28,473 - #18 void
+INFO  23:59:28,473 - #9 decConst
+INFO  23:59:28,473 - #16 (
+INFO  23:59:28,473 - #17 )
+INFO  23:59:28,473 - #3 {
+INFO  23:59:28,474 - #9 K
+INFO  23:59:28,474 - #31 --
+INFO  23:59:28,474 - #6 ;
+INFO  23:59:28,474 - #4 }
+INFO  23:59:28,474 - #18 void
+INFO  23:59:28,474 - #9 decNonInt
+INFO  23:59:28,474 - #16 (
+INFO  23:59:28,474 - #17 )
+INFO  23:59:28,475 - #3 {
+INFO  23:59:28,475 - #9 gb
+INFO  23:59:28,475 - #31 --
+INFO  23:59:28,475 - #6 ;
+INFO  23:59:28,475 - #4 }
+INFO  23:59:28,475 - #18 void
+INFO  23:59:28,475 - #9 voidReturns
+INFO  23:59:28,475 - #16 (
+INFO  23:59:28,475 - #17 )
+INFO  23:59:28,475 - #3 {
+INFO  23:59:28,475 - #23 return
+INFO  23:59:28,475 - #10 5
+INFO  23:59:28,475 - #6 ;
+INFO  23:59:28,475 - #4 }
+INFO  23:59:28,475 - #9 int
+INFO  23:59:28,475 - #9 returnWrongType
+INFO  23:59:28,476 - #16 (
+INFO  23:59:28,476 - #17 )
+INFO  23:59:28,476 - #3 {
+INFO  23:59:28,476 - #23 return
+INFO  23:59:28,476 - #9 gb
+INFO  23:59:28,476 - #6 ;
+INFO  23:59:28,476 - #4 }
+INFO  23:59:28,476 - #18 void
+INFO  23:59:28,476 - #9 readConst
+INFO  23:59:28,476 - #16 (
+INFO  23:59:28,476 - #17 )
+INFO  23:59:28,476 - #3 {
+INFO  23:59:28,476 - #24 read
+INFO  23:59:28,476 - #16 (
+INFO  23:59:28,476 - #9 K
+INFO  23:59:28,476 - #17 )
+INFO  23:59:28,476 - #6 ;
+INFO  23:59:28,476 - #4 }
+INFO  23:59:28,477 - #18 void
+INFO  23:59:28,477 - #9 readWrongType
+INFO  23:59:28,477 - #16 (
+INFO  23:59:28,477 - #17 )
+INFO  23:59:28,477 - #3 {
+INFO  23:59:28,477 - #24 read
+INFO  23:59:28,477 - #16 (
+INFO  23:59:28,477 - #9 arr
+INFO  23:59:28,477 - #17 )
+INFO  23:59:28,477 - #6 ;
+INFO  23:59:28,477 - #4 }
+INFO  23:59:28,477 - #18 void
+INFO  23:59:28,477 - #9 printWrongType
+INFO  23:59:28,477 - #16 (
+INFO  23:59:28,477 - #17 )
+INFO  23:59:28,477 - #3 {
+INFO  23:59:28,478 - #25 print
+INFO  23:59:28,478 - #16 (
+INFO  23:59:28,478 - #9 arr
+INFO  23:59:28,478 - #17 )
+INFO  23:59:28,478 - #6 ;
+INFO  23:59:28,478 - #4 }
+INFO  23:59:28,478 - #18 void
+INFO  23:59:28,478 - #9 breakOutside
+INFO  23:59:28,478 - #16 (
+INFO  23:59:28,478 - #17 )
+INFO  23:59:28,478 - #3 {
+INFO  23:59:28,478 - #21 break
+INFO  23:59:28,478 - #6 ;
+INFO  23:59:28,478 - #4 }
+INFO  23:59:28,480 - #18 void
+INFO  23:59:28,480 - #9 continueOutside
+INFO  23:59:28,480 - #16 (
+INFO  23:59:28,480 - #17 )
+INFO  23:59:28,480 - #3 {
+INFO  23:59:28,480 - #22 continue
+INFO  23:59:28,481 - #6 ;
+INFO  23:59:28,481 - #4 }
+INFO  23:59:28,482 - #18 void
+INFO  23:59:28,482 - #9 switchNotInt
+INFO  23:59:28,482 - #16 (
+INFO  23:59:28,482 - #17 )
+INFO  23:59:28,482 - #3 {
+INFO  23:59:28,482 - #27 switch
+INFO  23:59:28,483 - #16 (
+INFO  23:59:28,483 - #9 gb
+INFO  23:59:28,483 - #17 )
+INFO  23:59:28,483 - #3 {
+INFO  23:59:28,483 - #28 case
+INFO  23:59:28,486 - #10 1
+INFO  23:59:28,486 - #29 :
+INFO  23:59:28,486 - #21 break
+INFO  23:59:28,486 - #6 ;
+INFO  23:59:28,486 - #4 }
+INFO  23:59:28,491 - #4 }
+INFO  23:59:28,491 - #18 void
+INFO  23:59:28,491 - #9 forCondNotBool
+INFO  23:59:28,491 - #16 (
+INFO  23:59:28,491 - #17 )
+INFO  23:59:28,491 - #3 {
+INFO  23:59:28,491 - #26 for
+INFO  23:59:28,491 - #16 (
+INFO  23:59:28,491 - #9 g
+INFO  23:59:28,492 - #14 =
+INFO  23:59:28,492 - #10 0
+INFO  23:59:28,492 - #6 ;
+INFO  23:59:28,492 - #9 g
+INFO  23:59:28,493 - #6 ;
+INFO  23:59:28,495 - #9 g
+INFO  23:59:28,495 - #30 ++
+INFO  23:59:28,495 - #17 )
+INFO  23:59:28,495 - #9 g
+INFO  23:59:28,497 - #14 =
+INFO  23:59:28,497 - #10 1
+INFO  23:59:28,497 - #6 ;
+INFO  23:59:28,497 - #4 }
+INFO  23:59:28,498 - #18 void
+INFO  23:59:28,498 - #9 lengthNotArray
+INFO  23:59:28,498 - #16 (
+INFO  23:59:28,498 - #17 )
+INFO  23:59:28,498 - #9 int
+INFO  23:59:28,498 - #9 len
+INFO  23:59:28,498 - #6 ;
+INFO  23:59:28,498 - #3 {
+INFO  23:59:28,498 - #9 len
+INFO  23:59:28,498 - #14 =
+INFO  23:59:28,498 - #9 g
+INFO  23:59:28,499 - #46 .
+INFO  23:59:28,499 - #48 length
+INFO  23:59:28,500 - #6 ;
+INFO  23:59:28,500 - #4 }
+INFO  23:59:28,501 - #18 void
+INFO  23:59:28,501 - #9 fieldNotEnum
+INFO  23:59:28,501 - #16 (
+INFO  23:59:28,501 - #17 )
+INFO  23:59:28,501 - #9 int
+INFO  23:59:28,501 - #9 k
+INFO  23:59:28,501 - #6 ;
+INFO  23:59:28,501 - #3 {
+INFO  23:59:28,501 - #9 k
+INFO  23:59:28,501 - #14 =
+INFO  23:59:28,501 - #9 g
+INFO  23:59:28,501 - #46 .
+INFO  23:59:28,501 - #9 someField
+INFO  23:59:28,501 - #6 ;
+INFO  23:59:28,501 - #4 }
+INFO  23:59:28,501 - #4 }
+INFO  23:59:28,528 - Program(
+  ProgramName(
+   SemanticErrors
+  ) [ProgramName]
+  ConVarEnumDecList_con(
+    ConVarEnumDecList_var(
+      ConVarEnumDecList_var(
+        ConVarEnumDecList_var(
+          ConVarEnumDecList_var(
+            ConVarEnumDecList_enum(
+              ConVarEnumDecList_enum(
+                ConVarEnumDecList_enum(
+                  ConVarEnumDecList_enum(
+                    ConVarEnumDecList_var(
+                      ConVarEnumDecList_var(
+                        ConVarEnumDecList_var(
+                          ConVarEnumDecList_con(
+                            ConVarEnumDecList_con(
+                              ConVarEnumDecList_con(
+                                ConVarEnumDecList_con(
+                                  ConVarEnumDecList_con(
+                                    ConVarEnumDecList_e(
+                                    ) [ConVarEnumDecList_e]
+                                    ConDecList(
+                                      Type(
+                                       int
+                                      ) [Type]
+                                      ConDecl(
+                                       badInt
+                                        Constant_c(
+                                         a
+                                        ) [Constant_c]
+                                      ) [ConDecl]
+                                      ConDeclMore_e(
+                                      ) [ConDeclMore_e]
+                                    ) [ConDecList]
+                                  ) [ConVarEnumDecList_con]
+                                  ConDecList(
+                                    Type(
+                                     char
+                                    ) [Type]
+                                    ConDecl(
+                                     badChar
+                                      Constant_n(
+                                       5
+                                      ) [Constant_n]
+                                    ) [ConDecl]
+                                    ConDeclMore_e(
+                                    ) [ConDeclMore_e]
+                                  ) [ConDecList]
+                                ) [ConVarEnumDecList_con]
+                                ConDecList(
+                                  Type(
+                                   bool
+                                  ) [Type]
+                                  ConDecl(
+                                   badBool
+                                    Constant_n(
+                                     5
+                                    ) [Constant_n]
+                                  ) [ConDecl]
+                                  ConDeclMore_e(
+                                  ) [ConDeclMore_e]
+                                ) [ConDecList]
+                              ) [ConVarEnumDecList_con]
+                              ConDecList(
+                                Type(
+                                 int
+                                ) [Type]
+                                ConDecl(
+                                 x
+                                  Constant_n(
+                                   1
+                                  ) [Constant_n]
+                                ) [ConDecl]
+                                ConDeclMore_e(
+                                ) [ConDeclMore_e]
+                              ) [ConDecList]
+                            ) [ConVarEnumDecList_con]
+                            ConDecList(
+                              Type(
+                               int
+                              ) [Type]
+                              ConDecl(
+                               x
+                                Constant_n(
+                                 2
+                                ) [Constant_n]
+                              ) [ConDecl]
+                              ConDeclMore_e(
+                              ) [ConDeclMore_e]
+                            ) [ConDecList]
+                          ) [ConVarEnumDecList_con]
+                          VarDeclList(
+                            Type(
+                             int
+                            ) [Type]
+                            VarIdentList_more(
+                              VarIdentList_one(
+                                VarIdent_1(
+                                 a
+                                ) [VarIdent_1]
+                              ) [VarIdentList_one]
+                              VarIdent_1(
+                               b
+                              ) [VarIdent_1]
+                            ) [VarIdentList_more]
+                          ) [VarDeclList]
+                        ) [ConVarEnumDecList_var]
+                        VarDeclList(
+                          Type(
+                           int
+                          ) [Type]
+                          VarIdentList_one(
+                            VarIdent_1(
+                             a
+                            ) [VarIdent_1]
+                          ) [VarIdentList_one]
+                        ) [VarDeclList]
+                      ) [ConVarEnumDecList_var]
+                      VarDeclList(
+                        Type(
+                         UnknownType
+                        ) [Type]
+                        VarIdentList_one(
+                          VarIdent_1(
+                           u
+                          ) [VarIdent_1]
+                        ) [VarIdentList_one]
+                      ) [VarDeclList]
+                    ) [ConVarEnumDecList_var]
+                    EnumDecl(
+                     E1
+                      EnumItemList_more(
+                        EnumItemList_one(
+                          EnumItem_value(
+                           X
+                           0
+                          ) [EnumItem_value]
+                        ) [EnumItemList_one]
+                        EnumItem_value(
+                         Y
+                         0
+                        ) [EnumItem_value]
+                      ) [EnumItemList_more]
+                    ) [EnumDecl]
+                  ) [ConVarEnumDecList_enum]
+                  EnumDecl(
+                   E2
+                    EnumItemList_more(
+                      EnumItemList_one(
+                        EnumItem_simple(
+                         A
+                        ) [EnumItem_simple]
+                      ) [EnumItemList_one]
+                      EnumItem_simple(
+                       B
+                      ) [EnumItem_simple]
+                    ) [EnumItemList_more]
+                  ) [EnumDecl]
+                ) [ConVarEnumDecList_enum]
+                EnumDecl(
+                 E2
+                  EnumItemList_one(
+                    EnumItem_simple(
+                     C
+                    ) [EnumItem_simple]
+                  ) [EnumItemList_one]
+                ) [EnumDecl]
+              ) [ConVarEnumDecList_enum]
+              EnumDecl(
+               E3
+                EnumItemList_more(
+                  EnumItemList_one(
+                    EnumItem_simple(
+                     M
+                    ) [EnumItem_simple]
+                  ) [EnumItemList_one]
+                  EnumItem_simple(
+                   M
+                  ) [EnumItem_simple]
+                ) [EnumItemList_more]
+              ) [EnumDecl]
+            ) [ConVarEnumDecList_enum]
+            VarDeclList(
+              Type(
+               int
+              ) [Type]
+              VarIdentList_one(
+                VarIdent_1(
+                 g
+                ) [VarIdent_1]
+              ) [VarIdentList_one]
+            ) [VarDeclList]
+          ) [ConVarEnumDecList_var]
+          VarDeclList(
+            Type(
+             char
+            ) [Type]
+            VarIdentList_one(
+              VarIdent_1(
+               gc
+              ) [VarIdent_1]
+            ) [VarIdentList_one]
+          ) [VarDeclList]
+        ) [ConVarEnumDecList_var]
+        VarDeclList(
+          Type(
+           bool
+          ) [Type]
+          VarIdentList_one(
+            VarIdent_1(
+             gb
+            ) [VarIdent_1]
+          ) [VarIdentList_one]
+        ) [VarDeclList]
+      ) [ConVarEnumDecList_var]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarIdentList_one(
+          VarIdent_more(
+           arr
+          ) [VarIdent_more]
+        ) [VarIdentList_one]
+      ) [VarDeclList]
+    ) [ConVarEnumDecList_var]
+    ConDecList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       K
+        Constant_n(
+         0
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConDecList]
+  ) [ConVarEnumDecList_con]
+  MethodDeclList_list(
+    MethodDeclList_list(
+      MethodDeclList_list(
+        MethodDeclList_list(
+          MethodDeclList_list(
+            MethodDeclList_list(
+              MethodDeclList_list(
+                MethodDeclList_list(
+                  MethodDeclList_list(
+                    MethodDeclList_list(
+                      MethodDeclList_list(
+                        MethodDeclList_list(
+                          MethodDeclList_list(
+                            MethodDeclList_list(
+                              MethodDeclList_list(
+                                MethodDeclList_list(
+                                  MethodDeclList_list(
+                                    MethodDeclList_list(
+                                      MethodDeclList_list(
+                                        MethodDeclList_list(
+                                          MethodDeclList_list(
+                                            MethodDeclList_list(
+                                              MethodDeclList_list(
+                                                MethodDeclList_list(
+                                                  MethodDeclList_list(
+                                                    MethodDeclList_list(
+                                                      MethodDeclList_list(
+                                                        MethodDeclList_list(
+                                                          MethodDeclList_list(
+                                                            MethodDeclList_list(
+                                                              MethodDeclList_list(
+                                                                MethodDeclList_list(
+                                                                  MethodDeclList_list(
+                                                                    MethodDeclList_list(
+                                                                      MethodDeclList_list(
+                                                                        MethodDeclList_list(
+                                                                          MethodDeclList_list(
+                                                                            MethodDeclList_list(
+                                                                              MethodDeclList_list(
+                                                                                MethodDeclList_list(
+                                                                                  MethodDeclList_e(
+                                                                                  ) [MethodDeclList_e]
+                                                                                  MethodDecl(
+                                                                                    MethRetAndName_void(
+                                                                                     main
+                                                                                    ) [MethRetAndName_void]
+                                                                                    FormParList_e(
+                                                                                    ) [FormParList_e]
+                                                                                    VarDeclListPom_e(
+                                                                                    ) [VarDeclListPom_e]
+                                                                                    StatementList_stat(
+                                                                                      StatementList_e(
+                                                                                      ) [StatementList_e]
+                                                                                      Stmt_simple(
+                                                                                        Stmt_designator(
+                                                                                          DesStmt_assign(
+                                                                                            Designator_var(
+                                                                                             g
+                                                                                            ) [Designator_var]
+                                                                                            Assignop_eq(
+                                                                                            ) [Assignop_eq]
+                                                                                            Expr_basic(
+                                                                                              ExprBasic_main(
+                                                                                                AddopTermList_term(
+                                                                                                  Term(
+                                                                                                    MulopFactorList_factor(
+                                                                                                      Factor(
+                                                                                                        Pom_e(
+                                                                                                        ) [Pom_e]
+                                                                                                        Factor_num(
+                                                                                                         1
+                                                                                                        ) [Factor_num]
+                                                                                                      ) [Factor]
+                                                                                                    ) [MulopFactorList_factor]
+                                                                                                  ) [Term]
+                                                                                                ) [AddopTermList_term]
+                                                                                              ) [ExprBasic_main]
+                                                                                            ) [Expr_basic]
+                                                                                          ) [DesStmt_assign]
+                                                                                        ) [Stmt_designator]
+                                                                                      ) [Stmt_simple]
+                                                                                    ) [StatementList_stat]
+                                                                                  ) [MethodDecl]
+                                                                                ) [MethodDeclList_list]
+                                                                                MethodDecl(
+                                                                                  MethRetAndName_type(
+                                                                                    Type(
+                                                                                     int
+                                                                                    ) [Type]
+                                                                                   noReturn
+                                                                                  ) [MethRetAndName_type]
+                                                                                  FormParList_e(
+                                                                                  ) [FormParList_e]
+                                                                                  VarDeclListPom_e(
+                                                                                  ) [VarDeclListPom_e]
+                                                                                  StatementList_stat(
+                                                                                    StatementList_e(
+                                                                                    ) [StatementList_e]
+                                                                                    Stmt_simple(
+                                                                                      Stmt_designator(
+                                                                                        DesStmt_assign(
+                                                                                          Designator_var(
+                                                                                           g
+                                                                                          ) [Designator_var]
+                                                                                          Assignop_eq(
+                                                                                          ) [Assignop_eq]
+                                                                                          Expr_basic(
+                                                                                            ExprBasic_main(
+                                                                                              AddopTermList_term(
+                                                                                                Term(
+                                                                                                  MulopFactorList_factor(
+                                                                                                    Factor(
+                                                                                                      Pom_e(
+                                                                                                      ) [Pom_e]
+                                                                                                      Factor_num(
+                                                                                                       2
+                                                                                                      ) [Factor_num]
+                                                                                                    ) [Factor]
+                                                                                                  ) [MulopFactorList_factor]
+                                                                                                ) [Term]
+                                                                                              ) [AddopTermList_term]
+                                                                                            ) [ExprBasic_main]
+                                                                                          ) [Expr_basic]
+                                                                                        ) [DesStmt_assign]
+                                                                                      ) [Stmt_designator]
+                                                                                    ) [Stmt_simple]
+                                                                                  ) [StatementList_stat]
+                                                                                ) [MethodDecl]
+                                                                              ) [MethodDeclList_list]
+                                                                              MethodDecl(
+                                                                                MethRetAndName_void(
+                                                                                 dupParam
+                                                                                ) [MethRetAndName_void]
+                                                                                FormParList_form(
+                                                                                  FormPar_var(
+                                                                                    Type(
+                                                                                     int
+                                                                                    ) [Type]
+                                                                                   p
+                                                                                  ) [FormPar_var]
+                                                                                  FormParMore_more(
+                                                                                    FormPar_var(
+                                                                                      Type(
+                                                                                       int
+                                                                                      ) [Type]
+                                                                                     p
+                                                                                    ) [FormPar_var]
+                                                                                    FormParMore_e(
+                                                                                    ) [FormParMore_e]
+                                                                                  ) [FormParMore_more]
+                                                                                ) [FormParList_form]
+                                                                                VarDeclListPom_e(
+                                                                                ) [VarDeclListPom_e]
+                                                                                StatementList_e(
+                                                                                ) [StatementList_e]
+                                                                              ) [MethodDecl]
+                                                                            ) [MethodDeclList_list]
+                                                                            MethodDecl(
+                                                                              MethRetAndName_void(
+                                                                               useUndeclared
+                                                                              ) [MethRetAndName_void]
+                                                                              FormParList_e(
+                                                                              ) [FormParList_e]
+                                                                              VarDeclListPom_e(
+                                                                              ) [VarDeclListPom_e]
+                                                                              StatementList_stat(
+                                                                                StatementList_e(
+                                                                                ) [StatementList_e]
+                                                                                Stmt_simple(
+                                                                                  Stmt_designator(
+                                                                                    DesStmt_assign(
+                                                                                      Designator_var(
+                                                                                       xyz
+                                                                                      ) [Designator_var]
+                                                                                      Assignop_eq(
+                                                                                      ) [Assignop_eq]
+                                                                                      Expr_basic(
+                                                                                        ExprBasic_main(
+                                                                                          AddopTermList_term(
+                                                                                            Term(
+                                                                                              MulopFactorList_factor(
+                                                                                                Factor(
+                                                                                                  Pom_e(
+                                                                                                  ) [Pom_e]
+                                                                                                  Factor_num(
+                                                                                                   1
+                                                                                                  ) [Factor_num]
+                                                                                                ) [Factor]
+                                                                                              ) [MulopFactorList_factor]
+                                                                                            ) [Term]
+                                                                                          ) [AddopTermList_term]
+                                                                                        ) [ExprBasic_main]
+                                                                                      ) [Expr_basic]
+                                                                                    ) [DesStmt_assign]
+                                                                                  ) [Stmt_designator]
+                                                                                ) [Stmt_simple]
+                                                                              ) [StatementList_stat]
+                                                                            ) [MethodDecl]
+                                                                          ) [MethodDeclList_list]
+                                                                          MethodDecl(
+                                                                            MethRetAndName_void(
+                                                                             assignToConst
+                                                                            ) [MethRetAndName_void]
+                                                                            FormParList_e(
+                                                                            ) [FormParList_e]
+                                                                            VarDeclListPom_e(
+                                                                            ) [VarDeclListPom_e]
+                                                                            StatementList_stat(
+                                                                              StatementList_e(
+                                                                              ) [StatementList_e]
+                                                                              Stmt_simple(
+                                                                                Stmt_designator(
+                                                                                  DesStmt_assign(
+                                                                                    Designator_var(
+                                                                                     K
+                                                                                    ) [Designator_var]
+                                                                                    Assignop_eq(
+                                                                                    ) [Assignop_eq]
+                                                                                    Expr_basic(
+                                                                                      ExprBasic_main(
+                                                                                        AddopTermList_term(
+                                                                                          Term(
+                                                                                            MulopFactorList_factor(
+                                                                                              Factor(
+                                                                                                Pom_e(
+                                                                                                ) [Pom_e]
+                                                                                                Factor_num(
+                                                                                                 10
+                                                                                                ) [Factor_num]
+                                                                                              ) [Factor]
+                                                                                            ) [MulopFactorList_factor]
+                                                                                          ) [Term]
+                                                                                        ) [AddopTermList_term]
+                                                                                      ) [ExprBasic_main]
+                                                                                    ) [Expr_basic]
+                                                                                  ) [DesStmt_assign]
+                                                                                ) [Stmt_designator]
+                                                                              ) [Stmt_simple]
+                                                                            ) [StatementList_stat]
+                                                                          ) [MethodDecl]
+                                                                        ) [MethodDeclList_list]
+                                                                        MethodDecl(
+                                                                          MethRetAndName_void(
+                                                                           badAssign
+                                                                          ) [MethRetAndName_void]
+                                                                          FormParList_e(
+                                                                          ) [FormParList_e]
+                                                                          VarDeclListPom_e(
+                                                                          ) [VarDeclListPom_e]
+                                                                          StatementList_stat(
+                                                                            StatementList_e(
+                                                                            ) [StatementList_e]
+                                                                            Stmt_simple(
+                                                                              Stmt_designator(
+                                                                                DesStmt_assign(
+                                                                                  Designator_var(
+                                                                                   g
+                                                                                  ) [Designator_var]
+                                                                                  Assignop_eq(
+                                                                                  ) [Assignop_eq]
+                                                                                  Expr_basic(
+                                                                                    ExprBasic_main(
+                                                                                      AddopTermList_term(
+                                                                                        Term(
+                                                                                          MulopFactorList_factor(
+                                                                                            Factor(
+                                                                                              Pom_e(
+                                                                                              ) [Pom_e]
+                                                                                              Factor_design(
+                                                                                                Designator_var(
+                                                                                                 gb
+                                                                                                ) [Designator_var]
+                                                                                                FactorOpt_e(
+                                                                                                ) [FactorOpt_e]
+                                                                                              ) [Factor_design]
+                                                                                            ) [Factor]
+                                                                                          ) [MulopFactorList_factor]
+                                                                                        ) [Term]
+                                                                                      ) [AddopTermList_term]
+                                                                                    ) [ExprBasic_main]
+                                                                                  ) [Expr_basic]
+                                                                                ) [DesStmt_assign]
+                                                                              ) [Stmt_designator]
+                                                                            ) [Stmt_simple]
+                                                                          ) [StatementList_stat]
+                                                                        ) [MethodDecl]
+                                                                      ) [MethodDeclList_list]
+                                                                      MethodDecl(
+                                                                        MethRetAndName_void(
+                                                                         notArray
+                                                                        ) [MethRetAndName_void]
+                                                                        FormParList_e(
+                                                                        ) [FormParList_e]
+                                                                        VarDeclListPom_e(
+                                                                        ) [VarDeclListPom_e]
+                                                                        StatementList_stat(
+                                                                          StatementList_e(
+                                                                          ) [StatementList_e]
+                                                                          Stmt_simple(
+                                                                            Stmt_designator(
+                                                                              DesStmt_assign(
+                                                                                Designator_elem(
+                                                                                  DesignatorArrayName(
+                                                                                   g
+                                                                                  ) [DesignatorArrayName]
+                                                                                  Expr_basic(
+                                                                                    ExprBasic_main(
+                                                                                      AddopTermList_term(
+                                                                                        Term(
+                                                                                          MulopFactorList_factor(
+                                                                                            Factor(
+                                                                                              Pom_e(
+                                                                                              ) [Pom_e]
+                                                                                              Factor_num(
+                                                                                               0
+                                                                                              ) [Factor_num]
+                                                                                            ) [Factor]
+                                                                                          ) [MulopFactorList_factor]
+                                                                                        ) [Term]
+                                                                                      ) [AddopTermList_term]
+                                                                                    ) [ExprBasic_main]
+                                                                                  ) [Expr_basic]
+                                                                                ) [Designator_elem]
+                                                                                Assignop_eq(
+                                                                                ) [Assignop_eq]
+                                                                                Expr_basic(
+                                                                                  ExprBasic_main(
+                                                                                    AddopTermList_term(
+                                                                                      Term(
+                                                                                        MulopFactorList_factor(
+                                                                                          Factor(
+                                                                                            Pom_e(
+                                                                                            ) [Pom_e]
+                                                                                            Factor_num(
+                                                                                             1
+                                                                                            ) [Factor_num]
+                                                                                          ) [Factor]
+                                                                                        ) [MulopFactorList_factor]
+                                                                                      ) [Term]
+                                                                                    ) [AddopTermList_term]
+                                                                                  ) [ExprBasic_main]
+                                                                                ) [Expr_basic]
+                                                                              ) [DesStmt_assign]
+                                                                            ) [Stmt_designator]
+                                                                          ) [Stmt_simple]
+                                                                        ) [StatementList_stat]
+                                                                      ) [MethodDecl]
+                                                                    ) [MethodDeclList_list]
+                                                                    MethodDecl(
+                                                                      MethRetAndName_void(
+                                                                       indexNotInt
+                                                                      ) [MethRetAndName_void]
+                                                                      FormParList_e(
+                                                                      ) [FormParList_e]
+                                                                      VarDeclListPom_e(
+                                                                      ) [VarDeclListPom_e]
+                                                                      StatementList_stat(
+                                                                        StatementList_e(
+                                                                        ) [StatementList_e]
+                                                                        Stmt_simple(
+                                                                          Stmt_designator(
+                                                                            DesStmt_assign(
+                                                                              Designator_elem(
+                                                                                DesignatorArrayName(
+                                                                                 arr
+                                                                                ) [DesignatorArrayName]
+                                                                                Expr_basic(
+                                                                                  ExprBasic_main(
+                                                                                    AddopTermList_term(
+                                                                                      Term(
+                                                                                        MulopFactorList_factor(
+                                                                                          Factor(
+                                                                                            Pom_e(
+                                                                                            ) [Pom_e]
+                                                                                            Factor_design(
+                                                                                              Designator_var(
+                                                                                               gb
+                                                                                              ) [Designator_var]
+                                                                                              FactorOpt_e(
+                                                                                              ) [FactorOpt_e]
+                                                                                            ) [Factor_design]
+                                                                                          ) [Factor]
+                                                                                        ) [MulopFactorList_factor]
+                                                                                      ) [Term]
+                                                                                    ) [AddopTermList_term]
+                                                                                  ) [ExprBasic_main]
+                                                                                ) [Expr_basic]
+                                                                              ) [Designator_elem]
+                                                                              Assignop_eq(
+                                                                              ) [Assignop_eq]
+                                                                              Expr_basic(
+                                                                                ExprBasic_main(
+                                                                                  AddopTermList_term(
+                                                                                    Term(
+                                                                                      MulopFactorList_factor(
+                                                                                        Factor(
+                                                                                          Pom_e(
+                                                                                          ) [Pom_e]
+                                                                                          Factor_num(
+                                                                                           1
+                                                                                          ) [Factor_num]
+                                                                                        ) [Factor]
+                                                                                      ) [MulopFactorList_factor]
+                                                                                    ) [Term]
+                                                                                  ) [AddopTermList_term]
+                                                                                ) [ExprBasic_main]
+                                                                              ) [Expr_basic]
+                                                                            ) [DesStmt_assign]
+                                                                          ) [Stmt_designator]
+                                                                        ) [Stmt_simple]
+                                                                      ) [StatementList_stat]
+                                                                    ) [MethodDecl]
+                                                                  ) [MethodDeclList_list]
+                                                                  MethodDecl(
+                                                                    MethRetAndName_void(
+                                                                     callNonMethod
+                                                                    ) [MethRetAndName_void]
+                                                                    FormParList_e(
+                                                                    ) [FormParList_e]
+                                                                    VarDeclListPom_e(
+                                                                    ) [VarDeclListPom_e]
+                                                                    StatementList_stat(
+                                                                      StatementList_e(
+                                                                      ) [StatementList_e]
+                                                                      Stmt_simple(
+                                                                        Stmt_designator(
+                                                                          DesStmt_call_noargs(
+                                                                            Designator_var(
+                                                                             g
+                                                                            ) [Designator_var]
+                                                                          ) [DesStmt_call_noargs]
+                                                                        ) [Stmt_designator]
+                                                                      ) [Stmt_simple]
+                                                                    ) [StatementList_stat]
+                                                                  ) [MethodDecl]
+                                                                ) [MethodDeclList_list]
+                                                                MethodDecl(
+                                                                  MethRetAndName_type(
+                                                                    Type(
+                                                                     int
+                                                                    ) [Type]
+                                                                   takeInt
+                                                                  ) [MethRetAndName_type]
+                                                                  FormParList_form(
+                                                                    FormPar_var(
+                                                                      Type(
+                                                                       int
+                                                                      ) [Type]
+                                                                     x
+                                                                    ) [FormPar_var]
+                                                                    FormParMore_e(
+                                                                    ) [FormParMore_e]
+                                                                  ) [FormParList_form]
+                                                                  VarDeclListPom_e(
+                                                                  ) [VarDeclListPom_e]
+                                                                  StatementList_stat(
+                                                                    StatementList_e(
+                                                                    ) [StatementList_e]
+                                                                    Stmt_simple(
+                                                                      Stmt_return_expr(
+                                                                        Expr_basic(
+                                                                          ExprBasic_main(
+                                                                            AddopTermList_term(
+                                                                              Term(
+                                                                                MulopFactorList_factor(
+                                                                                  Factor(
+                                                                                    Pom_e(
+                                                                                    ) [Pom_e]
+                                                                                    Factor_design(
+                                                                                      Designator_var(
+                                                                                       x
+                                                                                      ) [Designator_var]
+                                                                                      FactorOpt_e(
+                                                                                      ) [FactorOpt_e]
+                                                                                    ) [Factor_design]
+                                                                                  ) [Factor]
+                                                                                ) [MulopFactorList_factor]
+                                                                              ) [Term]
+                                                                            ) [AddopTermList_term]
+                                                                          ) [ExprBasic_main]
+                                                                        ) [Expr_basic]
+                                                                      ) [Stmt_return_expr]
+                                                                    ) [Stmt_simple]
+                                                                  ) [StatementList_stat]
+                                                                ) [MethodDecl]
+                                                              ) [MethodDeclList_list]
+                                                              MethodDecl(
+                                                                MethRetAndName_void(
+                                                                 takeTwo
+                                                                ) [MethRetAndName_void]
+                                                                FormParList_form(
+                                                                  FormPar_var(
+                                                                    Type(
+                                                                     int
+                                                                    ) [Type]
+                                                                   a
+                                                                  ) [FormPar_var]
+                                                                  FormParMore_more(
+                                                                    FormPar_var(
+                                                                      Type(
+                                                                       int
+                                                                      ) [Type]
+                                                                     b
+                                                                    ) [FormPar_var]
+                                                                    FormParMore_e(
+                                                                    ) [FormParMore_e]
+                                                                  ) [FormParMore_more]
+                                                                ) [FormParList_form]
+                                                                VarDeclListPom_e(
+                                                                ) [VarDeclListPom_e]
+                                                                StatementList_e(
+                                                                ) [StatementList_e]
+                                                              ) [MethodDecl]
+                                                            ) [MethodDeclList_list]
+                                                            MethodDecl(
+                                                              MethRetAndName_void(
+                                                               wrongArgCount
+                                                              ) [MethRetAndName_void]
+                                                              FormParList_e(
+                                                              ) [FormParList_e]
+                                                              VarDeclListPom_pom(
+                                                                VarDeclListPom_e(
+                                                                ) [VarDeclListPom_e]
+                                                                VarDeclList(
+                                                                  Type(
+                                                                   int
+                                                                  ) [Type]
+                                                                  VarIdentList_one(
+                                                                    VarIdent_1(
+                                                                     r
+                                                                    ) [VarIdent_1]
+                                                                  ) [VarIdentList_one]
+                                                                ) [VarDeclList]
+                                                              ) [VarDeclListPom_pom]
+                                                              StatementList_stat(
+                                                                StatementList_e(
+                                                                ) [StatementList_e]
+                                                                Stmt_simple(
+                                                                  Stmt_designator(
+                                                                    DesStmt_assign(
+                                                                      Designator_var(
+                                                                       r
+                                                                      ) [Designator_var]
+                                                                      Assignop_eq(
+                                                                      ) [Assignop_eq]
+                                                                      Expr_basic(
+                                                                        ExprBasic_main(
+                                                                          AddopTermList_term(
+                                                                            Term(
+                                                                              MulopFactorList_factor(
+                                                                                Factor(
+                                                                                  Pom_e(
+                                                                                  ) [Pom_e]
+                                                                                  Factor_design(
+                                                                                    Designator_var(
+                                                                                     takeTwo
+                                                                                    ) [Designator_var]
+                                                                                    FactorOpt_call_args(
+                                                                                      ActPars_one(
+                                                                                        Expr_basic(
+                                                                                          ExprBasic_main(
+                                                                                            AddopTermList_term(
+                                                                                              Term(
+                                                                                                MulopFactorList_factor(
+                                                                                                  Factor(
+                                                                                                    Pom_e(
+                                                                                                    ) [Pom_e]
+                                                                                                    Factor_num(
+                                                                                                     1
+                                                                                                    ) [Factor_num]
+                                                                                                  ) [Factor]
+                                                                                                ) [MulopFactorList_factor]
+                                                                                              ) [Term]
+                                                                                            ) [AddopTermList_term]
+                                                                                          ) [ExprBasic_main]
+                                                                                        ) [Expr_basic]
+                                                                                        ActParsMore_e(
+                                                                                        ) [ActParsMore_e]
+                                                                                      ) [ActPars_one]
+                                                                                    ) [FactorOpt_call_args]
+                                                                                  ) [Factor_design]
+                                                                                ) [Factor]
+                                                                              ) [MulopFactorList_factor]
+                                                                            ) [Term]
+                                                                          ) [AddopTermList_term]
+                                                                        ) [ExprBasic_main]
+                                                                      ) [Expr_basic]
+                                                                    ) [DesStmt_assign]
+                                                                  ) [Stmt_designator]
+                                                                ) [Stmt_simple]
+                                                              ) [StatementList_stat]
+                                                            ) [MethodDecl]
+                                                          ) [MethodDeclList_list]
+                                                          MethodDecl(
+                                                            MethRetAndName_void(
+                                                             wrongArgType
+                                                            ) [MethRetAndName_void]
+                                                            FormParList_e(
+                                                            ) [FormParList_e]
+                                                            VarDeclListPom_e(
+                                                            ) [VarDeclListPom_e]
+                                                            StatementList_stat(
+                                                              StatementList_e(
+                                                              ) [StatementList_e]
+                                                              Stmt_simple(
+                                                                Stmt_designator(
+                                                                  DesStmt_call_args(
+                                                                    Designator_var(
+                                                                     takeInt
+                                                                    ) [Designator_var]
+                                                                    ActPars_one(
+                                                                      Expr_basic(
+                                                                        ExprBasic_main(
+                                                                          AddopTermList_term(
+                                                                            Term(
+                                                                              MulopFactorList_factor(
+                                                                                Factor(
+                                                                                  Pom_e(
+                                                                                  ) [Pom_e]
+                                                                                  Factor_design(
+                                                                                    Designator_var(
+                                                                                     gb
+                                                                                    ) [Designator_var]
+                                                                                    FactorOpt_e(
+                                                                                    ) [FactorOpt_e]
+                                                                                  ) [Factor_design]
+                                                                                ) [Factor]
+                                                                              ) [MulopFactorList_factor]
+                                                                            ) [Term]
+                                                                          ) [AddopTermList_term]
+                                                                        ) [ExprBasic_main]
+                                                                      ) [Expr_basic]
+                                                                      ActParsMore_e(
+                                                                      ) [ActParsMore_e]
+                                                                    ) [ActPars_one]
+                                                                  ) [DesStmt_call_args]
+                                                                ) [Stmt_designator]
+                                                              ) [Stmt_simple]
+                                                            ) [StatementList_stat]
+                                                          ) [MethodDecl]
+                                                        ) [MethodDeclList_list]
+                                                        MethodDecl(
+                                                          MethRetAndName_void(
+                                                           newArrayBadSize
+                                                          ) [MethRetAndName_void]
+                                                          FormParList_e(
+                                                          ) [FormParList_e]
+                                                          VarDeclListPom_e(
+                                                          ) [VarDeclListPom_e]
+                                                          StatementList_stat(
+                                                            StatementList_e(
+                                                            ) [StatementList_e]
+                                                            Stmt_simple(
+                                                              Stmt_designator(
+                                                                DesStmt_assign(
+                                                                  Designator_var(
+                                                                   arr
+                                                                  ) [Designator_var]
+                                                                  Assignop_eq(
+                                                                  ) [Assignop_eq]
+                                                                  Expr_basic(
+                                                                    ExprBasic_main(
+                                                                      AddopTermList_term(
+                                                                        Term(
+                                                                          MulopFactorList_factor(
+                                                                            Factor(
+                                                                              Pom_e(
+                                                                              ) [Pom_e]
+                                                                              Factor_new_arr(
+                                                                                Type(
+                                                                                 int
+                                                                                ) [Type]
+                                                                                Expr_basic(
+                                                                                  ExprBasic_main(
+                                                                                    AddopTermList_term(
+                                                                                      Term(
+                                                                                        MulopFactorList_factor(
+                                                                                          Factor(
+                                                                                            Pom_e(
+                                                                                            ) [Pom_e]
+                                                                                            Factor_design(
+                                                                                              Designator_var(
+                                                                                               gb
+                                                                                              ) [Designator_var]
+                                                                                              FactorOpt_e(
+                                                                                              ) [FactorOpt_e]
+                                                                                            ) [Factor_design]
+                                                                                          ) [Factor]
+                                                                                        ) [MulopFactorList_factor]
+                                                                                      ) [Term]
+                                                                                    ) [AddopTermList_term]
+                                                                                  ) [ExprBasic_main]
+                                                                                ) [Expr_basic]
+                                                                              ) [Factor_new_arr]
+                                                                            ) [Factor]
+                                                                          ) [MulopFactorList_factor]
+                                                                        ) [Term]
+                                                                      ) [AddopTermList_term]
+                                                                    ) [ExprBasic_main]
+                                                                  ) [Expr_basic]
+                                                                ) [DesStmt_assign]
+                                                              ) [Stmt_designator]
+                                                            ) [Stmt_simple]
+                                                          ) [StatementList_stat]
+                                                        ) [MethodDecl]
+                                                      ) [MethodDeclList_list]
+                                                      MethodDecl(
+                                                        MethRetAndName_void(
+                                                         mulNotInt
+                                                        ) [MethRetAndName_void]
+                                                        FormParList_e(
+                                                        ) [FormParList_e]
+                                                        VarDeclListPom_e(
+                                                        ) [VarDeclListPom_e]
+                                                        StatementList_stat(
+                                                          StatementList_e(
+                                                          ) [StatementList_e]
+                                                          Stmt_simple(
+                                                            Stmt_designator(
+                                                              DesStmt_assign(
+                                                                Designator_var(
+                                                                 g
+                                                                ) [Designator_var]
+                                                                Assignop_eq(
+                                                                ) [Assignop_eq]
+                                                                Expr_basic(
+                                                                  ExprBasic_main(
+                                                                    AddopTermList_term(
+                                                                      Term(
+                                                                        MulopFactorList_mul(
+                                                                          MulopFactorList_factor(
+                                                                            Factor(
+                                                                              Pom_e(
+                                                                              ) [Pom_e]
+                                                                              Factor_design(
+                                                                                Designator_var(
+                                                                                 g
+                                                                                ) [Designator_var]
+                                                                                FactorOpt_e(
+                                                                                ) [FactorOpt_e]
+                                                                              ) [Factor_design]
+                                                                            ) [Factor]
+                                                                          ) [MulopFactorList_factor]
+                                                                          Mulop_mul(
+                                                                          ) [Mulop_mul]
+                                                                          Factor(
+                                                                            Pom_e(
+                                                                            ) [Pom_e]
+                                                                            Factor_design(
+                                                                              Designator_var(
+                                                                               gb
+                                                                              ) [Designator_var]
+                                                                              FactorOpt_e(
+                                                                              ) [FactorOpt_e]
+                                                                            ) [Factor_design]
+                                                                          ) [Factor]
+                                                                        ) [MulopFactorList_mul]
+                                                                      ) [Term]
+                                                                    ) [AddopTermList_term]
+                                                                  ) [ExprBasic_main]
+                                                                ) [Expr_basic]
+                                                              ) [DesStmt_assign]
+                                                            ) [Stmt_designator]
+                                                          ) [Stmt_simple]
+                                                        ) [StatementList_stat]
+                                                      ) [MethodDecl]
+                                                    ) [MethodDeclList_list]
+                                                    MethodDecl(
+                                                      MethRetAndName_void(
+                                                       unaryMinusNotInt
+                                                      ) [MethRetAndName_void]
+                                                      FormParList_e(
+                                                      ) [FormParList_e]
+                                                      VarDeclListPom_e(
+                                                      ) [VarDeclListPom_e]
+                                                      StatementList_stat(
+                                                        StatementList_e(
+                                                        ) [StatementList_e]
+                                                        Stmt_simple(
+                                                          Stmt_designator(
+                                                            DesStmt_assign(
+                                                              Designator_var(
+                                                               g
+                                                              ) [Designator_var]
+                                                              Assignop_eq(
+                                                              ) [Assignop_eq]
+                                                              Expr_basic(
+                                                                ExprBasic_main(
+                                                                  AddopTermList_term(
+                                                                    Term(
+                                                                      MulopFactorList_factor(
+                                                                        Factor(
+                                                                          Pom_m(
+                                                                          ) [Pom_m]
+                                                                          Factor_design(
+                                                                            Designator_var(
+                                                                             gb
+                                                                            ) [Designator_var]
+                                                                            FactorOpt_e(
+                                                                            ) [FactorOpt_e]
+                                                                          ) [Factor_design]
+                                                                        ) [Factor]
+                                                                      ) [MulopFactorList_factor]
+                                                                    ) [Term]
+                                                                  ) [AddopTermList_term]
+                                                                ) [ExprBasic_main]
+                                                              ) [Expr_basic]
+                                                            ) [DesStmt_assign]
+                                                          ) [Stmt_designator]
+                                                        ) [Stmt_simple]
+                                                      ) [StatementList_stat]
+                                                    ) [MethodDecl]
+                                                  ) [MethodDeclList_list]
+                                                  MethodDecl(
+                                                    MethRetAndName_void(
+                                                     addNotInt
+                                                    ) [MethRetAndName_void]
+                                                    FormParList_e(
+                                                    ) [FormParList_e]
+                                                    VarDeclListPom_e(
+                                                    ) [VarDeclListPom_e]
+                                                    StatementList_stat(
+                                                      StatementList_e(
+                                                      ) [StatementList_e]
+                                                      Stmt_simple(
+                                                        Stmt_designator(
+                                                          DesStmt_assign(
+                                                            Designator_var(
+                                                             g
+                                                            ) [Designator_var]
+                                                            Assignop_eq(
+                                                            ) [Assignop_eq]
+                                                            Expr_basic(
+                                                              ExprBasic_main(
+                                                                AddopTermList_add(
+                                                                  AddopTermList_term(
+                                                                    Term(
+                                                                      MulopFactorList_factor(
+                                                                        Factor(
+                                                                          Pom_e(
+                                                                          ) [Pom_e]
+                                                                          Factor_design(
+                                                                            Designator_var(
+                                                                             g
+                                                                            ) [Designator_var]
+                                                                            FactorOpt_e(
+                                                                            ) [FactorOpt_e]
+                                                                          ) [Factor_design]
+                                                                        ) [Factor]
+                                                                      ) [MulopFactorList_factor]
+                                                                    ) [Term]
+                                                                  ) [AddopTermList_term]
+                                                                  Addop_plus(
+                                                                  ) [Addop_plus]
+                                                                  Term(
+                                                                    MulopFactorList_factor(
+                                                                      Factor(
+                                                                        Pom_e(
+                                                                        ) [Pom_e]
+                                                                        Factor_design(
+                                                                          Designator_var(
+                                                                           gb
+                                                                          ) [Designator_var]
+                                                                          FactorOpt_e(
+                                                                          ) [FactorOpt_e]
+                                                                        ) [Factor_design]
+                                                                      ) [Factor]
+                                                                    ) [MulopFactorList_factor]
+                                                                  ) [Term]
+                                                                ) [AddopTermList_add]
+                                                              ) [ExprBasic_main]
+                                                            ) [Expr_basic]
+                                                          ) [DesStmt_assign]
+                                                        ) [Stmt_designator]
+                                                      ) [Stmt_simple]
+                                                    ) [StatementList_stat]
+                                                  ) [MethodDecl]
+                                                ) [MethodDeclList_list]
+                                                MethodDecl(
+                                                  MethRetAndName_void(
+                                                   ternaryCondNotBool
+                                                  ) [MethRetAndName_void]
+                                                  FormParList_e(
+                                                  ) [FormParList_e]
+                                                  VarDeclListPom_e(
+                                                  ) [VarDeclListPom_e]
+                                                  StatementList_stat(
+                                                    StatementList_e(
+                                                    ) [StatementList_e]
+                                                    Stmt_simple(
+                                                      Stmt_designator(
+                                                        DesStmt_assign(
+                                                          Designator_var(
+                                                           g
+                                                          ) [Designator_var]
+                                                          Assignop_eq(
+                                                          ) [Assignop_eq]
+                                                          Expr_ternary(
+                                                            Condition_ct(
+                                                              CondTerm_cf(
+                                                                CondFact_main(
+                                                                  ExprBasic_main(
+                                                                    AddopTermList_term(
+                                                                      Term(
+                                                                        MulopFactorList_factor(
+                                                                          Factor(
+                                                                            Pom_e(
+                                                                            ) [Pom_e]
+                                                                            Factor_design(
+                                                                              Designator_var(
+                                                                               g
+                                                                              ) [Designator_var]
+                                                                              FactorOpt_e(
+                                                                              ) [FactorOpt_e]
+                                                                            ) [Factor_design]
+                                                                          ) [Factor]
+                                                                        ) [MulopFactorList_factor]
+                                                                      ) [Term]
+                                                                    ) [AddopTermList_term]
+                                                                  ) [ExprBasic_main]
+                                                                  CondFactRelOpt_e(
+                                                                  ) [CondFactRelOpt_e]
+                                                                ) [CondFact_main]
+                                                              ) [CondTerm_cf]
+                                                            ) [Condition_ct]
+                                                            TernaryQ(
+                                                            ) [TernaryQ]
+                                                            Expr_basic(
+                                                              ExprBasic_main(
+                                                                AddopTermList_term(
+                                                                  Term(
+                                                                    MulopFactorList_factor(
+                                                                      Factor(
+                                                                        Pom_e(
+                                                                        ) [Pom_e]
+                                                                        Factor_num(
+                                                                         1
+                                                                        ) [Factor_num]
+                                                                      ) [Factor]
+                                                                    ) [MulopFactorList_factor]
+                                                                  ) [Term]
+                                                                ) [AddopTermList_term]
+                                                              ) [ExprBasic_main]
+                                                            ) [Expr_basic]
+                                                            TernaryColon(
+                                                            ) [TernaryColon]
+                                                            Expr_basic(
+                                                              ExprBasic_main(
+                                                                AddopTermList_term(
+                                                                  Term(
+                                                                    MulopFactorList_factor(
+                                                                      Factor(
+                                                                        Pom_e(
+                                                                        ) [Pom_e]
+                                                                        Factor_num(
+                                                                         0
+                                                                        ) [Factor_num]
+                                                                      ) [Factor]
+                                                                    ) [MulopFactorList_factor]
+                                                                  ) [Term]
+                                                                ) [AddopTermList_term]
+                                                              ) [ExprBasic_main]
+                                                            ) [Expr_basic]
+                                                            TernaryEnd(
+                                                            ) [TernaryEnd]
+                                                          ) [Expr_ternary]
+                                                        ) [DesStmt_assign]
+                                                      ) [Stmt_designator]
+                                                    ) [Stmt_simple]
+                                                  ) [StatementList_stat]
+                                                ) [MethodDecl]
+                                              ) [MethodDeclList_list]
+                                              MethodDecl(
+                                                MethRetAndName_void(
+                                                 ternaryBranchesDiff
+                                                ) [MethRetAndName_void]
+                                                FormParList_e(
+                                                ) [FormParList_e]
+                                                VarDeclListPom_e(
+                                                ) [VarDeclListPom_e]
+                                                StatementList_stat(
+                                                  StatementList_e(
+                                                  ) [StatementList_e]
+                                                  Stmt_simple(
+                                                    Stmt_designator(
+                                                      DesStmt_assign(
+                                                        Designator_var(
+                                                         g
+                                                        ) [Designator_var]
+                                                        Assignop_eq(
+                                                        ) [Assignop_eq]
+                                                        Expr_ternary(
+                                                          Condition_ct(
+                                                            CondTerm_cf(
+                                                              CondFact_main(
+                                                                ExprBasic_main(
+                                                                  AddopTermList_term(
+                                                                    Term(
+                                                                      MulopFactorList_factor(
+                                                                        Factor(
+                                                                          Pom_e(
+                                                                          ) [Pom_e]
+                                                                          Factor_design(
+                                                                            Designator_var(
+                                                                             gb
+                                                                            ) [Designator_var]
+                                                                            FactorOpt_e(
+                                                                            ) [FactorOpt_e]
+                                                                          ) [Factor_design]
+                                                                        ) [Factor]
+                                                                      ) [MulopFactorList_factor]
+                                                                    ) [Term]
+                                                                  ) [AddopTermList_term]
+                                                                ) [ExprBasic_main]
+                                                                CondFactRelOpt_e(
+                                                                ) [CondFactRelOpt_e]
+                                                              ) [CondFact_main]
+                                                            ) [CondTerm_cf]
+                                                          ) [Condition_ct]
+                                                          TernaryQ(
+                                                          ) [TernaryQ]
+                                                          Expr_basic(
+                                                            ExprBasic_main(
+                                                              AddopTermList_term(
+                                                                Term(
+                                                                  MulopFactorList_factor(
+                                                                    Factor(
+                                                                      Pom_e(
+                                                                      ) [Pom_e]
+                                                                      Factor_num(
+                                                                       1
+                                                                      ) [Factor_num]
+                                                                    ) [Factor]
+                                                                  ) [MulopFactorList_factor]
+                                                                ) [Term]
+                                                              ) [AddopTermList_term]
+                                                            ) [ExprBasic_main]
+                                                          ) [Expr_basic]
+                                                          TernaryColon(
+                                                          ) [TernaryColon]
+                                                          Expr_basic(
+                                                            ExprBasic_main(
+                                                              AddopTermList_term(
+                                                                Term(
+                                                                  MulopFactorList_factor(
+                                                                    Factor(
+                                                                      Pom_e(
+                                                                      ) [Pom_e]
+                                                                      Factor_char(
+                                                                       x
+                                                                      ) [Factor_char]
+                                                                    ) [Factor]
+                                                                  ) [MulopFactorList_factor]
+                                                                ) [Term]
+                                                              ) [AddopTermList_term]
+                                                            ) [ExprBasic_main]
+                                                          ) [Expr_basic]
+                                                          TernaryEnd(
+                                                          ) [TernaryEnd]
+                                                        ) [Expr_ternary]
+                                                      ) [DesStmt_assign]
+                                                    ) [Stmt_designator]
+                                                  ) [Stmt_simple]
+                                                ) [StatementList_stat]
+                                              ) [MethodDecl]
+                                            ) [MethodDeclList_list]
+                                            MethodDecl(
+                                              MethRetAndName_void(
+                                               condNotBool
+                                              ) [MethRetAndName_void]
+                                              FormParList_e(
+                                              ) [FormParList_e]
+                                              VarDeclListPom_e(
+                                              ) [VarDeclListPom_e]
+                                              StatementList_stat(
+                                                StatementList_e(
+                                                ) [StatementList_e]
+                                                Stmt_simple(
+                                                  StmtNoElse_if(
+                                                    Condition_ct(
+                                                      CondTerm_cf(
+                                                        CondFact_main(
+                                                          ExprBasic_main(
+                                                            AddopTermList_term(
+                                                              Term(
+                                                                MulopFactorList_factor(
+                                                                  Factor(
+                                                                    Pom_e(
+                                                                    ) [Pom_e]
+                                                                    Factor_design(
+                                                                      Designator_var(
+                                                                       g
+                                                                      ) [Designator_var]
+                                                                      FactorOpt_e(
+                                                                      ) [FactorOpt_e]
+                                                                    ) [Factor_design]
+                                                                  ) [Factor]
+                                                                ) [MulopFactorList_factor]
+                                                              ) [Term]
+                                                            ) [AddopTermList_term]
+                                                          ) [ExprBasic_main]
+                                                          CondFactRelOpt_e(
+                                                          ) [CondFactRelOpt_e]
+                                                        ) [CondFact_main]
+                                                      ) [CondTerm_cf]
+                                                    ) [Condition_ct]
+                                                    IfAfterCond(
+                                                    ) [IfAfterCond]
+                                                    Stmt_simple(
+                                                      Stmt_designator(
+                                                        DesStmt_assign(
+                                                          Designator_var(
+                                                           g
+                                                          ) [Designator_var]
+                                                          Assignop_eq(
+                                                          ) [Assignop_eq]
+                                                          Expr_basic(
+                                                            ExprBasic_main(
+                                                              AddopTermList_term(
+                                                                Term(
+                                                                  MulopFactorList_factor(
+                                                                    Factor(
+                                                                      Pom_e(
+                                                                      ) [Pom_e]
+                                                                      Factor_num(
+                                                                       1
+                                                                      ) [Factor_num]
+                                                                    ) [Factor]
+                                                                  ) [MulopFactorList_factor]
+                                                                ) [Term]
+                                                              ) [AddopTermList_term]
+                                                            ) [ExprBasic_main]
+                                                          ) [Expr_basic]
+                                                        ) [DesStmt_assign]
+                                                      ) [Stmt_designator]
+                                                    ) [Stmt_simple]
+                                                    IfEnd(
+                                                    ) [IfEnd]
+                                                    StmtElse_e(
+                                                    ) [StmtElse_e]
+                                                  ) [StmtNoElse_if]
+                                                ) [Stmt_simple]
+                                              ) [StatementList_stat]
+                                            ) [MethodDecl]
+                                          ) [MethodDeclList_list]
+                                          MethodDecl(
+                                            MethRetAndName_void(
+                                             relopDiffType
+                                            ) [MethRetAndName_void]
+                                            FormParList_e(
+                                            ) [FormParList_e]
+                                            VarDeclListPom_e(
+                                            ) [VarDeclListPom_e]
+                                            StatementList_stat(
+                                              StatementList_e(
+                                              ) [StatementList_e]
+                                              Stmt_simple(
+                                                StmtNoElse_if(
+                                                  Condition_ct(
+                                                    CondTerm_cf(
+                                                      CondFact_main(
+                                                        ExprBasic_main(
+                                                          AddopTermList_term(
+                                                            Term(
+                                                              MulopFactorList_factor(
+                                                                Factor(
+                                                                  Pom_e(
+                                                                  ) [Pom_e]
+                                                                  Factor_design(
+                                                                    Designator_var(
+                                                                     g
+                                                                    ) [Designator_var]
+                                                                    FactorOpt_e(
+                                                                    ) [FactorOpt_e]
+                                                                  ) [Factor_design]
+                                                                ) [Factor]
+                                                              ) [MulopFactorList_factor]
+                                                            ) [Term]
+                                                          ) [AddopTermList_term]
+                                                        ) [ExprBasic_main]
+                                                        CondFactRelOpt_rel(
+                                                          Relop_eq(
+                                                          ) [Relop_eq]
+                                                          ExprBasic_main(
+                                                            AddopTermList_term(
+                                                              Term(
+                                                                MulopFactorList_factor(
+                                                                  Factor(
+                                                                    Pom_e(
+                                                                    ) [Pom_e]
+                                                                    Factor_design(
+                                                                      Designator_var(
+                                                                       gb
+                                                                      ) [Designator_var]
+                                                                      FactorOpt_e(
+                                                                      ) [FactorOpt_e]
+                                                                    ) [Factor_design]
+                                                                  ) [Factor]
+                                                                ) [MulopFactorList_factor]
+                                                              ) [Term]
+                                                            ) [AddopTermList_term]
+                                                          ) [ExprBasic_main]
+                                                        ) [CondFactRelOpt_rel]
+                                                      ) [CondFact_main]
+                                                    ) [CondTerm_cf]
+                                                  ) [Condition_ct]
+                                                  IfAfterCond(
+                                                  ) [IfAfterCond]
+                                                  Stmt_simple(
+                                                    Stmt_designator(
+                                                      DesStmt_assign(
+                                                        Designator_var(
+                                                         g
+                                                        ) [Designator_var]
+                                                        Assignop_eq(
+                                                        ) [Assignop_eq]
+                                                        Expr_basic(
+                                                          ExprBasic_main(
+                                                            AddopTermList_term(
+                                                              Term(
+                                                                MulopFactorList_factor(
+                                                                  Factor(
+                                                                    Pom_e(
+                                                                    ) [Pom_e]
+                                                                    Factor_num(
+                                                                     1
+                                                                    ) [Factor_num]
+                                                                  ) [Factor]
+                                                                ) [MulopFactorList_factor]
+                                                              ) [Term]
+                                                            ) [AddopTermList_term]
+                                                          ) [ExprBasic_main]
+                                                        ) [Expr_basic]
+                                                      ) [DesStmt_assign]
+                                                    ) [Stmt_designator]
+                                                  ) [Stmt_simple]
+                                                  IfEnd(
+                                                  ) [IfEnd]
+                                                  StmtElse_e(
+                                                  ) [StmtElse_e]
+                                                ) [StmtNoElse_if]
+                                              ) [Stmt_simple]
+                                            ) [StatementList_stat]
+                                          ) [MethodDecl]
+                                        ) [MethodDeclList_list]
+                                        MethodDecl(
+                                          MethRetAndName_void(
+                                           andNotBool
+                                          ) [MethRetAndName_void]
+                                          FormParList_e(
+                                          ) [FormParList_e]
+                                          VarDeclListPom_e(
+                                          ) [VarDeclListPom_e]
+                                          StatementList_stat(
+                                            StatementList_e(
+                                            ) [StatementList_e]
+                                            Stmt_simple(
+                                              StmtNoElse_if(
+                                                Condition_ct(
+                                                  CondTerm_and(
+                                                    CondTerm_cf(
+                                                      CondFact_main(
+                                                        ExprBasic_main(
+                                                          AddopTermList_term(
+                                                            Term(
+                                                              MulopFactorList_factor(
+                                                                Factor(
+                                                                  Pom_e(
+                                                                  ) [Pom_e]
+                                                                  Factor_design(
+                                                                    Designator_var(
+                                                                     g
+                                                                    ) [Designator_var]
+                                                                    FactorOpt_e(
+                                                                    ) [FactorOpt_e]
+                                                                  ) [Factor_design]
+                                                                ) [Factor]
+                                                              ) [MulopFactorList_factor]
+                                                            ) [Term]
+                                                          ) [AddopTermList_term]
+                                                        ) [ExprBasic_main]
+                                                        CondFactRelOpt_e(
+                                                        ) [CondFactRelOpt_e]
+                                                      ) [CondFact_main]
+                                                    ) [CondTerm_cf]
+                                                    CondFact_main(
+                                                      ExprBasic_main(
+                                                        AddopTermList_term(
+                                                          Term(
+                                                            MulopFactorList_factor(
+                                                              Factor(
+                                                                Pom_e(
+                                                                ) [Pom_e]
+                                                                Factor_design(
+                                                                  Designator_var(
+                                                                   gb
+                                                                  ) [Designator_var]
+                                                                  FactorOpt_e(
+                                                                  ) [FactorOpt_e]
+                                                                ) [Factor_design]
+                                                              ) [Factor]
+                                                            ) [MulopFactorList_factor]
+                                                          ) [Term]
+                                                        ) [AddopTermList_term]
+                                                      ) [ExprBasic_main]
+                                                      CondFactRelOpt_e(
+                                                      ) [CondFactRelOpt_e]
+                                                    ) [CondFact_main]
+                                                  ) [CondTerm_and]
+                                                ) [Condition_ct]
+                                                IfAfterCond(
+                                                ) [IfAfterCond]
+                                                Stmt_simple(
+                                                  Stmt_designator(
+                                                    DesStmt_assign(
+                                                      Designator_var(
+                                                       g
+                                                      ) [Designator_var]
+                                                      Assignop_eq(
+                                                      ) [Assignop_eq]
+                                                      Expr_basic(
+                                                        ExprBasic_main(
+                                                          AddopTermList_term(
+                                                            Term(
+                                                              MulopFactorList_factor(
+                                                                Factor(
+                                                                  Pom_e(
+                                                                  ) [Pom_e]
+                                                                  Factor_num(
+                                                                   1
+                                                                  ) [Factor_num]
+                                                                ) [Factor]
+                                                              ) [MulopFactorList_factor]
+                                                            ) [Term]
+                                                          ) [AddopTermList_term]
+                                                        ) [ExprBasic_main]
+                                                      ) [Expr_basic]
+                                                    ) [DesStmt_assign]
+                                                  ) [Stmt_designator]
+                                                ) [Stmt_simple]
+                                                IfEnd(
+                                                ) [IfEnd]
+                                                StmtElse_e(
+                                                ) [StmtElse_e]
+                                              ) [StmtNoElse_if]
+                                            ) [Stmt_simple]
+                                          ) [StatementList_stat]
+                                        ) [MethodDecl]
+                                      ) [MethodDeclList_list]
+                                      MethodDecl(
+                                        MethRetAndName_void(
+                                         orNotBool
+                                        ) [MethRetAndName_void]
+                                        FormParList_e(
+                                        ) [FormParList_e]
+                                        VarDeclListPom_e(
+                                        ) [VarDeclListPom_e]
+                                        StatementList_stat(
+                                          StatementList_e(
+                                          ) [StatementList_e]
+                                          Stmt_simple(
+                                            StmtNoElse_if(
+                                              Condition_or(
+                                                Condition_ct(
+                                                  CondTerm_cf(
+                                                    CondFact_main(
+                                                      ExprBasic_main(
+                                                        AddopTermList_term(
+                                                          Term(
+                                                            MulopFactorList_factor(
+                                                              Factor(
+                                                                Pom_e(
+                                                                ) [Pom_e]
+                                                                Factor_design(
+                                                                  Designator_var(
+                                                                   g
+                                                                  ) [Designator_var]
+                                                                  FactorOpt_e(
+                                                                  ) [FactorOpt_e]
+                                                                ) [Factor_design]
+                                                              ) [Factor]
+                                                            ) [MulopFactorList_factor]
+                                                          ) [Term]
+                                                        ) [AddopTermList_term]
+                                                      ) [ExprBasic_main]
+                                                      CondFactRelOpt_e(
+                                                      ) [CondFactRelOpt_e]
+                                                    ) [CondFact_main]
+                                                  ) [CondTerm_cf]
+                                                ) [Condition_ct]
+                                                CondTerm_cf(
+                                                  CondFact_main(
+                                                    ExprBasic_main(
+                                                      AddopTermList_term(
+                                                        Term(
+                                                          MulopFactorList_factor(
+                                                            Factor(
+                                                              Pom_e(
+                                                              ) [Pom_e]
+                                                              Factor_design(
+                                                                Designator_var(
+                                                                 gb
+                                                                ) [Designator_var]
+                                                                FactorOpt_e(
+                                                                ) [FactorOpt_e]
+                                                              ) [Factor_design]
+                                                            ) [Factor]
+                                                          ) [MulopFactorList_factor]
+                                                        ) [Term]
+                                                      ) [AddopTermList_term]
+                                                    ) [ExprBasic_main]
+                                                    CondFactRelOpt_e(
+                                                    ) [CondFactRelOpt_e]
+                                                  ) [CondFact_main]
+                                                ) [CondTerm_cf]
+                                              ) [Condition_or]
+                                              IfAfterCond(
+                                              ) [IfAfterCond]
+                                              Stmt_simple(
+                                                Stmt_designator(
+                                                  DesStmt_assign(
+                                                    Designator_var(
+                                                     g
+                                                    ) [Designator_var]
+                                                    Assignop_eq(
+                                                    ) [Assignop_eq]
+                                                    Expr_basic(
+                                                      ExprBasic_main(
+                                                        AddopTermList_term(
+                                                          Term(
+                                                            MulopFactorList_factor(
+                                                              Factor(
+                                                                Pom_e(
+                                                                ) [Pom_e]
+                                                                Factor_num(
+                                                                 1
+                                                                ) [Factor_num]
+                                                              ) [Factor]
+                                                            ) [MulopFactorList_factor]
+                                                          ) [Term]
+                                                        ) [AddopTermList_term]
+                                                      ) [ExprBasic_main]
+                                                    ) [Expr_basic]
+                                                  ) [DesStmt_assign]
+                                                ) [Stmt_designator]
+                                              ) [Stmt_simple]
+                                              IfEnd(
+                                              ) [IfEnd]
+                                              StmtElse_e(
+                                              ) [StmtElse_e]
+                                            ) [StmtNoElse_if]
+                                          ) [Stmt_simple]
+                                        ) [StatementList_stat]
+                                      ) [MethodDecl]
+                                    ) [MethodDeclList_list]
+                                    MethodDecl(
+                                      MethRetAndName_void(
+                                       assignToMethod
+                                      ) [MethRetAndName_void]
+                                      FormParList_e(
+                                      ) [FormParList_e]
+                                      VarDeclListPom_e(
+                                      ) [VarDeclListPom_e]
+                                      StatementList_stat(
+                                        StatementList_e(
+                                        ) [StatementList_e]
+                                        Stmt_simple(
+                                          Stmt_designator(
+                                            DesStmt_assign(
+                                              Designator_var(
+                                               takeInt
+                                              ) [Designator_var]
+                                              Assignop_eq(
+                                              ) [Assignop_eq]
+                                              Expr_basic(
+                                                ExprBasic_main(
+                                                  AddopTermList_term(
+                                                    Term(
+                                                      MulopFactorList_factor(
+                                                        Factor(
+                                                          Pom_e(
+                                                          ) [Pom_e]
+                                                          Factor_num(
+                                                           5
+                                                          ) [Factor_num]
+                                                        ) [Factor]
+                                                      ) [MulopFactorList_factor]
+                                                    ) [Term]
+                                                  ) [AddopTermList_term]
+                                                ) [ExprBasic_main]
+                                              ) [Expr_basic]
+                                            ) [DesStmt_assign]
+                                          ) [Stmt_designator]
+                                        ) [Stmt_simple]
+                                      ) [StatementList_stat]
+                                    ) [MethodDecl]
+                                  ) [MethodDeclList_list]
+                                  MethodDecl(
+                                    MethRetAndName_void(
+                                     callVar
+                                    ) [MethRetAndName_void]
+                                    FormParList_e(
+                                    ) [FormParList_e]
+                                    VarDeclListPom_e(
+                                    ) [VarDeclListPom_e]
+                                    StatementList_stat(
+                                      StatementList_e(
+                                      ) [StatementList_e]
+                                      Stmt_simple(
+                                        Stmt_designator(
+                                          DesStmt_call_args(
+                                            Designator_var(
+                                             g
+                                            ) [Designator_var]
+                                            ActPars_one(
+                                              Expr_basic(
+                                                ExprBasic_main(
+                                                  AddopTermList_term(
+                                                    Term(
+                                                      MulopFactorList_factor(
+                                                        Factor(
+                                                          Pom_e(
+                                                          ) [Pom_e]
+                                                          Factor_num(
+                                                           1
+                                                          ) [Factor_num]
+                                                        ) [Factor]
+                                                      ) [MulopFactorList_factor]
+                                                    ) [Term]
+                                                  ) [AddopTermList_term]
+                                                ) [ExprBasic_main]
+                                              ) [Expr_basic]
+                                              ActParsMore_e(
+                                              ) [ActParsMore_e]
+                                            ) [ActPars_one]
+                                          ) [DesStmt_call_args]
+                                        ) [Stmt_designator]
+                                      ) [Stmt_simple]
+                                    ) [StatementList_stat]
+                                  ) [MethodDecl]
+                                ) [MethodDeclList_list]
+                                MethodDecl(
+                                  MethRetAndName_void(
+                                   incConst
+                                  ) [MethRetAndName_void]
+                                  FormParList_e(
+                                  ) [FormParList_e]
+                                  VarDeclListPom_e(
+                                  ) [VarDeclListPom_e]
+                                  StatementList_stat(
+                                    StatementList_e(
+                                    ) [StatementList_e]
+                                    Stmt_simple(
+                                      Stmt_designator(
+                                        DesStmt_inc(
+                                          Designator_var(
+                                           K
+                                          ) [Designator_var]
+                                        ) [DesStmt_inc]
+                                      ) [Stmt_designator]
+                                    ) [Stmt_simple]
+                                  ) [StatementList_stat]
+                                ) [MethodDecl]
+                              ) [MethodDeclList_list]
+                              MethodDecl(
+                                MethRetAndName_void(
+                                 incNonInt
+                                ) [MethRetAndName_void]
+                                FormParList_e(
+                                ) [FormParList_e]
+                                VarDeclListPom_e(
+                                ) [VarDeclListPom_e]
+                                StatementList_stat(
+                                  StatementList_e(
+                                  ) [StatementList_e]
+                                  Stmt_simple(
+                                    Stmt_designator(
+                                      DesStmt_inc(
+                                        Designator_var(
+                                         gb
+                                        ) [Designator_var]
+                                      ) [DesStmt_inc]
+                                    ) [Stmt_designator]
+                                  ) [Stmt_simple]
+                                ) [StatementList_stat]
+                              ) [MethodDecl]
+                            ) [MethodDeclList_list]
+                            MethodDecl(
+                              MethRetAndName_void(
+                               decConst
+                              ) [MethRetAndName_void]
+                              FormParList_e(
+                              ) [FormParList_e]
+                              VarDeclListPom_e(
+                              ) [VarDeclListPom_e]
+                              StatementList_stat(
+                                StatementList_e(
+                                ) [StatementList_e]
+                                Stmt_simple(
+                                  Stmt_designator(
+                                    DesStmt_dec(
+                                      Designator_var(
+                                       K
+                                      ) [Designator_var]
+                                    ) [DesStmt_dec]
+                                  ) [Stmt_designator]
+                                ) [Stmt_simple]
+                              ) [StatementList_stat]
+                            ) [MethodDecl]
+                          ) [MethodDeclList_list]
+                          MethodDecl(
+                            MethRetAndName_void(
+                             decNonInt
+                            ) [MethRetAndName_void]
+                            FormParList_e(
+                            ) [FormParList_e]
+                            VarDeclListPom_e(
+                            ) [VarDeclListPom_e]
+                            StatementList_stat(
+                              StatementList_e(
+                              ) [StatementList_e]
+                              Stmt_simple(
+                                Stmt_designator(
+                                  DesStmt_dec(
+                                    Designator_var(
+                                     gb
+                                    ) [Designator_var]
+                                  ) [DesStmt_dec]
+                                ) [Stmt_designator]
+                              ) [Stmt_simple]
+                            ) [StatementList_stat]
+                          ) [MethodDecl]
+                        ) [MethodDeclList_list]
+                        MethodDecl(
+                          MethRetAndName_void(
+                           voidReturns
+                          ) [MethRetAndName_void]
+                          FormParList_e(
+                          ) [FormParList_e]
+                          VarDeclListPom_e(
+                          ) [VarDeclListPom_e]
+                          StatementList_stat(
+                            StatementList_e(
+                            ) [StatementList_e]
+                            Stmt_simple(
+                              Stmt_return_expr(
+                                Expr_basic(
+                                  ExprBasic_main(
+                                    AddopTermList_term(
+                                      Term(
+                                        MulopFactorList_factor(
+                                          Factor(
+                                            Pom_e(
+                                            ) [Pom_e]
+                                            Factor_num(
+                                             5
+                                            ) [Factor_num]
+                                          ) [Factor]
+                                        ) [MulopFactorList_factor]
+                                      ) [Term]
+                                    ) [AddopTermList_term]
+                                  ) [ExprBasic_main]
+                                ) [Expr_basic]
+                              ) [Stmt_return_expr]
+                            ) [Stmt_simple]
+                          ) [StatementList_stat]
+                        ) [MethodDecl]
+                      ) [MethodDeclList_list]
+                      MethodDecl(
+                        MethRetAndName_type(
+                          Type(
+                           int
+                          ) [Type]
+                         returnWrongType
+                        ) [MethRetAndName_type]
+                        FormParList_e(
+                        ) [FormParList_e]
+                        VarDeclListPom_e(
+                        ) [VarDeclListPom_e]
+                        StatementList_stat(
+                          StatementList_e(
+                          ) [StatementList_e]
+                          Stmt_simple(
+                            Stmt_return_expr(
+                              Expr_basic(
+                                ExprBasic_main(
+                                  AddopTermList_term(
+                                    Term(
+                                      MulopFactorList_factor(
+                                        Factor(
+                                          Pom_e(
+                                          ) [Pom_e]
+                                          Factor_design(
+                                            Designator_var(
+                                             gb
+                                            ) [Designator_var]
+                                            FactorOpt_e(
+                                            ) [FactorOpt_e]
+                                          ) [Factor_design]
+                                        ) [Factor]
+                                      ) [MulopFactorList_factor]
+                                    ) [Term]
+                                  ) [AddopTermList_term]
+                                ) [ExprBasic_main]
+                              ) [Expr_basic]
+                            ) [Stmt_return_expr]
+                          ) [Stmt_simple]
+                        ) [StatementList_stat]
+                      ) [MethodDecl]
+                    ) [MethodDeclList_list]
+                    MethodDecl(
+                      MethRetAndName_void(
+                       readConst
+                      ) [MethRetAndName_void]
+                      FormParList_e(
+                      ) [FormParList_e]
+                      VarDeclListPom_e(
+                      ) [VarDeclListPom_e]
+                      StatementList_stat(
+                        StatementList_e(
+                        ) [StatementList_e]
+                        Stmt_simple(
+                          Stmt_read(
+                            Designator_var(
+                             K
+                            ) [Designator_var]
+                          ) [Stmt_read]
+                        ) [Stmt_simple]
+                      ) [StatementList_stat]
+                    ) [MethodDecl]
+                  ) [MethodDeclList_list]
+                  MethodDecl(
+                    MethRetAndName_void(
+                     readWrongType
+                    ) [MethRetAndName_void]
+                    FormParList_e(
+                    ) [FormParList_e]
+                    VarDeclListPom_e(
+                    ) [VarDeclListPom_e]
+                    StatementList_stat(
+                      StatementList_e(
+                      ) [StatementList_e]
+                      Stmt_simple(
+                        Stmt_read(
+                          Designator_var(
+                           arr
+                          ) [Designator_var]
+                        ) [Stmt_read]
+                      ) [Stmt_simple]
+                    ) [StatementList_stat]
+                  ) [MethodDecl]
+                ) [MethodDeclList_list]
+                MethodDecl(
+                  MethRetAndName_void(
+                   printWrongType
+                  ) [MethRetAndName_void]
+                  FormParList_e(
+                  ) [FormParList_e]
+                  VarDeclListPom_e(
+                  ) [VarDeclListPom_e]
+                  StatementList_stat(
+                    StatementList_e(
+                    ) [StatementList_e]
+                    Stmt_simple(
+                      Stmt_print(
+                        Expr_basic(
+                          ExprBasic_main(
+                            AddopTermList_term(
+                              Term(
+                                MulopFactorList_factor(
+                                  Factor(
+                                    Pom_e(
+                                    ) [Pom_e]
+                                    Factor_design(
+                                      Designator_var(
+                                       arr
+                                      ) [Designator_var]
+                                      FactorOpt_e(
+                                      ) [FactorOpt_e]
+                                    ) [Factor_design]
+                                  ) [Factor]
+                                ) [MulopFactorList_factor]
+                              ) [Term]
+                            ) [AddopTermList_term]
+                          ) [ExprBasic_main]
+                        ) [Expr_basic]
+                      ) [Stmt_print]
+                    ) [Stmt_simple]
+                  ) [StatementList_stat]
+                ) [MethodDecl]
+              ) [MethodDeclList_list]
+              MethodDecl(
+                MethRetAndName_void(
+                 breakOutside
+                ) [MethRetAndName_void]
+                FormParList_e(
+                ) [FormParList_e]
+                VarDeclListPom_e(
+                ) [VarDeclListPom_e]
+                StatementList_stat(
+                  StatementList_e(
+                  ) [StatementList_e]
+                  Stmt_simple(
+                    Stmt_break(
+                    ) [Stmt_break]
+                  ) [Stmt_simple]
+                ) [StatementList_stat]
+              ) [MethodDecl]
+            ) [MethodDeclList_list]
+            MethodDecl(
+              MethRetAndName_void(
+               continueOutside
+              ) [MethRetAndName_void]
+              FormParList_e(
+              ) [FormParList_e]
+              VarDeclListPom_e(
+              ) [VarDeclListPom_e]
+              StatementList_stat(
+                StatementList_e(
+                ) [StatementList_e]
+                Stmt_simple(
+                  Stmt_continue(
+                  ) [Stmt_continue]
+                ) [Stmt_simple]
+              ) [StatementList_stat]
+            ) [MethodDecl]
+          ) [MethodDeclList_list]
+          MethodDecl(
+            MethRetAndName_void(
+             switchNotInt
+            ) [MethRetAndName_void]
+            FormParList_e(
+            ) [FormParList_e]
+            VarDeclListPom_e(
+            ) [VarDeclListPom_e]
+            StatementList_stat(
+              StatementList_e(
+              ) [StatementList_e]
+              Stmt_simple(
+                Stmt_switch(
+                  Expr_basic(
+                    ExprBasic_main(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Pom_e(
+                              ) [Pom_e]
+                              Factor_design(
+                                Designator_var(
+                                 gb
+                                ) [Designator_var]
+                                FactorOpt_e(
+                                ) [FactorOpt_e]
+                              ) [Factor_design]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprBasic_main]
+                  ) [Expr_basic]
+                  SwitchBegin(
+                  ) [SwitchBegin]
+                  CaseList_pom(
+                    CaseList_e(
+                    ) [CaseList_e]
+                    CaseBlock(
+                     1
+                      StatementList_stat(
+                        StatementList_e(
+                        ) [StatementList_e]
+                        Stmt_simple(
+                          Stmt_break(
+                          ) [Stmt_break]
+                        ) [Stmt_simple]
+                      ) [StatementList_stat]
+                    ) [CaseBlock]
+                  ) [CaseList_pom]
+                  SwitchEnd(
+                  ) [SwitchEnd]
+                ) [Stmt_switch]
+              ) [Stmt_simple]
+            ) [StatementList_stat]
+          ) [MethodDecl]
+        ) [MethodDeclList_list]
+        MethodDecl(
+          MethRetAndName_void(
+           forCondNotBool
+          ) [MethRetAndName_void]
+          FormParList_e(
+          ) [FormParList_e]
+          VarDeclListPom_e(
+          ) [VarDeclListPom_e]
+          StatementList_stat(
+            StatementList_e(
+            ) [StatementList_e]
+            Stmt_simple(
+              Stmt_for(
+                ForInit_stmt(
+                  DesStmt_assign(
+                    Designator_var(
+                     g
+                    ) [Designator_var]
+                    Assignop_eq(
+                    ) [Assignop_eq]
+                    Expr_basic(
+                      ExprBasic_main(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factor(
+                              Factor(
+                                Pom_e(
+                                ) [Pom_e]
+                                Factor_num(
+                                 0
+                                ) [Factor_num]
+                              ) [Factor]
+                            ) [MulopFactorList_factor]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [ExprBasic_main]
+                    ) [Expr_basic]
+                  ) [DesStmt_assign]
+                ) [ForInit_stmt]
+                ForCondBegin(
+                ) [ForCondBegin]
+                ForCond_cond(
+                  Condition_ct(
+                    CondTerm_cf(
+                      CondFact_main(
+                        ExprBasic_main(
+                          AddopTermList_term(
+                            Term(
+                              MulopFactorList_factor(
+                                Factor(
+                                  Pom_e(
+                                  ) [Pom_e]
+                                  Factor_design(
+                                    Designator_var(
+                                     g
+                                    ) [Designator_var]
+                                    FactorOpt_e(
+                                    ) [FactorOpt_e]
+                                  ) [Factor_design]
+                                ) [Factor]
+                              ) [MulopFactorList_factor]
+                            ) [Term]
+                          ) [AddopTermList_term]
+                        ) [ExprBasic_main]
+                        CondFactRelOpt_e(
+                        ) [CondFactRelOpt_e]
+                      ) [CondFact_main]
+                    ) [CondTerm_cf]
+                  ) [Condition_ct]
+                ) [ForCond_cond]
+                ForStep_stmt(
+                  DesStmt_inc(
+                    Designator_var(
+                     g
+                    ) [Designator_var]
+                  ) [DesStmt_inc]
+                ) [ForStep_stmt]
+                ForBegin(
+                ) [ForBegin]
+                Stmt_simple(
+                  Stmt_designator(
+                    DesStmt_assign(
+                      Designator_var(
+                       g
+                      ) [Designator_var]
+                      Assignop_eq(
+                      ) [Assignop_eq]
+                      Expr_basic(
+                        ExprBasic_main(
+                          AddopTermList_term(
+                            Term(
+                              MulopFactorList_factor(
+                                Factor(
+                                  Pom_e(
+                                  ) [Pom_e]
+                                  Factor_num(
+                                   1
+                                  ) [Factor_num]
+                                ) [Factor]
+                              ) [MulopFactorList_factor]
+                            ) [Term]
+                          ) [AddopTermList_term]
+                        ) [ExprBasic_main]
+                      ) [Expr_basic]
+                    ) [DesStmt_assign]
+                  ) [Stmt_designator]
+                ) [Stmt_simple]
+                ForEnd(
+                ) [ForEnd]
+              ) [Stmt_for]
+            ) [Stmt_simple]
+          ) [StatementList_stat]
+        ) [MethodDecl]
+      ) [MethodDeclList_list]
+      MethodDecl(
+        MethRetAndName_void(
+         lengthNotArray
+        ) [MethRetAndName_void]
+        FormParList_e(
+        ) [FormParList_e]
+        VarDeclListPom_pom(
+          VarDeclListPom_e(
+          ) [VarDeclListPom_e]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarIdentList_one(
+              VarIdent_1(
+               len
+              ) [VarIdent_1]
+            ) [VarIdentList_one]
+          ) [VarDeclList]
+        ) [VarDeclListPom_pom]
+        StatementList_stat(
+          StatementList_e(
+          ) [StatementList_e]
+          Stmt_simple(
+            Stmt_designator(
+              DesStmt_assign(
+                Designator_var(
+                 len
+                ) [Designator_var]
+                Assignop_eq(
+                ) [Assignop_eq]
+                Expr_basic(
+                  ExprBasic_main(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_design(
+                              Designator_pom(
+                                DesignatorName(
+                                 g
+                                ) [DesignatorName]
+                                DesignatorMore_length(
+                                ) [DesignatorMore_length]
+                              ) [Designator_pom]
+                              FactorOpt_e(
+                              ) [FactorOpt_e]
+                            ) [Factor_design]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprBasic_main]
+                ) [Expr_basic]
+              ) [DesStmt_assign]
+            ) [Stmt_designator]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+      ) [MethodDecl]
+    ) [MethodDeclList_list]
+    MethodDecl(
+      MethRetAndName_void(
+       fieldNotEnum
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_pom(
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarIdentList_one(
+            VarIdent_1(
+             k
+            ) [VarIdent_1]
+          ) [VarIdentList_one]
+        ) [VarDeclList]
+      ) [VarDeclListPom_pom]
+      StatementList_stat(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          Stmt_designator(
+            DesStmt_assign(
+              Designator_var(
+               k
+              ) [Designator_var]
+              Assignop_eq(
+              ) [Assignop_eq]
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Pom_e(
+                          ) [Pom_e]
+                          Factor_design(
+                            Designator_pom(
+                              DesignatorName(
+                               g
+                              ) [DesignatorName]
+                              DesignatorMore_var(
+                               someField
+                              ) [DesignatorMore_var]
+                            ) [Designator_pom]
+                            FactorOpt_e(
+                            ) [FactorOpt_e]
+                          ) [Factor_design]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+            ) [DesStmt_assign]
+          ) [Stmt_designator]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  23:59:28,955 - =====================================================================
+INFO  23:59:28,971 - Program: SemanticErrors na liniji 3
+ERROR 23:59:28,971 - Pogresan tip konstante: badInt na liniji 6
+ERROR 23:59:28,971 - Pogresan tip konstante: badChar na liniji 7
+ERROR 23:59:28,971 - Pogresan tip konstante: badBool na liniji 8
+INFO  23:59:28,971 - Definisana konstanta: x na liniji 11
+ERROR 23:59:28,971 - Konstanta je vec definisana: x na liniji 12
+INFO  23:59:28,971 - Promenljiva: a na liniji 13
+INFO  23:59:28,972 - Promenljiva: b na liniji 13
+ERROR 23:59:28,972 - Promenljiva je vec definisana: a na liniji 14
+ERROR 23:59:28,972 - Nepoznat tip: UnknownType na liniji 17
+ERROR 23:59:28,972 - Nepoznat tip promenljive: u na liniji 17
+INFO  23:59:29,033 - Enum stavka: X = 0 na liniji 20
+ERROR 23:59:29,033 - Vrednost 0 je vec dodeljena u enum-u 'E1'. na liniji 20
+INFO  23:59:29,033 - Definisan enum: E1 na liniji 20
+INFO  23:59:29,033 - Enum stavka: A = 0 na liniji 23
+INFO  23:59:29,034 - Enum stavka: B = 1 na liniji 23
+INFO  23:59:29,034 - Definisan enum: E2 na liniji 23
+ERROR 23:59:29,034 - Ime enuma 'E2' je vec zauzeto u ovom opsegu. na liniji 24
+INFO  23:59:29,034 - Enum stavka: M = 0 na liniji 27
+ERROR 23:59:29,034 - Duplikat imena u enum-u 'E3': M na liniji 27
+INFO  23:59:29,034 - Definisan enum: E3 na liniji 27
+INFO  23:59:29,034 - Promenljiva: g na liniji 29
+INFO  23:59:29,034 - Promenljiva: gc na liniji 30
+INFO  23:59:29,034 - Promenljiva: gb na liniji 31
+INFO  23:59:29,034 - Niz: arr na liniji 32
+INFO  23:59:29,034 - Definisana konstanta: K na liniji 33
+INFO  23:59:29,034 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 38
+INFO  23:59:29,035 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 44
+ERROR 23:59:29,035 - Duplikat formalnog parametra: p na liniji 48
+ERROR 23:59:29,035 - Nedefinisan identifikator: xyz na liniji 55
+INFO  23:59:29,035 - KORISCENJE KONSTANTE: K -> Con K : int (adr=0, level=0) na liniji 61
+ERROR 23:59:29,035 - Leva strana dodele mora biti promenljiva ili element niza. na liniji 61
+INFO  23:59:29,035 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 67
+INFO  23:59:29,036 - KORISCENJE: gb -> Var gb : bool (adr=4, level=0) na liniji 67
+ERROR 23:59:29,036 - Nekompatibilni tipovi u dodeli. na liniji 67
+INFO  23:59:29,036 - KORISCENJE NIZA: g -> Var g : int (adr=2, level=0) na liniji 73
+ERROR 23:59:29,036 - Indeksiranje je dozvoljeno samo nad nizom. na liniji 73
+INFO  23:59:29,036 - KORISCENJE: gb -> Var gb : bool (adr=4, level=0) na liniji 79
+INFO  23:59:29,036 - KORISCENJE NIZA: arr -> Var arr : int[] (adr=5, level=0) na liniji 79
+ERROR 23:59:29,036 - Indeks niza mora biti int. na liniji 79
+INFO  23:59:29,036 - PRISTUP ELEMENTU NIZA: arr[...] -> Elem $elem : int (adr=-1, level=-1) na liniji 79
+INFO  23:59:29,036 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 85
+INFO  23:59:29,037 - POZIV FUNKCIJE: g -> Var g : int (adr=2, level=0) na liniji 85
+ERROR 23:59:29,037 - Poziv je dozvoljen samo nad metodom. na liniji 85
+INFO  23:59:29,037 - KORISCENJE FORMALNOG PARAMETRA: x -> Var x : int (adr=0, level=1, fpPos=1) na liniji 90
+INFO  23:59:29,037 - Promenljiva: r na liniji 99
+INFO  23:59:29,037 - KORISCENJE: r -> Var r : int (adr=0, level=1) na liniji 101
+INFO  23:59:29,037 - KORISCENJE METODE: takeTwo -> Meth takeTwo : noType (adr=0, level=2) na liniji 101
+INFO  23:59:29,037 - POZIV FUNKCIJE: takeTwo -> Meth takeTwo : noType (adr=0, level=2) na liniji 101
+ERROR 23:59:29,037 - Pogresan broj argumenata u pozivu metode 'takeTwo'. na liniji 101
+ERROR 23:59:29,037 - Void metoda 'takeTwo' ne moze da se koristi u izrazu. na liniji 101
+INFO  23:59:29,037 - KORISCENJE METODE: takeInt -> Meth takeInt : int (adr=0, level=1) na liniji 107
+INFO  23:59:29,037 - KORISCENJE: gb -> Var gb : bool (adr=4, level=0) na liniji 107
+INFO  23:59:29,037 - POZIV FUNKCIJE: takeInt -> Meth takeInt : int (adr=0, level=1) na liniji 107
+ERROR 23:59:29,037 - Argument #1 nije dodeljiv formalnom parametru metode 'takeInt'. na liniji 107
+INFO  23:59:29,038 - KORISCENJE: arr -> Var arr : int[] (adr=5, level=0) na liniji 113
+INFO  23:59:29,038 - KORISCENJE: gb -> Var gb : bool (adr=4, level=0) na liniji 113
+ERROR 23:59:29,038 - Indeks u new T[expr] mora biti int. na liniji 113
+INFO  23:59:29,038 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 119
+INFO  23:59:29,038 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 119
+INFO  23:59:29,038 - KORISCENJE: gb -> Var gb : bool (adr=4, level=0) na liniji 119
+ERROR 23:59:29,038 - Mnozenje/deljenje/mod je dozvoljeno samo nad int. na liniji 4
+INFO  23:59:29,038 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 125
+INFO  23:59:29,038 - KORISCENJE: gb -> Var gb : bool (adr=4, level=0) na liniji 125
+ERROR 23:59:29,038 - Unarni minus je dozvoljen samo nad int. na liniji 125
+INFO  23:59:29,038 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 131
+INFO  23:59:29,038 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 131
+INFO  23:59:29,038 - KORISCENJE: gb -> Var gb : bool (adr=4, level=0) na liniji 131
+ERROR 23:59:29,038 - Sabiranje/oduzimanje je dozvoljeno samo nad int. na liniji 4
+INFO  23:59:29,039 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 137
+INFO  23:59:29,039 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 137
+ERROR 23:59:29,039 - Uslov bez relacije mora biti bool. na liniji 4
+INFO  23:59:29,039 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 143
+INFO  23:59:29,039 - KORISCENJE: gb -> Var gb : bool (adr=4, level=0) na liniji 143
+ERROR 23:59:29,039 - Ternarni operator: nekompatibilni tipovi grana. na liniji 4
+INFO  23:59:29,039 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 149
+ERROR 23:59:29,039 - Uslov bez relacije mora biti bool. na liniji 5
+INFO  23:59:29,039 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 149
+INFO  23:59:29,039 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 155
+INFO  23:59:29,040 - KORISCENJE: gb -> Var gb : bool (adr=4, level=0) na liniji 155
+ERROR 23:59:29,040 - ==/!=: nekompatibilni tipovi. na liniji 5
+INFO  23:59:29,040 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 155
+INFO  23:59:29,040 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 161
+ERROR 23:59:29,040 - Uslov bez relacije mora biti bool. na liniji 5
+INFO  23:59:29,040 - KORISCENJE: gb -> Var gb : bool (adr=4, level=0) na liniji 161
+ERROR 23:59:29,040 - && zahteva bool uslove. na liniji 5
+INFO  23:59:29,040 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 161
+INFO  23:59:29,040 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 167
+ERROR 23:59:29,040 - Uslov bez relacije mora biti bool. na liniji 5
+INFO  23:59:29,040 - KORISCENJE: gb -> Var gb : bool (adr=4, level=0) na liniji 167
+ERROR 23:59:29,040 - || zahteva bool uslove. na liniji 5
+INFO  23:59:29,040 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 167
+INFO  23:59:29,040 - KORISCENJE METODE: takeInt -> Meth takeInt : int (adr=0, level=1) na liniji 173
+ERROR 23:59:29,040 - Leva strana dodele mora biti promenljiva ili element niza. na liniji 173
+INFO  23:59:29,041 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 179
+INFO  23:59:29,041 - POZIV FUNKCIJE: g -> Var g : int (adr=2, level=0) na liniji 179
+ERROR 23:59:29,041 - Poziv je dozvoljen samo nad metodom. na liniji 179
+INFO  23:59:29,041 - KORISCENJE KONSTANTE: K -> Con K : int (adr=0, level=0) na liniji 185
+ERROR 23:59:29,041 - Operator ++ je dozvoljen samo nad promenljivom/elementom niza. na liniji 185
+INFO  23:59:29,041 - KORISCENJE: gb -> Var gb : bool (adr=4, level=0) na liniji 190
+ERROR 23:59:29,041 - Operator ++ je dozvoljen samo nad int. na liniji 190
+INFO  23:59:29,041 - KORISCENJE KONSTANTE: K -> Con K : int (adr=0, level=0) na liniji 196
+ERROR 23:59:29,041 - Operator -- je dozvoljen samo nad promenljivom/elementom niza. na liniji 196
+INFO  23:59:29,041 - KORISCENJE: gb -> Var gb : bool (adr=4, level=0) na liniji 201
+ERROR 23:59:29,041 - Operator -- je dozvoljen samo nad int. na liniji 201
+ERROR 23:59:29,041 - Void metoda ne sme vratiti izraz. na liniji 2
+INFO  23:59:29,041 - KORISCENJE: gb -> Var gb : bool (adr=4, level=0) na liniji 213
+ERROR 23:59:29,041 - Tip return izraza nije kompatibilan sa povratnim tipom metode. na liniji 2
+INFO  23:59:29,041 - KORISCENJE KONSTANTE: K -> Con K : int (adr=0, level=0) na liniji 219
+ERROR 23:59:29,041 - read argument mora biti promenljiva ili element niza. na liniji 219
+INFO  23:59:29,041 - KORISCENJE: arr -> Var arr : int[] (adr=5, level=0) na liniji 225
+ERROR 23:59:29,041 - read dozvoljen samo za int/char/bool. na liniji 225
+INFO  23:59:29,041 - KORISCENJE: arr -> Var arr : int[] (adr=5, level=0) na liniji 231
+ERROR 23:59:29,041 - print dozvoljen samo za int/char/bool. na liniji 7
+ERROR 23:59:29,043 - break je dozvoljen samo unutar for ili switch.
+ERROR 23:59:29,043 - continue je dozvoljen samo unutar for.
+INFO  23:59:29,043 - KORISCENJE: gb -> Var gb : bool (adr=4, level=0) na liniji 249
+ERROR 23:59:29,043 - switch(expr) zahteva int. na liniji 9
+INFO  23:59:29,043 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 257
+INFO  23:59:29,043 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 257
+ERROR 23:59:29,043 - Uslov bez relacije mora biti bool. na liniji 12
+INFO  23:59:29,043 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 257
+INFO  23:59:29,043 - KORISCENJE: g -> Var g : int (adr=2, level=0) na liniji 258
+INFO  23:59:29,043 - Promenljiva: len na liniji 263
+INFO  23:59:29,043 - KORISCENJE: len -> Var len : int (adr=0, level=1) na liniji 265
+ERROR 23:59:29,044 - .length je dozvoljen samo nad nizom. na liniji 265
+INFO  23:59:29,044 - Promenljiva: k na liniji 270
+INFO  23:59:29,044 - KORISCENJE: k -> Var k : int (adr=0, level=1) na liniji 272
+ERROR 23:59:29,044 - Pristup polju (.) nije podržan u fazi A/B. na liniji 272
+INFO  23:59:29,044 - =====================================================================
+ERROR 23:59:29,046 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,158 @@
+INFO  16:01:33,372 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  16:01:33,469 - #2 program
+INFO  16:01:33,469 - #9 T08
+INFO  16:01:33,469 - #13 const
+INFO  16:01:33,471 - #9 bool
+INFO  16:01:33,471 - #9 T
+INFO  16:01:33,472 - #14 =
+INFO  16:01:33,472 - #12 1
+INFO  16:01:33,473 - #6 ;
+INFO  16:01:33,474 - #3 {
+INFO  16:01:33,476 - #18 void
+INFO  16:01:33,477 - #9 main
+INFO  16:01:33,477 - #16 (
+INFO  16:01:33,477 - #17 )
+INFO  16:01:33,478 - #3 {
+INFO  16:01:33,480 - #19 if
+INFO  16:01:33,481 - #16 (
+INFO  16:01:33,481 - #9 T
+INFO  16:01:33,483 - #17 )
+INFO  16:01:33,488 - #25 print
+INFO  16:01:33,488 - #16 (
+INFO  16:01:33,490 - #10 1
+INFO  16:01:33,490 - #17 )
+INFO  16:01:33,490 - #6 ;
+INFO  16:01:33,490 - #20 else
+INFO  16:01:33,492 - #25 print
+INFO  16:01:33,492 - #16 (
+INFO  16:01:33,492 - #10 0
+INFO  16:01:33,492 - #17 )
+INFO  16:01:33,492 - #6 ;
+INFO  16:01:33,492 - #4 }
+INFO  16:01:33,493 - #4 }
+INFO  16:01:33,496 - Program(
+  ProgramName(
+   T08
+  ) [ProgramName]
+  ConVarEnumDecList_con(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    ConDecList(
+      Type(
+       bool
+      ) [Type]
+      ConDecl(
+       T
+        Constant_b(
+         1
+        ) [Constant_b]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConDecList]
+  ) [ConVarEnumDecList_con]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          StmtNoElse_if(
+            IfBegin(
+            ) [IfBegin]
+            Condition_ct(
+              CondTerm_cf(
+                CondFact_main(
+                  ExprBasic_main(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_design(
+                              Designator_var(
+                               T
+                              ) [Designator_var]
+                              FactorOpt_e(
+                              ) [FactorOpt_e]
+                            ) [Factor_design]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprBasic_main]
+                  CondFactRelOpt_e(
+                  ) [CondFactRelOpt_e]
+                ) [CondFact_main]
+              ) [CondTerm_cf]
+            ) [Condition_ct]
+            IfAfterCond(
+            ) [IfAfterCond]
+            Stmt_simple(
+              Stmt_print(
+                Expr_basic(
+                  ExprBasic_main(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_num(
+                             1
+                            ) [Factor_num]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprBasic_main]
+                ) [Expr_basic]
+              ) [Stmt_print]
+            ) [Stmt_simple]
+            IfEnd(
+            ) [IfEnd]
+            StmtElse_simple(
+              Stmt_simple(
+                Stmt_print(
+                  Expr_basic(
+                    ExprBasic_main(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Pom_e(
+                              ) [Pom_e]
+                              Factor_num(
+                               0
+                              ) [Factor_num]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprBasic_main]
+                  ) [Expr_basic]
+                ) [Stmt_print]
+              ) [Stmt_simple]
+            ) [StmtElse_simple]
+          ) [StmtNoElse_if]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  16:01:33,496 - =====================================================================
+INFO  16:01:33,509 - Program: T08 na liniji 1
+INFO  16:01:33,510 - Definisana konstanta: T na liniji 2
+INFO  16:01:33,510 - KORISCENJE KONSTANTE: T -> Con T : bool (adr=1, level=0) na liniji 7
+INFO  16:01:33,511 - =====================================================================
+INFO  16:01:33,519 - Generisanje uspesno zavrseno!

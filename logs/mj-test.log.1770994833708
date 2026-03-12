@@ -1,0 +1,109 @@
+INFO  15:29:03,439 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:29:03,525 - #2 program
+INFO  15:29:03,526 - #9 P
+INFO  15:29:03,526 - #15 enum
+INFO  15:29:03,528 - #9 E
+INFO  15:29:03,528 - #3 {
+INFO  15:29:03,530 - #9 A
+INFO  15:29:03,530 - #4 }
+INFO  15:29:03,531 - #3 {
+INFO  15:29:03,532 - #18 void
+INFO  15:29:03,534 - #9 main
+INFO  15:29:03,534 - #16 (
+INFO  15:29:03,534 - #17 )
+INFO  15:29:03,535 - #9 int
+INFO  15:29:03,536 - #9 x
+INFO  15:29:03,537 - #6 ;
+INFO  15:29:03,538 - #3 {
+INFO  15:29:03,540 - #9 x
+INFO  15:29:03,540 - #14 =
+INFO  15:29:03,542 - #9 A
+INFO  15:29:03,545 - #6 ;
+INFO  15:29:03,549 - #4 }
+INFO  15:29:03,550 - #4 }
+INFO  15:29:03,553 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_enum(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    EnumDecl(
+     E
+      EnumItemList_one(
+        EnumItem_simple(
+         A
+        ) [EnumItem_simple]
+      ) [EnumItemList_one]
+    ) [EnumDecl]
+  ) [ConVarEnumDecList_enum]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_pom(
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarIdentList_one(
+            VarIdent_1(
+             x
+            ) [VarIdent_1]
+          ) [VarIdentList_one]
+        ) [VarDeclList]
+      ) [VarDeclListPom_pom]
+      StatementList_stat(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          Stmt_designator(
+            DesStmt_assign(
+              Designator_var(
+               x
+              ) [Designator_var]
+              Assignop_eq(
+              ) [Assignop_eq]
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Pom_e(
+                          ) [Pom_e]
+                          Factor_design(
+                            Designator_var(
+                             A
+                            ) [Designator_var]
+                            FactorOpt_e(
+                            ) [FactorOpt_e]
+                          ) [Factor_design]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+            ) [DesStmt_assign]
+          ) [Stmt_designator]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  15:29:03,624 - =====================================================================
+INFO  15:29:03,658 - Program: P na liniji 1
+INFO  15:29:03,659 - Enum stavka: A = 0 na liniji 2
+INFO  15:29:03,659 - Definisan enum: E na liniji 2
+INFO  15:29:03,660 - Promenljiva: x na liniji 4
+ERROR 15:29:03,660 - Nedefinisan identifikator: A na liniji 6
+INFO  15:29:03,662 - =====================================================================
+ERROR 15:29:03,663 - Parsiranje NIJE uspesno zavrseno!

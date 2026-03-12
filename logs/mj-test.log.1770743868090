@@ -1,0 +1,81 @@
+INFO  18:17:29,133 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  18:17:29,225 - #2 program
+INFO  18:17:29,225 - #9 P
+INFO  18:17:29,225 - #15 enum
+INFO  18:17:29,228 - #9 E
+INFO  18:17:29,228 - #3 {
+INFO  18:17:29,228 - #9 A
+INFO  18:17:29,228 - #5 ,
+INFO  18:17:29,229 - #9 B
+INFO  18:17:29,229 - #14 =
+INFO  18:17:29,229 - #10 10
+INFO  18:17:29,229 - #5 ,
+INFO  18:17:29,230 - #9 C
+INFO  18:17:29,230 - #5 ,
+INFO  18:17:29,230 - #9 D
+INFO  18:17:29,230 - #4 }
+INFO  18:17:29,230 - #3 {
+INFO  18:17:29,231 - #18 void
+INFO  18:17:29,232 - #9 main
+INFO  18:17:29,232 - #16 (
+INFO  18:17:29,233 - #17 )
+INFO  18:17:29,234 - #3 {
+INFO  18:17:29,235 - #4 }
+INFO  18:17:29,236 - #4 }
+INFO  18:17:29,309 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_enum(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    EnumDecl(
+     E
+      EnumItemList_more(
+        EnumItemList_more(
+          EnumItemList_more(
+            EnumItemList_one(
+              EnumItem_simple(
+               A
+              ) [EnumItem_simple]
+            ) [EnumItemList_one]
+            EnumItem_value(
+             B
+             10
+            ) [EnumItem_value]
+          ) [EnumItemList_more]
+          EnumItem_simple(
+           C
+          ) [EnumItem_simple]
+        ) [EnumItemList_more]
+        EnumItem_simple(
+         D
+        ) [EnumItem_simple]
+      ) [EnumItemList_more]
+    ) [EnumDecl]
+  ) [ConVarEnumDecList_enum]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  18:17:29,309 - =====================================================================
+INFO  18:17:29,338 - Program: P na liniji 1
+INFO  18:17:29,339 - Enum stavka: A = 0 na liniji 2
+INFO  18:17:29,339 - Enum stavka: B = 10 na liniji 2
+INFO  18:17:29,339 - Enum stavka: C = 11 na liniji 2
+INFO  18:17:29,339 - Enum stavka: D = 12 na liniji 2
+INFO  18:17:29,340 - Definisan enum: E na liniji 2
+INFO  18:17:29,340 - =====================================================================
+INFO  18:17:29,341 - Parsiranje uspesno zavrseno!

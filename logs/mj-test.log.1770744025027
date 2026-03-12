@@ -1,0 +1,100 @@
+INFO  18:19:00,536 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  18:19:00,627 - #2 program
+INFO  18:19:00,628 - #9 P
+INFO  18:19:00,628 - #13 const
+INFO  18:19:00,629 - #9 int
+INFO  18:19:00,629 - #9 K
+INFO  18:19:00,630 - #14 =
+INFO  18:19:00,631 - #10 3
+INFO  18:19:00,631 - #6 ;
+INFO  18:19:00,632 - #9 int
+INFO  18:19:00,633 - #9 x
+INFO  18:19:00,633 - #6 ;
+INFO  18:19:00,634 - #15 enum
+INFO  18:19:00,635 - #9 E
+INFO  18:19:00,635 - #3 {
+INFO  18:19:00,635 - #9 A
+INFO  18:19:00,635 - #5 ,
+INFO  18:19:00,635 - #9 B
+INFO  18:19:00,635 - #4 }
+INFO  18:19:00,637 - #3 {
+INFO  18:19:00,638 - #18 void
+INFO  18:19:00,639 - #9 main
+INFO  18:19:00,639 - #16 (
+INFO  18:19:00,648 - #17 )
+INFO  18:19:00,649 - #3 {
+INFO  18:19:00,650 - #4 }
+INFO  18:19:00,651 - #4 }
+INFO  18:19:00,654 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_enum(
+    ConVarEnumDecList_var(
+      ConVarEnumDecList_con(
+        ConVarEnumDecList_e(
+        ) [ConVarEnumDecList_e]
+        ConDecList(
+          Type(
+           int
+          ) [Type]
+          ConDecl(
+           K
+            Constant_n(
+             3
+            ) [Constant_n]
+          ) [ConDecl]
+          ConDeclMore_e(
+          ) [ConDeclMore_e]
+        ) [ConDecList]
+      ) [ConVarEnumDecList_con]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarIdentList_one(
+          VarIdent_simple(
+           x
+          ) [VarIdent_simple]
+        ) [VarIdentList_one]
+      ) [VarDeclList]
+    ) [ConVarEnumDecList_var]
+    EnumDecl(
+     E
+      EnumItemList_more(
+        EnumItemList_one(
+          EnumItem_simple(
+           A
+          ) [EnumItem_simple]
+        ) [EnumItemList_one]
+        EnumItem_simple(
+         B
+        ) [EnumItem_simple]
+      ) [EnumItemList_more]
+    ) [EnumDecl]
+  ) [ConVarEnumDecList_enum]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  18:19:00,654 - =====================================================================
+INFO  18:19:00,684 - Program: P na liniji 1
+INFO  18:19:00,684 - Definisana konstanta: K na liniji 2
+INFO  18:19:00,684 - Promenljiva: x na liniji 3
+INFO  18:19:00,685 - Enum stavka: A = 0 na liniji 4
+INFO  18:19:00,685 - Enum stavka: B = 1 na liniji 4
+INFO  18:19:00,686 - Definisan enum: E na liniji 4
+INFO  18:19:00,686 - =====================================================================
+INFO  18:19:00,687 - Parsiranje uspesno zavrseno!

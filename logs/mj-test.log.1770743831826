@@ -1,0 +1,70 @@
+INFO  18:16:43,642 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  18:16:43,729 - #2 program
+INFO  18:16:43,729 - #9 P
+INFO  18:16:43,729 - #15 enum
+INFO  18:16:43,731 - #9 E
+INFO  18:16:43,731 - #3 {
+INFO  18:16:43,731 - #9 A
+INFO  18:16:43,731 - #5 ,
+INFO  18:16:43,731 - #9 B
+INFO  18:16:43,732 - #5 ,
+INFO  18:16:43,732 - #9 C
+INFO  18:16:43,732 - #4 }
+INFO  18:16:43,732 - #3 {
+INFO  18:16:43,733 - #18 void
+INFO  18:16:43,734 - #9 main
+INFO  18:16:43,734 - #16 (
+INFO  18:16:43,734 - #17 )
+INFO  18:16:43,735 - #3 {
+INFO  18:16:43,736 - #4 }
+INFO  18:16:43,737 - #4 }
+INFO  18:16:43,740 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_enum(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    EnumDecl(
+     E
+      EnumItemList_more(
+        EnumItemList_more(
+          EnumItemList_one(
+            EnumItem_simple(
+             A
+            ) [EnumItem_simple]
+          ) [EnumItemList_one]
+          EnumItem_simple(
+           B
+          ) [EnumItem_simple]
+        ) [EnumItemList_more]
+        EnumItem_simple(
+         C
+        ) [EnumItem_simple]
+      ) [EnumItemList_more]
+    ) [EnumDecl]
+  ) [ConVarEnumDecList_enum]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  18:16:43,810 - =====================================================================
+INFO  18:16:43,840 - Program: P na liniji 1
+INFO  18:16:43,842 - Enum stavka: A = 0 na liniji 2
+INFO  18:16:43,842 - Enum stavka: B = 1 na liniji 2
+INFO  18:16:43,842 - Enum stavka: C = 2 na liniji 2
+INFO  18:16:43,843 - Definisan enum: E na liniji 2
+INFO  18:16:43,843 - =====================================================================
+INFO  18:16:43,844 - Parsiranje uspesno zavrseno!

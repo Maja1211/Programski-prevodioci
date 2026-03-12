@@ -1,0 +1,67 @@
+INFO  16:45:52,959 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  16:45:53,053 - #2 program
+INFO  16:45:53,053 - #9 P
+INFO  16:45:53,054 - #15 enum
+INFO  16:45:53,055 - #9 E
+INFO  16:45:53,055 - #3 {
+INFO  16:45:53,055 - #9 A
+INFO  16:45:53,055 - #5 ,
+INFO  16:45:53,056 - #9 B
+INFO  16:45:53,056 - #5 ,
+INFO  16:45:53,056 - #9 C
+INFO  16:45:53,056 - #4 }
+INFO  16:45:53,057 - #3 {
+INFO  16:45:53,057 - #18 void
+INFO  16:45:53,058 - #9 main
+INFO  16:45:53,058 - #16 (
+INFO  16:45:53,059 - #17 )
+INFO  16:45:53,060 - #3 {
+INFO  16:45:53,061 - #4 }
+INFO  16:45:53,062 - #4 }
+INFO  16:45:53,065 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_enum(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    EnumDecl(
+     E
+      EnumItemList_more(
+        EnumItemList_more(
+          EnumItemList_one(
+            EnumItem_simple(
+             A
+            ) [EnumItem_simple]
+          ) [EnumItemList_one]
+          EnumItem_simple(
+           B
+          ) [EnumItem_simple]
+        ) [EnumItemList_more]
+        EnumItem_simple(
+         C
+        ) [EnumItem_simple]
+      ) [EnumItemList_more]
+    ) [EnumDecl]
+  ) [ConVarEnumDecList_enum]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  16:45:53,137 - =====================================================================
+INFO  16:45:53,167 - Program: P na liniji 1
+INFO  16:45:53,167 - Definisan enum: E na liniji 2
+INFO  16:45:53,167 - =====================================================================
+INFO  16:45:53,169 - Parsiranje uspesno zavrseno!

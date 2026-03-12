@@ -1,0 +1,50 @@
+INFO  17:50:10,129 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:50:10,163 - #2 program
+INFO  17:50:10,163 - #9 P
+INFO  17:50:10,163 - #3 {
+INFO  17:50:10,164 - #9 int
+INFO  17:50:10,164 - #9 main
+INFO  17:50:10,165 - #16 (
+INFO  17:50:10,165 - #17 )
+INFO  17:50:10,165 - #3 {
+INFO  17:50:10,165 - #23 return
+INFO  17:50:10,166 - #6 ;
+INFO  17:50:10,166 - #4 }
+INFO  17:50:10,166 - #4 }
+INFO  17:50:10,167 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_type(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethRetAndName_type]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_rec(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          Stmt_return(
+          ) [Stmt_return]
+        ) [Stmt_simple]
+      ) [StatementList_rec]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  17:50:10,168 - =====================================================================
+INFO  17:50:10,178 - Obradjujem program: P na liniji 1
+ERROR 17:50:10,179 - main mora biti void i bez argumenata. na liniji 1
+ERROR 17:50:10,179 - Program nema adekvatnu main metodu (void main bez argumenata). na liniji 1
+INFO  17:50:10,179 - =====================================================================
+ERROR 17:50:10,179 - Parsiranje NIJE uspesno zavrseno!

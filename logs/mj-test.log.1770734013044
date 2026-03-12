@@ -1,0 +1,59 @@
+INFO  15:33:08,353 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:33:08,387 - #2 program
+INFO  15:33:08,387 - #9 P
+INFO  15:33:08,387 - #13 const
+INFO  15:33:08,387 - #9 char
+INFO  15:33:08,387 - #9 c
+INFO  15:33:08,387 - #14 =
+INFO  15:33:08,389 - #12 1
+INFO  15:33:08,389 - #6 ;
+INFO  15:33:08,389 - #3 {
+INFO  15:33:08,390 - #18 void
+INFO  15:33:08,390 - #9 main
+INFO  15:33:08,390 - #16 (
+INFO  15:33:08,390 - #17 )
+INFO  15:33:08,390 - #3 {
+INFO  15:33:08,391 - #4 }
+INFO  15:33:08,391 - #4 }
+INFO  15:33:08,392 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_con(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    ConDecList(
+      Type(
+       char
+      ) [Type]
+      ConDecl(
+       c
+        Constant_b(
+         1
+        ) [Constant_b]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConDecList]
+  ) [ConVarEnumDecList_con]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:33:08,392 - =====================================================================
+INFO  15:33:08,404 - Program: P na liniji 1
+ERROR 15:33:08,404 - Pogresan tip konstante: c na liniji 2
+INFO  15:33:08,404 - =====================================================================
+ERROR 15:33:08,405 - Parsiranje NIJE uspesno zavrseno!

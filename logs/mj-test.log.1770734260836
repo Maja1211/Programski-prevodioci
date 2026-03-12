@@ -1,0 +1,76 @@
+INFO  15:37:19,349 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:37:19,382 - #2 program
+INFO  15:37:19,383 - #9 P
+INFO  15:37:19,383 - #3 {
+INFO  15:37:19,383 - #18 void
+INFO  15:37:19,384 - #9 f
+INFO  15:37:19,384 - #16 (
+INFO  15:37:19,384 - #17 )
+INFO  15:37:19,384 - #3 {
+INFO  15:37:19,384 - #4 }
+INFO  15:37:19,385 - #18 void
+INFO  15:37:19,385 - #9 f
+INFO  15:37:19,385 - #16 (
+INFO  15:37:19,385 - #17 )
+INFO  15:37:19,385 - #3 {
+INFO  15:37:19,385 - #4 }
+INFO  15:37:19,385 - #18 void
+INFO  15:37:19,386 - #9 main
+INFO  15:37:19,386 - #16 (
+INFO  15:37:19,386 - #17 )
+INFO  15:37:19,386 - #3 {
+INFO  15:37:19,386 - #4 }
+INFO  15:37:19,386 - #4 }
+INFO  15:37:19,386 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_rec(
+      MethodDeclList_rec(
+        MethodDeclList_e(
+        ) [MethodDeclList_e]
+        MethodDecl(
+          MethRetAndName_void(
+           f
+          ) [MethRetAndName_void]
+          FormParList_e(
+          ) [FormParList_e]
+          VarDeclListPom_e(
+          ) [VarDeclListPom_e]
+          StatementList_e(
+          ) [StatementList_e]
+        ) [MethodDecl]
+      ) [MethodDeclList_rec]
+      MethodDecl(
+        MethRetAndName_void(
+         f
+        ) [MethRetAndName_void]
+        FormParList_e(
+        ) [FormParList_e]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_rec]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:37:19,387 - =====================================================================
+INFO  15:37:19,400 - Program: P na liniji 1
+ERROR 15:37:19,400 - Metoda je vec definisana: f na liniji 4
+INFO  15:37:19,400 - =====================================================================
+ERROR 15:37:19,400 - Parsiranje NIJE uspesno zavrseno!

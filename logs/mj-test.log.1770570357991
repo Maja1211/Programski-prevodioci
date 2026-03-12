@@ -1,0 +1,60 @@
+INFO  18:05:26,922 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  18:05:26,956 - #2 program
+INFO  18:05:26,956 - #9 P
+INFO  18:05:26,956 - #3 {
+INFO  18:05:26,956 - #18 void
+INFO  18:05:26,957 - #9 main
+INFO  18:05:26,957 - #16 (
+INFO  18:05:26,957 - #9 int
+INFO  18:05:26,957 - #9 x
+INFO  18:05:26,957 - #5 ,
+INFO  18:05:26,958 - #9 char
+INFO  18:05:26,958 - #9 c
+INFO  18:05:26,958 - #17 )
+INFO  18:05:26,958 - #3 {
+INFO  18:05:26,958 - #4 }
+INFO  18:05:26,959 - #4 }
+INFO  18:05:26,959 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_rec(
+        FormPar_var(
+          Type(
+           int
+          ) [Type]
+         x
+        ) [FormPar_var]
+        FormParMore_comma(
+          FormPar_var(
+            Type(
+             char
+            ) [Type]
+           c
+          ) [FormPar_var]
+          FormParMore_e(
+          ) [FormParMore_e]
+        ) [FormParMore_comma]
+      ) [FormParList_rec]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  18:05:26,961 - =====================================================================
+INFO  18:05:26,972 - Obradjujem program: P na liniji 1
+ERROR 18:05:26,973 - main mora biti void i bez argumenata. na liniji 1
+ERROR 18:05:26,973 - Program nema adekvatnu main metodu (void main bez argumenata). na liniji 1
+INFO  18:05:26,973 - =====================================================================
+ERROR 18:05:26,973 - Parsiranje NIJE uspesno zavrseno!

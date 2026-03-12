@@ -1,0 +1,137 @@
+INFO  11:59:44,050 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  11:59:44,157 - #2 program
+INFO  11:59:44,157 - #9 T
+INFO  11:59:44,157 - #3 {
+INFO  11:59:44,159 - #9 int
+INFO  11:59:44,160 - #9 f
+INFO  11:59:44,162 - #16 (
+INFO  11:59:44,163 - #9 int
+INFO  11:59:44,163 - #9 a
+INFO  11:59:44,164 - #17 )
+INFO  11:59:44,166 - #3 {
+INFO  11:59:44,167 - #23 return
+INFO  11:59:44,168 - #9 a
+INFO  11:59:44,171 - #6 ;
+INFO  11:59:44,174 - #4 }
+INFO  11:59:44,175 - #18 void
+INFO  11:59:44,177 - #9 main
+INFO  11:59:44,177 - #16 (
+INFO  11:59:44,177 - #17 )
+INFO  11:59:44,178 - #3 {
+INFO  11:59:44,178 - #25 print
+INFO  11:59:44,178 - #16 (
+INFO  11:59:44,179 - #9 f
+INFO  11:59:44,250 - #16 (
+INFO  11:59:44,251 - #17 )
+INFO  11:59:44,251 - #17 )
+INFO  11:59:44,252 - #6 ;
+INFO  11:59:44,252 - #4 }
+INFO  11:59:44,253 - #4 }
+INFO  11:59:44,255 - Program(
+  ProgramName(
+   T
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_list(
+    MethodDeclList_list(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethRetAndName_type(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [MethRetAndName_type]
+        FormParList_form(
+          FormPar_var(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [FormPar_var]
+          FormParMore_e(
+          ) [FormParMore_e]
+        ) [FormParList_form]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_stat(
+          StatementList_e(
+          ) [StatementList_e]
+          Stmt_simple(
+            Stmt_return_expr(
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Pom_e(
+                          ) [Pom_e]
+                          Factor_design(
+                            Designator_var(
+                             a
+                            ) [Designator_var]
+                            FactorOpt_e(
+                            ) [FactorOpt_e]
+                          ) [Factor_design]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+            ) [Stmt_return_expr]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+      ) [MethodDecl]
+    ) [MethodDeclList_list]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          Stmt_print(
+            Expr_basic(
+              ExprBasic_main(
+                AddopTermList_term(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Pom_e(
+                        ) [Pom_e]
+                        Factor_design(
+                          Designator_var(
+                           f
+                          ) [Designator_var]
+                          FactorOpt_call_noargs(
+                          ) [FactorOpt_call_noargs]
+                        ) [Factor_design]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprBasic_main]
+            ) [Expr_basic]
+          ) [Stmt_print]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  11:59:44,255 - =====================================================================
+INFO  11:59:44,270 - Program: T na liniji 1
+INFO  11:59:44,271 - KORISCENJE FORMALNOG PARAMETRA: a -> Var a : int (adr=0, level=1, fpPos=1) na liniji 5
+INFO  11:59:44,272 - KORISCENJE METODE: f -> Meth f : int (adr=0, level=1) na liniji 10
+INFO  11:59:44,272 - POZIV FUNKCIJE: f -> Meth f : int (adr=0, level=1) na liniji 10
+ERROR 11:59:44,272 - Pogresan broj argumenata u pozivu metode 'f'. na liniji 10
+INFO  11:59:44,272 - =====================================================================
+ERROR 11:59:44,273 - Parsiranje NIJE uspesno zavrseno!

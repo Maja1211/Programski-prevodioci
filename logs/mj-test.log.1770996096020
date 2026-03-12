@@ -1,0 +1,127 @@
+INFO  16:21:04,135 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  16:21:04,227 - #2 program
+INFO  16:21:04,228 - #9 P
+INFO  16:21:04,228 - #3 {
+INFO  16:21:04,231 - #18 void
+INFO  16:21:04,232 - #9 main
+INFO  16:21:04,233 - #16 (
+INFO  16:21:04,233 - #17 )
+INFO  16:21:04,234 - #9 int
+INFO  16:21:04,234 - #9 x
+INFO  16:21:04,235 - #6 ;
+INFO  16:21:04,235 - #9 char
+INFO  16:21:04,237 - #9 c
+INFO  16:21:04,237 - #6 ;
+INFO  16:21:04,237 - #9 bool
+INFO  16:21:04,237 - #9 b
+INFO  16:21:04,237 - #6 ;
+INFO  16:21:04,237 - #3 {
+INFO  16:21:04,237 - #24 read
+INFO  16:21:04,238 - #16 (
+INFO  16:21:04,238 - #9 x
+INFO  16:21:04,238 - #17 )
+INFO  16:21:04,240 - #6 ;
+INFO  16:21:04,314 - #24 read
+INFO  16:21:04,315 - #16 (
+INFO  16:21:04,315 - #9 c
+INFO  16:21:04,315 - #17 )
+INFO  16:21:04,315 - #6 ;
+INFO  16:21:04,315 - #24 read
+INFO  16:21:04,315 - #16 (
+INFO  16:21:04,315 - #9 b
+INFO  16:21:04,315 - #17 )
+INFO  16:21:04,316 - #6 ;
+INFO  16:21:04,316 - #4 }
+INFO  16:21:04,316 - #4 }
+INFO  16:21:04,319 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_pom(
+        VarDeclListPom_pom(
+          VarDeclListPom_pom(
+            VarDeclListPom_e(
+            ) [VarDeclListPom_e]
+            VarDeclList(
+              Type(
+               int
+              ) [Type]
+              VarIdentList_one(
+                VarIdent_1(
+                 x
+                ) [VarIdent_1]
+              ) [VarIdentList_one]
+            ) [VarDeclList]
+          ) [VarDeclListPom_pom]
+          VarDeclList(
+            Type(
+             char
+            ) [Type]
+            VarIdentList_one(
+              VarIdent_1(
+               c
+              ) [VarIdent_1]
+            ) [VarIdentList_one]
+          ) [VarDeclList]
+        ) [VarDeclListPom_pom]
+        VarDeclList(
+          Type(
+           bool
+          ) [Type]
+          VarIdentList_one(
+            VarIdent_1(
+             b
+            ) [VarIdent_1]
+          ) [VarIdentList_one]
+        ) [VarDeclList]
+      ) [VarDeclListPom_pom]
+      StatementList_stat(
+        StatementList_stat(
+          StatementList_stat(
+            StatementList_e(
+            ) [StatementList_e]
+            Stmt_simple(
+              Stmt_read(
+                Designator_var(
+                 x
+                ) [Designator_var]
+              ) [Stmt_read]
+            ) [Stmt_simple]
+          ) [StatementList_stat]
+          Stmt_simple(
+            Stmt_read(
+              Designator_var(
+               c
+              ) [Designator_var]
+            ) [Stmt_read]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+        Stmt_simple(
+          Stmt_read(
+            Designator_var(
+             b
+            ) [Designator_var]
+          ) [Stmt_read]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  16:21:04,319 - =====================================================================
+INFO  16:21:04,354 - Program: P na liniji 1
+INFO  16:21:04,354 - Promenljiva: x na liniji 3
+INFO  16:21:04,354 - Promenljiva: c na liniji 3
+INFO  16:21:04,355 - Promenljiva: b na liniji 3
+INFO  16:21:04,355 - =====================================================================
+INFO  16:21:04,356 - Parsiranje uspesno zavrseno!

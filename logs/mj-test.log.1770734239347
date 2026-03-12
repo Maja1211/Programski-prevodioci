@@ -1,0 +1,94 @@
+INFO  15:36:56,800 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:36:56,834 - #2 program
+INFO  15:36:56,834 - #9 P
+INFO  15:36:56,834 - #3 {
+INFO  15:36:56,835 - #18 void
+INFO  15:36:56,835 - #9 f
+INFO  15:36:56,835 - #16 (
+INFO  15:36:56,835 - #17 )
+INFO  15:36:56,836 - #3 {
+INFO  15:36:56,836 - #23 return
+INFO  15:36:56,836 - #6 ;
+INFO  15:36:56,836 - #4 }
+INFO  15:36:56,837 - #9 int
+INFO  15:36:56,837 - #9 g
+INFO  15:36:56,838 - #16 (
+INFO  15:36:56,838 - #17 )
+INFO  15:36:56,838 - #3 {
+INFO  15:36:56,838 - #23 return
+INFO  15:36:56,838 - #6 ;
+INFO  15:36:56,838 - #4 }
+INFO  15:36:56,838 - #18 void
+INFO  15:36:56,838 - #9 main
+INFO  15:36:56,838 - #16 (
+INFO  15:36:56,839 - #17 )
+INFO  15:36:56,839 - #3 {
+INFO  15:36:56,839 - #4 }
+INFO  15:36:56,839 - #4 }
+INFO  15:36:56,840 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_rec(
+      MethodDeclList_rec(
+        MethodDeclList_e(
+        ) [MethodDeclList_e]
+        MethodDecl(
+          MethRetAndName_void(
+           f
+          ) [MethRetAndName_void]
+          FormParList_e(
+          ) [FormParList_e]
+          VarDeclListPom_e(
+          ) [VarDeclListPom_e]
+          StatementList_rec(
+            StatementList_e(
+            ) [StatementList_e]
+            Stmt_simple(
+              Stmt_return(
+              ) [Stmt_return]
+            ) [Stmt_simple]
+          ) [StatementList_rec]
+        ) [MethodDecl]
+      ) [MethodDeclList_rec]
+      MethodDecl(
+        MethRetAndName_type(
+          Type(
+           int
+          ) [Type]
+         g
+        ) [MethRetAndName_type]
+        FormParList_e(
+        ) [FormParList_e]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_rec(
+          StatementList_e(
+          ) [StatementList_e]
+          Stmt_simple(
+            Stmt_return(
+            ) [Stmt_return]
+          ) [Stmt_simple]
+        ) [StatementList_rec]
+      ) [MethodDecl]
+    ) [MethodDeclList_rec]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:36:56,840 - =====================================================================
+INFO  15:36:56,851 - Program: P na liniji 1
+INFO  15:36:56,851 - =====================================================================
+INFO  15:36:56,851 - Parsiranje uspesno zavrseno!

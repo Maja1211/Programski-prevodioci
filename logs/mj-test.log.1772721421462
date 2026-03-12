@@ -1,0 +1,68 @@
+INFO  15:35:57,228 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:35:57,321 - #2 program
+INFO  15:35:57,321 - #9 T06
+INFO  15:35:57,321 - #3 {
+INFO  15:35:57,324 - #18 void
+INFO  15:35:57,325 - #9 main
+INFO  15:35:57,325 - #16 (
+INFO  15:35:57,326 - #17 )
+INFO  15:35:57,327 - #3 {
+INFO  15:35:57,328 - #25 print
+INFO  15:35:57,329 - #16 (
+INFO  15:35:57,329 - #11 A
+INFO  15:35:57,331 - #5 ,
+INFO  15:35:57,334 - #10 5
+INFO  15:35:57,334 - #17 )
+INFO  15:35:57,334 - #6 ;
+INFO  15:35:57,335 - #4 }
+INFO  15:35:57,335 - #4 }
+INFO  15:35:57,338 - Program(
+  ProgramName(
+   T06
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          Stmt_print_num(
+            Expr_basic(
+              ExprBasic_main(
+                AddopTermList_term(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Pom_e(
+                        ) [Pom_e]
+                        Factor_char(
+                         A
+                        ) [Factor_char]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprBasic_main]
+            ) [Expr_basic]
+           5
+          ) [Stmt_print_num]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  15:35:57,409 - =====================================================================
+INFO  15:35:57,424 - Program: T06 na liniji 1
+INFO  15:35:57,425 - =====================================================================
+INFO  15:35:57,431 - Generisanje uspesno zavrseno!

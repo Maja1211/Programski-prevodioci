@@ -1,0 +1,69 @@
+INFO  18:21:18,063 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  18:21:18,151 - #2 program
+INFO  18:21:18,151 - #9 P
+INFO  18:21:18,151 - #9 int
+INFO  18:21:18,153 - #9 E
+INFO  18:21:18,154 - #6 ;
+INFO  18:21:18,154 - #15 enum
+INFO  18:21:18,155 - #9 E
+INFO  18:21:18,155 - #3 {
+INFO  18:21:18,156 - #9 A
+INFO  18:21:18,156 - #4 }
+INFO  18:21:18,156 - #3 {
+INFO  18:21:18,158 - #18 void
+INFO  18:21:18,159 - #9 main
+INFO  18:21:18,159 - #16 (
+INFO  18:21:18,160 - #17 )
+INFO  18:21:18,160 - #3 {
+INFO  18:21:18,161 - #4 }
+INFO  18:21:18,162 - #4 }
+INFO  18:21:18,166 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_enum(
+    ConVarEnumDecList_var(
+      ConVarEnumDecList_e(
+      ) [ConVarEnumDecList_e]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarIdentList_one(
+          VarIdent_simple(
+           E
+          ) [VarIdent_simple]
+        ) [VarIdentList_one]
+      ) [VarDeclList]
+    ) [ConVarEnumDecList_var]
+    EnumDecl(
+     E
+      EnumItemList_one(
+        EnumItem_simple(
+         A
+        ) [EnumItem_simple]
+      ) [EnumItemList_one]
+    ) [EnumDecl]
+  ) [ConVarEnumDecList_enum]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  18:21:18,168 - =====================================================================
+INFO  18:21:18,197 - Program: P na liniji 1
+INFO  18:21:18,198 - Promenljiva: E na liniji 2
+ERROR 18:21:18,198 - Enum je vec definisan: E na liniji 3
+INFO  18:21:18,198 - =====================================================================
+ERROR 18:21:18,200 - Parsiranje NIJE uspesno zavrseno!

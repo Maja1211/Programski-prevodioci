@@ -1,0 +1,193 @@
+INFO  15:03:38,980 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:03:39,068 - #2 program
+INFO  15:03:39,068 - #9 P
+INFO  15:03:39,068 - #9 int
+INFO  15:03:39,070 - #9 a
+INFO  15:03:39,071 - #6 ;
+INFO  15:03:39,071 - #9 char
+INFO  15:03:39,072 - #9 c
+INFO  15:03:39,073 - #6 ;
+INFO  15:03:39,073 - #9 bool
+INFO  15:03:39,073 - #9 b
+INFO  15:03:39,073 - #6 ;
+INFO  15:03:39,073 - #3 {
+INFO  15:03:39,073 - #18 void
+INFO  15:03:39,074 - #9 main
+INFO  15:03:39,074 - #16 (
+INFO  15:03:39,075 - #17 )
+INFO  15:03:39,076 - #3 {
+INFO  15:03:39,076 - #9 a
+INFO  15:03:39,078 - #14 =
+INFO  15:03:39,078 - #10 3
+INFO  15:03:39,081 - #6 ;
+INFO  15:03:39,085 - #9 a
+INFO  15:03:39,086 - #14 =
+INFO  15:03:39,157 - #9 c
+INFO  15:03:39,157 - #6 ;
+INFO  15:03:39,159 - #9 b
+INFO  15:03:39,159 - #14 =
+INFO  15:03:39,159 - #10 1
+INFO  15:03:39,160 - #6 ;
+INFO  15:03:39,160 - #4 }
+INFO  15:03:39,160 - #4 }
+INFO  15:03:39,163 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_var(
+    ConVarEnumDecList_var(
+      ConVarEnumDecList_var(
+        ConVarEnumDecList_e(
+        ) [ConVarEnumDecList_e]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarIdentList_one(
+            VarIdent_1(
+             a
+            ) [VarIdent_1]
+          ) [VarIdentList_one]
+        ) [VarDeclList]
+      ) [ConVarEnumDecList_var]
+      VarDeclList(
+        Type(
+         char
+        ) [Type]
+        VarIdentList_one(
+          VarIdent_1(
+           c
+          ) [VarIdent_1]
+        ) [VarIdentList_one]
+      ) [VarDeclList]
+    ) [ConVarEnumDecList_var]
+    VarDeclList(
+      Type(
+       bool
+      ) [Type]
+      VarIdentList_one(
+        VarIdent_1(
+         b
+        ) [VarIdent_1]
+      ) [VarIdentList_one]
+    ) [VarDeclList]
+  ) [ConVarEnumDecList_var]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_stat(
+          StatementList_stat(
+            StatementList_e(
+            ) [StatementList_e]
+            Stmt_simple(
+              Stmt_designator(
+                DesStmt_assign(
+                  Designator_var(
+                   a
+                  ) [Designator_var]
+                  Assignop_eq(
+                  ) [Assignop_eq]
+                  Expr_basic(
+                    ExprBasic_main(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Pom_e(
+                              ) [Pom_e]
+                              Factor_num(
+                               3
+                              ) [Factor_num]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprBasic_main]
+                  ) [Expr_basic]
+                ) [DesStmt_assign]
+              ) [Stmt_designator]
+            ) [Stmt_simple]
+          ) [StatementList_stat]
+          Stmt_simple(
+            Stmt_designator(
+              DesStmt_assign(
+                Designator_var(
+                 a
+                ) [Designator_var]
+                Assignop_eq(
+                ) [Assignop_eq]
+                Expr_basic(
+                  ExprBasic_main(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_design(
+                              Designator_var(
+                               c
+                              ) [Designator_var]
+                              FactorOpt_e(
+                              ) [FactorOpt_e]
+                            ) [Factor_design]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprBasic_main]
+                ) [Expr_basic]
+              ) [DesStmt_assign]
+            ) [Stmt_designator]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+        Stmt_simple(
+          Stmt_designator(
+            DesStmt_assign(
+              Designator_var(
+               b
+              ) [Designator_var]
+              Assignop_eq(
+              ) [Assignop_eq]
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Pom_e(
+                          ) [Pom_e]
+                          Factor_num(
+                           1
+                          ) [Factor_num]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+            ) [DesStmt_assign]
+          ) [Stmt_designator]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  15:03:39,164 - =====================================================================
+INFO  15:03:39,195 - Program: P na liniji 1
+INFO  15:03:39,195 - Promenljiva: a na liniji 2
+INFO  15:03:39,195 - Promenljiva: c na liniji 2
+INFO  15:03:39,195 - Promenljiva: b na liniji 2
+ERROR 15:03:39,197 - Nekompatibilni tipovi u dodeli. na liniji 6
+ERROR 15:03:39,197 - Nekompatibilni tipovi u dodeli. na liniji 7
+INFO  15:03:39,197 - =====================================================================
+ERROR 15:03:39,198 - Parsiranje NIJE uspesno zavrseno!

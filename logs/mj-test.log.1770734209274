@@ -1,0 +1,104 @@
+INFO  15:36:23,681 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:36:23,715 - #2 program
+INFO  15:36:23,716 - #9 P
+INFO  15:36:23,716 - #3 {
+INFO  15:36:23,716 - #18 void
+INFO  15:36:23,717 - #9 f
+INFO  15:36:23,717 - #16 (
+INFO  15:36:23,717 - #17 )
+INFO  15:36:23,717 - #3 {
+INFO  15:36:23,717 - #4 }
+INFO  15:36:23,718 - #9 int
+INFO  15:36:23,718 - #9 g
+INFO  15:36:23,719 - #16 (
+INFO  15:36:23,719 - #17 )
+INFO  15:36:23,719 - #3 {
+INFO  15:36:23,719 - #23 return
+INFO  15:36:23,719 - #10 1
+INFO  15:36:23,720 - #6 ;
+INFO  15:36:23,721 - #4 }
+INFO  15:36:23,721 - #18 void
+INFO  15:36:23,721 - #9 main
+INFO  15:36:23,721 - #16 (
+INFO  15:36:23,721 - #17 )
+INFO  15:36:23,721 - #3 {
+INFO  15:36:23,722 - #4 }
+INFO  15:36:23,722 - #4 }
+INFO  15:36:23,722 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_rec(
+      MethodDeclList_rec(
+        MethodDeclList_e(
+        ) [MethodDeclList_e]
+        MethodDecl(
+          MethRetAndName_void(
+           f
+          ) [MethRetAndName_void]
+          FormParList_e(
+          ) [FormParList_e]
+          VarDeclListPom_e(
+          ) [VarDeclListPom_e]
+          StatementList_e(
+          ) [StatementList_e]
+        ) [MethodDecl]
+      ) [MethodDeclList_rec]
+      MethodDecl(
+        MethRetAndName_type(
+          Type(
+           int
+          ) [Type]
+         g
+        ) [MethRetAndName_type]
+        FormParList_e(
+        ) [FormParList_e]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_rec(
+          StatementList_e(
+          ) [StatementList_e]
+          Stmt_simple(
+            Stmt_return_expr(
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Unary_e(
+                          ) [Unary_e]
+                          Factor_num(
+                           1
+                          ) [Factor_num]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+            ) [Stmt_return_expr]
+          ) [Stmt_simple]
+        ) [StatementList_rec]
+      ) [MethodDecl]
+    ) [MethodDeclList_rec]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:36:23,722 - =====================================================================
+INFO  15:36:23,735 - Program: P na liniji 1
+INFO  15:36:23,735 - =====================================================================
+INFO  15:36:23,736 - Parsiranje uspesno zavrseno!

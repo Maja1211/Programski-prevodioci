@@ -1,0 +1,171 @@
+INFO  15:28:30,945 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:28:31,049 - #2 program
+INFO  15:28:31,050 - #9 P
+INFO  15:28:31,050 - #15 enum
+INFO  15:28:31,052 - #9 E
+INFO  15:28:31,052 - #3 {
+INFO  15:28:31,052 - #9 A
+INFO  15:28:31,052 - #14 =
+INFO  15:28:31,052 - #10 1
+INFO  15:28:31,053 - #5 ,
+INFO  15:28:31,053 - #9 B
+INFO  15:28:31,053 - #4 }
+INFO  15:28:31,053 - #3 {
+INFO  15:28:31,055 - #18 void
+INFO  15:28:31,056 - #9 main
+INFO  15:28:31,056 - #16 (
+INFO  15:28:31,057 - #17 )
+INFO  15:28:31,058 - #9 int
+INFO  15:28:31,058 - #9 x
+INFO  15:28:31,059 - #6 ;
+INFO  15:28:31,061 - #3 {
+INFO  15:28:31,063 - #9 x
+INFO  15:28:31,064 - #14 =
+INFO  15:28:31,064 - #9 E
+INFO  15:28:31,068 - #46 .
+INFO  15:28:31,069 - #9 A
+INFO  15:28:31,069 - #6 ;
+INFO  15:28:31,073 - #9 x
+INFO  15:28:31,073 - #14 =
+INFO  15:28:31,074 - #9 E
+INFO  15:28:31,074 - #46 .
+INFO  15:28:31,074 - #9 B
+INFO  15:28:31,074 - #6 ;
+INFO  15:28:31,074 - #4 }
+INFO  15:28:31,074 - #4 }
+INFO  15:28:31,078 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_enum(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    EnumDecl(
+     E
+      EnumItemList_more(
+        EnumItemList_one(
+          EnumItem_value(
+           A
+           1
+          ) [EnumItem_value]
+        ) [EnumItemList_one]
+        EnumItem_simple(
+         B
+        ) [EnumItem_simple]
+      ) [EnumItemList_more]
+    ) [EnumDecl]
+  ) [ConVarEnumDecList_enum]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_pom(
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarIdentList_one(
+            VarIdent_1(
+             x
+            ) [VarIdent_1]
+          ) [VarIdentList_one]
+        ) [VarDeclList]
+      ) [VarDeclListPom_pom]
+      StatementList_stat(
+        StatementList_stat(
+          StatementList_e(
+          ) [StatementList_e]
+          Stmt_simple(
+            Stmt_designator(
+              DesStmt_assign(
+                Designator_var(
+                 x
+                ) [Designator_var]
+                Assignop_eq(
+                ) [Assignop_eq]
+                Expr_basic(
+                  ExprBasic_main(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_design(
+                              Designator_pom(
+                                DesignatorName(
+                                 E
+                                ) [DesignatorName]
+                                DesignatorMore_var(
+                                 A
+                                ) [DesignatorMore_var]
+                              ) [Designator_pom]
+                              FactorOpt_e(
+                              ) [FactorOpt_e]
+                            ) [Factor_design]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprBasic_main]
+                ) [Expr_basic]
+              ) [DesStmt_assign]
+            ) [Stmt_designator]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+        Stmt_simple(
+          Stmt_designator(
+            DesStmt_assign(
+              Designator_var(
+               x
+              ) [Designator_var]
+              Assignop_eq(
+              ) [Assignop_eq]
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Pom_e(
+                          ) [Pom_e]
+                          Factor_design(
+                            Designator_pom(
+                              DesignatorName(
+                               E
+                              ) [DesignatorName]
+                              DesignatorMore_var(
+                               B
+                              ) [DesignatorMore_var]
+                            ) [Designator_pom]
+                            FactorOpt_e(
+                            ) [FactorOpt_e]
+                          ) [Factor_design]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+            ) [DesStmt_assign]
+          ) [Stmt_designator]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  15:28:31,078 - =====================================================================
+INFO  15:28:31,113 - Program: P na liniji 1
+INFO  15:28:31,114 - Enum stavka: A = 1 na liniji 2
+INFO  15:28:31,114 - Enum stavka: B = 2 na liniji 2
+INFO  15:28:31,115 - Definisan enum: E na liniji 2
+INFO  15:28:31,115 - Promenljiva: x na liniji 4
+INFO  15:28:31,117 - =====================================================================
+INFO  15:28:31,117 - Parsiranje uspesno zavrseno!

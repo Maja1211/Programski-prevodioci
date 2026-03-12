@@ -1,0 +1,264 @@
+INFO  15:22:10,022 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:22:10,111 - #2 program
+INFO  15:22:10,112 - #9 T09
+INFO  15:22:10,112 - #3 {
+INFO  15:22:10,114 - #18 void
+INFO  15:22:10,115 - #9 main
+INFO  15:22:10,115 - #16 (
+INFO  15:22:10,115 - #17 )
+INFO  15:22:10,117 - #9 int
+INFO  15:22:10,118 - #9 x
+INFO  15:22:10,119 - #6 ;
+INFO  15:22:10,119 - #3 {
+INFO  15:22:10,121 - #9 x
+INFO  15:22:10,122 - #14 =
+INFO  15:22:10,122 - #10 1
+INFO  15:22:10,127 - #6 ;
+INFO  15:22:10,131 - #27 switch
+INFO  15:22:10,132 - #16 (
+INFO  15:22:10,132 - #9 x
+INFO  15:22:10,132 - #17 )
+INFO  15:22:10,133 - #3 {
+INFO  15:22:10,133 - #28 case
+INFO  15:22:10,135 - #10 1
+INFO  15:22:10,206 - #29 :
+INFO  15:22:10,206 - #25 print
+INFO  15:22:10,207 - #16 (
+INFO  15:22:10,207 - #10 1
+INFO  15:22:10,207 - #17 )
+INFO  15:22:10,208 - #6 ;
+INFO  15:22:10,208 - #28 case
+INFO  15:22:10,210 - #10 2
+INFO  15:22:10,210 - #29 :
+INFO  15:22:10,210 - #25 print
+INFO  15:22:10,210 - #16 (
+INFO  15:22:10,210 - #10 2
+INFO  15:22:10,210 - #17 )
+INFO  15:22:10,211 - #6 ;
+INFO  15:22:10,211 - #21 break
+INFO  15:22:10,211 - #6 ;
+INFO  15:22:10,211 - #28 case
+INFO  15:22:10,212 - #10 3
+INFO  15:22:10,212 - #29 :
+INFO  15:22:10,212 - #25 print
+INFO  15:22:10,212 - #16 (
+INFO  15:22:10,212 - #10 3
+INFO  15:22:10,213 - #17 )
+INFO  15:22:10,213 - #6 ;
+INFO  15:22:10,213 - #21 break
+INFO  15:22:10,213 - #6 ;
+INFO  15:22:10,213 - #4 }
+INFO  15:22:10,214 - #4 }
+INFO  15:22:10,215 - #4 }
+INFO  15:22:10,218 - Program(
+  ProgramName(
+   T09
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_pom(
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarIdentList_one(
+            VarIdent_1(
+             x
+            ) [VarIdent_1]
+          ) [VarIdentList_one]
+        ) [VarDeclList]
+      ) [VarDeclListPom_pom]
+      StatementList_stat(
+        StatementList_stat(
+          StatementList_e(
+          ) [StatementList_e]
+          Stmt_simple(
+            Stmt_designator(
+              DesStmt_assign(
+                Designator_var(
+                 x
+                ) [Designator_var]
+                Assignop_eq(
+                ) [Assignop_eq]
+                Expr_basic(
+                  ExprBasic_main(
+                    AddopTermList_term(
+                      Term(
+                        MulopFactorList_factor(
+                          Factor(
+                            Pom_e(
+                            ) [Pom_e]
+                            Factor_num(
+                             1
+                            ) [Factor_num]
+                          ) [Factor]
+                        ) [MulopFactorList_factor]
+                      ) [Term]
+                    ) [AddopTermList_term]
+                  ) [ExprBasic_main]
+                ) [Expr_basic]
+              ) [DesStmt_assign]
+            ) [Stmt_designator]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+        Stmt_simple(
+          Stmt_switch(
+            Expr_basic(
+              ExprBasic_main(
+                AddopTermList_term(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Pom_e(
+                        ) [Pom_e]
+                        Factor_design(
+                          Designator_var(
+                           x
+                          ) [Designator_var]
+                          FactorOpt_e(
+                          ) [FactorOpt_e]
+                        ) [Factor_design]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprBasic_main]
+            ) [Expr_basic]
+            SwitchBegin(
+            ) [SwitchBegin]
+            CaseList_pom(
+              CaseList_pom(
+                CaseList_pom(
+                  CaseList_e(
+                  ) [CaseList_e]
+                  CaseBlock(
+                    CaseHdr(
+                     1
+                    ) [CaseHdr]
+                    StatementList_stat(
+                      StatementList_e(
+                      ) [StatementList_e]
+                      Stmt_simple(
+                        Stmt_print(
+                          Expr_basic(
+                            ExprBasic_main(
+                              AddopTermList_term(
+                                Term(
+                                  MulopFactorList_factor(
+                                    Factor(
+                                      Pom_e(
+                                      ) [Pom_e]
+                                      Factor_num(
+                                       1
+                                      ) [Factor_num]
+                                    ) [Factor]
+                                  ) [MulopFactorList_factor]
+                                ) [Term]
+                              ) [AddopTermList_term]
+                            ) [ExprBasic_main]
+                          ) [Expr_basic]
+                        ) [Stmt_print]
+                      ) [Stmt_simple]
+                    ) [StatementList_stat]
+                  ) [CaseBlock]
+                ) [CaseList_pom]
+                CaseBlock(
+                  CaseHdr(
+                   2
+                  ) [CaseHdr]
+                  StatementList_stat(
+                    StatementList_stat(
+                      StatementList_e(
+                      ) [StatementList_e]
+                      Stmt_simple(
+                        Stmt_print(
+                          Expr_basic(
+                            ExprBasic_main(
+                              AddopTermList_term(
+                                Term(
+                                  MulopFactorList_factor(
+                                    Factor(
+                                      Pom_e(
+                                      ) [Pom_e]
+                                      Factor_num(
+                                       2
+                                      ) [Factor_num]
+                                    ) [Factor]
+                                  ) [MulopFactorList_factor]
+                                ) [Term]
+                              ) [AddopTermList_term]
+                            ) [ExprBasic_main]
+                          ) [Expr_basic]
+                        ) [Stmt_print]
+                      ) [Stmt_simple]
+                    ) [StatementList_stat]
+                    Stmt_simple(
+                      Stmt_break(
+                      ) [Stmt_break]
+                    ) [Stmt_simple]
+                  ) [StatementList_stat]
+                ) [CaseBlock]
+              ) [CaseList_pom]
+              CaseBlock(
+                CaseHdr(
+                 3
+                ) [CaseHdr]
+                StatementList_stat(
+                  StatementList_stat(
+                    StatementList_e(
+                    ) [StatementList_e]
+                    Stmt_simple(
+                      Stmt_print(
+                        Expr_basic(
+                          ExprBasic_main(
+                            AddopTermList_term(
+                              Term(
+                                MulopFactorList_factor(
+                                  Factor(
+                                    Pom_e(
+                                    ) [Pom_e]
+                                    Factor_num(
+                                     3
+                                    ) [Factor_num]
+                                  ) [Factor]
+                                ) [MulopFactorList_factor]
+                              ) [Term]
+                            ) [AddopTermList_term]
+                          ) [ExprBasic_main]
+                        ) [Expr_basic]
+                      ) [Stmt_print]
+                    ) [Stmt_simple]
+                  ) [StatementList_stat]
+                  Stmt_simple(
+                    Stmt_break(
+                    ) [Stmt_break]
+                  ) [Stmt_simple]
+                ) [StatementList_stat]
+              ) [CaseBlock]
+            ) [CaseList_pom]
+            SwitchEnd(
+            ) [SwitchEnd]
+          ) [Stmt_switch]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  15:22:10,220 - =====================================================================
+INFO  15:22:10,236 - Program: T09 na liniji 1
+INFO  15:22:10,236 - Promenljiva: x na liniji 4
+INFO  15:22:10,236 - KORISCENJE: x -> Var x : int (adr=0, level=1) na liniji 6
+INFO  15:22:10,237 - KORISCENJE: x -> Var x : int (adr=0, level=1) na liniji 7
+INFO  15:22:10,238 - =====================================================================
+INFO  15:22:10,245 - Generisanje uspesno zavrseno!

@@ -1,0 +1,88 @@
+INFO  18:06:15,785 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  18:06:15,819 - #2 program
+INFO  18:06:15,819 - #9 P
+INFO  18:06:15,819 - #3 {
+INFO  18:06:15,820 - #18 void
+INFO  18:06:15,820 - #9 f
+INFO  18:06:15,820 - #16 (
+INFO  18:06:15,820 - #9 int
+INFO  18:06:15,820 - #9 x
+INFO  18:06:15,821 - #5 ,
+INFO  18:06:15,821 - #9 char
+INFO  18:06:15,821 - #9 c
+INFO  18:06:15,821 - #5 ,
+INFO  18:06:15,821 - #9 bool
+INFO  18:06:15,821 - #9 b
+INFO  18:06:15,821 - #17 )
+INFO  18:06:15,822 - #3 {
+INFO  18:06:15,822 - #4 }
+INFO  18:06:15,822 - #18 void
+INFO  18:06:15,823 - #9 main
+INFO  18:06:15,823 - #16 (
+INFO  18:06:15,823 - #17 )
+INFO  18:06:15,824 - #3 {
+INFO  18:06:15,825 - #4 }
+INFO  18:06:15,825 - #4 }
+INFO  18:06:15,825 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_rec(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethRetAndName_void(
+         f
+        ) [MethRetAndName_void]
+        FormParList_rec(
+          FormPar_var(
+            Type(
+             int
+            ) [Type]
+           x
+          ) [FormPar_var]
+          FormParMore_comma(
+            FormPar_var(
+              Type(
+               char
+              ) [Type]
+             c
+            ) [FormPar_var]
+            FormParMore_comma(
+              FormPar_var(
+                Type(
+                 bool
+                ) [Type]
+               b
+              ) [FormPar_var]
+              FormParMore_e(
+              ) [FormParMore_e]
+            ) [FormParMore_comma]
+          ) [FormParMore_comma]
+        ) [FormParList_rec]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_rec]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  18:06:15,825 - =====================================================================
+INFO  18:06:15,836 - Obradjujem program: P na liniji 1
+INFO  18:06:15,837 - =====================================================================
+INFO  18:06:15,837 - Parsiranje uspesno zavrseno!

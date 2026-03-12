@@ -1,0 +1,98 @@
+INFO  14:27:37,962 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  14:27:38,053 - #2 program
+INFO  14:27:38,053 - #9 P
+INFO  14:27:38,054 - #9 int
+INFO  14:27:38,055 - #9 x
+INFO  14:27:38,056 - #6 ;
+INFO  14:27:38,056 - #3 {
+INFO  14:27:38,057 - #18 void
+INFO  14:27:38,058 - #9 main
+INFO  14:27:38,058 - #16 (
+INFO  14:27:38,058 - #17 )
+INFO  14:27:38,059 - #3 {
+INFO  14:27:38,060 - #9 x
+INFO  14:27:38,061 - #14 =
+INFO  14:27:38,061 - #9 x
+INFO  14:27:38,064 - #46 .
+INFO  14:27:38,065 - #48 length
+INFO  14:27:38,065 - #6 ;
+INFO  14:27:38,071 - #4 }
+INFO  14:27:38,072 - #4 }
+INFO  14:27:38,075 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_var(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarIdentList_one(
+        VarIdent_1(
+         x
+        ) [VarIdent_1]
+      ) [VarIdentList_one]
+    ) [VarDeclList]
+  ) [ConVarEnumDecList_var]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          Stmt_designator(
+            DesStmt_assign(
+              Designator_var(
+               x
+              ) [Designator_var]
+              Assignop_eq(
+              ) [Assignop_eq]
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Pom_e(
+                          ) [Pom_e]
+                          Factor_design(
+                            Designator_pom(
+                              DesignatorName(
+                               x
+                              ) [DesignatorName]
+                              DesignatorMore_length(
+                              ) [DesignatorMore_length]
+                            ) [Designator_pom]
+                            FactorOpt_e(
+                            ) [FactorOpt_e]
+                          ) [Factor_design]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+            ) [DesStmt_assign]
+          ) [Stmt_designator]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  14:27:38,076 - =====================================================================
+INFO  14:27:38,106 - Program: P na liniji 1
+INFO  14:27:38,107 - Promenljiva: x na liniji 2
+ERROR 14:27:38,107 - .length je dozvoljen samo nad nizom. na liniji 5
+INFO  14:27:38,108 - =====================================================================
+ERROR 14:27:38,109 - Parsiranje NIJE uspesno zavrseno!

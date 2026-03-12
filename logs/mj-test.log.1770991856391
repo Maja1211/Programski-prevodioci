@@ -1,0 +1,82 @@
+INFO  15:10:14,004 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:10:14,100 - #2 program
+INFO  15:10:14,100 - #9 P
+INFO  15:10:14,100 - #3 {
+INFO  15:10:14,102 - #18 void
+INFO  15:10:14,103 - #9 f
+INFO  15:10:14,103 - #16 (
+INFO  15:10:14,103 - #9 int
+INFO  15:10:14,103 - #9 x
+INFO  15:10:14,104 - #17 )
+INFO  15:10:14,106 - #9 int
+INFO  15:10:14,106 - #9 x
+INFO  15:10:14,106 - #6 ;
+INFO  15:10:14,107 - #3 {
+INFO  15:10:14,108 - #4 }
+INFO  15:10:14,109 - #18 void
+INFO  15:10:14,110 - #9 main
+INFO  15:10:14,111 - #16 (
+INFO  15:10:14,111 - #17 )
+INFO  15:10:14,113 - #3 {
+INFO  15:10:14,113 - #4 }
+INFO  15:10:14,113 - #4 }
+INFO  15:10:14,115 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_list(
+    MethodDeclList_list(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethRetAndName_void(
+         f
+        ) [MethRetAndName_void]
+        FormParList_form(
+          FormPar_var(
+            Type(
+             int
+            ) [Type]
+           x
+          ) [FormPar_var]
+          FormParMore_e(
+          ) [FormParMore_e]
+        ) [FormParList_form]
+        VarDeclListPom_pom(
+          VarDeclListPom_e(
+          ) [VarDeclListPom_e]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarIdentList_one(
+              VarIdent_1(
+               x
+              ) [VarIdent_1]
+            ) [VarIdentList_one]
+          ) [VarDeclList]
+        ) [VarDeclListPom_pom]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_list]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  15:10:14,185 - =====================================================================
+INFO  15:10:14,220 - Program: P na liniji 1
+ERROR 15:10:14,221 - Promenljiva je vec definisana: x na liniji 3
+INFO  15:10:14,221 - =====================================================================
+ERROR 15:10:14,224 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,265 @@
+INFO  15:14:18,273 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:14:18,367 - #2 program
+INFO  15:14:18,368 - #9 T01
+INFO  15:14:18,368 - #3 {
+INFO  15:14:18,370 - #18 void
+INFO  15:14:18,371 - #9 main
+INFO  15:14:18,371 - #16 (
+INFO  15:14:18,372 - #17 )
+INFO  15:14:18,373 - #9 int
+INFO  15:14:18,375 - #9 a
+INFO  15:14:18,376 - #7 [
+INFO  15:14:18,376 - #8 ]
+INFO  15:14:18,376 - #6 ;
+INFO  15:14:18,377 - #9 char
+INFO  15:14:18,378 - #9 c
+INFO  15:14:18,378 - #7 [
+INFO  15:14:18,379 - #8 ]
+INFO  15:14:18,379 - #6 ;
+INFO  15:14:18,379 - #3 {
+INFO  15:14:18,379 - #9 a
+INFO  15:14:18,381 - #14 =
+INFO  15:14:18,381 - #47 new
+INFO  15:14:18,386 - #9 int
+INFO  15:14:18,386 - #7 [
+INFO  15:14:18,390 - #10 3
+INFO  15:14:18,390 - #8 ]
+INFO  15:14:18,393 - #6 ;
+INFO  15:14:18,394 - #9 c
+INFO  15:14:18,395 - #14 =
+INFO  15:14:18,395 - #47 new
+INFO  15:14:18,395 - #9 char
+INFO  15:14:18,395 - #7 [
+INFO  15:14:18,395 - #10 4
+INFO  15:14:18,395 - #8 ]
+INFO  15:14:18,396 - #6 ;
+INFO  15:14:18,396 - #25 print
+INFO  15:14:18,396 - #16 (
+INFO  15:14:18,396 - #9 a
+INFO  15:14:18,396 - #46 .
+INFO  15:14:18,397 - #48 length
+INFO  15:14:18,398 - #17 )
+INFO  15:14:18,400 - #6 ;
+INFO  15:14:18,400 - #25 print
+INFO  15:14:18,400 - #16 (
+INFO  15:14:18,400 - #9 c
+INFO  15:14:18,400 - #46 .
+INFO  15:14:18,402 - #48 length
+INFO  15:14:18,402 - #17 )
+INFO  15:14:18,402 - #6 ;
+INFO  15:14:18,402 - #4 }
+INFO  15:14:18,402 - #4 }
+INFO  15:14:18,407 - Program(
+  ProgramName(
+   T01
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_pom(
+        VarDeclListPom_pom(
+          VarDeclListPom_e(
+          ) [VarDeclListPom_e]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarIdentList_one(
+              VarIdent_more(
+               a
+              ) [VarIdent_more]
+            ) [VarIdentList_one]
+          ) [VarDeclList]
+        ) [VarDeclListPom_pom]
+        VarDeclList(
+          Type(
+           char
+          ) [Type]
+          VarIdentList_one(
+            VarIdent_more(
+             c
+            ) [VarIdent_more]
+          ) [VarIdentList_one]
+        ) [VarDeclList]
+      ) [VarDeclListPom_pom]
+      StatementList_stat(
+        StatementList_stat(
+          StatementList_stat(
+            StatementList_stat(
+              StatementList_e(
+              ) [StatementList_e]
+              Stmt_simple(
+                Stmt_designator(
+                  DesStmt_assign(
+                    Designator_var(
+                     a
+                    ) [Designator_var]
+                    Assignop_eq(
+                    ) [Assignop_eq]
+                    Expr_basic(
+                      ExprBasic_main(
+                        AddopTermList_term(
+                          Term(
+                            MulopFactorList_factor(
+                              Factor(
+                                Pom_e(
+                                ) [Pom_e]
+                                Factor_new_arr(
+                                  Type(
+                                   int
+                                  ) [Type]
+                                  Expr_basic(
+                                    ExprBasic_main(
+                                      AddopTermList_term(
+                                        Term(
+                                          MulopFactorList_factor(
+                                            Factor(
+                                              Pom_e(
+                                              ) [Pom_e]
+                                              Factor_num(
+                                               3
+                                              ) [Factor_num]
+                                            ) [Factor]
+                                          ) [MulopFactorList_factor]
+                                        ) [Term]
+                                      ) [AddopTermList_term]
+                                    ) [ExprBasic_main]
+                                  ) [Expr_basic]
+                                ) [Factor_new_arr]
+                              ) [Factor]
+                            ) [MulopFactorList_factor]
+                          ) [Term]
+                        ) [AddopTermList_term]
+                      ) [ExprBasic_main]
+                    ) [Expr_basic]
+                  ) [DesStmt_assign]
+                ) [Stmt_designator]
+              ) [Stmt_simple]
+            ) [StatementList_stat]
+            Stmt_simple(
+              Stmt_designator(
+                DesStmt_assign(
+                  Designator_var(
+                   c
+                  ) [Designator_var]
+                  Assignop_eq(
+                  ) [Assignop_eq]
+                  Expr_basic(
+                    ExprBasic_main(
+                      AddopTermList_term(
+                        Term(
+                          MulopFactorList_factor(
+                            Factor(
+                              Pom_e(
+                              ) [Pom_e]
+                              Factor_new_arr(
+                                Type(
+                                 char
+                                ) [Type]
+                                Expr_basic(
+                                  ExprBasic_main(
+                                    AddopTermList_term(
+                                      Term(
+                                        MulopFactorList_factor(
+                                          Factor(
+                                            Pom_e(
+                                            ) [Pom_e]
+                                            Factor_num(
+                                             4
+                                            ) [Factor_num]
+                                          ) [Factor]
+                                        ) [MulopFactorList_factor]
+                                      ) [Term]
+                                    ) [AddopTermList_term]
+                                  ) [ExprBasic_main]
+                                ) [Expr_basic]
+                              ) [Factor_new_arr]
+                            ) [Factor]
+                          ) [MulopFactorList_factor]
+                        ) [Term]
+                      ) [AddopTermList_term]
+                    ) [ExprBasic_main]
+                  ) [Expr_basic]
+                ) [DesStmt_assign]
+              ) [Stmt_designator]
+            ) [Stmt_simple]
+          ) [StatementList_stat]
+          Stmt_simple(
+            Stmt_print(
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Pom_e(
+                          ) [Pom_e]
+                          Factor_design(
+                            Designator_pom(
+                              DesignatorName(
+                               a
+                              ) [DesignatorName]
+                              DesignatorMore_length(
+                              ) [DesignatorMore_length]
+                            ) [Designator_pom]
+                            FactorOpt_e(
+                            ) [FactorOpt_e]
+                          ) [Factor_design]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+            ) [Stmt_print]
+          ) [Stmt_simple]
+        ) [StatementList_stat]
+        Stmt_simple(
+          Stmt_print(
+            Expr_basic(
+              ExprBasic_main(
+                AddopTermList_term(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Pom_e(
+                        ) [Pom_e]
+                        Factor_design(
+                          Designator_pom(
+                            DesignatorName(
+                             c
+                            ) [DesignatorName]
+                            DesignatorMore_length(
+                            ) [DesignatorMore_length]
+                          ) [Designator_pom]
+                          FactorOpt_e(
+                          ) [FactorOpt_e]
+                        ) [Factor_design]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprBasic_main]
+            ) [Expr_basic]
+          ) [Stmt_print]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  15:14:18,408 - =====================================================================
+INFO  15:14:18,424 - Program: T01 na liniji 1
+INFO  15:14:18,424 - Niz: a na liniji 4
+INFO  15:14:18,424 - Niz: c na liniji 5
+INFO  15:14:18,425 - KORISCENJE: a -> Var a : int[] (adr=0, level=1) na liniji 7
+INFO  15:14:18,425 - KORISCENJE: c -> Var c : char[] (adr=1, level=1) na liniji 8
+INFO  15:14:18,427 - =====================================================================
+INFO  15:14:18,433 - Generisanje uspesno zavrseno!

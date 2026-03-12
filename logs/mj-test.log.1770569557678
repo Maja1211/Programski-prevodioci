@@ -1,0 +1,60 @@
+INFO  17:52:18,982 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:52:19,015 - #2 program
+INFO  17:52:19,015 - #9 P
+INFO  17:52:19,015 - #3 {
+INFO  17:52:19,017 - #9 X
+INFO  17:52:19,017 - #9 f
+INFO  17:52:19,017 - #16 (
+INFO  17:52:19,018 - #17 )
+INFO  17:52:19,018 - #3 {
+INFO  17:52:19,018 - #4 }
+INFO  17:52:19,019 - #18 void
+INFO  17:52:19,019 - #9 main
+INFO  17:52:19,019 - #16 (
+INFO  17:52:19,019 - #17 )
+INFO  17:52:19,019 - #3 {
+INFO  17:52:19,019 - #4 }
+INFO  17:52:19,019 - #4 }
+INFO  17:52:19,020 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_rec(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethRetAndName_type(
+          Type(
+           X
+          ) [Type]
+         f
+        ) [MethRetAndName_type]
+        FormParList_e(
+        ) [FormParList_e]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_rec]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  17:52:19,020 - =====================================================================
+INFO  17:52:19,031 - Obradjujem program: P na liniji 1
+ERROR 17:52:19,031 - Nepostojeci ili neispravan tip: X na liniji 2
+INFO  17:52:19,031 - =====================================================================
+ERROR 17:52:19,032 - Parsiranje NIJE uspesno zavrseno!

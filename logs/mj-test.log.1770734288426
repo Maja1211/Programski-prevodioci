@@ -1,0 +1,85 @@
+INFO  15:37:56,096 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:37:56,129 - #2 program
+INFO  15:37:56,130 - #9 P
+INFO  15:37:56,130 - #3 {
+INFO  15:37:56,130 - #9 int
+INFO  15:37:56,131 - #9 f
+INFO  15:37:56,131 - #16 (
+INFO  15:37:56,131 - #17 )
+INFO  15:37:56,131 - #3 {
+INFO  15:37:56,132 - #4 }
+INFO  15:37:56,132 - #18 void
+INFO  15:37:56,133 - #9 main
+INFO  15:37:56,133 - #16 (
+INFO  15:37:56,133 - #17 )
+INFO  15:37:56,133 - #3 {
+INFO  15:37:56,133 - #23 return
+INFO  15:37:56,133 - #10 1
+INFO  15:37:56,133 - #6 ;
+INFO  15:37:56,134 - #4 }
+INFO  15:37:56,135 - #4 }
+INFO  15:37:56,135 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_rec(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethRetAndName_type(
+          Type(
+           int
+          ) [Type]
+         f
+        ) [MethRetAndName_type]
+        FormParList_e(
+        ) [FormParList_e]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_rec]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_rec(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          Stmt_return_expr(
+            Expr_basic(
+              ExprBasic_main(
+                AddopTermList_term(
+                  Term(
+                    MulopFactorList_factor(
+                      Factor(
+                        Unary_e(
+                        ) [Unary_e]
+                        Factor_num(
+                         1
+                        ) [Factor_num]
+                      ) [Factor]
+                    ) [MulopFactorList_factor]
+                  ) [Term]
+                ) [AddopTermList_term]
+              ) [ExprBasic_main]
+            ) [Expr_basic]
+          ) [Stmt_return_expr]
+        ) [Stmt_simple]
+      ) [StatementList_rec]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:37:56,137 - =====================================================================
+INFO  15:37:56,148 - Program: P na liniji 1
+INFO  15:37:56,148 - =====================================================================
+INFO  15:37:56,149 - Parsiranje uspesno zavrseno!

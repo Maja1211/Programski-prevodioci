@@ -1,0 +1,30 @@
+INFO  15:58:23,529 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:58:23,615 - #2 program
+INFO  15:58:23,616 - #9 MJProgram
+INFO  15:58:23,616 - #9 int
+INFO  15:58:23,618 - #9 x
+INFO  15:58:23,619 - #6 ;
+INFO  15:58:23,619 - #9 int
+INFO  15:58:23,620 - #9 y
+INFO  15:58:23,621 - #6 ;
+INFO  15:58:23,621 - #3 {
+INFO  15:58:23,621 - #9 int
+INFO  15:58:23,622 - #9 main
+INFO  15:58:23,622 - #16 (
+INFO  15:58:23,622 - #17 )
+INFO  15:58:23,623 - #3 {
+INFO  15:58:23,624 - #25 print
+INFO  15:58:23,624 - #16 (
+INFO  15:58:23,626 - #10 1
+INFO  15:58:23,627 - #17 )
+INFO  15:58:23,629 - #6 ;
+INFO  15:58:23,630 - #9 x
+INFO  15:58:23,630 - #14 =
+INFO  15:58:23,630 - #9 y
+INFO  15:58:23,690 - #36 +
+INFO  15:58:23,691 - #10 5
+INFO  15:58:23,693 - #36 +
+INFO  15:58:23,694 - #6 ;
+ERROR 15:58:23,694 - 
+Sintaksna greska na liniji 8
+ERROR 15:58:23,694 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 8

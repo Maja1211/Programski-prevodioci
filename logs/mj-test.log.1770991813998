@@ -1,0 +1,78 @@
+INFO  15:09:36,245 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:09:36,345 - #2 program
+INFO  15:09:36,345 - #9 P
+INFO  15:09:36,345 - #3 {
+INFO  15:09:36,347 - #18 void
+INFO  15:09:36,348 - #9 f
+INFO  15:09:36,348 - #16 (
+INFO  15:09:36,348 - #9 int
+INFO  15:09:36,350 - #9 x
+INFO  15:09:36,351 - #5 ,
+INFO  15:09:36,351 - #9 int
+INFO  15:09:36,351 - #9 x
+INFO  15:09:36,351 - #17 )
+INFO  15:09:36,353 - #3 {
+INFO  15:09:36,354 - #4 }
+INFO  15:09:36,355 - #18 void
+INFO  15:09:36,356 - #9 main
+INFO  15:09:36,356 - #16 (
+INFO  15:09:36,356 - #17 )
+INFO  15:09:36,358 - #3 {
+INFO  15:09:36,358 - #4 }
+INFO  15:09:36,358 - #4 }
+INFO  15:09:36,361 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_list(
+    MethodDeclList_list(
+      MethodDeclList_e(
+      ) [MethodDeclList_e]
+      MethodDecl(
+        MethRetAndName_void(
+         f
+        ) [MethRetAndName_void]
+        FormParList_form(
+          FormPar_var(
+            Type(
+             int
+            ) [Type]
+           x
+          ) [FormPar_var]
+          FormParMore_more(
+            FormPar_var(
+              Type(
+               int
+              ) [Type]
+             x
+            ) [FormPar_var]
+            FormParMore_e(
+            ) [FormParMore_e]
+          ) [FormParMore_more]
+        ) [FormParList_form]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_list]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  15:09:36,371 - =====================================================================
+INFO  15:09:36,404 - Program: P na liniji 1
+ERROR 15:09:36,404 - Duplikat formalnog parametra: x na liniji 3
+INFO  15:09:36,404 - =====================================================================
+ERROR 15:09:36,406 - Parsiranje NIJE uspesno zavrseno!

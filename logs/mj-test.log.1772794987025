@@ -1,0 +1,75 @@
+INFO  12:02:43,313 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  12:02:43,407 - #2 program
+INFO  12:02:43,407 - #9 T
+INFO  12:02:43,407 - #13 const
+INFO  12:02:43,410 - #9 int
+INFO  12:02:43,410 - #9 x
+INFO  12:02:43,411 - #14 =
+INFO  12:02:43,411 - #10 5
+INFO  12:02:43,411 - #6 ;
+INFO  12:02:43,414 - #3 {
+INFO  12:02:43,415 - #18 void
+INFO  12:02:43,417 - #9 main
+INFO  12:02:43,417 - #16 (
+INFO  12:02:43,417 - #17 )
+INFO  12:02:43,418 - #3 {
+INFO  12:02:43,420 - #24 read
+INFO  12:02:43,421 - #16 (
+INFO  12:02:43,421 - #9 x
+INFO  12:02:43,421 - #17 )
+INFO  12:02:43,421 - #6 ;
+INFO  12:02:43,423 - #4 }
+INFO  12:02:43,423 - #4 }
+INFO  12:02:43,426 - Program(
+  ProgramName(
+   T
+  ) [ProgramName]
+  ConVarEnumDecList_con(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    ConDecList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       x
+        Constant_n(
+         5
+        ) [Constant_n]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConDecList]
+  ) [ConVarEnumDecList_con]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          Stmt_read(
+            Designator_var(
+             x
+            ) [Designator_var]
+          ) [Stmt_read]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  12:02:43,496 - =====================================================================
+INFO  12:02:43,512 - Program: T na liniji 1
+INFO  12:02:43,513 - Definisana konstanta: x na liniji 3
+INFO  12:02:43,513 - KORISCENJE KONSTANTE: x -> Con x : int (adr=5, level=0) na liniji 8
+ERROR 12:02:43,513 - read argument mora biti promenljiva ili element niza. na liniji 8
+INFO  12:02:43,513 - =====================================================================
+ERROR 12:02:43,514 - Parsiranje NIJE uspesno zavrseno!

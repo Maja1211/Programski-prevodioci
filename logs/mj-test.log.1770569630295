@@ -1,0 +1,79 @@
+INFO  17:53:33,410 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:53:33,444 - #2 program
+INFO  17:53:33,444 - #9 P
+INFO  17:53:33,444 - #3 {
+INFO  17:53:33,445 - #18 void
+INFO  17:53:33,445 - #9 f
+INFO  17:53:33,445 - #16 (
+INFO  17:53:33,445 - #17 )
+INFO  17:53:33,445 - #3 {
+INFO  17:53:33,446 - #4 }
+INFO  17:53:33,446 - #9 Y
+INFO  17:53:33,447 - #9 g
+INFO  17:53:33,447 - #16 (
+INFO  17:53:33,447 - #17 )
+INFO  17:53:33,447 - #3 {
+INFO  17:53:33,447 - #4 }
+INFO  17:53:33,447 - #18 void
+INFO  17:53:33,447 - #9 main
+INFO  17:53:33,447 - #16 (
+INFO  17:53:33,447 - #17 )
+INFO  17:53:33,448 - #3 {
+INFO  17:53:33,448 - #4 }
+INFO  17:53:33,448 - #4 }
+INFO  17:53:33,449 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_rec(
+      MethodDeclList_rec(
+        MethodDeclList_e(
+        ) [MethodDeclList_e]
+        MethodDecl(
+          MethRetAndName_void(
+           f
+          ) [MethRetAndName_void]
+          FormParList_e(
+          ) [FormParList_e]
+          VarDeclListPom_e(
+          ) [VarDeclListPom_e]
+          StatementList_e(
+          ) [StatementList_e]
+        ) [MethodDecl]
+      ) [MethodDeclList_rec]
+      MethodDecl(
+        MethRetAndName_type(
+          Type(
+           Y
+          ) [Type]
+         g
+        ) [MethRetAndName_type]
+        FormParList_e(
+        ) [FormParList_e]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [MethodDecl]
+    ) [MethodDeclList_rec]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  17:53:33,450 - =====================================================================
+INFO  17:53:33,460 - Obradjujem program: P na liniji 1
+ERROR 17:53:33,461 - Nepostojeci ili neispravan tip: Y na liniji 3
+INFO  17:53:33,461 - =====================================================================
+ERROR 17:53:33,461 - Parsiranje NIJE uspesno zavrseno!

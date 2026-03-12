@@ -1,0 +1,59 @@
+INFO  15:32:47,588 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:32:47,622 - #2 program
+INFO  15:32:47,623 - #9 P
+INFO  15:32:47,623 - #13 const
+INFO  15:32:47,623 - #9 int
+INFO  15:32:47,623 - #9 a
+INFO  15:32:47,624 - #14 =
+INFO  15:32:47,624 - #11 x
+INFO  15:32:47,624 - #6 ;
+INFO  15:32:47,624 - #3 {
+INFO  15:32:47,625 - #18 void
+INFO  15:32:47,625 - #9 main
+INFO  15:32:47,625 - #16 (
+INFO  15:32:47,625 - #17 )
+INFO  15:32:47,626 - #3 {
+INFO  15:32:47,626 - #4 }
+INFO  15:32:47,626 - #4 }
+INFO  15:32:47,628 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_con(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    ConDecList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       a
+        Constant_c(
+         x
+        ) [Constant_c]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConDecList]
+  ) [ConVarEnumDecList_con]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:32:47,628 - =====================================================================
+INFO  15:32:47,639 - Program: P na liniji 1
+ERROR 15:32:47,639 - Pogresan tip konstante: a na liniji 2
+INFO  15:32:47,640 - =====================================================================
+ERROR 15:32:47,640 - Parsiranje NIJE uspesno zavrseno!

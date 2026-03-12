@@ -1,0 +1,112 @@
+INFO  15:36:49,277 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:36:49,311 - #2 program
+INFO  15:36:49,311 - #9 P
+INFO  15:36:49,311 - #3 {
+INFO  15:36:49,312 - #18 void
+INFO  15:36:49,312 - #9 f
+INFO  15:36:49,312 - #16 (
+INFO  15:36:49,312 - #17 )
+INFO  15:36:49,312 - #3 {
+INFO  15:36:49,313 - #23 return
+INFO  15:36:49,313 - #6 ;
+INFO  15:36:49,313 - #4 }
+INFO  15:36:49,314 - #9 int
+INFO  15:36:49,315 - #9 g
+INFO  15:36:49,316 - #16 (
+INFO  15:36:49,316 - #17 )
+INFO  15:36:49,316 - #3 {
+INFO  15:36:49,316 - #23 return
+INFO  15:36:49,316 - #10 1
+INFO  15:36:49,317 - #6 ;
+INFO  15:36:49,318 - #4 }
+INFO  15:36:49,318 - #18 void
+INFO  15:36:49,318 - #9 main
+INFO  15:36:49,318 - #16 (
+INFO  15:36:49,318 - #17 )
+INFO  15:36:49,318 - #3 {
+INFO  15:36:49,319 - #4 }
+INFO  15:36:49,319 - #4 }
+INFO  15:36:49,319 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_e(
+  ) [ConVarEnumDecList_e]
+  MethodDeclList_rec(
+    MethodDeclList_rec(
+      MethodDeclList_rec(
+        MethodDeclList_e(
+        ) [MethodDeclList_e]
+        MethodDecl(
+          MethRetAndName_void(
+           f
+          ) [MethRetAndName_void]
+          FormParList_e(
+          ) [FormParList_e]
+          VarDeclListPom_e(
+          ) [VarDeclListPom_e]
+          StatementList_rec(
+            StatementList_e(
+            ) [StatementList_e]
+            Stmt_simple(
+              Stmt_return(
+              ) [Stmt_return]
+            ) [Stmt_simple]
+          ) [StatementList_rec]
+        ) [MethodDecl]
+      ) [MethodDeclList_rec]
+      MethodDecl(
+        MethRetAndName_type(
+          Type(
+           int
+          ) [Type]
+         g
+        ) [MethRetAndName_type]
+        FormParList_e(
+        ) [FormParList_e]
+        VarDeclListPom_e(
+        ) [VarDeclListPom_e]
+        StatementList_rec(
+          StatementList_e(
+          ) [StatementList_e]
+          Stmt_simple(
+            Stmt_return_expr(
+              Expr_basic(
+                ExprBasic_main(
+                  AddopTermList_term(
+                    Term(
+                      MulopFactorList_factor(
+                        Factor(
+                          Unary_e(
+                          ) [Unary_e]
+                          Factor_num(
+                           1
+                          ) [Factor_num]
+                        ) [Factor]
+                      ) [MulopFactorList_factor]
+                    ) [Term]
+                  ) [AddopTermList_term]
+                ) [ExprBasic_main]
+              ) [Expr_basic]
+            ) [Stmt_return_expr]
+          ) [Stmt_simple]
+        ) [StatementList_rec]
+      ) [MethodDecl]
+    ) [MethodDeclList_rec]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:36:49,319 - =====================================================================
+INFO  15:36:49,332 - Program: P na liniji 1
+INFO  15:36:49,332 - =====================================================================
+INFO  15:36:49,332 - Parsiranje uspesno zavrseno!

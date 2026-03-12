@@ -1,0 +1,68 @@
+INFO  15:12:57,224 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:12:57,322 - #2 program
+INFO  15:12:57,323 - #9 P
+INFO  15:12:57,323 - #9 char
+INFO  15:12:57,324 - #9 c
+INFO  15:12:57,325 - #6 ;
+INFO  15:12:57,325 - #3 {
+INFO  15:12:57,326 - #18 void
+INFO  15:12:57,327 - #9 main
+INFO  15:12:57,327 - #16 (
+INFO  15:12:57,328 - #17 )
+INFO  15:12:57,328 - #3 {
+INFO  15:12:57,330 - #9 c
+INFO  15:12:57,331 - #30 ++
+INFO  15:12:57,331 - #6 ;
+INFO  15:12:57,331 - #4 }
+INFO  15:12:57,333 - #4 }
+INFO  15:12:57,336 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_var(
+    ConVarEnumDecList_e(
+    ) [ConVarEnumDecList_e]
+    VarDeclList(
+      Type(
+       char
+      ) [Type]
+      VarIdentList_one(
+        VarIdent_1(
+         c
+        ) [VarIdent_1]
+      ) [VarIdentList_one]
+    ) [VarDeclList]
+  ) [ConVarEnumDecList_var]
+  MethodDeclList_list(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       main
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_stat(
+        StatementList_e(
+        ) [StatementList_e]
+        Stmt_simple(
+          Stmt_designator(
+            DesStmt_inc(
+              Designator_var(
+               c
+              ) [Designator_var]
+            ) [DesStmt_inc]
+          ) [Stmt_designator]
+        ) [Stmt_simple]
+      ) [StatementList_stat]
+    ) [MethodDecl]
+  ) [MethodDeclList_list]
+) [Program]
+INFO  15:12:57,406 - =====================================================================
+INFO  15:12:57,440 - Program: P na liniji 1
+INFO  15:12:57,440 - Promenljiva: c na liniji 2
+ERROR 15:12:57,441 - Operator ++ je dozvoljen samo nad int. na liniji 4
+INFO  15:12:57,441 - =====================================================================
+ERROR 15:12:57,442 - Parsiranje NIJE uspesno zavrseno!

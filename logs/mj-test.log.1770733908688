@@ -1,0 +1,104 @@
+INFO  15:31:32,557 - Compiling source file: C:\Users\Win 11\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:31:32,589 - #2 program
+INFO  15:31:32,590 - #9 P
+INFO  15:31:32,590 - #13 const
+INFO  15:31:32,590 - #9 int
+INFO  15:31:32,590 - #9 a
+INFO  15:31:32,591 - #14 =
+INFO  15:31:32,591 - #10 5
+INFO  15:31:32,591 - #6 ;
+INFO  15:31:32,591 - #13 const
+INFO  15:31:32,593 - #9 char
+INFO  15:31:32,593 - #9 c
+INFO  15:31:32,593 - #14 =
+INFO  15:31:32,593 - #11 x
+INFO  15:31:32,593 - #6 ;
+INFO  15:31:32,593 - #13 const
+INFO  15:31:32,593 - #9 bool
+INFO  15:31:32,593 - #9 t
+INFO  15:31:32,593 - #14 =
+INFO  15:31:32,593 - #12 1
+INFO  15:31:32,593 - #6 ;
+INFO  15:31:32,593 - #3 {
+INFO  15:31:32,594 - #18 void
+INFO  15:31:32,594 - #9 Mainn
+INFO  15:31:32,594 - #16 (
+INFO  15:31:32,594 - #17 )
+INFO  15:31:32,594 - #3 {
+INFO  15:31:32,595 - #4 }
+INFO  15:31:32,595 - #4 }
+INFO  15:31:32,596 - Program(
+  ProgramName(
+   P
+  ) [ProgramName]
+  ConVarEnumDecList_con(
+    ConVarEnumDecList_con(
+      ConVarEnumDecList_con(
+        ConVarEnumDecList_e(
+        ) [ConVarEnumDecList_e]
+        ConDecList(
+          Type(
+           int
+          ) [Type]
+          ConDecl(
+           a
+            Constant_n(
+             5
+            ) [Constant_n]
+          ) [ConDecl]
+          ConDeclMore_e(
+          ) [ConDeclMore_e]
+        ) [ConDecList]
+      ) [ConVarEnumDecList_con]
+      ConDecList(
+        Type(
+         char
+        ) [Type]
+        ConDecl(
+         c
+          Constant_c(
+           x
+          ) [Constant_c]
+        ) [ConDecl]
+        ConDeclMore_e(
+        ) [ConDeclMore_e]
+      ) [ConDecList]
+    ) [ConVarEnumDecList_con]
+    ConDecList(
+      Type(
+       bool
+      ) [Type]
+      ConDecl(
+       t
+        Constant_b(
+         1
+        ) [Constant_b]
+      ) [ConDecl]
+      ConDeclMore_e(
+      ) [ConDeclMore_e]
+    ) [ConDecList]
+  ) [ConVarEnumDecList_con]
+  MethodDeclList_rec(
+    MethodDeclList_e(
+    ) [MethodDeclList_e]
+    MethodDecl(
+      MethRetAndName_void(
+       Mainn
+      ) [MethRetAndName_void]
+      FormParList_e(
+      ) [FormParList_e]
+      VarDeclListPom_e(
+      ) [VarDeclListPom_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList_rec]
+) [Program]
+INFO  15:31:32,596 - =====================================================================
+INFO  15:31:32,607 - Program: P na liniji 1
+INFO  15:31:32,608 - Definisana konstanta: a na liniji 2
+INFO  15:31:32,608 - Definisana konstanta: c na liniji 3
+INFO  15:31:32,608 - Definisana konstanta: t na liniji 4
+ERROR 15:31:32,608 - Nedostaje void main() bez argumenata. na liniji 1
+INFO  15:31:32,608 - =====================================================================
+ERROR 15:31:32,608 - Parsiranje NIJE uspesno zavrseno!
